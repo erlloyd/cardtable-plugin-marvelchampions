@@ -1,0 +1,189 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-core",
+  "name": "Marvel Champions: Core Set",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/marvel-champions/core/",
+
+  "cardTypes": {
+    "hero": {
+      "back": "hero_back.jpg",
+      "size": "standard"
+    },
+    "alter_ego": {
+      "back": "hero_back.jpg",
+      "size": "standard"
+    },
+    "villain": {
+      "back": "encounter_back.jpg",
+      "size": "standard"
+    },
+    "main_scheme": {
+      "back": "main_scheme_back.jpg",
+      "size": "standard"
+    },
+    "encounter": {
+      "back": "encounter_back.jpg",
+      "size": "standard"
+    }
+  },
+
+  "cards": {
+    "01001a": {
+      "type": "hero",
+      "face": "01001a_spiderman.jpg",
+      "back_code": "01001b"
+    },
+    "01001b": {
+      "type": "alter_ego",
+      "face": "01001b_peter_parker.jpg",
+      "back_code": "01001a"
+    },
+    "01094": {
+      "type": "villain",
+      "face": "01094_rhino_1.jpg"
+    },
+    "01095": {
+      "type": "villain",
+      "face": "01095_rhino_2.jpg"
+    },
+    "01096": {
+      "type": "villain",
+      "face": "01096_rhino_3.jpg"
+    },
+    "01097a": {
+      "type": "main_scheme",
+      "face": "01097a_break_in_1a.jpg",
+      "back_code": "01097b"
+    },
+    "01097b": {
+      "type": "main_scheme",
+      "face": "01097b_break_in_1b.jpg",
+      "back_code": "01097a"
+    },
+    "01098": {
+      "type": "encounter",
+      "face": "01098_armored_rhino_suit.jpg"
+    },
+    "01099": {
+      "type": "encounter",
+      "face": "01099_charge.jpg"
+    },
+    "01100": {
+      "type": "encounter",
+      "face": "01100_enhanced_ivory_horn.jpg"
+    },
+    "01101": {
+      "type": "encounter",
+      "face": "01101_hydra_mercenary.jpg"
+    },
+    "01102": {
+      "type": "encounter",
+      "face": "01102_sandman.jpg"
+    },
+    "01103": {
+      "type": "encounter",
+      "face": "01103_shocker.jpg"
+    },
+    "01104": {
+      "type": "encounter",
+      "face": "01104_hard_to_keep_down.jpg"
+    },
+    "01105": {
+      "type": "encounter",
+      "face": "01105_im_tough.jpg"
+    },
+    "01106": {
+      "type": "encounter",
+      "face": "01106_stampede.jpg"
+    },
+    "01107": {
+      "type": "encounter",
+      "face": "01107_breakin_and_takin.jpg"
+    },
+    "01108": {
+      "type": "encounter",
+      "face": "01108_crowd_control.jpg"
+    },
+    "01186": {
+      "type": "encounter",
+      "face": "01186_advance.jpg"
+    },
+    "01187": {
+      "type": "encounter",
+      "face": "01187_assault.jpg"
+    },
+    "01188": {
+      "type": "encounter",
+      "face": "01188_caught_off_guard.jpg"
+    },
+    "01189": {
+      "type": "encounter",
+      "face": "01189_gangway.jpg"
+    },
+    "01190": {
+      "type": "encounter",
+      "face": "01190_shadows_of_the_past.jpg"
+    }
+  },
+
+  "cardSets": {
+    "spider-man-hero": [
+      { "code": "01001a" },
+      { "code": "01001b" }
+    ],
+    "rhino-villain": [
+      { "code": "01094" },
+      { "code": "01095" },
+      { "code": "01096" },
+      { "code": "01097a" },
+      { "code": "01097b" },
+      { "code": "01098" },
+      { "code": "01099" },
+      { "code": "01100" },
+      { "code": "01101" },
+      { "code": "01102" },
+      { "code": "01103" },
+      { "code": "01104", "count": 2 },
+      { "code": "01105", "count": 2 },
+      { "code": "01106", "count": 2 },
+      { "code": "01107" },
+      { "code": "01108" }
+    ],
+    "standard-encounter": [
+      { "code": "01186" },
+      { "code": "01187" },
+      { "code": "01188" },
+      { "code": "01189" },
+      { "code": "01190" }
+    ]
+  },
+
+  "tokens": {
+    "threat": {
+      "image": "threat_token.png",
+      "size": "standard"
+    },
+    "acceleration": {
+      "image": "acceleration_token.png",
+      "size": "standard"
+    },
+    "damage": {
+      "image": "damage_token.png",
+      "size": "standard"
+    },
+    "all-purpose": {
+      "image": "all_purpose_token.png",
+      "size": "standard"
+    }
+  },
+
+  "counters": {
+    "first-player": {
+      "label": "First Player",
+      "min": 1,
+      "max": 4,
+      "start": 1
+    }
+  }
+}

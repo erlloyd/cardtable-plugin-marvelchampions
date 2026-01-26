@@ -1,0 +1,42 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-bomb-scare",
+  "name": "Marvel Champions: Bomb Scare (Modular Encounter)",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/marvel-champions/core/",
+
+  "cardTypes": {
+    "encounter": {
+      "back": "encounter_back.jpg",
+      "size": "standard"
+    }
+  },
+
+  "cards": {
+    "01109": {
+      "type": "encounter",
+      "face": "01109_bomb_scare.jpg"
+    },
+    "01110": {
+      "type": "encounter",
+      "face": "01110_hydra_bomber.jpg"
+    },
+    "01111": {
+      "type": "encounter",
+      "face": "01111_explosion.jpg"
+    },
+    "01112": {
+      "type": "encounter",
+      "face": "01112_false_alarm.jpg"
+    }
+  },
+
+  "cardSets": {
+    "bomb-scare": [
+      { "code": "01109" },
+      { "code": "01110" },
+      { "code": "01111", "count": 2 },
+      { "code": "01112" }
+    ]
+  }
+}

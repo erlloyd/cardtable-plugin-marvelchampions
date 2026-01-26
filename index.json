@@ -1,0 +1,13 @@
+{
+  "id": "marvelchampions",
+  "name": "Marvel Champions",
+  "version": "1.0.0",
+  "description": "Marvel Champions: The Card Game - Core Set scenarios and encounter sets",
+  "assets": [
+    "marvelchampions-core.json",
+    "marvelchampions-bomb-scare.json"
+  ],
+  "scenarios": [
+    "marvelchampions-rhino-scenario.json"
+  ]
+}
