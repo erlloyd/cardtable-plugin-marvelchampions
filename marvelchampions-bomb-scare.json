@@ -3,11 +3,11 @@
   "id": "marvelchampions-bomb-scare",
   "name": "Marvel Champions: Bomb Scare (Modular Encounter)",
   "version": "1.0.0",
-  "baseUrl": "/api/card-image/marvel-champions/core/",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
 
   "cardTypes": {
     "encounter": {
-      "back": "encounter_back.jpg",
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
     }
   },
@@ -15,19 +15,19 @@
   "cards": {
     "01109": {
       "type": "encounter",
-      "face": "01109_bomb_scare.jpg"
+      "face": "01026.jpg"
     },
     "01110": {
       "type": "encounter",
-      "face": "01110_hydra_bomber.jpg"
+      "face": "01027.jpg"
     },
     "01111": {
       "type": "encounter",
-      "face": "01111_explosion.jpg"
+      "face": "01028.jpg"
     },
     "01112": {
       "type": "encounter",
-      "face": "01112_false_alarm.jpg"
+      "face": "01029.jpg"
     }
   },
 

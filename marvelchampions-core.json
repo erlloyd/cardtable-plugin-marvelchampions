@@ -3,27 +3,27 @@
   "id": "marvelchampions-core",
   "name": "Marvel Champions: Core Set",
   "version": "1.0.0",
-  "baseUrl": "/api/card-image/marvel-champions/core/",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
 
   "cardTypes": {
     "hero": {
-      "back": "hero_back.jpg",
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
     },
     "alter_ego": {
-      "back": "hero_back.jpg",
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
     },
     "villain": {
-      "back": "encounter_back.jpg",
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
     },
     "main_scheme": {
-      "back": "main_scheme_back.jpg",
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
     },
     "encounter": {
-      "back": "encounter_back.jpg",
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
     }
   },
@@ -31,99 +31,99 @@
   "cards": {
     "01001a": {
       "type": "hero",
-      "face": "01001a_spiderman.jpg",
+      "face": "01020.jpg",
       "back_code": "01001b"
     },
     "01001b": {
       "type": "alter_ego",
-      "face": "01001b_peter_parker.jpg",
+      "face": "01021.jpg",
       "back_code": "01001a"
     },
     "01094": {
       "type": "villain",
-      "face": "01094_rhino_1.jpg"
+      "face": "01022.jpg"
     },
     "01095": {
       "type": "villain",
-      "face": "01095_rhino_2.jpg"
+      "face": "01023.jpg"
     },
     "01096": {
       "type": "villain",
-      "face": "01096_rhino_3.jpg"
+      "face": "01024.jpg"
     },
     "01097a": {
       "type": "main_scheme",
-      "face": "01097a_break_in_1a.jpg",
+      "face": "01025.jpg",
       "back_code": "01097b"
     },
     "01097b": {
       "type": "main_scheme",
-      "face": "01097b_break_in_1b.jpg",
+      "face": "01026.jpg",
       "back_code": "01097a"
     },
     "01098": {
       "type": "encounter",
-      "face": "01098_armored_rhino_suit.jpg"
+      "face": "01027.jpg"
     },
     "01099": {
       "type": "encounter",
-      "face": "01099_charge.jpg"
+      "face": "01028.jpg"
     },
     "01100": {
       "type": "encounter",
-      "face": "01100_enhanced_ivory_horn.jpg"
+      "face": "01029.jpg"
     },
     "01101": {
       "type": "encounter",
-      "face": "01101_hydra_mercenary.jpg"
+      "face": "01030.jpg"
     },
     "01102": {
       "type": "encounter",
-      "face": "01102_sandman.jpg"
+      "face": "01031.jpg"
     },
     "01103": {
       "type": "encounter",
-      "face": "01103_shocker.jpg"
+      "face": "01032.jpg"
     },
     "01104": {
       "type": "encounter",
-      "face": "01104_hard_to_keep_down.jpg"
+      "face": "01033.jpg"
     },
     "01105": {
       "type": "encounter",
-      "face": "01105_im_tough.jpg"
+      "face": "01034.jpg"
     },
     "01106": {
       "type": "encounter",
-      "face": "01106_stampede.jpg"
+      "face": "01035.jpg"
     },
     "01107": {
       "type": "encounter",
-      "face": "01107_breakin_and_takin.jpg"
+      "face": "01036.jpg"
     },
     "01108": {
       "type": "encounter",
-      "face": "01108_crowd_control.jpg"
+      "face": "01020.jpg"
     },
     "01186": {
       "type": "encounter",
-      "face": "01186_advance.jpg"
+      "face": "01021.jpg"
     },
     "01187": {
       "type": "encounter",
-      "face": "01187_assault.jpg"
+      "face": "01022.jpg"
     },
     "01188": {
       "type": "encounter",
-      "face": "01188_caught_off_guard.jpg"
+      "face": "01023.jpg"
     },
     "01189": {
       "type": "encounter",
-      "face": "01189_gangway.jpg"
+      "face": "01024.jpg"
     },
     "01190": {
       "type": "encounter",
-      "face": "01190_shadows_of_the_past.jpg"
+      "face": "01025.jpg"
     }
   },
 
@@ -161,20 +161,20 @@
 
   "tokens": {
     "threat": {
-      "image": "threat_token.png",
-      "size": "standard"
+      "image": "https://card-table.app/images/table/first_player_token_marvelchampions.png",
+      "size": "medium"
     },
     "acceleration": {
-      "image": "acceleration_token.png",
-      "size": "standard"
+      "image": "https://card-table.app/images/table/first_player_token_marvelchampions.png",
+      "size": "medium"
     },
     "damage": {
-      "image": "damage_token.png",
-      "size": "standard"
+      "image": "https://card-table.app/images/table/first_player_token_marvelchampions.png",
+      "size": "medium"
     },
     "all-purpose": {
-      "image": "all_purpose_token.png",
-      "size": "standard"
+      "image": "https://card-table.app/images/table/first_player_token_marvelchampions.png",
+      "size": "medium"
     }
   },
 
