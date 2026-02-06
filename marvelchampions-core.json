@@ -20,7 +20,8 @@
     },
     "main_scheme": {
       "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
-      "size": "standard"
+      "size": "standard",
+      "orientation": "landscape"
     },
     "encounter": {
       "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
@@ -53,12 +54,12 @@
     },
     "01097a": {
       "type": "main_scheme",
-      "face": "01025.jpg",
+      "face": "01097A.jpg",
       "back_code": "01097b"
     },
     "01097b": {
       "type": "main_scheme",
-      "face": "01026.jpg",
+      "face": "01097B.jpg",
       "back_code": "01097a"
     },
     "01098": {
