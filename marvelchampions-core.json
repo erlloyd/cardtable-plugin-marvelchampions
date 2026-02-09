@@ -186,5 +186,76 @@
       "max": 4,
       "start": 1
     }
+  },
+
+  "tokenTypes": {
+    "damage": {
+      "name": "Damage",
+      "image": "tokens/damage.png",
+      "size": 24
+    },
+    "threat": {
+      "name": "Threat",
+      "image": "tokens/threat.png",
+      "size": 24
+    },
+    "generic": {
+      "name": "Generic",
+      "image": "tokens/generic.png",
+      "size": 24
+    },
+    "acceleration": {
+      "name": "Acceleration",
+      "image": "tokens/acceleration.png",
+      "size": 24
+    }
+  },
+
+  "statusTypes": {
+    "stunned": {
+      "name": "Stunned",
+      "image": "status/stunned.png",
+      "width": 48,
+      "height": 18
+    },
+    "confused": {
+      "name": "Confused",
+      "image": "status/confused.png",
+      "width": 48,
+      "height": 18
+    },
+    "tough": {
+      "name": "Tough",
+      "image": "status/tough.png",
+      "width": 48,
+      "height": 18
+    }
+  },
+
+  "modifierStats": {
+    "ATK": {
+      "code": "ATK",
+      "name": "Attack",
+      "positiveColor": 5025616,
+      "negativeColor": 16007990
+    },
+    "THW": {
+      "code": "THW",
+      "name": "Thwart",
+      "positiveColor": 5025616,
+      "negativeColor": 16007990
+    },
+    "DEF": {
+      "code": "DEF",
+      "name": "Defense",
+      "positiveColor": 5025616,
+      "negativeColor": 16007990
+    },
+    "HP": {
+      "code": "HP",
+      "name": "Hit Points",
+      "positiveColor": 5025616,
+      "negativeColor": 16007990
+    }
   }
 }
