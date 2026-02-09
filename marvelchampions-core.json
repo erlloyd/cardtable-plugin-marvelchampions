@@ -191,23 +191,19 @@
   "tokenTypes": {
     "damage": {
       "name": "Damage",
-      "image": "tokens/damage.png",
-      "size": 24
+      "image": "tokens/damage.png"
     },
     "threat": {
       "name": "Threat",
-      "image": "tokens/threat.png",
-      "size": 24
+      "image": "tokens/threat.png"
     },
     "generic": {
       "name": "Generic",
-      "image": "tokens/generic.png",
-      "size": 24
+      "image": "tokens/generic.png"
     },
     "acceleration": {
       "name": "Acceleration",
-      "image": "tokens/acceleration.png",
-      "size": 24
+      "image": "tokens/acceleration.png"
     }
   },
 
