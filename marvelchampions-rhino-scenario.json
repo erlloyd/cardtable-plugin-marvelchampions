@@ -1,5 +1,5 @@
 {
-  "schema": "ct-scenario@1",
+  "schema": "ct-scenario@2",
   "id": "marvelchampions-rhino",
   "name": "The Rise of Red Skull: Rhino",
   "description": "Face off against the unstoppable Rhino in this introductory scenario.",
@@ -7,110 +7,52 @@
 
   "packs": ["marvelchampions-core", "marvelchampions-bomb-scare"],
 
-  "decks": {
-    "villain-stages": {
-      "cards": [
-        { "code": "01094" },
-        { "code": "01095" },
-        { "code": "01096" }
-      ],
-      "shuffle": false
-    },
-    "main-scheme": {
-      "cards": [
-        { "code": "01097a" }
-      ],
-      "shuffle": false
-    },
-    "encounter-deck": {
-      "cardSets": ["rhino-villain", "standard-encounter", "bomb-scare"],
-      "shuffle": true
-    }
-  },
-
-  "layout": {
-    "objects": [
+  "componentSet": {
+    "stacks": [
       {
-        "type": "stack",
-        "id": "villain-stack",
-        "deck": "villain-stages",
-        "pos": { "x": 0, "y": -200 },
-        "z": 0,
-        "faceUp": true
+        "label": "Villain Stages",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            { "code": "01094" },
+            { "code": "01095" },
+            { "code": "01096" }
+          ]
+        },
+        "row": 0
       },
       {
-        "type": "stack",
-        "id": "main-scheme-stack",
-        "deck": "main-scheme",
-        "pos": { "x": 0, "y": -350 },
-        "z": 0,
-        "faceUp": true
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            { "code": "01097a" }
+          ]
+        },
+        "row": 0
       },
       {
-        "type": "stack",
-        "id": "encounter-deck-stack",
-        "deck": "encounter-deck",
-        "pos": { "x": 350, "y": -200 },
-        "z": 0,
-        "faceUp": false
-      },
-      {
-        "type": "zone",
-        "id": "encounter-discard-zone",
-        "label": "Encounter Discard",
-        "pos": { "x": 350, "y": -50 },
-        "width": 100,
-        "height": 140,
-        "z": 0
-      },
-      {
-        "type": "zone",
-        "id": "villain-area",
-        "label": "Villain Play Area",
-        "pos": { "x": 0, "y": 0 },
-        "width": 250,
-        "height": 200,
-        "z": 0
-      },
-      {
-        "type": "token",
-        "id": "threat-token-pool",
-        "ref": "threat",
-        "label": "Threat Tokens",
-        "pos": { "x": -350, "y": -300 },
-        "z": 0
-      },
-      {
-        "type": "token",
-        "id": "acceleration-token-pool",
-        "ref": "acceleration",
-        "label": "Acceleration Tokens",
-        "pos": { "x": -350, "y": -150 },
-        "z": 0
-      },
-      {
-        "type": "token",
-        "id": "damage-token-pool",
-        "ref": "damage",
-        "label": "Damage Tokens",
-        "pos": { "x": -350, "y": 0 },
-        "z": 0
-      },
-      {
-        "type": "token",
-        "id": "all-purpose-token-pool",
-        "ref": "all-purpose",
-        "label": "All-Purpose Tokens",
-        "pos": { "x": -350, "y": 150 },
-        "z": 0
-      },
-      {
-        "type": "counter",
-        "id": "first-player-counter",
-        "ref": "first-player",
-        "pos": { "x": -350, "y": 300 },
-        "z": 0
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": ["rhino-villain", "standard-encounter"],
+          "shuffle": true
+        },
+        "row": 0
       }
+    ],
+    "tokens": [
+      { "ref": "threat", "label": "Threat Tokens", "row": 1 },
+      { "ref": "acceleration", "label": "Acceleration Tokens", "row": 1 },
+      { "ref": "damage", "label": "Damage Tokens", "row": 1 },
+      { "ref": "all-purpose", "label": "All-Purpose Tokens", "row": 1 }
+    ],
+    "counters": [
+      { "ref": "first-player", "row": 1 }
+    ],
+    "zones": [
+      { "label": "Encounter Discard", "width": 100, "height": 140, "row": 0 },
+      { "label": "Villain Play Area", "width": 250, "height": 200, "row": 2 }
     ]
   }
 }

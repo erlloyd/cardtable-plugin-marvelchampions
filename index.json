@@ -9,5 +9,62 @@
   ],
   "scenarios": [
     "marvelchampions-rhino-scenario.json"
+  ],
+  "componentSets": [
+    {
+      "id": "rhino-encounter",
+      "name": "Rhino Encounter Set",
+      "stacks": [
+        {
+          "label": "Villain Stages",
+          "faceUp": true,
+          "deck": {
+            "cards": [
+              { "code": "01094" },
+              { "code": "01095" },
+              { "code": "01096" }
+            ]
+          },
+          "row": 0
+        },
+        {
+          "label": "Main Scheme",
+          "faceUp": true,
+          "deck": {
+            "cards": [
+              { "code": "01097a" }
+            ]
+          },
+          "row": 0
+        },
+        {
+          "label": "Encounter Deck",
+          "faceUp": false,
+          "deck": {
+            "cardSets": ["rhino-villain", "standard-encounter"],
+            "shuffle": true
+          },
+          "row": 0
+        }
+      ],
+      "zones": [
+        { "label": "Encounter Discard", "width": 100, "height": 140, "row": 0 }
+      ]
+    },
+    {
+      "id": "marvelcdb-import",
+      "name": "Import from MarvelCDB",
+      "apiImport": {
+        "apiEndpoints": {
+          "public": "https://marvelcdb.com/api/public/decklist/{deckId}",
+          "private": "https://marvelcdb.com/api/public/deck/{deckId}"
+        },
+        "parserModule": "deckImport.js",
+        "labels": {
+          "siteName": "MarvelCDB",
+          "inputPlaceholder": "Enter MarvelCDB deck ID"
+        }
+      }
+    }
   ]
 }

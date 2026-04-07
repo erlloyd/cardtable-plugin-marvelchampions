@@ -4,7 +4,6 @@
   "name": "Marvel Champions: Core Set",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
-
   "cardTypes": {
     "hero": {
       "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
@@ -26,140 +25,1274 @@
     "encounter": {
       "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
       "size": "standard"
+    },
+    "player": {
+      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
+      "size": "standard"
     }
   },
-
   "cards": {
     "01001a": {
       "type": "hero",
-      "face": "01020.jpg",
-      "back_code": "01001b"
+      "face": "01001A.jpg",
+      "setCode": "spider_man",
+      "typeCode": "hero"
     },
-    "01001b": {
-      "type": "alter_ego",
+    "01002": {
+      "type": "player",
+      "face": "01002.jpg",
+      "setCode": "spider_man",
+      "typeCode": "ally"
+    },
+    "01003": {
+      "type": "player",
+      "face": "01003.jpg",
+      "setCode": "spider_man",
+      "typeCode": "event"
+    },
+    "01004": {
+      "type": "player",
+      "face": "01004.jpg",
+      "setCode": "spider_man",
+      "typeCode": "event"
+    },
+    "01005": {
+      "type": "player",
+      "face": "01005.jpg",
+      "setCode": "spider_man",
+      "typeCode": "event"
+    },
+    "01006": {
+      "type": "player",
+      "face": "01006.jpg",
+      "setCode": "spider_man",
+      "typeCode": "support"
+    },
+    "01007": {
+      "type": "player",
+      "face": "01007.jpg",
+      "setCode": "spider_man",
+      "typeCode": "upgrade"
+    },
+    "01008": {
+      "type": "player",
+      "face": "01008.jpg",
+      "setCode": "spider_man",
+      "typeCode": "upgrade"
+    },
+    "01009": {
+      "type": "player",
+      "face": "01009.jpg",
+      "setCode": "spider_man",
+      "typeCode": "upgrade"
+    },
+    "01010a": {
+      "type": "hero",
+      "face": "01010A.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "hero"
+    },
+    "01011": {
+      "type": "player",
+      "face": "01011.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "ally"
+    },
+    "01012": {
+      "type": "player",
+      "face": "01012.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "event"
+    },
+    "01013": {
+      "type": "player",
+      "face": "01013.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "event"
+    },
+    "01014": {
+      "type": "player",
+      "face": "01014.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "resource"
+    },
+    "01015": {
+      "type": "player",
+      "face": "01015.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "support"
+    },
+    "01016": {
+      "type": "player",
+      "face": "01016.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "upgrade"
+    },
+    "01017": {
+      "type": "player",
+      "face": "01017.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "upgrade"
+    },
+    "01018": {
+      "type": "player",
+      "face": "01018.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "upgrade"
+    },
+    "01019a": {
+      "type": "hero",
+      "face": "01019A.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "hero"
+    },
+    "01020": {
+      "type": "player",
+      "face": "01020.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "ally"
+    },
+    "01021": {
+      "type": "player",
       "face": "01021.jpg",
-      "back_code": "01001a"
+      "setCode": "she_hulk",
+      "typeCode": "event"
+    },
+    "01022": {
+      "type": "player",
+      "face": "01022.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "event"
+    },
+    "01023": {
+      "type": "player",
+      "face": "01023.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "event"
+    },
+    "01024": {
+      "type": "player",
+      "face": "01024.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "event"
+    },
+    "01025": {
+      "type": "player",
+      "face": "01025.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "event"
+    },
+    "01026": {
+      "type": "player",
+      "face": "01026.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "support"
+    },
+    "01027": {
+      "type": "player",
+      "face": "01027.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "upgrade"
+    },
+    "01028": {
+      "type": "player",
+      "face": "01028.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "upgrade"
+    },
+    "01029a": {
+      "type": "hero",
+      "face": "01029A.jpg",
+      "setCode": "iron_man",
+      "typeCode": "hero"
+    },
+    "01030": {
+      "type": "player",
+      "face": "01030.jpg",
+      "setCode": "iron_man",
+      "typeCode": "ally"
+    },
+    "01031": {
+      "type": "player",
+      "face": "01031.jpg",
+      "setCode": "iron_man",
+      "typeCode": "event"
+    },
+    "01032": {
+      "type": "player",
+      "face": "01032.jpg",
+      "setCode": "iron_man",
+      "typeCode": "event"
+    },
+    "01033": {
+      "type": "player",
+      "face": "01033.jpg",
+      "setCode": "iron_man",
+      "typeCode": "support"
+    },
+    "01034": {
+      "type": "player",
+      "face": "01034.jpg",
+      "setCode": "iron_man",
+      "typeCode": "support"
+    },
+    "01035": {
+      "type": "player",
+      "face": "01035.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01036": {
+      "type": "player",
+      "face": "01036.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01037": {
+      "type": "player",
+      "face": "01037.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01038": {
+      "type": "player",
+      "face": "01038.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01039": {
+      "type": "player",
+      "face": "01039.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01040a": {
+      "type": "hero",
+      "face": "01040A.jpg",
+      "setCode": "black_panther",
+      "typeCode": "hero"
+    },
+    "01041": {
+      "type": "player",
+      "face": "01041.jpg",
+      "setCode": "black_panther",
+      "typeCode": "ally"
+    },
+    "01042": {
+      "type": "player",
+      "face": "01042.jpg",
+      "setCode": "black_panther",
+      "typeCode": "event"
+    },
+    "01043a": {
+      "type": "player",
+      "face": "01043A.jpg",
+      "setCode": "black_panther",
+      "typeCode": "event"
+    },
+    "01043b": {
+      "type": "player",
+      "face": "01043B.jpg",
+      "setCode": "black_panther",
+      "typeCode": "event"
+    },
+    "01043c": {
+      "type": "player",
+      "face": "01043C.jpg",
+      "setCode": "black_panther",
+      "typeCode": "event"
+    },
+    "01043d": {
+      "type": "player",
+      "face": "01043D.jpg",
+      "setCode": "black_panther",
+      "typeCode": "event"
+    },
+    "01044": {
+      "type": "player",
+      "face": "01044.jpg",
+      "setCode": "black_panther",
+      "typeCode": "resource"
+    },
+    "01045": {
+      "type": "player",
+      "face": "01045.jpg",
+      "setCode": "black_panther",
+      "typeCode": "support"
+    },
+    "01046": {
+      "type": "player",
+      "face": "01046.jpg",
+      "setCode": "black_panther",
+      "typeCode": "upgrade"
+    },
+    "01047": {
+      "type": "player",
+      "face": "01047.jpg",
+      "setCode": "black_panther",
+      "typeCode": "upgrade"
+    },
+    "01048": {
+      "type": "player",
+      "face": "01048.jpg",
+      "setCode": "black_panther",
+      "typeCode": "upgrade"
+    },
+    "01049": {
+      "type": "player",
+      "face": "01049.jpg",
+      "setCode": "black_panther",
+      "typeCode": "upgrade"
+    },
+    "01050": {
+      "type": "player",
+      "face": "01050.jpg",
+      "typeCode": "ally"
+    },
+    "01051": {
+      "type": "player",
+      "face": "01051.jpg",
+      "typeCode": "ally"
+    },
+    "01052": {
+      "type": "player",
+      "face": "01052.jpg",
+      "typeCode": "event"
+    },
+    "01053": {
+      "type": "player",
+      "face": "01053.jpg",
+      "typeCode": "event"
+    },
+    "01054": {
+      "type": "player",
+      "face": "01054.jpg",
+      "typeCode": "event"
+    },
+    "01055": {
+      "type": "player",
+      "face": "01055.jpg",
+      "typeCode": "resource"
+    },
+    "01056": {
+      "type": "player",
+      "face": "01056.jpg",
+      "typeCode": "support"
+    },
+    "01057": {
+      "type": "player",
+      "face": "01057.jpg",
+      "typeCode": "upgrade"
+    },
+    "01058": {
+      "type": "player",
+      "face": "01058.jpg",
+      "typeCode": "ally"
+    },
+    "01059": {
+      "type": "player",
+      "face": "01059.jpg",
+      "typeCode": "ally"
+    },
+    "01060": {
+      "type": "player",
+      "face": "01060.jpg",
+      "typeCode": "event"
+    },
+    "01061": {
+      "type": "player",
+      "face": "01061.jpg",
+      "typeCode": "event"
+    },
+    "01062": {
+      "type": "player",
+      "face": "01062.jpg",
+      "typeCode": "resource"
+    },
+    "01063": {
+      "type": "player",
+      "face": "01063.jpg",
+      "typeCode": "support"
+    },
+    "01064": {
+      "type": "player",
+      "face": "01064.jpg",
+      "typeCode": "support"
+    },
+    "01065": {
+      "type": "player",
+      "face": "01065.jpg",
+      "typeCode": "upgrade"
+    },
+    "01066": {
+      "type": "player",
+      "face": "01066.jpg",
+      "typeCode": "ally"
+    },
+    "01067": {
+      "type": "player",
+      "face": "01067.jpg",
+      "typeCode": "ally"
+    },
+    "01068": {
+      "type": "player",
+      "face": "01068.jpg",
+      "typeCode": "ally"
+    },
+    "01069": {
+      "type": "player",
+      "face": "01069.jpg",
+      "typeCode": "event"
+    },
+    "01070": {
+      "type": "player",
+      "face": "01070.jpg",
+      "typeCode": "event"
+    },
+    "01071": {
+      "type": "player",
+      "face": "01071.jpg",
+      "typeCode": "event"
+    },
+    "01072": {
+      "type": "player",
+      "face": "01072.jpg",
+      "typeCode": "resource"
+    },
+    "01073": {
+      "type": "player",
+      "face": "01073.jpg",
+      "typeCode": "support"
+    },
+    "01074": {
+      "type": "player",
+      "face": "01074.jpg",
+      "typeCode": "upgrade"
+    },
+    "01075": {
+      "type": "player",
+      "face": "01075.jpg",
+      "typeCode": "ally"
+    },
+    "01076": {
+      "type": "player",
+      "face": "01076.jpg",
+      "typeCode": "ally"
+    },
+    "01077": {
+      "type": "player",
+      "face": "01077.jpg",
+      "typeCode": "event"
+    },
+    "01078": {
+      "type": "player",
+      "face": "01078.jpg",
+      "typeCode": "event"
+    },
+    "01079": {
+      "type": "player",
+      "face": "01079.jpg",
+      "typeCode": "resource"
+    },
+    "01080": {
+      "type": "player",
+      "face": "01080.jpg",
+      "typeCode": "support"
+    },
+    "01081": {
+      "type": "player",
+      "face": "01081.jpg",
+      "typeCode": "upgrade"
+    },
+    "01082": {
+      "type": "player",
+      "face": "01082.jpg",
+      "typeCode": "upgrade"
+    },
+    "01083": {
+      "type": "player",
+      "face": "01083.jpg",
+      "typeCode": "ally"
+    },
+    "01084": {
+      "type": "player",
+      "face": "01084.jpg",
+      "typeCode": "ally"
+    },
+    "01085": {
+      "type": "player",
+      "face": "01085.jpg",
+      "typeCode": "event"
+    },
+    "01086": {
+      "type": "player",
+      "face": "01086.jpg",
+      "typeCode": "event"
+    },
+    "01087": {
+      "type": "player",
+      "face": "01087.jpg",
+      "typeCode": "event"
+    },
+    "01088": {
+      "type": "player",
+      "face": "01088.jpg",
+      "typeCode": "resource"
+    },
+    "01089": {
+      "type": "player",
+      "face": "01089.jpg",
+      "typeCode": "resource"
+    },
+    "01090": {
+      "type": "player",
+      "face": "01090.jpg",
+      "typeCode": "resource"
+    },
+    "01091": {
+      "type": "player",
+      "face": "01091.jpg",
+      "typeCode": "support"
+    },
+    "01092": {
+      "type": "player",
+      "face": "01092.jpg",
+      "typeCode": "support"
+    },
+    "01093": {
+      "type": "player",
+      "face": "01093.jpg",
+      "typeCode": "upgrade"
     },
     "01094": {
       "type": "villain",
-      "face": "01022.jpg"
+      "face": "01094.jpg",
+      "setCode": "rhino",
+      "typeCode": "villain"
     },
     "01095": {
       "type": "villain",
-      "face": "01023.jpg"
+      "face": "01095.jpg",
+      "setCode": "rhino",
+      "typeCode": "villain"
     },
     "01096": {
       "type": "villain",
-      "face": "01024.jpg"
+      "face": "01096.jpg",
+      "setCode": "rhino",
+      "typeCode": "villain"
+    },
+    "01097": {
+      "type": "main_scheme",
+      "face": "01097.jpg",
+      "setCode": "rhino",
+      "typeCode": "main_scheme"
     },
     "01097a": {
       "type": "main_scheme",
       "face": "01097A.jpg",
-      "back_code": "01097b"
-    },
-    "01097b": {
-      "type": "main_scheme",
-      "face": "01097B.jpg",
-      "back_code": "01097a"
+      "setCode": "rhino",
+      "typeCode": "main_scheme"
     },
     "01098": {
       "type": "encounter",
-      "face": "01027.jpg"
+      "face": "01098.jpg",
+      "setCode": "rhino",
+      "typeCode": "attachment"
     },
     "01099": {
       "type": "encounter",
-      "face": "01028.jpg"
+      "face": "01099.jpg",
+      "setCode": "rhino",
+      "typeCode": "attachment"
     },
     "01100": {
       "type": "encounter",
-      "face": "01029.jpg"
+      "face": "01100.jpg",
+      "setCode": "rhino",
+      "typeCode": "attachment"
     },
     "01101": {
       "type": "encounter",
-      "face": "01030.jpg"
+      "face": "01101.jpg",
+      "setCode": "rhino",
+      "typeCode": "minion"
     },
     "01102": {
       "type": "encounter",
-      "face": "01031.jpg"
+      "face": "01102.jpg",
+      "setCode": "rhino",
+      "typeCode": "minion"
     },
     "01103": {
       "type": "encounter",
-      "face": "01032.jpg"
+      "face": "01103.jpg",
+      "setCode": "rhino",
+      "typeCode": "minion"
     },
     "01104": {
       "type": "encounter",
-      "face": "01033.jpg"
+      "face": "01104.jpg",
+      "setCode": "rhino",
+      "typeCode": "treachery"
     },
     "01105": {
       "type": "encounter",
-      "face": "01034.jpg"
+      "face": "01105.jpg",
+      "setCode": "rhino",
+      "typeCode": "treachery"
     },
     "01106": {
       "type": "encounter",
-      "face": "01035.jpg"
+      "face": "01106.jpg",
+      "setCode": "rhino",
+      "typeCode": "treachery"
     },
     "01107": {
       "type": "encounter",
-      "face": "01036.jpg"
+      "face": "01107.jpg",
+      "setCode": "rhino",
+      "typeCode": "side_scheme"
     },
     "01108": {
       "type": "encounter",
-      "face": "01020.jpg"
+      "face": "01108.jpg",
+      "setCode": "rhino",
+      "typeCode": "side_scheme"
+    },
+    "01109": {
+      "type": "encounter",
+      "face": "01109.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "side_scheme"
+    },
+    "01110": {
+      "type": "encounter",
+      "face": "01110.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "minion"
+    },
+    "01111": {
+      "type": "encounter",
+      "face": "01111.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "treachery"
+    },
+    "01112": {
+      "type": "encounter",
+      "face": "01112.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "treachery"
+    },
+    "01113": {
+      "type": "villain",
+      "face": "01113.jpg",
+      "setCode": "klaw",
+      "typeCode": "villain"
+    },
+    "01114": {
+      "type": "villain",
+      "face": "01114.jpg",
+      "setCode": "klaw",
+      "typeCode": "villain"
+    },
+    "01115": {
+      "type": "villain",
+      "face": "01115.jpg",
+      "setCode": "klaw",
+      "typeCode": "villain"
+    },
+    "01116": {
+      "type": "main_scheme",
+      "face": "01116.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme"
+    },
+    "01116a": {
+      "type": "main_scheme",
+      "face": "01116A.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme"
+    },
+    "01117": {
+      "type": "main_scheme",
+      "face": "01117.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme"
+    },
+    "01117a": {
+      "type": "main_scheme",
+      "face": "01117A.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme"
+    },
+    "01118": {
+      "type": "encounter",
+      "face": "01118.jpg",
+      "setCode": "klaw",
+      "typeCode": "attachment"
+    },
+    "01119": {
+      "type": "encounter",
+      "face": "01119.jpg",
+      "setCode": "klaw",
+      "typeCode": "attachment"
+    },
+    "01120": {
+      "type": "encounter",
+      "face": "01120.jpg",
+      "setCode": "klaw",
+      "typeCode": "minion"
+    },
+    "01121": {
+      "type": "encounter",
+      "face": "01121.jpg",
+      "setCode": "klaw",
+      "typeCode": "minion"
+    },
+    "01122": {
+      "type": "encounter",
+      "face": "01122.jpg",
+      "setCode": "klaw",
+      "typeCode": "treachery"
+    },
+    "01123": {
+      "type": "encounter",
+      "face": "01123.jpg",
+      "setCode": "klaw",
+      "typeCode": "treachery"
+    },
+    "01124": {
+      "type": "encounter",
+      "face": "01124.jpg",
+      "setCode": "klaw",
+      "typeCode": "treachery"
+    },
+    "01125": {
+      "type": "encounter",
+      "face": "01125.jpg",
+      "setCode": "klaw",
+      "typeCode": "side_scheme"
+    },
+    "01126": {
+      "type": "encounter",
+      "face": "01126.jpg",
+      "setCode": "klaw",
+      "typeCode": "side_scheme"
+    },
+    "01127": {
+      "type": "encounter",
+      "face": "01127.jpg",
+      "setCode": "klaw",
+      "typeCode": "side_scheme"
+    },
+    "01128": {
+      "type": "encounter",
+      "face": "01128.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "side_scheme"
+    },
+    "01129": {
+      "type": "encounter",
+      "face": "01129.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01130": {
+      "type": "encounter",
+      "face": "01130.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01131": {
+      "type": "encounter",
+      "face": "01131.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01132": {
+      "type": "encounter",
+      "face": "01132.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01133": {
+      "type": "encounter",
+      "face": "01133.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "treachery"
+    },
+    "01134": {
+      "type": "villain",
+      "face": "01134.jpg",
+      "setCode": "ultron",
+      "typeCode": "villain"
+    },
+    "01135": {
+      "type": "villain",
+      "face": "01135.jpg",
+      "setCode": "ultron",
+      "typeCode": "villain"
+    },
+    "01136": {
+      "type": "villain",
+      "face": "01136.jpg",
+      "setCode": "ultron",
+      "typeCode": "villain"
+    },
+    "01137": {
+      "type": "main_scheme",
+      "face": "01137.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme"
+    },
+    "01137a": {
+      "type": "main_scheme",
+      "face": "01137A.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme"
+    },
+    "01138": {
+      "type": "main_scheme",
+      "face": "01138.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme"
+    },
+    "01138a": {
+      "type": "main_scheme",
+      "face": "01138A.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme"
+    },
+    "01139": {
+      "type": "main_scheme",
+      "face": "01139.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme"
+    },
+    "01139a": {
+      "type": "main_scheme",
+      "face": "01139A.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme"
+    },
+    "01140": {
+      "type": "encounter",
+      "face": "01140.jpg",
+      "setCode": "ultron",
+      "typeCode": "environment"
+    },
+    "01141": {
+      "type": "encounter",
+      "face": "01141.jpg",
+      "setCode": "ultron",
+      "typeCode": "attachment"
+    },
+    "01142": {
+      "type": "encounter",
+      "face": "01142.jpg",
+      "setCode": "ultron",
+      "typeCode": "attachment"
+    },
+    "01143": {
+      "type": "encounter",
+      "face": "01143.jpg",
+      "setCode": "ultron",
+      "typeCode": "minion"
+    },
+    "01144": {
+      "type": "encounter",
+      "face": "01144.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01144a": {
+      "type": "encounter",
+      "face": "01144A.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01144b": {
+      "type": "encounter",
+      "face": "01144B.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01144c": {
+      "type": "encounter",
+      "face": "01144C.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01145": {
+      "type": "encounter",
+      "face": "01145.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01146": {
+      "type": "encounter",
+      "face": "01146.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01147": {
+      "type": "encounter",
+      "face": "01147.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01148": {
+      "type": "encounter",
+      "face": "01148.jpg",
+      "setCode": "ultron",
+      "typeCode": "side_scheme"
+    },
+    "01149": {
+      "type": "encounter",
+      "face": "01149.jpg",
+      "setCode": "ultron",
+      "typeCode": "side_scheme"
+    },
+    "01150": {
+      "type": "encounter",
+      "face": "01150.jpg",
+      "setCode": "ultron",
+      "typeCode": "side_scheme"
+    },
+    "01151": {
+      "type": "encounter",
+      "face": "01151.jpg",
+      "setCode": "under_attack",
+      "typeCode": "side_scheme"
+    },
+    "01152": {
+      "type": "encounter",
+      "face": "01152.jpg",
+      "setCode": "under_attack",
+      "typeCode": "attachment"
+    },
+    "01153": {
+      "type": "encounter",
+      "face": "01153.jpg",
+      "setCode": "under_attack",
+      "typeCode": "attachment"
+    },
+    "01154": {
+      "type": "encounter",
+      "face": "01154.jpg",
+      "setCode": "under_attack",
+      "typeCode": "treachery"
+    },
+    "01155": {
+      "type": "encounter",
+      "face": "01155.jpg",
+      "setCode": "black_panther",
+      "typeCode": "obligation"
+    },
+    "01156": {
+      "type": "encounter",
+      "face": "01156.jpg",
+      "setCode": "black_panther_nemesis",
+      "typeCode": "side_scheme"
+    },
+    "01157": {
+      "type": "encounter",
+      "face": "01157.jpg",
+      "setCode": "black_panther_nemesis",
+      "typeCode": "minion"
+    },
+    "01158": {
+      "type": "encounter",
+      "face": "01158.jpg",
+      "setCode": "black_panther_nemesis",
+      "typeCode": "treachery"
+    },
+    "01159": {
+      "type": "encounter",
+      "face": "01159.jpg",
+      "setCode": "black_panther_nemesis",
+      "typeCode": "treachery"
+    },
+    "01160": {
+      "type": "encounter",
+      "face": "01160.jpg",
+      "setCode": "she_hulk",
+      "typeCode": "obligation"
+    },
+    "01161": {
+      "type": "encounter",
+      "face": "01161.jpg",
+      "setCode": "she_hulk_nemesis",
+      "typeCode": "side_scheme"
+    },
+    "01162": {
+      "type": "encounter",
+      "face": "01162.jpg",
+      "setCode": "she_hulk_nemesis",
+      "typeCode": "minion"
+    },
+    "01163": {
+      "type": "encounter",
+      "face": "01163.jpg",
+      "setCode": "she_hulk_nemesis",
+      "typeCode": "attachment"
+    },
+    "01164": {
+      "type": "encounter",
+      "face": "01164.jpg",
+      "setCode": "she_hulk_nemesis",
+      "typeCode": "treachery"
+    },
+    "01165": {
+      "type": "encounter",
+      "face": "01165.jpg",
+      "setCode": "spider_man",
+      "typeCode": "obligation"
+    },
+    "01166": {
+      "type": "encounter",
+      "face": "01166.jpg",
+      "setCode": "spider_man_nemesis",
+      "typeCode": "side_scheme"
+    },
+    "01167": {
+      "type": "encounter",
+      "face": "01167.jpg",
+      "setCode": "spider_man_nemesis",
+      "typeCode": "minion"
+    },
+    "01168": {
+      "type": "encounter",
+      "face": "01168.jpg",
+      "setCode": "spider_man_nemesis",
+      "typeCode": "treachery"
+    },
+    "01169": {
+      "type": "encounter",
+      "face": "01169.jpg",
+      "setCode": "spider_man_nemesis",
+      "typeCode": "treachery"
+    },
+    "01170": {
+      "type": "encounter",
+      "face": "01170.jpg",
+      "setCode": "iron_man",
+      "typeCode": "obligation"
+    },
+    "01171": {
+      "type": "encounter",
+      "face": "01171.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "side_scheme"
+    },
+    "01172": {
+      "type": "encounter",
+      "face": "01172.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "minion"
+    },
+    "01173": {
+      "type": "encounter",
+      "face": "01173.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "treachery"
+    },
+    "01174": {
+      "type": "encounter",
+      "face": "01174.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "treachery"
+    },
+    "01175": {
+      "type": "encounter",
+      "face": "01175.jpg",
+      "setCode": "captain_marvel",
+      "typeCode": "obligation"
+    },
+    "01176": {
+      "type": "encounter",
+      "face": "01176.jpg",
+      "setCode": "captain_marvel_nemesis",
+      "typeCode": "side_scheme"
+    },
+    "01177": {
+      "type": "encounter",
+      "face": "01177.jpg",
+      "setCode": "captain_marvel_nemesis",
+      "typeCode": "minion"
+    },
+    "01178": {
+      "type": "encounter",
+      "face": "01178.jpg",
+      "setCode": "captain_marvel_nemesis",
+      "typeCode": "treachery"
+    },
+    "01179": {
+      "type": "encounter",
+      "face": "01179.jpg",
+      "setCode": "captain_marvel_nemesis",
+      "typeCode": "treachery"
+    },
+    "01180": {
+      "type": "encounter",
+      "face": "01180.jpg",
+      "setCode": "legions_of_hydra",
+      "typeCode": "side_scheme"
+    },
+    "01181": {
+      "type": "encounter",
+      "face": "01181.jpg",
+      "setCode": "legions_of_hydra",
+      "typeCode": "minion"
+    },
+    "01182": {
+      "type": "encounter",
+      "face": "01182.jpg",
+      "setCode": "legions_of_hydra",
+      "typeCode": "minion"
+    },
+    "01183": {
+      "type": "encounter",
+      "face": "01183.jpg",
+      "setCode": "the_doomsday_chair",
+      "typeCode": "side_scheme"
+    },
+    "01184": {
+      "type": "encounter",
+      "face": "01184.jpg",
+      "setCode": "the_doomsday_chair",
+      "typeCode": "minion"
+    },
+    "01185": {
+      "type": "encounter",
+      "face": "01185.jpg",
+      "setCode": "the_doomsday_chair",
+      "typeCode": "attachment"
     },
     "01186": {
       "type": "encounter",
-      "face": "01021.jpg"
+      "face": "01186.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
     },
     "01187": {
       "type": "encounter",
-      "face": "01022.jpg"
+      "face": "01187.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
     },
     "01188": {
       "type": "encounter",
-      "face": "01023.jpg"
+      "face": "01188.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
     },
     "01189": {
       "type": "encounter",
-      "face": "01024.jpg"
+      "face": "01189.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
     },
     "01190": {
       "type": "encounter",
-      "face": "01025.jpg"
+      "face": "01190.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
+    },
+    "01191": {
+      "type": "encounter",
+      "face": "01191.jpg",
+      "setCode": "expert",
+      "typeCode": "treachery"
+    },
+    "01192": {
+      "type": "encounter",
+      "face": "01192.jpg",
+      "setCode": "expert",
+      "typeCode": "treachery"
+    },
+    "01193": {
+      "type": "encounter",
+      "face": "01193.jpg",
+      "setCode": "expert",
+      "typeCode": "treachery"
     }
   },
-
   "cardSets": {
     "spider-man-hero": [
-      { "code": "01001a" },
-      { "code": "01001b" }
+      {
+        "code": "01001a"
+      }
     ],
     "rhino-villain": [
-      { "code": "01094" },
-      { "code": "01095" },
-      { "code": "01096" },
-      { "code": "01097a" },
-      { "code": "01097b" },
-      { "code": "01098" },
-      { "code": "01099" },
-      { "code": "01100" },
-      { "code": "01101" },
-      { "code": "01102" },
-      { "code": "01103" },
-      { "code": "01104", "count": 2 },
-      { "code": "01105", "count": 2 },
-      { "code": "01106", "count": 2 },
-      { "code": "01107" },
-      { "code": "01108" }
+      {
+        "code": "01094"
+      },
+      {
+        "code": "01095"
+      },
+      {
+        "code": "01096"
+      },
+      {
+        "code": "01097a"
+      },
+      {
+        "code": "01098"
+      },
+      {
+        "code": "01099"
+      },
+      {
+        "code": "01100"
+      },
+      {
+        "code": "01101"
+      },
+      {
+        "code": "01102"
+      },
+      {
+        "code": "01103"
+      },
+      {
+        "code": "01104",
+        "count": 2
+      },
+      {
+        "code": "01105",
+        "count": 2
+      },
+      {
+        "code": "01106",
+        "count": 2
+      },
+      {
+        "code": "01107"
+      },
+      {
+        "code": "01108"
+      }
     ],
     "standard-encounter": [
-      { "code": "01186" },
-      { "code": "01187" },
-      { "code": "01188" },
-      { "code": "01189" },
-      { "code": "01190" }
+      {
+        "code": "01186"
+      },
+      {
+        "code": "01187"
+      },
+      {
+        "code": "01188"
+      },
+      {
+        "code": "01189"
+      },
+      {
+        "code": "01190"
+      }
     ]
   },
-
   "tokens": {
     "threat": {
       "image": "https://card-table.app/images/table/first_player_token_marvelchampions.png",
@@ -178,7 +1311,6 @@
       "size": "medium"
     }
   },
-
   "counters": {
     "first-player": {
       "label": "First Player",
@@ -187,7 +1319,6 @@
       "start": 1
     }
   },
-
   "tokenTypes": {
     "damage": {
       "name": "Damage",
@@ -206,7 +1337,6 @@
       "image": "tokens/acceleration.png"
     }
   },
-
   "statusTypes": {
     "stunned": {
       "name": "Stunned",
@@ -227,7 +1357,6 @@
       "height": 18
     }
   },
-
   "modifierStats": {
     "ATK": {
       "code": "ATK",
