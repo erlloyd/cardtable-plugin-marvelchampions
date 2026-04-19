@@ -55,7 +55,7 @@ self.parseDeckResponse = function (apiResponse, gameAssets) {
   if (mainDeckCards.length > 0) {
     stacks.push({
       label: 'Player Deck',
-      faceUp: false,
+      faceUp: true,
       cards: mainDeckCards,
       row: 0,
     });
@@ -93,7 +93,7 @@ self.parseDeckResponse = function (apiResponse, gameAssets) {
     if (nemesisCards.length > 0) {
       stacks.push({
         label: 'Nemesis',
-        faceUp: false,
+        faceUp: true,
         cards: nemesisCards,
         row: 1,
       });
@@ -102,7 +102,7 @@ self.parseDeckResponse = function (apiResponse, gameAssets) {
     if (obligationCards.length > 0) {
       stacks.push({
         label: 'Obligation',
-        faceUp: false,
+        faceUp: true,
         cards: obligationCards,
         row: 1,
       });
