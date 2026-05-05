@@ -1,0 +1,134 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-klaw",
+  "name": "Marvel Champions: Klaw",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01113": {
+      "type": "villain",
+      "face": "01113.jpg",
+      "setCode": "klaw",
+      "typeCode": "villain"
+    },
+    "01114": {
+      "type": "villain",
+      "face": "01114.jpg",
+      "setCode": "klaw",
+      "typeCode": "villain"
+    },
+    "01115": {
+      "type": "villain",
+      "face": "01115.jpg",
+      "setCode": "klaw",
+      "typeCode": "villain"
+    },
+    "01116": {
+      "type": "main_scheme",
+      "face": "01116.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme",
+      "back_code": "01116a"
+    },
+    "01116a": {
+      "type": "main_scheme",
+      "face": "01116A.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme",
+      "back_code": "01116"
+    },
+    "01117": {
+      "type": "main_scheme",
+      "face": "01117.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme",
+      "back_code": "01117a"
+    },
+    "01117a": {
+      "type": "main_scheme",
+      "face": "01117A.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme",
+      "back_code": "01117"
+    },
+    "01118": {
+      "type": "encounter",
+      "face": "01118.jpg",
+      "setCode": "klaw",
+      "typeCode": "attachment"
+    },
+    "01119": {
+      "type": "encounter",
+      "face": "01119.jpg",
+      "setCode": "klaw",
+      "typeCode": "attachment"
+    },
+    "01120": {
+      "type": "encounter",
+      "face": "01120.jpg",
+      "setCode": "klaw",
+      "typeCode": "minion"
+    },
+    "01121": {
+      "type": "encounter",
+      "face": "01121.jpg",
+      "setCode": "klaw",
+      "typeCode": "minion"
+    },
+    "01122": {
+      "type": "encounter",
+      "face": "01122.jpg",
+      "setCode": "klaw",
+      "typeCode": "treachery"
+    },
+    "01123": {
+      "type": "encounter",
+      "face": "01123.jpg",
+      "setCode": "klaw",
+      "typeCode": "treachery"
+    },
+    "01124": {
+      "type": "encounter",
+      "face": "01124.jpg",
+      "setCode": "klaw",
+      "typeCode": "treachery"
+    },
+    "01125": {
+      "type": "encounter",
+      "face": "01125.jpg",
+      "setCode": "klaw",
+      "typeCode": "side_scheme"
+    },
+    "01126": {
+      "type": "encounter",
+      "face": "01126.jpg",
+      "setCode": "klaw",
+      "typeCode": "side_scheme"
+    },
+    "01127": {
+      "type": "encounter",
+      "face": "01127.jpg",
+      "setCode": "klaw",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "klaw-villain": [
+      { "code": "01113" },
+      { "code": "01114" },
+      { "code": "01115" },
+      { "code": "01116a" },
+      { "code": "01117a" },
+      { "code": "01118" },
+      { "code": "01119" },
+      { "code": "01120", "count": 3 },
+      { "code": "01121", "count": 2 },
+      { "code": "01122", "count": 2 },
+      { "code": "01123", "count": 2 },
+      { "code": "01124", "count": 2 },
+      { "code": "01125" },
+      { "code": "01126" },
+      { "code": "01127" }
+    ]
+  }
+}
