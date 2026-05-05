@@ -10,7 +10,7 @@
   "componentSet": {
     "stacks": [
       {
-        "label": "Villain Stages",
+        "label": "Villain",
         "faceUp": true,
         "deck": {
           "cards": [
@@ -22,37 +22,14 @@
         "row": 0
       },
       {
-        "label": "Main Scheme",
-        "faceUp": true,
-        "deck": {
-          "cards": [
-            { "code": "01097a" }
-          ]
-        },
-        "row": 0
-      },
-      {
         "label": "Encounter Deck",
         "faceUp": false,
         "deck": {
-          "cardSets": ["rhino-villain", "standard-encounter"],
+          "cardSets": ["rhino-villain", "standard-encounter", "bomb-scare"],
           "shuffle": true
         },
         "row": 0
       }
-    ],
-    "tokens": [
-      { "ref": "threat", "label": "Threat Tokens", "row": 1 },
-      { "ref": "acceleration", "label": "Acceleration Tokens", "row": 1 },
-      { "ref": "damage", "label": "Damage Tokens", "row": 1 },
-      { "ref": "all-purpose", "label": "All-Purpose Tokens", "row": 1 }
-    ],
-    "counters": [
-      { "ref": "first-player", "row": 1 }
-    ],
-    "zones": [
-      { "label": "Encounter Discard", "width": 100, "height": 140, "row": 0 },
-      { "label": "Villain Play Area", "width": 250, "height": 200, "row": 2 }
     ]
   }
 }
