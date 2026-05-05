@@ -1,0 +1,61 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-protection",
+  "name": "Marvel Champions: Protection",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01075": {
+      "type": "player",
+      "face": "01075.jpg",
+      "typeCode": "ally"
+    },
+    "01076": {
+      "type": "player",
+      "face": "01076.jpg",
+      "typeCode": "ally"
+    },
+    "01077": {
+      "type": "player",
+      "face": "01077.jpg",
+      "typeCode": "event"
+    },
+    "01078": {
+      "type": "player",
+      "face": "01078.jpg",
+      "typeCode": "event"
+    },
+    "01079": {
+      "type": "player",
+      "face": "01079.jpg",
+      "typeCode": "resource"
+    },
+    "01080": {
+      "type": "player",
+      "face": "01080.jpg",
+      "typeCode": "support"
+    },
+    "01081": {
+      "type": "player",
+      "face": "01081.jpg",
+      "typeCode": "upgrade"
+    },
+    "01082": {
+      "type": "player",
+      "face": "01082.jpg",
+      "typeCode": "upgrade"
+    }
+  },
+  "cardSets": {
+    "protection-basics": [
+      { "code": "01075" },
+      { "code": "01076" },
+      { "code": "01077", "count": 3 },
+      { "code": "01078", "count": 3 },
+      { "code": "01079", "count": 2 },
+      { "code": "01080", "count": 3 },
+      { "code": "01081", "count": 3 },
+      { "code": "01082", "count": 3 }
+    ]
+  }
+}
