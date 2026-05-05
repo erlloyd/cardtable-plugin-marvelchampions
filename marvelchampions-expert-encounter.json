@@ -1,0 +1,42 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-expert-encounter",
+  "name": "Marvel Champions: Expert Encounter Set",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+
+  "cards": {
+    "01191": {
+      "type": "encounter",
+      "face": "01191.jpg",
+      "setCode": "expert",
+      "typeCode": "treachery"
+    },
+    "01192": {
+      "type": "encounter",
+      "face": "01192.jpg",
+      "setCode": "expert",
+      "typeCode": "treachery"
+    },
+    "01193": {
+      "type": "encounter",
+      "face": "01193.jpg",
+      "setCode": "expert",
+      "typeCode": "treachery"
+    }
+  },
+
+  "cardSets": {
+    "expert-encounter": [
+      {
+        "code": "01191"
+      },
+      {
+        "code": "01192"
+      },
+      {
+        "code": "01193"
+      }
+    ]
+  }
+}
