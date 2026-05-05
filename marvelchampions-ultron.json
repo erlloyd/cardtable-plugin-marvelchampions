@@ -1,0 +1,174 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-ultron",
+  "name": "Marvel Champions: Ultron",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01134": {
+      "type": "villain",
+      "face": "01134.jpg",
+      "setCode": "ultron",
+      "typeCode": "villain"
+    },
+    "01135": {
+      "type": "villain",
+      "face": "01135.jpg",
+      "setCode": "ultron",
+      "typeCode": "villain"
+    },
+    "01136": {
+      "type": "villain",
+      "face": "01136.jpg",
+      "setCode": "ultron",
+      "typeCode": "villain"
+    },
+    "01137": {
+      "type": "main_scheme",
+      "face": "01137.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01137a"
+    },
+    "01137a": {
+      "type": "main_scheme",
+      "face": "01137A.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01137"
+    },
+    "01138": {
+      "type": "main_scheme",
+      "face": "01138.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01138a"
+    },
+    "01138a": {
+      "type": "main_scheme",
+      "face": "01138A.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01138"
+    },
+    "01139": {
+      "type": "main_scheme",
+      "face": "01139.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01139a"
+    },
+    "01139a": {
+      "type": "main_scheme",
+      "face": "01139A.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01139"
+    },
+    "01140": {
+      "type": "encounter",
+      "face": "01140.jpg",
+      "setCode": "ultron",
+      "typeCode": "environment"
+    },
+    "01141": {
+      "type": "encounter",
+      "face": "01141.jpg",
+      "setCode": "ultron",
+      "typeCode": "attachment"
+    },
+    "01142": {
+      "type": "encounter",
+      "face": "01142.jpg",
+      "setCode": "ultron",
+      "typeCode": "attachment"
+    },
+    "01143": {
+      "type": "encounter",
+      "face": "01143.jpg",
+      "setCode": "ultron",
+      "typeCode": "minion"
+    },
+    "01144": {
+      "type": "encounter",
+      "face": "01144.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01144a": {
+      "type": "encounter",
+      "face": "01144A.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01144b": {
+      "type": "encounter",
+      "face": "01144B.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01144c": {
+      "type": "encounter",
+      "face": "01144C.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01145": {
+      "type": "encounter",
+      "face": "01145.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01146": {
+      "type": "encounter",
+      "face": "01146.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01147": {
+      "type": "encounter",
+      "face": "01147.jpg",
+      "setCode": "ultron",
+      "typeCode": "treachery"
+    },
+    "01148": {
+      "type": "encounter",
+      "face": "01148.jpg",
+      "setCode": "ultron",
+      "typeCode": "side_scheme"
+    },
+    "01149": {
+      "type": "encounter",
+      "face": "01149.jpg",
+      "setCode": "ultron",
+      "typeCode": "side_scheme"
+    },
+    "01150": {
+      "type": "encounter",
+      "face": "01150.jpg",
+      "setCode": "ultron",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "ultron-villain": [
+      { "code": "01134" },
+      { "code": "01135" },
+      { "code": "01136" },
+      { "code": "01137a" },
+      { "code": "01138a" },
+      { "code": "01139a" },
+      { "code": "01140" },
+      { "code": "01141" },
+      { "code": "01142", "count": 2 },
+      { "code": "01143", "count": 3 },
+      { "code": "01144", "count": 3 },
+      { "code": "01145", "count": 2 },
+      { "code": "01146", "count": 2 },
+      { "code": "01147", "count": 2 },
+      { "code": "01148" },
+      { "code": "01149" },
+      { "code": "01150" }
+    ]
+  }
+}
