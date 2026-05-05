@@ -1,0 +1,55 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-masters-of-evil",
+  "name": "Marvel Champions: Masters of Evil (Modular Encounter)",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01128": {
+      "type": "encounter",
+      "face": "01128.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "side_scheme"
+    },
+    "01129": {
+      "type": "encounter",
+      "face": "01129.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01130": {
+      "type": "encounter",
+      "face": "01130.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01131": {
+      "type": "encounter",
+      "face": "01131.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01132": {
+      "type": "encounter",
+      "face": "01132.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "minion"
+    },
+    "01133": {
+      "type": "encounter",
+      "face": "01133.jpg",
+      "setCode": "masters_of_evil",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "masters-of-evil": [
+      { "code": "01128" },
+      { "code": "01129" },
+      { "code": "01130" },
+      { "code": "01131" },
+      { "code": "01132" },
+      { "code": "01133", "count": 2 }
+    ]
+  }
+}
