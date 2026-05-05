@@ -1,0 +1,61 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-justice",
+  "name": "Marvel Champions: Justice",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01058": {
+      "type": "player",
+      "face": "01058.jpg",
+      "typeCode": "ally"
+    },
+    "01059": {
+      "type": "player",
+      "face": "01059.jpg",
+      "typeCode": "ally"
+    },
+    "01060": {
+      "type": "player",
+      "face": "01060.jpg",
+      "typeCode": "event"
+    },
+    "01061": {
+      "type": "player",
+      "face": "01061.jpg",
+      "typeCode": "event"
+    },
+    "01062": {
+      "type": "player",
+      "face": "01062.jpg",
+      "typeCode": "resource"
+    },
+    "01063": {
+      "type": "player",
+      "face": "01063.jpg",
+      "typeCode": "support"
+    },
+    "01064": {
+      "type": "player",
+      "face": "01064.jpg",
+      "typeCode": "support"
+    },
+    "01065": {
+      "type": "player",
+      "face": "01065.jpg",
+      "typeCode": "upgrade"
+    }
+  },
+  "cardSets": {
+    "justice-basics": [
+      { "code": "01058" },
+      { "code": "01059" },
+      { "code": "01060", "count": 3 },
+      { "code": "01061", "count": 3 },
+      { "code": "01062", "count": 2 },
+      { "code": "01063", "count": 3 },
+      { "code": "01064", "count": 3 },
+      { "code": "01065", "count": 3 }
+    ]
+  }
+}
