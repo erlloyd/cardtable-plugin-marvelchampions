@@ -36,6 +36,29 @@ cp -rf source dest          # NOT: cp -r source dest
 - `apt-get` - use `-y` flag
 - `brew` - use `HOMEBREW_NO_AUTO_UPDATE=1` env var
 
+## Project workflow conventions
+
+### bd: always use the `--actor` flag, never `BEADS_ACTOR=` env prefix
+
+When attributing bd commands to a specific actor (e.g. `agent-heroes`, `eric-main`), use the `--actor <name>` global flag — not the `BEADS_ACTOR=<name> bd ...` env-prefix form.
+
+```bash
+# Good
+bd update mc-1u7 --claim --actor agent-heroes
+bd update mc-1u7 --status closed --actor agent-heroes --notes "summary"
+
+# Bad — silently falls through to default actor in this project's sandbox
+BEADS_ACTOR=agent-heroes bd update mc-1u7 --claim
+```
+
+Reason: spawned agents in this project's sandbox can't run env-prefixed commands; they get permission-denied without a prompt and silently use the default actor (git user.name), weakening the audit trail.
+
+Also note: `bd close <id>` is not in this project's allowlist. Use `bd update <id> --status closed --notes "<reason>" --actor <name>` instead.
+
+### Plugin file validator
+
+Run `node scripts/validate-plugin.mjs` (no args = validates all `marvelchampions-*.json` in repo root, or pass file paths to validate specific ones) after writing or modifying any asset pack or scenario file. The validator checks face-filename conventions, cardType resolution against `marvelchampions-base.json`, cardSet card existence, and scenario pack/cardSet/card references. Exit 0 = clean, exit 1 = errors.
+
 <!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:ca08a54f -->
 ## Beads Issue Tracker
 
