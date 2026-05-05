@@ -1,0 +1,126 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-rhino",
+  "name": "Marvel Champions: Rhino",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01094": {
+      "type": "villain",
+      "face": "01094.jpg",
+      "setCode": "rhino",
+      "typeCode": "villain"
+    },
+    "01095": {
+      "type": "villain",
+      "face": "01095.jpg",
+      "setCode": "rhino",
+      "typeCode": "villain"
+    },
+    "01096": {
+      "type": "villain",
+      "face": "01096.jpg",
+      "setCode": "rhino",
+      "typeCode": "villain"
+    },
+    "01097": {
+      "type": "main_scheme",
+      "face": "01097.jpg",
+      "setCode": "rhino",
+      "typeCode": "main_scheme",
+      "back_code": "01097a"
+    },
+    "01097a": {
+      "type": "main_scheme",
+      "face": "01097A.jpg",
+      "setCode": "rhino",
+      "typeCode": "main_scheme",
+      "back_code": "01097"
+    },
+    "01098": {
+      "type": "encounter",
+      "face": "01098.jpg",
+      "setCode": "rhino",
+      "typeCode": "attachment"
+    },
+    "01099": {
+      "type": "encounter",
+      "face": "01099.jpg",
+      "setCode": "rhino",
+      "typeCode": "attachment"
+    },
+    "01100": {
+      "type": "encounter",
+      "face": "01100.jpg",
+      "setCode": "rhino",
+      "typeCode": "attachment"
+    },
+    "01101": {
+      "type": "encounter",
+      "face": "01101.jpg",
+      "setCode": "rhino",
+      "typeCode": "minion"
+    },
+    "01102": {
+      "type": "encounter",
+      "face": "01102.jpg",
+      "setCode": "rhino",
+      "typeCode": "minion"
+    },
+    "01103": {
+      "type": "encounter",
+      "face": "01103.jpg",
+      "setCode": "rhino",
+      "typeCode": "minion"
+    },
+    "01104": {
+      "type": "encounter",
+      "face": "01104.jpg",
+      "setCode": "rhino",
+      "typeCode": "treachery"
+    },
+    "01105": {
+      "type": "encounter",
+      "face": "01105.jpg",
+      "setCode": "rhino",
+      "typeCode": "treachery"
+    },
+    "01106": {
+      "type": "encounter",
+      "face": "01106.jpg",
+      "setCode": "rhino",
+      "typeCode": "treachery"
+    },
+    "01107": {
+      "type": "encounter",
+      "face": "01107.jpg",
+      "setCode": "rhino",
+      "typeCode": "side_scheme"
+    },
+    "01108": {
+      "type": "encounter",
+      "face": "01108.jpg",
+      "setCode": "rhino",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "rhino-villain": [
+      { "code": "01094" },
+      { "code": "01095" },
+      { "code": "01096" },
+      { "code": "01097a" },
+      { "code": "01098" },
+      { "code": "01099" },
+      { "code": "01100" },
+      { "code": "01101" },
+      { "code": "01102" },
+      { "code": "01103" },
+      { "code": "01104", "count": 2 },
+      { "code": "01105", "count": 2 },
+      { "code": "01106", "count": 2 },
+      { "code": "01107" },
+      { "code": "01108" }
+    ]
+  }
+}
