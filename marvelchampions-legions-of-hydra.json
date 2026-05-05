@@ -1,0 +1,34 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-legions-of-hydra",
+  "name": "Marvel Champions: Legions of Hydra (Modular Encounter)",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01180": {
+      "type": "encounter",
+      "face": "01180.jpg",
+      "setCode": "legions_of_hydra",
+      "typeCode": "side_scheme"
+    },
+    "01181": {
+      "type": "encounter",
+      "face": "01181.jpg",
+      "setCode": "legions_of_hydra",
+      "typeCode": "minion"
+    },
+    "01182": {
+      "type": "encounter",
+      "face": "01182.jpg",
+      "setCode": "legions_of_hydra",
+      "typeCode": "minion"
+    }
+  },
+  "cardSets": {
+    "legions-of-hydra": [
+      { "code": "01180", "count": 2 },
+      { "code": "01181" },
+      { "code": "01182", "count": 3 }
+    ]
+  }
+}
