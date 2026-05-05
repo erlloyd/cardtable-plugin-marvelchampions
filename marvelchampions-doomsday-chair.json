@@ -1,0 +1,34 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-doomsday-chair",
+  "name": "Marvel Champions: The Doomsday Chair (Modular Encounter)",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01183": {
+      "type": "encounter",
+      "face": "01183.jpg",
+      "setCode": "the_doomsday_chair",
+      "typeCode": "side_scheme"
+    },
+    "01184": {
+      "type": "encounter",
+      "face": "01184.jpg",
+      "setCode": "the_doomsday_chair",
+      "typeCode": "minion"
+    },
+    "01185": {
+      "type": "encounter",
+      "face": "01185.jpg",
+      "setCode": "the_doomsday_chair",
+      "typeCode": "attachment"
+    }
+  },
+  "cardSets": {
+    "doomsday-chair": [
+      { "code": "01183", "count": 2 },
+      { "code": "01184" },
+      { "code": "01185", "count": 3 }
+    ]
+  }
+}
