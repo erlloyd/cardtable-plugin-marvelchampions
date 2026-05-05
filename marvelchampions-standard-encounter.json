@@ -1,0 +1,60 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-standard-encounter",
+  "name": "Marvel Champions: Standard Encounter Set",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+
+  "cards": {
+    "01186": {
+      "type": "encounter",
+      "face": "01186.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
+    },
+    "01187": {
+      "type": "encounter",
+      "face": "01187.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
+    },
+    "01188": {
+      "type": "encounter",
+      "face": "01188.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
+    },
+    "01189": {
+      "type": "encounter",
+      "face": "01189.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
+    },
+    "01190": {
+      "type": "encounter",
+      "face": "01190.jpg",
+      "setCode": "standard",
+      "typeCode": "treachery"
+    }
+  },
+
+  "cardSets": {
+    "standard-encounter": [
+      {
+        "code": "01186"
+      },
+      {
+        "code": "01187"
+      },
+      {
+        "code": "01188"
+      },
+      {
+        "code": "01189"
+      },
+      {
+        "code": "01190"
+      }
+    ]
+  }
+}
