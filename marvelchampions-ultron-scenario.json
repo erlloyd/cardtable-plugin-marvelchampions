@@ -1,0 +1,65 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-ultron",
+  "name": "Marvel Champions: Ultron",
+  "description": "Stop the genocidal AI before he eradicates humanity!",
+  "version": "1.0.0",
+
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-ultron",
+    "marvelchampions-standard-encounter",
+    "marvelchampions-under-attack",
+    "marvelchampions-legions-of-hydra",
+    "marvelchampions-doomsday-chair"
+  ],
+
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain Stages",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            { "code": "01134" },
+            { "code": "01135" },
+            { "code": "01136" }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            { "code": "01137a" }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": ["ultron-villain", "standard-encounter", "under-attack", "legions-of-hydra", "doomsday-chair"],
+          "shuffle": true
+        },
+        "row": 0
+      }
+    ],
+    "tokens": [
+      { "ref": "threat", "label": "Threat Tokens", "row": 1 },
+      { "ref": "acceleration", "label": "Acceleration Tokens", "row": 1 },
+      { "ref": "damage", "label": "Damage Tokens", "row": 1 },
+      { "ref": "all-purpose", "label": "All-Purpose Tokens", "row": 1 }
+    ],
+    "counters": [
+      { "ref": "first-player", "row": 1 }
+    ],
+    "zones": [
+      { "label": "Encounter Discard", "width": 100, "height": 140, "row": 0 },
+      { "label": "Villain Play Area", "width": 250, "height": 200, "row": 2 }
+    ]
+  }
+}
