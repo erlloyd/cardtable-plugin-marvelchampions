@@ -1,0 +1,41 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-under-attack",
+  "name": "Marvel Champions: Under Attack (Modular Encounter)",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01151": {
+      "type": "encounter",
+      "face": "01151.jpg",
+      "setCode": "under_attack",
+      "typeCode": "side_scheme"
+    },
+    "01152": {
+      "type": "encounter",
+      "face": "01152.jpg",
+      "setCode": "under_attack",
+      "typeCode": "attachment"
+    },
+    "01153": {
+      "type": "encounter",
+      "face": "01153.jpg",
+      "setCode": "under_attack",
+      "typeCode": "attachment"
+    },
+    "01154": {
+      "type": "encounter",
+      "face": "01154.jpg",
+      "setCode": "under_attack",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "under-attack": [
+      { "code": "01151" },
+      { "code": "01152" },
+      { "code": "01153" },
+      { "code": "01154", "count": 2 }
+    ]
+  }
+}
