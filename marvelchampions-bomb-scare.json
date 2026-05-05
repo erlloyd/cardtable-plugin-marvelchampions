@@ -4,39 +4,38 @@
   "name": "Marvel Champions: Bomb Scare (Modular Encounter)",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
-
-  "cardTypes": {
-    "encounter": {
-      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
-      "size": "standard"
-    }
-  },
-
   "cards": {
     "01109": {
       "type": "encounter",
-      "face": "01026.jpg"
+      "face": "01109.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "side_scheme"
     },
     "01110": {
       "type": "encounter",
-      "face": "01027.jpg"
+      "face": "01110.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "minion"
     },
     "01111": {
       "type": "encounter",
-      "face": "01028.jpg"
+      "face": "01111.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "treachery"
     },
     "01112": {
       "type": "encounter",
-      "face": "01029.jpg"
+      "face": "01112.jpg",
+      "setCode": "bomb_scare",
+      "typeCode": "treachery"
     }
   },
-
   "cardSets": {
     "bomb-scare": [
       { "code": "01109" },
-      { "code": "01110" },
-      { "code": "01111", "count": 2 },
-      { "code": "01112" }
+      { "code": "01110", "count": 2 },
+      { "code": "01111" },
+      { "code": "01112", "count": 2 }
     ]
   }
 }
