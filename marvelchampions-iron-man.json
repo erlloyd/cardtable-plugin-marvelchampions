@@ -1,0 +1,136 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-iron-man",
+  "name": "Marvel Champions: Iron Man",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "01029a": {
+      "type": "hero",
+      "face": "01029A.jpg",
+      "setCode": "iron_man",
+      "typeCode": "hero",
+      "back_code": "01029b"
+    },
+    "01029b": {
+      "type": "alter_ego",
+      "face": "01029B.jpg",
+      "setCode": "iron_man",
+      "typeCode": "alter_ego",
+      "back_code": "01029a"
+    },
+    "01030": {
+      "type": "player",
+      "face": "01030.jpg",
+      "setCode": "iron_man",
+      "typeCode": "ally"
+    },
+    "01031": {
+      "type": "player",
+      "face": "01031.jpg",
+      "setCode": "iron_man",
+      "typeCode": "event"
+    },
+    "01032": {
+      "type": "player",
+      "face": "01032.jpg",
+      "setCode": "iron_man",
+      "typeCode": "event"
+    },
+    "01033": {
+      "type": "player",
+      "face": "01033.jpg",
+      "setCode": "iron_man",
+      "typeCode": "support"
+    },
+    "01034": {
+      "type": "player",
+      "face": "01034.jpg",
+      "setCode": "iron_man",
+      "typeCode": "support"
+    },
+    "01035": {
+      "type": "player",
+      "face": "01035.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01036": {
+      "type": "player",
+      "face": "01036.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01037": {
+      "type": "player",
+      "face": "01037.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01038": {
+      "type": "player",
+      "face": "01038.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01039": {
+      "type": "player",
+      "face": "01039.jpg",
+      "setCode": "iron_man",
+      "typeCode": "upgrade"
+    },
+    "01170": {
+      "type": "encounter",
+      "face": "01170.jpg",
+      "setCode": "iron_man",
+      "typeCode": "obligation"
+    },
+    "01171": {
+      "type": "encounter",
+      "face": "01171.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "side_scheme"
+    },
+    "01172": {
+      "type": "encounter",
+      "face": "01172.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "minion"
+    },
+    "01173": {
+      "type": "encounter",
+      "face": "01173.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "treachery"
+    },
+    "01174": {
+      "type": "encounter",
+      "face": "01174.jpg",
+      "setCode": "iron_man_nemesis",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "iron-man-deck": [
+      { "code": "01029a" },
+      { "code": "01029b" },
+      { "code": "01030" },
+      { "code": "01031", "count": 3 },
+      { "code": "01032", "count": 2 },
+      { "code": "01033" },
+      { "code": "01034" },
+      { "code": "01035" },
+      { "code": "01036" },
+      { "code": "01037" },
+      { "code": "01038", "count": 2 },
+      { "code": "01039", "count": 2 }
+    ],
+    "iron-man-nemesis": [
+      { "code": "01170" },
+      { "code": "01171" },
+      { "code": "01172" },
+      { "code": "01173", "count": 2 },
+      { "code": "01174" }
+    ]
+  }
+}
