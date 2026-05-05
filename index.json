@@ -1,14 +1,35 @@
 {
   "id": "marvelchampions",
   "name": "Marvel Champions",
-  "version": "1.0.0",
-  "description": "Marvel Champions: The Card Game - Core Set scenarios and encounter sets",
+  "version": "2.0.0",
+  "description": "Marvel Champions: The Card Game — Core Set scenarios, heroes, aspects, and modular encounter sets",
   "assets": [
-    "marvelchampions-core.json",
-    "marvelchampions-bomb-scare.json"
+    "marvelchampions-base.json",
+    "marvelchampions-spider-man.json",
+    "marvelchampions-captain-marvel.json",
+    "marvelchampions-she-hulk.json",
+    "marvelchampions-iron-man.json",
+    "marvelchampions-black-panther.json",
+    "marvelchampions-aggression.json",
+    "marvelchampions-justice.json",
+    "marvelchampions-leadership.json",
+    "marvelchampions-protection.json",
+    "marvelchampions-basic.json",
+    "marvelchampions-rhino.json",
+    "marvelchampions-klaw.json",
+    "marvelchampions-ultron.json",
+    "marvelchampions-bomb-scare.json",
+    "marvelchampions-masters-of-evil.json",
+    "marvelchampions-under-attack.json",
+    "marvelchampions-legions-of-hydra.json",
+    "marvelchampions-doomsday-chair.json",
+    "marvelchampions-standard-encounter.json",
+    "marvelchampions-expert-encounter.json"
   ],
   "scenarios": [
-    "marvelchampions-rhino-scenario.json"
+    "marvelchampions-rhino-scenario.json",
+    "marvelchampions-klaw-scenario.json",
+    "marvelchampions-ultron-scenario.json"
   ],
   "componentSets": [
     {
