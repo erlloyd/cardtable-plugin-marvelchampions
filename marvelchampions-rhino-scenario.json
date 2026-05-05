@@ -5,7 +5,7 @@
   "description": "Face off against the unstoppable Rhino in this introductory scenario.",
   "version": "1.0.0",
 
-  "packs": ["marvelchampions-core", "marvelchampions-bomb-scare"],
+  "packs": ["marvelchampions-base", "marvelchampions-rhino", "marvelchampions-standard-encounter", "marvelchampions-bomb-scare"],
 
   "componentSet": {
     "stacks": [
