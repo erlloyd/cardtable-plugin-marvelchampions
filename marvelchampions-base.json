@@ -14,15 +14,15 @@
       "size": "standard"
     },
     "villain": {
-      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
+      "back": "https://card-table.app/images/standard/villain_card_back_marvelchampions.png",
       "size": "standard"
     },
     "main_scheme": {
-      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
+      "back": "https://card-table.app/images/standard/encounter_card_back_marvelchampions.png",
       "size": "standard"
     },
     "encounter": {
-      "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
+      "back": "https://card-table.app/images/standard/encounter_card_back_marvelchampions.png",
       "size": "standard"
     },
     "player": {
