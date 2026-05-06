@@ -23,19 +23,19 @@
       "setCode": "rhino",
       "typeCode": "villain"
     },
-    "01097": {
-      "type": "main_scheme",
-      "face": "01097.jpg",
-      "setCode": "rhino",
-      "typeCode": "main_scheme",
-      "back_code": "01097a"
-    },
     "01097a": {
       "type": "main_scheme",
       "face": "01097A.jpg",
       "setCode": "rhino",
       "typeCode": "main_scheme",
-      "back_code": "01097"
+      "back_code": "01097b"
+    },
+    "01097b": {
+      "type": "main_scheme",
+      "face": "01097B.jpg",
+      "setCode": "rhino",
+      "typeCode": "main_scheme",
+      "back_code": "01097a"
     },
     "01098": {
       "type": "encounter",
