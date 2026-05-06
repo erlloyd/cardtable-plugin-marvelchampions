@@ -23,9 +23,9 @@
       "setCode": "ultron",
       "typeCode": "villain"
     },
-    "01137": {
+    "01137b": {
       "type": "main_scheme",
-      "face": "01137.jpg",
+      "face": "01137B.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
       "back_code": "01137a"
@@ -35,11 +35,11 @@
       "face": "01137A.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
-      "back_code": "01137"
+      "back_code": "01137b"
     },
-    "01138": {
+    "01138b": {
       "type": "main_scheme",
-      "face": "01138.jpg",
+      "face": "01138B.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
       "back_code": "01138a"
@@ -49,11 +49,11 @@
       "face": "01138A.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
-      "back_code": "01138"
+      "back_code": "01138b"
     },
-    "01139": {
+    "01139b": {
       "type": "main_scheme",
-      "face": "01139.jpg",
+      "face": "01139B.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
       "back_code": "01139a"
@@ -63,7 +63,7 @@
       "face": "01139A.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
-      "back_code": "01139"
+      "back_code": "01139b"
     },
     "01140": {
       "type": "encounter",
@@ -88,12 +88,6 @@
       "face": "01143.jpg",
       "setCode": "ultron",
       "typeCode": "minion"
-    },
-    "01144": {
-      "type": "encounter",
-      "face": "01144.jpg",
-      "setCode": "ultron",
-      "typeCode": "treachery"
     },
     "01144a": {
       "type": "encounter",
@@ -151,18 +145,14 @@
     }
   },
   "cardSets": {
-    "ultron-villain": [
-      { "code": "01134" },
-      { "code": "01135" },
-      { "code": "01136" },
-      { "code": "01137a" },
-      { "code": "01138a" },
-      { "code": "01139a" },
+    "ultron-encounter": [
       { "code": "01140" },
       { "code": "01141" },
       { "code": "01142", "count": 2 },
       { "code": "01143", "count": 3 },
-      { "code": "01144", "count": 3 },
+      { "code": "01144a" },
+      { "code": "01144b" },
+      { "code": "01144c" },
       { "code": "01145", "count": 2 },
       { "code": "01146", "count": 2 },
       { "code": "01147", "count": 2 },

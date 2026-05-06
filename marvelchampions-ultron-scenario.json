@@ -29,11 +29,16 @@
         "row": 0
       },
       {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": { "cards": [{ "code": "01137a" }] },
+        "row": 0
+      },
+      {
         "label": "Encounter Deck",
         "faceUp": false,
         "deck": {
-          "cardSets": ["ultron-villain", "standard-encounter", "under-attack", "legions-of-hydra", "doomsday-chair"],
-          "shuffle": true
+          "cardSets": ["ultron-encounter"]
         },
         "row": 0
       }
