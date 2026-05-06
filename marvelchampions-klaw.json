@@ -23,9 +23,9 @@
       "setCode": "klaw",
       "typeCode": "villain"
     },
-    "01116": {
+    "01116b": {
       "type": "main_scheme",
-      "face": "01116.jpg",
+      "face": "01116B.jpg",
       "setCode": "klaw",
       "typeCode": "main_scheme",
       "back_code": "01116a"
@@ -35,11 +35,11 @@
       "face": "01116A.jpg",
       "setCode": "klaw",
       "typeCode": "main_scheme",
-      "back_code": "01116"
+      "back_code": "01116b"
     },
-    "01117": {
+    "01117b": {
       "type": "main_scheme",
-      "face": "01117.jpg",
+      "face": "01117B.jpg",
       "setCode": "klaw",
       "typeCode": "main_scheme",
       "back_code": "01117a"
@@ -49,7 +49,7 @@
       "face": "01117A.jpg",
       "setCode": "klaw",
       "typeCode": "main_scheme",
-      "back_code": "01117"
+      "back_code": "01117b"
     },
     "01118": {
       "type": "encounter",
@@ -113,12 +113,7 @@
     }
   },
   "cardSets": {
-    "klaw-villain": [
-      { "code": "01113" },
-      { "code": "01114" },
-      { "code": "01115" },
-      { "code": "01116a" },
-      { "code": "01117a" },
+    "klaw-encounter": [
       { "code": "01118" },
       { "code": "01119" },
       { "code": "01120", "count": 3 },
