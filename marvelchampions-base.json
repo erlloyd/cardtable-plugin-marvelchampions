@@ -19,8 +19,7 @@
     },
     "main_scheme": {
       "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
-      "size": "standard",
-      "orientation": "landscape"
+      "size": "standard"
     },
     "encounter": {
       "back": "https://card-table.app/images/standard/card_back_marvelchampions.png",
@@ -31,6 +30,10 @@
       "size": "standard"
     }
   },
+  "orientationRules": [
+    { "match": { "typeCode": "side_scheme" }, "orientation": "landscape" },
+    { "match": { "type": "main_scheme" }, "orientation": "landscape" }
+  ],
   "tokens": {
     "threat": {
       "image": "https://card-table.app/images/table/first_player_token_marvelchampions.png",
