@@ -35,8 +35,7 @@
         "label": "Encounter Deck",
         "faceUp": false,
         "deck": {
-          "cardSets": ["rhino-villain", "standard-encounter", "bomb-scare"],
-          "shuffle": true
+          "cardSets": ["rhino-encounter"]
         },
         "row": 0
       }

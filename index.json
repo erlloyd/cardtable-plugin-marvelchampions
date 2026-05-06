@@ -62,8 +62,7 @@
           "label": "Encounter Deck",
           "faceUp": false,
           "deck": {
-            "cardSets": ["rhino-villain", "standard-encounter"],
-            "shuffle": true
+            "cardSets": ["rhino-encounter"]
           },
           "row": 0
         }

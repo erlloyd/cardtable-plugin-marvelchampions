@@ -105,16 +105,16 @@
     }
   },
   "cardSets": {
-    "rhino-villain": [
+    "rhino-encounter": [
       { "code": "01098" },
-      { "code": "01099" },
+      { "code": "01099", "count": 2 },
       { "code": "01100" },
-      { "code": "01101" },
+      { "code": "01101", "count": 2 },
       { "code": "01102" },
       { "code": "01103" },
       { "code": "01104", "count": 2 },
       { "code": "01105", "count": 2 },
-      { "code": "01106", "count": 2 },
+      { "code": "01106", "count": 3 },
       { "code": "01107" },
       { "code": "01108" }
     ]
