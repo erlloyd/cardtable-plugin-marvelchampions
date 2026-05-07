@@ -47,5 +47,120 @@
         }
       }
     }
+  ],
+  "loadables": [
+    {
+      "type": "scenario",
+      "label": "Scenario",
+      "mode": "replace",
+      "source": {
+        "kind": "static",
+        "items": [
+          {
+            "id": "marvelchampions-rhino",
+            "label": "The Rise of Red Skull: Rhino",
+            "data": { "file": "marvelchampions-rhino-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-klaw",
+            "label": "Marvel Champions: Klaw",
+            "data": { "file": "marvelchampions-klaw-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-ultron",
+            "label": "Marvel Champions: Ultron",
+            "data": { "file": "marvelchampions-ultron-scenario.json" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "encounter-set",
+      "label": "Encounter Set",
+      "mode": "additive",
+      "source": {
+        "kind": "static",
+        "items": [
+          {
+            "id": "bomb-scare",
+            "label": "Bomb Scare",
+            "data": { "pack": "marvelchampions-bomb-scare", "cardSet": "bomb-scare" }
+          },
+          {
+            "id": "masters-of-evil",
+            "label": "Masters of Evil",
+            "data": { "pack": "marvelchampions-masters-of-evil", "cardSet": "masters-of-evil" }
+          },
+          {
+            "id": "under-attack",
+            "label": "Under Attack",
+            "data": { "pack": "marvelchampions-under-attack", "cardSet": "under-attack" }
+          },
+          {
+            "id": "legions-of-hydra",
+            "label": "Legions of Hydra",
+            "data": { "pack": "marvelchampions-legions-of-hydra", "cardSet": "legions-of-hydra" }
+          },
+          {
+            "id": "doomsday-chair",
+            "label": "Doomsday Chair",
+            "data": { "pack": "marvelchampions-doomsday-chair", "cardSet": "doomsday-chair" }
+          },
+          {
+            "id": "standard-encounter",
+            "label": "Standard Encounter",
+            "data": { "pack": "marvelchampions-standard-encounter", "cardSet": "standard-encounter" }
+          },
+          {
+            "id": "expert-encounter",
+            "label": "Expert Encounter",
+            "data": { "pack": "marvelchampions-expert-encounter", "cardSet": "expert-encounter" }
+          },
+          {
+            "id": "rhino-encounter",
+            "label": "Rhino Encounter",
+            "data": { "pack": "marvelchampions-rhino", "cardSet": "rhino-encounter" }
+          },
+          {
+            "id": "klaw-encounter",
+            "label": "Klaw Encounter",
+            "data": { "pack": "marvelchampions-klaw", "cardSet": "klaw-encounter" }
+          },
+          {
+            "id": "ultron-encounter",
+            "label": "Ultron Encounter",
+            "data": { "pack": "marvelchampions-ultron", "cardSet": "ultron-encounter" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "label": "Card",
+      "mode": "additive",
+      "source": {
+        "kind": "asset-pack-derived",
+        "derivation": "all-cards"
+      }
+    },
+    {
+      "type": "deck",
+      "label": "Deck",
+      "mode": "additive",
+      "source": {
+        "kind": "provider",
+        "module": "deckImport.js",
+        "config": {
+          "apiEndpoints": {
+            "public": "https://marvelcdb.com/api/public/decklist/{deckId}",
+            "private": "https://marvelcdb.com/api/public/deck/{deckId}"
+          },
+          "labels": {
+            "siteName": "MarvelCDB",
+            "inputPlaceholder": "Enter MarvelCDB deck ID"
+          }
+        }
+      }
+    }
   ]
 }
