@@ -6,6 +6,7 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01040a": {
+      "name": "Black Panther",
       "type": "hero",
       "face": "01040A.jpg",
       "setCode": "black_panther",
@@ -13,6 +14,7 @@
       "back_code": "01040b"
     },
     "01040b": {
+      "name": "T'Challa",
       "type": "alter_ego",
       "face": "01040B.jpg",
       "setCode": "black_panther",
@@ -20,102 +22,119 @@
       "back_code": "01040a"
     },
     "01041": {
+      "name": "Shuri",
       "type": "player",
       "face": "01041.jpg",
       "setCode": "black_panther",
       "typeCode": "ally"
     },
     "01042": {
+      "name": "Ancestral Knowledge",
       "type": "player",
       "face": "01042.jpg",
       "setCode": "black_panther",
       "typeCode": "event"
     },
     "01043a": {
+      "name": "Wakanda Forever!",
       "type": "player",
       "face": "01043A.jpg",
       "setCode": "black_panther",
       "typeCode": "event"
     },
     "01043b": {
+      "name": "Wakanda Forever!",
       "type": "player",
       "face": "01043B.jpg",
       "setCode": "black_panther",
       "typeCode": "event"
     },
     "01043c": {
+      "name": "Wakanda Forever!",
       "type": "player",
       "face": "01043C.jpg",
       "setCode": "black_panther",
       "typeCode": "event"
     },
     "01043d": {
+      "name": "Wakanda Forever!",
       "type": "player",
       "face": "01043D.jpg",
       "setCode": "black_panther",
       "typeCode": "event"
     },
     "01044": {
+      "name": "Vibranium",
       "type": "player",
       "face": "01044.jpg",
       "setCode": "black_panther",
       "typeCode": "resource"
     },
     "01045": {
+      "name": "The Golden City",
       "type": "player",
       "face": "01045.jpg",
       "setCode": "black_panther",
       "typeCode": "support"
     },
     "01046": {
+      "name": "Energy Daggers",
       "type": "player",
       "face": "01046.jpg",
       "setCode": "black_panther",
       "typeCode": "upgrade"
     },
     "01047": {
+      "name": "Panther Claws",
       "type": "player",
       "face": "01047.jpg",
       "setCode": "black_panther",
       "typeCode": "upgrade"
     },
     "01048": {
+      "name": "Tactical Genius",
       "type": "player",
       "face": "01048.jpg",
       "setCode": "black_panther",
       "typeCode": "upgrade"
     },
     "01049": {
+      "name": "Vibranium Suit",
       "type": "player",
       "face": "01049.jpg",
       "setCode": "black_panther",
       "typeCode": "upgrade"
     },
     "01155": {
+      "name": "Affairs of State",
       "type": "encounter",
       "face": "01155.jpg",
       "setCode": "black_panther",
       "typeCode": "obligation"
     },
     "01156": {
+      "name": "Usurp The Throne",
       "type": "encounter",
       "face": "01156.jpg",
       "setCode": "black_panther_nemesis",
       "typeCode": "side_scheme"
     },
     "01157": {
+      "name": "Killmonger",
       "type": "encounter",
       "face": "01157.jpg",
       "setCode": "black_panther_nemesis",
       "typeCode": "minion"
     },
     "01158": {
+      "name": "Heart-Shaped Herb",
       "type": "encounter",
       "face": "01158.jpg",
       "setCode": "black_panther_nemesis",
       "typeCode": "treachery"
     },
     "01159": {
+      "name": "Ritual Combat",
       "type": "encounter",
       "face": "01159.jpg",
       "setCode": "black_panther_nemesis",
@@ -124,27 +143,68 @@
   },
   "cardSets": {
     "black-panther-deck": [
-      { "code": "01040a" },
-      { "code": "01040b" },
-      { "code": "01041" },
-      { "code": "01042" },
-      { "code": "01043a" },
-      { "code": "01043b" },
-      { "code": "01043c" },
-      { "code": "01043d", "count": 2 },
-      { "code": "01044", "count": 3 },
-      { "code": "01045" },
-      { "code": "01046" },
-      { "code": "01047" },
-      { "code": "01048" },
-      { "code": "01049" }
+      {
+        "code": "01040a"
+      },
+      {
+        "code": "01040b"
+      },
+      {
+        "code": "01041"
+      },
+      {
+        "code": "01042"
+      },
+      {
+        "code": "01043a"
+      },
+      {
+        "code": "01043b"
+      },
+      {
+        "code": "01043c"
+      },
+      {
+        "code": "01043d",
+        "count": 2
+      },
+      {
+        "code": "01044",
+        "count": 3
+      },
+      {
+        "code": "01045"
+      },
+      {
+        "code": "01046"
+      },
+      {
+        "code": "01047"
+      },
+      {
+        "code": "01048"
+      },
+      {
+        "code": "01049"
+      }
     ],
     "black-panther-nemesis": [
-      { "code": "01155" },
-      { "code": "01156" },
-      { "code": "01157" },
-      { "code": "01158" },
-      { "code": "01159", "count": 2 }
+      {
+        "code": "01155"
+      },
+      {
+        "code": "01156"
+      },
+      {
+        "code": "01157"
+      },
+      {
+        "code": "01158"
+      },
+      {
+        "code": "01159",
+        "count": 2
+      }
     ]
   }
 }

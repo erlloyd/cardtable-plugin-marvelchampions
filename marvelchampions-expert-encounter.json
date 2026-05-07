@@ -4,28 +4,29 @@
   "name": "Marvel Champions: Expert Encounter Set",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
-
   "cards": {
     "01191": {
+      "name": "Exhaustion",
       "type": "encounter",
       "face": "01191.jpg",
       "setCode": "expert",
       "typeCode": "treachery"
     },
     "01192": {
+      "name": "Masterplan",
       "type": "encounter",
       "face": "01192.jpg",
       "setCode": "expert",
       "typeCode": "treachery"
     },
     "01193": {
+      "name": "Under Fire",
       "type": "encounter",
       "face": "01193.jpg",
       "setCode": "expert",
       "typeCode": "treachery"
     }
   },
-
   "cardSets": {
     "expert-encounter": [
       {

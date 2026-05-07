@@ -6,41 +6,49 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01058": {
+      "name": "Daredevil",
       "type": "player",
       "face": "01058.jpg",
       "typeCode": "ally"
     },
     "01059": {
+      "name": "Jessica Jones",
       "type": "player",
       "face": "01059.jpg",
       "typeCode": "ally"
     },
     "01060": {
+      "name": "For Justice!",
       "type": "player",
       "face": "01060.jpg",
       "typeCode": "event"
     },
     "01061": {
+      "name": "Great Responsibility",
       "type": "player",
       "face": "01061.jpg",
       "typeCode": "event"
     },
     "01062": {
+      "name": "The Power of Justice",
       "type": "player",
       "face": "01062.jpg",
       "typeCode": "resource"
     },
     "01063": {
+      "name": "Interrogation Room",
       "type": "player",
       "face": "01063.jpg",
       "typeCode": "support"
     },
     "01064": {
+      "name": "Surveillance Team",
       "type": "player",
       "face": "01064.jpg",
       "typeCode": "support"
     },
     "01065": {
+      "name": "Heroic Intuition",
       "type": "player",
       "face": "01065.jpg",
       "typeCode": "upgrade"
@@ -48,14 +56,36 @@
   },
   "cardSets": {
     "justice-basics": [
-      { "code": "01058" },
-      { "code": "01059" },
-      { "code": "01060", "count": 3 },
-      { "code": "01061", "count": 3 },
-      { "code": "01062", "count": 2 },
-      { "code": "01063", "count": 3 },
-      { "code": "01064", "count": 3 },
-      { "code": "01065", "count": 3 }
+      {
+        "code": "01058"
+      },
+      {
+        "code": "01059"
+      },
+      {
+        "code": "01060",
+        "count": 3
+      },
+      {
+        "code": "01061",
+        "count": 3
+      },
+      {
+        "code": "01062",
+        "count": 2
+      },
+      {
+        "code": "01063",
+        "count": 3
+      },
+      {
+        "code": "01064",
+        "count": 3
+      },
+      {
+        "code": "01065",
+        "count": 3
+      }
     ]
   }
 }

@@ -6,18 +6,21 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01183": {
+      "name": "The Doomsday Chair",
       "type": "encounter",
       "face": "01183.jpg",
       "setCode": "the_doomsday_chair",
       "typeCode": "side_scheme"
     },
     "01184": {
+      "name": "MODOK",
       "type": "encounter",
       "face": "01184.jpg",
       "setCode": "the_doomsday_chair",
       "typeCode": "minion"
     },
     "01185": {
+      "name": "Biomechanical Upgrades",
       "type": "encounter",
       "face": "01185.jpg",
       "setCode": "the_doomsday_chair",
@@ -26,9 +29,17 @@
   },
   "cardSets": {
     "doomsday-chair": [
-      { "code": "01183", "count": 2 },
-      { "code": "01184" },
-      { "code": "01185", "count": 3 }
+      {
+        "code": "01183",
+        "count": 2
+      },
+      {
+        "code": "01184"
+      },
+      {
+        "code": "01185",
+        "count": 3
+      }
     ]
   }
 }

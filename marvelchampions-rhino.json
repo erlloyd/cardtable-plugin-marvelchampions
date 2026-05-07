@@ -6,24 +6,28 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01094": {
+      "name": "Rhino",
       "type": "villain",
       "face": "01094.jpg",
       "setCode": "rhino",
       "typeCode": "villain"
     },
     "01095": {
+      "name": "Rhino",
       "type": "villain",
       "face": "01095.jpg",
       "setCode": "rhino",
       "typeCode": "villain"
     },
     "01096": {
+      "name": "Rhino",
       "type": "villain",
       "face": "01096.jpg",
       "setCode": "rhino",
       "typeCode": "villain"
     },
     "01097a": {
+      "name": "The Break-In!",
       "type": "main_scheme",
       "face": "01097A.jpg",
       "setCode": "rhino",
@@ -31,6 +35,7 @@
       "back_code": "01097b"
     },
     "01097b": {
+      "name": "The Break-In!",
       "type": "main_scheme",
       "face": "01097B.jpg",
       "setCode": "rhino",
@@ -38,66 +43,77 @@
       "back_code": "01097a"
     },
     "01098": {
+      "name": "Armored Rhino Suit",
       "type": "encounter",
       "face": "01098.jpg",
       "setCode": "rhino",
       "typeCode": "attachment"
     },
     "01099": {
+      "name": "Charge",
       "type": "encounter",
       "face": "01099.jpg",
       "setCode": "rhino",
       "typeCode": "attachment"
     },
     "01100": {
+      "name": "Enhanced Ivory Horn",
       "type": "encounter",
       "face": "01100.jpg",
       "setCode": "rhino",
       "typeCode": "attachment"
     },
     "01101": {
+      "name": "Hydra Mercenary",
       "type": "encounter",
       "face": "01101.jpg",
       "setCode": "rhino",
       "typeCode": "minion"
     },
     "01102": {
+      "name": "Sandman",
       "type": "encounter",
       "face": "01102.jpg",
       "setCode": "rhino",
       "typeCode": "minion"
     },
     "01103": {
+      "name": "Shocker",
       "type": "encounter",
       "face": "01103.jpg",
       "setCode": "rhino",
       "typeCode": "minion"
     },
     "01104": {
+      "name": "Hard to Keep Down",
       "type": "encounter",
       "face": "01104.jpg",
       "setCode": "rhino",
       "typeCode": "treachery"
     },
     "01105": {
+      "name": "\"I'm Tough\"",
       "type": "encounter",
       "face": "01105.jpg",
       "setCode": "rhino",
       "typeCode": "treachery"
     },
     "01106": {
+      "name": "Stampede",
       "type": "encounter",
       "face": "01106.jpg",
       "setCode": "rhino",
       "typeCode": "treachery"
     },
     "01107": {
+      "name": "Breakin' & Takin'",
       "type": "encounter",
       "face": "01107.jpg",
       "setCode": "rhino",
       "typeCode": "side_scheme"
     },
     "01108": {
+      "name": "Crowd Control",
       "type": "encounter",
       "face": "01108.jpg",
       "setCode": "rhino",
@@ -106,17 +122,44 @@
   },
   "cardSets": {
     "rhino-encounter": [
-      { "code": "01098" },
-      { "code": "01099", "count": 2 },
-      { "code": "01100" },
-      { "code": "01101", "count": 2 },
-      { "code": "01102" },
-      { "code": "01103" },
-      { "code": "01104", "count": 2 },
-      { "code": "01105", "count": 2 },
-      { "code": "01106", "count": 3 },
-      { "code": "01107" },
-      { "code": "01108" }
+      {
+        "code": "01098"
+      },
+      {
+        "code": "01099",
+        "count": 2
+      },
+      {
+        "code": "01100"
+      },
+      {
+        "code": "01101",
+        "count": 2
+      },
+      {
+        "code": "01102"
+      },
+      {
+        "code": "01103"
+      },
+      {
+        "code": "01104",
+        "count": 2
+      },
+      {
+        "code": "01105",
+        "count": 2
+      },
+      {
+        "code": "01106",
+        "count": 3
+      },
+      {
+        "code": "01107"
+      },
+      {
+        "code": "01108"
+      }
     ]
   }
 }

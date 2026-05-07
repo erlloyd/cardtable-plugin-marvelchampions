@@ -6,24 +6,28 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01134": {
+      "name": "Ultron",
       "type": "villain",
       "face": "01134.jpg",
       "setCode": "ultron",
       "typeCode": "villain"
     },
     "01135": {
+      "name": "Ultron",
       "type": "villain",
       "face": "01135.jpg",
       "setCode": "ultron",
       "typeCode": "villain"
     },
     "01136": {
+      "name": "Ultron",
       "type": "villain",
       "face": "01136.jpg",
       "setCode": "ultron",
       "typeCode": "villain"
     },
     "01137b": {
+      "name": "The Crimson Cowl",
       "type": "main_scheme",
       "face": "01137B.jpg",
       "setCode": "ultron",
@@ -31,6 +35,7 @@
       "back_code": "01137a"
     },
     "01137a": {
+      "name": "The Crimson Cowl",
       "type": "main_scheme",
       "face": "01137A.jpg",
       "setCode": "ultron",
@@ -38,6 +43,7 @@
       "back_code": "01137b"
     },
     "01138b": {
+      "name": "Assault on NORAD",
       "type": "main_scheme",
       "face": "01138B.jpg",
       "setCode": "ultron",
@@ -45,6 +51,7 @@
       "back_code": "01138a"
     },
     "01138a": {
+      "name": "Assault on NORAD",
       "type": "main_scheme",
       "face": "01138A.jpg",
       "setCode": "ultron",
@@ -52,6 +59,7 @@
       "back_code": "01138b"
     },
     "01139b": {
+      "name": "Countdown to Oblivion",
       "type": "main_scheme",
       "face": "01139B.jpg",
       "setCode": "ultron",
@@ -59,6 +67,7 @@
       "back_code": "01139a"
     },
     "01139a": {
+      "name": "Countdown to Oblivion",
       "type": "main_scheme",
       "face": "01139A.jpg",
       "setCode": "ultron",
@@ -66,78 +75,91 @@
       "back_code": "01139b"
     },
     "01140": {
+      "name": "Ultron Drones",
       "type": "encounter",
       "face": "01140.jpg",
       "setCode": "ultron",
       "typeCode": "environment"
     },
     "01141": {
+      "name": "Program Transmitter",
       "type": "encounter",
       "face": "01141.jpg",
       "setCode": "ultron",
       "typeCode": "attachment"
     },
     "01142": {
+      "name": "Upgraded Drones",
       "type": "encounter",
       "face": "01142.jpg",
       "setCode": "ultron",
       "typeCode": "attachment"
     },
     "01143": {
+      "name": "Advanced Ultron Drone",
       "type": "encounter",
       "face": "01143.jpg",
       "setCode": "ultron",
       "typeCode": "minion"
     },
     "01144a": {
+      "name": "Android Efficiency",
       "type": "encounter",
       "face": "01144A.jpg",
       "setCode": "ultron",
       "typeCode": "treachery"
     },
     "01144b": {
+      "name": "Android Efficiency",
       "type": "encounter",
       "face": "01144B.jpg",
       "setCode": "ultron",
       "typeCode": "treachery"
     },
     "01144c": {
+      "name": "Android Efficiency",
       "type": "encounter",
       "face": "01144C.jpg",
       "setCode": "ultron",
       "typeCode": "treachery"
     },
     "01145": {
+      "name": "Rage of Ultron",
       "type": "encounter",
       "face": "01145.jpg",
       "setCode": "ultron",
       "typeCode": "treachery"
     },
     "01146": {
+      "name": "Repair Sequence",
       "type": "encounter",
       "face": "01146.jpg",
       "setCode": "ultron",
       "typeCode": "treachery"
     },
     "01147": {
+      "name": "Swarm Attack",
       "type": "encounter",
       "face": "01147.jpg",
       "setCode": "ultron",
       "typeCode": "treachery"
     },
     "01148": {
+      "name": "Drone Factory",
       "type": "encounter",
       "face": "01148.jpg",
       "setCode": "ultron",
       "typeCode": "side_scheme"
     },
     "01149": {
+      "name": "Invasive AI",
       "type": "encounter",
       "face": "01149.jpg",
       "setCode": "ultron",
       "typeCode": "side_scheme"
     },
     "01150": {
+      "name": "Ultron's Imperative",
       "type": "encounter",
       "face": "01150.jpg",
       "setCode": "ultron",
@@ -146,19 +168,50 @@
   },
   "cardSets": {
     "ultron-encounter": [
-      { "code": "01140" },
-      { "code": "01141" },
-      { "code": "01142", "count": 2 },
-      { "code": "01143", "count": 3 },
-      { "code": "01144a" },
-      { "code": "01144b" },
-      { "code": "01144c" },
-      { "code": "01145", "count": 2 },
-      { "code": "01146", "count": 2 },
-      { "code": "01147", "count": 2 },
-      { "code": "01148" },
-      { "code": "01149" },
-      { "code": "01150" }
+      {
+        "code": "01140"
+      },
+      {
+        "code": "01141"
+      },
+      {
+        "code": "01142",
+        "count": 2
+      },
+      {
+        "code": "01143",
+        "count": 3
+      },
+      {
+        "code": "01144a"
+      },
+      {
+        "code": "01144b"
+      },
+      {
+        "code": "01144c"
+      },
+      {
+        "code": "01145",
+        "count": 2
+      },
+      {
+        "code": "01146",
+        "count": 2
+      },
+      {
+        "code": "01147",
+        "count": 2
+      },
+      {
+        "code": "01148"
+      },
+      {
+        "code": "01149"
+      },
+      {
+        "code": "01150"
+      }
     ]
   }
 }

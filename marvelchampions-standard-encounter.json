@@ -4,40 +4,43 @@
   "name": "Marvel Champions: Standard Encounter Set",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
-
   "cards": {
     "01186": {
+      "name": "Advance",
       "type": "encounter",
       "face": "01186.jpg",
       "setCode": "standard",
       "typeCode": "treachery"
     },
     "01187": {
+      "name": "Assault",
       "type": "encounter",
       "face": "01187.jpg",
       "setCode": "standard",
       "typeCode": "treachery"
     },
     "01188": {
+      "name": "Caught Off Guard",
       "type": "encounter",
       "face": "01188.jpg",
       "setCode": "standard",
       "typeCode": "treachery"
     },
     "01189": {
+      "name": "Gang-Up",
       "type": "encounter",
       "face": "01189.jpg",
       "setCode": "standard",
       "typeCode": "treachery"
     },
     "01190": {
+      "name": "Shadow of the Past",
       "type": "encounter",
       "face": "01190.jpg",
       "setCode": "standard",
       "typeCode": "treachery"
     }
   },
-
   "cardSets": {
     "standard-encounter": [
       {

@@ -6,6 +6,7 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01010a": {
+      "name": "Captain Marvel",
       "type": "hero",
       "face": "01010A.jpg",
       "setCode": "captain_marvel",
@@ -13,6 +14,7 @@
       "back_code": "01010b"
     },
     "01010b": {
+      "name": "Carol Danvers",
       "type": "alter_ego",
       "face": "01010B.jpg",
       "setCode": "captain_marvel",
@@ -20,78 +22,91 @@
       "back_code": "01010a"
     },
     "01011": {
+      "name": "Spider-Woman",
       "type": "player",
       "face": "01011.jpg",
       "setCode": "captain_marvel",
       "typeCode": "ally"
     },
     "01012": {
+      "name": "Crisis Interdiction",
       "type": "player",
       "face": "01012.jpg",
       "setCode": "captain_marvel",
       "typeCode": "event"
     },
     "01013": {
+      "name": "Photonic Blast",
       "type": "player",
       "face": "01013.jpg",
       "setCode": "captain_marvel",
       "typeCode": "event"
     },
     "01014": {
+      "name": "Energy Absorption",
       "type": "player",
       "face": "01014.jpg",
       "setCode": "captain_marvel",
       "typeCode": "resource"
     },
     "01015": {
+      "name": "Alpha Flight Station",
       "type": "player",
       "face": "01015.jpg",
       "setCode": "captain_marvel",
       "typeCode": "support"
     },
     "01016": {
+      "name": "Captain Marvel's Helmet",
       "type": "player",
       "face": "01016.jpg",
       "setCode": "captain_marvel",
       "typeCode": "upgrade"
     },
     "01017": {
+      "name": "Cosmic Flight",
       "type": "player",
       "face": "01017.jpg",
       "setCode": "captain_marvel",
       "typeCode": "upgrade"
     },
     "01018": {
+      "name": "Energy Channel",
       "type": "player",
       "face": "01018.jpg",
       "setCode": "captain_marvel",
       "typeCode": "upgrade"
     },
     "01175": {
+      "name": "Family Emergency",
       "type": "encounter",
       "face": "01175.jpg",
       "setCode": "captain_marvel",
       "typeCode": "obligation"
     },
     "01176": {
+      "name": "The Psych-Magnitron",
       "type": "encounter",
       "face": "01176.jpg",
       "setCode": "captain_marvel_nemesis",
       "typeCode": "side_scheme"
     },
     "01177": {
+      "name": "Yon-Rogg",
       "type": "encounter",
       "face": "01177.jpg",
       "setCode": "captain_marvel_nemesis",
       "typeCode": "minion"
     },
     "01178": {
+      "name": "Kree Manipulator",
       "type": "encounter",
       "face": "01178.jpg",
       "setCode": "captain_marvel_nemesis",
       "typeCode": "treachery"
     },
     "01179": {
+      "name": "Yon-Rogg's Treason",
       "type": "encounter",
       "face": "01179.jpg",
       "setCode": "captain_marvel_nemesis",
@@ -100,23 +115,59 @@
   },
   "cardSets": {
     "captain-marvel-deck": [
-      { "code": "01010a" },
-      { "code": "01010b" },
-      { "code": "01011" },
-      { "code": "01012", "count": 3 },
-      { "code": "01013", "count": 3 },
-      { "code": "01014", "count": 2 },
-      { "code": "01015" },
-      { "code": "01016" },
-      { "code": "01017", "count": 2 },
-      { "code": "01018", "count": 2 }
+      {
+        "code": "01010a"
+      },
+      {
+        "code": "01010b"
+      },
+      {
+        "code": "01011"
+      },
+      {
+        "code": "01012",
+        "count": 3
+      },
+      {
+        "code": "01013",
+        "count": 3
+      },
+      {
+        "code": "01014",
+        "count": 2
+      },
+      {
+        "code": "01015"
+      },
+      {
+        "code": "01016"
+      },
+      {
+        "code": "01017",
+        "count": 2
+      },
+      {
+        "code": "01018",
+        "count": 2
+      }
     ],
     "captain-marvel-nemesis": [
-      { "code": "01175" },
-      { "code": "01176" },
-      { "code": "01177" },
-      { "code": "01178", "count": 2 },
-      { "code": "01179" }
+      {
+        "code": "01175"
+      },
+      {
+        "code": "01176"
+      },
+      {
+        "code": "01177"
+      },
+      {
+        "code": "01178",
+        "count": 2
+      },
+      {
+        "code": "01179"
+      }
     ]
   }
 }

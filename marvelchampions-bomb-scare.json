@@ -6,24 +6,28 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01109": {
+      "name": "Bomb Scare",
       "type": "encounter",
       "face": "01109.jpg",
       "setCode": "bomb_scare",
       "typeCode": "side_scheme"
     },
     "01110": {
+      "name": "Hydra Bomber",
       "type": "encounter",
       "face": "01110.jpg",
       "setCode": "bomb_scare",
       "typeCode": "minion"
     },
     "01111": {
+      "name": "Explosion",
       "type": "encounter",
       "face": "01111.jpg",
       "setCode": "bomb_scare",
       "typeCode": "treachery"
     },
     "01112": {
+      "name": "False Alarm",
       "type": "encounter",
       "face": "01112.jpg",
       "setCode": "bomb_scare",
@@ -32,10 +36,20 @@
   },
   "cardSets": {
     "bomb-scare": [
-      { "code": "01109" },
-      { "code": "01110", "count": 2 },
-      { "code": "01111" },
-      { "code": "01112", "count": 2 }
+      {
+        "code": "01109"
+      },
+      {
+        "code": "01110",
+        "count": 2
+      },
+      {
+        "code": "01111"
+      },
+      {
+        "code": "01112",
+        "count": 2
+      }
     ]
   }
 }

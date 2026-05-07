@@ -6,24 +6,28 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01151": {
+      "name": "Under Attack",
       "type": "encounter",
       "face": "01151.jpg",
       "setCode": "under_attack",
       "typeCode": "side_scheme"
     },
     "01152": {
+      "name": "Vibranium Armor",
       "type": "encounter",
       "face": "01152.jpg",
       "setCode": "under_attack",
       "typeCode": "attachment"
     },
     "01153": {
+      "name": "Concussion Blasters",
       "type": "encounter",
       "face": "01153.jpg",
       "setCode": "under_attack",
       "typeCode": "attachment"
     },
     "01154": {
+      "name": "Concussive Blast",
       "type": "encounter",
       "face": "01154.jpg",
       "setCode": "under_attack",
@@ -32,10 +36,19 @@
   },
   "cardSets": {
     "under-attack": [
-      { "code": "01151" },
-      { "code": "01152" },
-      { "code": "01153" },
-      { "code": "01154", "count": 2 }
+      {
+        "code": "01151"
+      },
+      {
+        "code": "01152"
+      },
+      {
+        "code": "01153"
+      },
+      {
+        "code": "01154",
+        "count": 2
+      }
     ]
   }
 }

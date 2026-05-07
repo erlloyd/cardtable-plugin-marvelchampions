@@ -6,41 +6,49 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01050": {
+      "name": "Hulk",
       "type": "player",
       "face": "01050.jpg",
       "typeCode": "ally"
     },
     "01051": {
+      "name": "Tigra",
       "type": "player",
       "face": "01051.jpg",
       "typeCode": "ally"
     },
     "01052": {
+      "name": "Chase Them Down",
       "type": "player",
       "face": "01052.jpg",
       "typeCode": "event"
     },
     "01053": {
+      "name": "Relentless Assault",
       "type": "player",
       "face": "01053.jpg",
       "typeCode": "event"
     },
     "01054": {
+      "name": "Uppercut",
       "type": "player",
       "face": "01054.jpg",
       "typeCode": "event"
     },
     "01055": {
+      "name": "The Power of Aggression",
       "type": "player",
       "face": "01055.jpg",
       "typeCode": "resource"
     },
     "01056": {
+      "name": "Tac Team",
       "type": "player",
       "face": "01056.jpg",
       "typeCode": "support"
     },
     "01057": {
+      "name": "Combat Training",
       "type": "player",
       "face": "01057.jpg",
       "typeCode": "upgrade"
@@ -48,14 +56,36 @@
   },
   "cardSets": {
     "aggression-basics": [
-      { "code": "01050" },
-      { "code": "01051" },
-      { "code": "01052", "count": 3 },
-      { "code": "01053", "count": 3 },
-      { "code": "01054", "count": 3 },
-      { "code": "01055", "count": 2 },
-      { "code": "01056", "count": 3 },
-      { "code": "01057", "count": 3 }
+      {
+        "code": "01050"
+      },
+      {
+        "code": "01051"
+      },
+      {
+        "code": "01052",
+        "count": 3
+      },
+      {
+        "code": "01053",
+        "count": 3
+      },
+      {
+        "code": "01054",
+        "count": 3
+      },
+      {
+        "code": "01055",
+        "count": 2
+      },
+      {
+        "code": "01056",
+        "count": 3
+      },
+      {
+        "code": "01057",
+        "count": 3
+      }
     ]
   }
 }

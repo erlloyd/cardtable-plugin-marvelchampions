@@ -6,41 +6,49 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01075": {
+      "name": "Black Widow",
       "type": "player",
       "face": "01075.jpg",
       "typeCode": "ally"
     },
     "01076": {
+      "name": "Luke Cage",
       "type": "player",
       "face": "01076.jpg",
       "typeCode": "ally"
     },
     "01077": {
+      "name": "Counter-Punch",
       "type": "player",
       "face": "01077.jpg",
       "typeCode": "event"
     },
     "01078": {
+      "name": "Get Behind Me!",
       "type": "player",
       "face": "01078.jpg",
       "typeCode": "event"
     },
     "01079": {
+      "name": "The Power of Protection",
       "type": "player",
       "face": "01079.jpg",
       "typeCode": "resource"
     },
     "01080": {
+      "name": "Med Team",
       "type": "player",
       "face": "01080.jpg",
       "typeCode": "support"
     },
     "01081": {
+      "name": "Armored Vest",
       "type": "player",
       "face": "01081.jpg",
       "typeCode": "upgrade"
     },
     "01082": {
+      "name": "Indomitable",
       "type": "player",
       "face": "01082.jpg",
       "typeCode": "upgrade"
@@ -48,14 +56,36 @@
   },
   "cardSets": {
     "protection-basics": [
-      { "code": "01075" },
-      { "code": "01076" },
-      { "code": "01077", "count": 3 },
-      { "code": "01078", "count": 3 },
-      { "code": "01079", "count": 2 },
-      { "code": "01080", "count": 3 },
-      { "code": "01081", "count": 3 },
-      { "code": "01082", "count": 3 }
+      {
+        "code": "01075"
+      },
+      {
+        "code": "01076"
+      },
+      {
+        "code": "01077",
+        "count": 3
+      },
+      {
+        "code": "01078",
+        "count": 3
+      },
+      {
+        "code": "01079",
+        "count": 2
+      },
+      {
+        "code": "01080",
+        "count": 3
+      },
+      {
+        "code": "01081",
+        "count": 3
+      },
+      {
+        "code": "01082",
+        "count": 3
+      }
     ]
   }
 }

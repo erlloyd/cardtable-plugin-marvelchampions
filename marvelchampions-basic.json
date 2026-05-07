@@ -6,56 +6,67 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01083": {
+      "name": "Mockingbird",
       "type": "player",
       "face": "01083.jpg",
       "typeCode": "ally"
     },
     "01084": {
+      "name": "Nick Fury",
       "type": "player",
       "face": "01084.jpg",
       "typeCode": "ally"
     },
     "01085": {
+      "name": "Emergency",
       "type": "player",
       "face": "01085.jpg",
       "typeCode": "event"
     },
     "01086": {
+      "name": "First Aid",
       "type": "player",
       "face": "01086.jpg",
       "typeCode": "event"
     },
     "01087": {
+      "name": "Haymaker",
       "type": "player",
       "face": "01087.jpg",
       "typeCode": "event"
     },
     "01088": {
+      "name": "Energy",
       "type": "player",
       "face": "01088.jpg",
       "typeCode": "resource"
     },
     "01089": {
+      "name": "Genius",
       "type": "player",
       "face": "01089.jpg",
       "typeCode": "resource"
     },
     "01090": {
+      "name": "Strength",
       "type": "player",
       "face": "01090.jpg",
       "typeCode": "resource"
     },
     "01091": {
+      "name": "Avengers Mansion",
       "type": "player",
       "face": "01091.jpg",
       "typeCode": "support"
     },
     "01092": {
+      "name": "Helicarrier",
       "type": "player",
       "face": "01092.jpg",
       "typeCode": "support"
     },
     "01093": {
+      "name": "Tenacity",
       "type": "player",
       "face": "01093.jpg",
       "typeCode": "upgrade"
@@ -63,17 +74,48 @@
   },
   "cardSets": {
     "basic-cards": [
-      { "code": "01083" },
-      { "code": "01084" },
-      { "code": "01085", "count": 3 },
-      { "code": "01086", "count": 3 },
-      { "code": "01087", "count": 3 },
-      { "code": "01088", "count": 4 },
-      { "code": "01089", "count": 4 },
-      { "code": "01090", "count": 4 },
-      { "code": "01091", "count": 4 },
-      { "code": "01092", "count": 4 },
-      { "code": "01093", "count": 3 }
+      {
+        "code": "01083"
+      },
+      {
+        "code": "01084"
+      },
+      {
+        "code": "01085",
+        "count": 3
+      },
+      {
+        "code": "01086",
+        "count": 3
+      },
+      {
+        "code": "01087",
+        "count": 3
+      },
+      {
+        "code": "01088",
+        "count": 4
+      },
+      {
+        "code": "01089",
+        "count": 4
+      },
+      {
+        "code": "01090",
+        "count": 4
+      },
+      {
+        "code": "01091",
+        "count": 4
+      },
+      {
+        "code": "01092",
+        "count": 4
+      },
+      {
+        "code": "01093",
+        "count": 3
+      }
     ]
   }
 }

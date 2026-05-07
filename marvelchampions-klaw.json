@@ -6,24 +6,28 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01113": {
+      "name": "Klaw",
       "type": "villain",
       "face": "01113.jpg",
       "setCode": "klaw",
       "typeCode": "villain"
     },
     "01114": {
+      "name": "Klaw",
       "type": "villain",
       "face": "01114.jpg",
       "setCode": "klaw",
       "typeCode": "villain"
     },
     "01115": {
+      "name": "Klaw",
       "type": "villain",
       "face": "01115.jpg",
       "setCode": "klaw",
       "typeCode": "villain"
     },
     "01116b": {
+      "name": "Underground Distribution",
       "type": "main_scheme",
       "face": "01116B.jpg",
       "setCode": "klaw",
@@ -31,6 +35,7 @@
       "back_code": "01116a"
     },
     "01116a": {
+      "name": "Underground Distribution",
       "type": "main_scheme",
       "face": "01116A.jpg",
       "setCode": "klaw",
@@ -38,6 +43,7 @@
       "back_code": "01116b"
     },
     "01117b": {
+      "name": "Secret Rendezvous",
       "type": "main_scheme",
       "face": "01117B.jpg",
       "setCode": "klaw",
@@ -45,6 +51,7 @@
       "back_code": "01117a"
     },
     "01117a": {
+      "name": "Secret Rendezvous",
       "type": "main_scheme",
       "face": "01117A.jpg",
       "setCode": "klaw",
@@ -52,60 +59,70 @@
       "back_code": "01117b"
     },
     "01118": {
+      "name": "Sonic Converter",
       "type": "encounter",
       "face": "01118.jpg",
       "setCode": "klaw",
       "typeCode": "attachment"
     },
     "01119": {
+      "name": "Solid-Sound Body",
       "type": "encounter",
       "face": "01119.jpg",
       "setCode": "klaw",
       "typeCode": "attachment"
     },
     "01120": {
+      "name": "Armored Guard",
       "type": "encounter",
       "face": "01120.jpg",
       "setCode": "klaw",
       "typeCode": "minion"
     },
     "01121": {
+      "name": "Weapons Runner",
       "type": "encounter",
       "face": "01121.jpg",
       "setCode": "klaw",
       "typeCode": "minion"
     },
     "01122": {
+      "name": "Klaw's Vengeance",
       "type": "encounter",
       "face": "01122.jpg",
       "setCode": "klaw",
       "typeCode": "treachery"
     },
     "01123": {
+      "name": "Sonic Boom",
       "type": "encounter",
       "face": "01123.jpg",
       "setCode": "klaw",
       "typeCode": "treachery"
     },
     "01124": {
+      "name": "Sound Manipulation",
       "type": "encounter",
       "face": "01124.jpg",
       "setCode": "klaw",
       "typeCode": "treachery"
     },
     "01125": {
+      "name": "Defense Network",
       "type": "encounter",
       "face": "01125.jpg",
       "setCode": "klaw",
       "typeCode": "side_scheme"
     },
     "01126": {
+      "name": "Illegal Arms Factory",
       "type": "encounter",
       "face": "01126.jpg",
       "setCode": "klaw",
       "typeCode": "side_scheme"
     },
     "01127": {
+      "name": "The \"Immortal\" Klaw",
       "type": "encounter",
       "face": "01127.jpg",
       "setCode": "klaw",
@@ -114,16 +131,41 @@
   },
   "cardSets": {
     "klaw-encounter": [
-      { "code": "01118" },
-      { "code": "01119" },
-      { "code": "01120", "count": 3 },
-      { "code": "01121", "count": 2 },
-      { "code": "01122", "count": 2 },
-      { "code": "01123", "count": 2 },
-      { "code": "01124", "count": 2 },
-      { "code": "01125" },
-      { "code": "01126" },
-      { "code": "01127" }
+      {
+        "code": "01118"
+      },
+      {
+        "code": "01119"
+      },
+      {
+        "code": "01120",
+        "count": 3
+      },
+      {
+        "code": "01121",
+        "count": 2
+      },
+      {
+        "code": "01122",
+        "count": 2
+      },
+      {
+        "code": "01123",
+        "count": 2
+      },
+      {
+        "code": "01124",
+        "count": 2
+      },
+      {
+        "code": "01125"
+      },
+      {
+        "code": "01126"
+      },
+      {
+        "code": "01127"
+      }
     ]
   }
 }

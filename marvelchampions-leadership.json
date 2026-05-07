@@ -6,46 +6,55 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01066": {
+      "name": "Hawkeye",
       "type": "player",
       "face": "01066.jpg",
       "typeCode": "ally"
     },
     "01067": {
+      "name": "Maria Hill",
       "type": "player",
       "face": "01067.jpg",
       "typeCode": "ally"
     },
     "01068": {
+      "name": "Vision",
       "type": "player",
       "face": "01068.jpg",
       "typeCode": "ally"
     },
     "01069": {
+      "name": "Get Ready",
       "type": "player",
       "face": "01069.jpg",
       "typeCode": "event"
     },
     "01070": {
+      "name": "Lead from the Front",
       "type": "player",
       "face": "01070.jpg",
       "typeCode": "event"
     },
     "01071": {
+      "name": "Make the Call",
       "type": "player",
       "face": "01071.jpg",
       "typeCode": "event"
     },
     "01072": {
+      "name": "The Power of Leadership",
       "type": "player",
       "face": "01072.jpg",
       "typeCode": "resource"
     },
     "01073": {
+      "name": "The Triskelion",
       "type": "player",
       "face": "01073.jpg",
       "typeCode": "support"
     },
     "01074": {
+      "name": "Inspired",
       "type": "player",
       "face": "01074.jpg",
       "typeCode": "upgrade"
@@ -53,15 +62,38 @@
   },
   "cardSets": {
     "leadership-basics": [
-      { "code": "01066" },
-      { "code": "01067" },
-      { "code": "01068" },
-      { "code": "01069", "count": 3 },
-      { "code": "01070", "count": 3 },
-      { "code": "01071", "count": 3 },
-      { "code": "01072", "count": 2 },
-      { "code": "01073" },
-      { "code": "01074", "count": 3 }
+      {
+        "code": "01066"
+      },
+      {
+        "code": "01067"
+      },
+      {
+        "code": "01068"
+      },
+      {
+        "code": "01069",
+        "count": 3
+      },
+      {
+        "code": "01070",
+        "count": 3
+      },
+      {
+        "code": "01071",
+        "count": 3
+      },
+      {
+        "code": "01072",
+        "count": 2
+      },
+      {
+        "code": "01073"
+      },
+      {
+        "code": "01074",
+        "count": 3
+      }
     ]
   }
 }

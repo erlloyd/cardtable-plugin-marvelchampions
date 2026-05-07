@@ -6,36 +6,42 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01128": {
+      "name": "The Masters of Evil",
       "type": "encounter",
       "face": "01128.jpg",
       "setCode": "masters_of_evil",
       "typeCode": "side_scheme"
     },
     "01129": {
+      "name": "Radioactive Man",
       "type": "encounter",
       "face": "01129.jpg",
       "setCode": "masters_of_evil",
       "typeCode": "minion"
     },
     "01130": {
+      "name": "Whirlwind",
       "type": "encounter",
       "face": "01130.jpg",
       "setCode": "masters_of_evil",
       "typeCode": "minion"
     },
     "01131": {
+      "name": "Tiger Shark",
       "type": "encounter",
       "face": "01131.jpg",
       "setCode": "masters_of_evil",
       "typeCode": "minion"
     },
     "01132": {
+      "name": "Melter",
       "type": "encounter",
       "face": "01132.jpg",
       "setCode": "masters_of_evil",
       "typeCode": "minion"
     },
     "01133": {
+      "name": "Masters of Mayhem",
       "type": "encounter",
       "face": "01133.jpg",
       "setCode": "masters_of_evil",
@@ -44,12 +50,25 @@
   },
   "cardSets": {
     "masters-of-evil": [
-      { "code": "01128" },
-      { "code": "01129" },
-      { "code": "01130" },
-      { "code": "01131" },
-      { "code": "01132" },
-      { "code": "01133", "count": 2 }
+      {
+        "code": "01128"
+      },
+      {
+        "code": "01129"
+      },
+      {
+        "code": "01130"
+      },
+      {
+        "code": "01131"
+      },
+      {
+        "code": "01132"
+      },
+      {
+        "code": "01133",
+        "count": 2
+      }
     ]
   }
 }

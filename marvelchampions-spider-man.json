@@ -6,6 +6,7 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01001a": {
+      "name": "Spider-Man",
       "type": "hero",
       "face": "01001A.jpg",
       "setCode": "spider_man",
@@ -13,6 +14,7 @@
       "back_code": "01001b"
     },
     "01001b": {
+      "name": "Peter Parker",
       "type": "alter_ego",
       "face": "01001B.jpg",
       "setCode": "spider_man",
@@ -20,78 +22,91 @@
       "back_code": "01001a"
     },
     "01002": {
+      "name": "Black Cat",
       "type": "player",
       "face": "01002.jpg",
       "setCode": "spider_man",
       "typeCode": "ally"
     },
     "01003": {
+      "name": "Backflip",
       "type": "player",
       "face": "01003.jpg",
       "setCode": "spider_man",
       "typeCode": "event"
     },
     "01004": {
+      "name": "Enhanced Spider-Sense",
       "type": "player",
       "face": "01004.jpg",
       "setCode": "spider_man",
       "typeCode": "event"
     },
     "01005": {
+      "name": "Swinging Web Kick",
       "type": "player",
       "face": "01005.jpg",
       "setCode": "spider_man",
       "typeCode": "event"
     },
     "01006": {
+      "name": "Aunt May",
       "type": "player",
       "face": "01006.jpg",
       "setCode": "spider_man",
       "typeCode": "support"
     },
     "01007": {
+      "name": "Spider-Tracer",
       "type": "player",
       "face": "01007.jpg",
       "setCode": "spider_man",
       "typeCode": "upgrade"
     },
     "01008": {
+      "name": "Web-Shooter",
       "type": "player",
       "face": "01008.jpg",
       "setCode": "spider_man",
       "typeCode": "upgrade"
     },
     "01009": {
+      "name": "Webbed Up",
       "type": "player",
       "face": "01009.jpg",
       "setCode": "spider_man",
       "typeCode": "upgrade"
     },
     "01165": {
+      "name": "Eviction Notice",
       "type": "encounter",
       "face": "01165.jpg",
       "setCode": "spider_man",
       "typeCode": "obligation"
     },
     "01166": {
+      "name": "Highway Robbery",
       "type": "encounter",
       "face": "01166.jpg",
       "setCode": "spider_man_nemesis",
       "typeCode": "side_scheme"
     },
     "01167": {
+      "name": "Vulture",
       "type": "encounter",
       "face": "01167.jpg",
       "setCode": "spider_man_nemesis",
       "typeCode": "minion"
     },
     "01168": {
+      "name": "Sweeping Swoop",
       "type": "encounter",
       "face": "01168.jpg",
       "setCode": "spider_man_nemesis",
       "typeCode": "treachery"
     },
     "01169": {
+      "name": "The Vulture's Plans",
       "type": "encounter",
       "face": "01169.jpg",
       "setCode": "spider_man_nemesis",
@@ -100,23 +115,60 @@
   },
   "cardSets": {
     "spider-man-deck": [
-      { "code": "01001a" },
-      { "code": "01001b" },
-      { "code": "01002" },
-      { "code": "01003", "count": 2 },
-      { "code": "01004", "count": 2 },
-      { "code": "01005", "count": 3 },
-      { "code": "01006" },
-      { "code": "01007", "count": 2 },
-      { "code": "01008", "count": 2 },
-      { "code": "01009", "count": 2 }
+      {
+        "code": "01001a"
+      },
+      {
+        "code": "01001b"
+      },
+      {
+        "code": "01002"
+      },
+      {
+        "code": "01003",
+        "count": 2
+      },
+      {
+        "code": "01004",
+        "count": 2
+      },
+      {
+        "code": "01005",
+        "count": 3
+      },
+      {
+        "code": "01006"
+      },
+      {
+        "code": "01007",
+        "count": 2
+      },
+      {
+        "code": "01008",
+        "count": 2
+      },
+      {
+        "code": "01009",
+        "count": 2
+      }
     ],
     "spider-man-nemesis": [
-      { "code": "01165" },
-      { "code": "01166" },
-      { "code": "01167" },
-      { "code": "01168", "count": 2 },
-      { "code": "01169" }
+      {
+        "code": "01165"
+      },
+      {
+        "code": "01166"
+      },
+      {
+        "code": "01167"
+      },
+      {
+        "code": "01168",
+        "count": 2
+      },
+      {
+        "code": "01169"
+      }
     ]
   }
 }

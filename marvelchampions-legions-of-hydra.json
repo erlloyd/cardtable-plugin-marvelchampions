@@ -6,18 +6,21 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01180": {
+      "name": "Legions of Hydra",
       "type": "encounter",
       "face": "01180.jpg",
       "setCode": "legions_of_hydra",
       "typeCode": "side_scheme"
     },
     "01181": {
+      "name": "Madame Hydra",
       "type": "encounter",
       "face": "01181.jpg",
       "setCode": "legions_of_hydra",
       "typeCode": "minion"
     },
     "01182": {
+      "name": "Hydra Soldier",
       "type": "encounter",
       "face": "01182.jpg",
       "setCode": "legions_of_hydra",
@@ -26,9 +29,17 @@
   },
   "cardSets": {
     "legions-of-hydra": [
-      { "code": "01180", "count": 2 },
-      { "code": "01181" },
-      { "code": "01182", "count": 3 }
+      {
+        "code": "01180",
+        "count": 2
+      },
+      {
+        "code": "01181"
+      },
+      {
+        "code": "01182",
+        "count": 3
+      }
     ]
   }
 }

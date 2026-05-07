@@ -6,6 +6,7 @@
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
     "01019a": {
+      "name": "She-Hulk",
       "type": "hero",
       "face": "01019A.jpg",
       "setCode": "she_hulk",
@@ -13,6 +14,7 @@
       "back_code": "01019b"
     },
     "01019b": {
+      "name": "Jennifer Walters",
       "type": "alter_ego",
       "face": "01019B.jpg",
       "setCode": "she_hulk",
@@ -20,84 +22,98 @@
       "back_code": "01019a"
     },
     "01020": {
+      "name": "Hellcat",
       "type": "player",
       "face": "01020.jpg",
       "setCode": "she_hulk",
       "typeCode": "ally"
     },
     "01021": {
+      "name": "Gamma Slam",
       "type": "player",
       "face": "01021.jpg",
       "setCode": "she_hulk",
       "typeCode": "event"
     },
     "01022": {
+      "name": "Ground Stomp",
       "type": "player",
       "face": "01022.jpg",
       "setCode": "she_hulk",
       "typeCode": "event"
     },
     "01023": {
+      "name": "Legal Practice",
       "type": "player",
       "face": "01023.jpg",
       "setCode": "she_hulk",
       "typeCode": "event"
     },
     "01024": {
+      "name": "One-Two Punch",
       "type": "player",
       "face": "01024.jpg",
       "setCode": "she_hulk",
       "typeCode": "event"
     },
     "01025": {
+      "name": "Split Personality",
       "type": "player",
       "face": "01025.jpg",
       "setCode": "she_hulk",
       "typeCode": "event"
     },
     "01026": {
+      "name": "Superhuman Law Division",
       "type": "player",
       "face": "01026.jpg",
       "setCode": "she_hulk",
       "typeCode": "support"
     },
     "01027": {
+      "name": "Focused Rage",
       "type": "player",
       "face": "01027.jpg",
       "setCode": "she_hulk",
       "typeCode": "upgrade"
     },
     "01028": {
+      "name": "Superhuman Strength",
       "type": "player",
       "face": "01028.jpg",
       "setCode": "she_hulk",
       "typeCode": "upgrade"
     },
     "01160": {
+      "name": "Legal Work",
       "type": "encounter",
       "face": "01160.jpg",
       "setCode": "she_hulk",
       "typeCode": "obligation"
     },
     "01161": {
+      "name": "Personal Challenge",
       "type": "encounter",
       "face": "01161.jpg",
       "setCode": "she_hulk_nemesis",
       "typeCode": "side_scheme"
     },
     "01162": {
+      "name": "Titania",
       "type": "encounter",
       "face": "01162.jpg",
       "setCode": "she_hulk_nemesis",
       "typeCode": "minion"
     },
     "01163": {
+      "name": "Genetically Enhanced",
       "type": "encounter",
       "face": "01163.jpg",
       "setCode": "she_hulk_nemesis",
       "typeCode": "attachment"
     },
     "01164": {
+      "name": "Titania's Fury",
       "type": "encounter",
       "face": "01164.jpg",
       "setCode": "she_hulk_nemesis",
@@ -106,24 +122,62 @@
   },
   "cardSets": {
     "she-hulk-deck": [
-      { "code": "01019a" },
-      { "code": "01019b" },
-      { "code": "01020" },
-      { "code": "01021" },
-      { "code": "01022", "count": 2 },
-      { "code": "01023", "count": 2 },
-      { "code": "01024", "count": 3 },
-      { "code": "01025" },
-      { "code": "01026" },
-      { "code": "01027", "count": 2 },
-      { "code": "01028", "count": 2 }
+      {
+        "code": "01019a"
+      },
+      {
+        "code": "01019b"
+      },
+      {
+        "code": "01020"
+      },
+      {
+        "code": "01021"
+      },
+      {
+        "code": "01022",
+        "count": 2
+      },
+      {
+        "code": "01023",
+        "count": 2
+      },
+      {
+        "code": "01024",
+        "count": 3
+      },
+      {
+        "code": "01025"
+      },
+      {
+        "code": "01026"
+      },
+      {
+        "code": "01027",
+        "count": 2
+      },
+      {
+        "code": "01028",
+        "count": 2
+      }
     ],
     "she-hulk-nemesis": [
-      { "code": "01160" },
-      { "code": "01161" },
-      { "code": "01162" },
-      { "code": "01163" },
-      { "code": "01164", "count": 2 }
+      {
+        "code": "01160"
+      },
+      {
+        "code": "01161"
+      },
+      {
+        "code": "01162"
+      },
+      {
+        "code": "01163"
+      },
+      {
+        "code": "01164",
+        "count": 2
+      }
     ]
   }
 }
