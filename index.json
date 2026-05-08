@@ -26,28 +26,6 @@
     "marvelchampions-standard-encounter.json",
     "marvelchampions-expert-encounter.json"
   ],
-  "scenarios": [
-    "marvelchampions-rhino-scenario.json",
-    "marvelchampions-klaw-scenario.json",
-    "marvelchampions-ultron-scenario.json"
-  ],
-  "componentSets": [
-    {
-      "id": "marvelcdb-import",
-      "name": "Import from MarvelCDB",
-      "apiImport": {
-        "apiEndpoints": {
-          "public": "https://marvelcdb.com/api/public/decklist/{deckId}",
-          "private": "https://marvelcdb.com/api/public/deck/{deckId}"
-        },
-        "parserModule": "deckImport.js",
-        "labels": {
-          "siteName": "MarvelCDB",
-          "inputPlaceholder": "Enter MarvelCDB deck ID"
-        }
-      }
-    }
-  ],
   "loadables": [
     {
       "type": "scenario",
