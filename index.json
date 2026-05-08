@@ -145,7 +145,7 @@
     },
     {
       "type": "deck",
-      "label": "Deck",
+      "label": "Player Deck",
       "mode": "additive",
       "source": {
         "kind": "provider",
