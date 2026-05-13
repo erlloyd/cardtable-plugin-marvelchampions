@@ -41,6 +41,7 @@
     "marvelchampions-thanos.json",
     "marvelchampions-hela.json",
     "marvelchampions-loki.json",
+    "marvelchampions-the-hood.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -186,6 +187,11 @@
             "id": "marvelchampions-loki",
             "label": "The Mad Titan's Shadow - Loki",
             "data": { "file": "marvelchampions-loki-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-the-hood",
+            "label": "The Hood - The Hood",
+            "data": { "file": "marvelchampions-the-hood-scenario.json" }
           }
         ]
       }

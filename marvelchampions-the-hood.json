@@ -1,0 +1,154 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-the-hood",
+  "name": "Marvel Champions: The Hood",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "24001": {
+      "name": "The Hood",
+      "type": "villain",
+      "face": "24001.jpg",
+      "setCode": "the_hood",
+      "typeCode": "villain"
+    },
+    "24002": {
+      "name": "The Hood",
+      "type": "villain",
+      "face": "24002.jpg",
+      "setCode": "the_hood",
+      "typeCode": "villain"
+    },
+    "24003": {
+      "name": "The Hood",
+      "type": "villain",
+      "face": "24003.jpg",
+      "setCode": "the_hood",
+      "typeCode": "villain"
+    },
+    "24007": {
+      "name": "Established Dominance",
+      "type": "encounter",
+      "face": "24007.jpg",
+      "setCode": "the_hood",
+      "typeCode": "attachment"
+    },
+    "24008": {
+      "name": "The Hood's Mantle",
+      "type": "encounter",
+      "face": "24008.jpg",
+      "setCode": "the_hood",
+      "typeCode": "attachment"
+    },
+    "24009": {
+      "name": "The Hood's Pistol",
+      "type": "encounter",
+      "face": "24009.jpg",
+      "setCode": "the_hood",
+      "typeCode": "attachment"
+    },
+    "24010": {
+      "name": "Madame Masque",
+      "type": "encounter",
+      "face": "24010.jpg",
+      "setCode": "the_hood",
+      "typeCode": "minion"
+    },
+    "24011": {
+      "name": "Unbridled Ambition",
+      "type": "encounter",
+      "face": "24011.jpg",
+      "setCode": "the_hood",
+      "typeCode": "side_scheme"
+    },
+    "24012": {
+      "name": "Field Recruitment",
+      "type": "encounter",
+      "face": "24012.jpg",
+      "setCode": "the_hood",
+      "typeCode": "treachery"
+    },
+    "24013": {
+      "name": "Upper Hand",
+      "type": "encounter",
+      "face": "24013.jpg",
+      "setCode": "the_hood",
+      "typeCode": "treachery"
+    },
+    "24004a": {
+      "name": "Making Connections",
+      "type": "main_scheme",
+      "face": "24004A.jpg",
+      "setCode": "the_hood",
+      "typeCode": "main_scheme",
+      "back_code": "24004b"
+    },
+    "24004b": {
+      "name": "Making Connections",
+      "type": "main_scheme",
+      "face": "24004B.jpg",
+      "setCode": "the_hood",
+      "typeCode": "main_scheme",
+      "back_code": "24004a"
+    },
+    "24005a": {
+      "name": "Promised Prosperity",
+      "type": "main_scheme",
+      "face": "24005A.jpg",
+      "setCode": "the_hood",
+      "typeCode": "main_scheme",
+      "back_code": "24005b"
+    },
+    "24005b": {
+      "name": "Promised Prosperity",
+      "type": "main_scheme",
+      "face": "24005B.jpg",
+      "setCode": "the_hood",
+      "typeCode": "main_scheme",
+      "back_code": "24005a"
+    },
+    "24006a": {
+      "name": "Crime State",
+      "type": "main_scheme",
+      "face": "24006A.jpg",
+      "setCode": "the_hood",
+      "typeCode": "main_scheme",
+      "back_code": "24006b"
+    },
+    "24006b": {
+      "name": "Crime State",
+      "type": "main_scheme",
+      "face": "24006B.jpg",
+      "setCode": "the_hood",
+      "typeCode": "main_scheme",
+      "back_code": "24006a"
+    }
+  },
+  "cardSets": {
+    "the-hood-encounter": [
+      {
+        "code": "24007"
+      },
+      {
+        "code": "24008"
+      },
+      {
+        "code": "24009",
+        "count": 2
+      },
+      {
+        "code": "24010"
+      },
+      {
+        "code": "24011"
+      },
+      {
+        "code": "24012"
+      },
+      {
+        "code": "24013",
+        "count": 3
+      }
+    ]
+  }
+}

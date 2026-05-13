@@ -1,0 +1,55 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-the-hood",
+  "name": "Marvel Champions: The Hood",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-the-hood",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "24001"
+            },
+            {
+              "code": "24002"
+            },
+            {
+              "code": "24003"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "24004a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "the-hood-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}
