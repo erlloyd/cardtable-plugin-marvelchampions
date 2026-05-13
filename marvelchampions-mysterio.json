@@ -1,0 +1,120 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-mysterio",
+  "name": "Marvel Champions: Mysterio",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "27084": {
+      "name": "Mysterio",
+      "type": "villain",
+      "face": "27084.jpg",
+      "setCode": "mysterio",
+      "typeCode": "villain"
+    },
+    "27085": {
+      "name": "Mysterio",
+      "type": "villain",
+      "face": "27085.jpg",
+      "setCode": "mysterio",
+      "typeCode": "villain"
+    },
+    "27086": {
+      "name": "Mysterio",
+      "type": "villain",
+      "face": "27086.jpg",
+      "setCode": "mysterio",
+      "typeCode": "villain"
+    },
+    "27089": {
+      "name": "Humongous Hallucination",
+      "type": "encounter",
+      "face": "27089.jpg",
+      "setCode": "mysterio",
+      "typeCode": "attachment"
+    },
+    "27090": {
+      "name": "Masterful Mirage",
+      "type": "encounter",
+      "face": "27090.jpg",
+      "setCode": "mysterio",
+      "typeCode": "attachment"
+    },
+    "27091": {
+      "name": "Shifting Apparition",
+      "type": "encounter",
+      "face": "27091.jpg",
+      "setCode": "mysterio",
+      "typeCode": "minion"
+    },
+    "27092": {
+      "name": "Déjà Vu",
+      "type": "encounter",
+      "face": "27092.jpg",
+      "setCode": "mysterio",
+      "typeCode": "treachery"
+    },
+    "27093": {
+      "name": "Fearmonger",
+      "type": "encounter",
+      "face": "27093.jpg",
+      "setCode": "mysterio",
+      "typeCode": "treachery"
+    },
+    "27087a": {
+      "name": "Maze of Mirrors",
+      "type": "main_scheme",
+      "face": "27087A.jpg",
+      "setCode": "mysterio",
+      "typeCode": "main_scheme",
+      "back_code": "27087b"
+    },
+    "27087b": {
+      "name": "Maze of Mirrors",
+      "type": "main_scheme",
+      "face": "27087B.jpg",
+      "setCode": "mysterio",
+      "typeCode": "main_scheme",
+      "back_code": "27087a"
+    },
+    "27088a": {
+      "name": "Edge of Reality",
+      "type": "main_scheme",
+      "face": "27088A.jpg",
+      "setCode": "mysterio",
+      "typeCode": "main_scheme",
+      "back_code": "27088b"
+    },
+    "27088b": {
+      "name": "Edge of Reality",
+      "type": "main_scheme",
+      "face": "27088B.jpg",
+      "setCode": "mysterio",
+      "typeCode": "main_scheme",
+      "back_code": "27088a"
+    }
+  },
+  "cardSets": {
+    "mysterio-encounter": [
+      {
+        "code": "27089"
+      },
+      {
+        "code": "27090",
+        "count": 2
+      },
+      {
+        "code": "27091",
+        "count": 4
+      },
+      {
+        "code": "27092",
+        "count": 2
+      },
+      {
+        "code": "27093",
+        "count": 2
+      }
+    ]
+  }
+}

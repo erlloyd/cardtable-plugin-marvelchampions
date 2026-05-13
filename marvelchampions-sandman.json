@@ -1,0 +1,134 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-sandman",
+  "name": "Marvel Champions: Sandman",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "27061": {
+      "name": "Sandman",
+      "type": "villain",
+      "face": "27061.jpg",
+      "setCode": "sandman",
+      "typeCode": "villain"
+    },
+    "27062": {
+      "name": "Sandman",
+      "type": "villain",
+      "face": "27062.jpg",
+      "setCode": "sandman",
+      "typeCode": "villain"
+    },
+    "27063": {
+      "name": "Sandman",
+      "type": "villain",
+      "face": "27063.jpg",
+      "setCode": "sandman",
+      "typeCode": "villain"
+    },
+    "27065": {
+      "name": "City Streets",
+      "type": "encounter",
+      "face": "27065.jpg",
+      "setCode": "sandman",
+      "typeCode": "environment"
+    },
+    "27066": {
+      "name": "Sand Form",
+      "type": "encounter",
+      "face": "27066.jpg",
+      "setCode": "sandman",
+      "typeCode": "attachment"
+    },
+    "27067": {
+      "name": "Sand Clone",
+      "type": "encounter",
+      "face": "27067.jpg",
+      "setCode": "sandman",
+      "typeCode": "minion"
+    },
+    "27068": {
+      "name": "Dirt Trap",
+      "type": "encounter",
+      "face": "27068.jpg",
+      "setCode": "sandman",
+      "typeCode": "side_scheme"
+    },
+    "27069": {
+      "name": "Tidal Sands",
+      "type": "encounter",
+      "face": "27069.jpg",
+      "setCode": "sandman",
+      "typeCode": "side_scheme"
+    },
+    "27070": {
+      "name": "Sandslide",
+      "type": "encounter",
+      "face": "27070.jpg",
+      "setCode": "sandman",
+      "typeCode": "treachery"
+    },
+    "27071": {
+      "name": "Sand Storm",
+      "type": "encounter",
+      "face": "27071.jpg",
+      "setCode": "sandman",
+      "typeCode": "treachery"
+    },
+    "27072": {
+      "name": "Sand Smash",
+      "type": "encounter",
+      "face": "27072.jpg",
+      "setCode": "sandman",
+      "typeCode": "treachery"
+    },
+    "27064a": {
+      "name": "Hapless Pedestrians",
+      "type": "main_scheme",
+      "face": "27064A.jpg",
+      "setCode": "sandman",
+      "typeCode": "main_scheme",
+      "back_code": "27064b"
+    },
+    "27064b": {
+      "name": "Hapless Pedestrians",
+      "type": "main_scheme",
+      "face": "27064B.jpg",
+      "setCode": "sandman",
+      "typeCode": "main_scheme",
+      "back_code": "27064a"
+    }
+  },
+  "cardSets": {
+    "sandman-encounter": [
+      {
+        "code": "27065"
+      },
+      {
+        "code": "27066",
+        "count": 2
+      },
+      {
+        "code": "27067",
+        "count": 4
+      },
+      {
+        "code": "27068",
+        "count": 2
+      },
+      {
+        "code": "27069"
+      },
+      {
+        "code": "27070"
+      },
+      {
+        "code": "27071"
+      },
+      {
+        "code": "27072",
+        "count": 2
+      }
+    ]
+  }
+}

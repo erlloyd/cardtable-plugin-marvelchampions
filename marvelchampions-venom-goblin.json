@@ -1,0 +1,172 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-venom-goblin",
+  "name": "Marvel Champions: Venom Goblin",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "27113": {
+      "name": "Venom Goblin",
+      "type": "villain",
+      "face": "27113.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "villain"
+    },
+    "27114": {
+      "name": "Venom Goblin",
+      "type": "villain",
+      "face": "27114.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "villain"
+    },
+    "27115": {
+      "name": "Venom Goblin",
+      "type": "villain",
+      "face": "27115.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "villain"
+    },
+    "27120": {
+      "name": "We Are One",
+      "type": "encounter",
+      "face": "27120.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "attachment"
+    },
+    "27121": {
+      "name": "Symbiotic Berserker",
+      "type": "encounter",
+      "face": "27121.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "minion"
+    },
+    "27122": {
+      "name": "Symbiotic Monstrosity",
+      "type": "encounter",
+      "face": "27122.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "minion"
+    },
+    "27123": {
+      "name": "Symbiotic Thrall",
+      "type": "encounter",
+      "face": "27123.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "minion"
+    },
+    "27124": {
+      "name": "Festering Mass",
+      "type": "encounter",
+      "face": "27124.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "side_scheme"
+    },
+    "27125": {
+      "name": "Joy Ride",
+      "type": "encounter",
+      "face": "27125.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "side_scheme"
+    },
+    "27126": {
+      "name": "Spreading Panic",
+      "type": "encounter",
+      "face": "27126.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "treachery"
+    },
+    "27116a": {
+      "name": "Skies Over New York",
+      "type": "main_scheme",
+      "face": "27116A.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "main_scheme",
+      "back_code": "27116b"
+    },
+    "27116b": {
+      "name": "Skies Over New York",
+      "type": "encounter",
+      "face": "27116B.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "environment",
+      "back_code": "27116a"
+    },
+    "27117a": {
+      "name": "Lower Manhattan",
+      "type": "main_scheme",
+      "face": "27117A.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "main_scheme",
+      "back_code": "27117b"
+    },
+    "27117b": {
+      "name": "Lower Manhattan",
+      "type": "encounter",
+      "face": "27117B.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "environment",
+      "back_code": "27117a"
+    },
+    "27118a": {
+      "name": "Midtown Manhattan",
+      "type": "main_scheme",
+      "face": "27118A.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "main_scheme",
+      "back_code": "27118b"
+    },
+    "27118b": {
+      "name": "Midtown Manhattan",
+      "type": "encounter",
+      "face": "27118B.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "environment",
+      "back_code": "27118a"
+    },
+    "27119a": {
+      "name": "Upper Manhattan",
+      "type": "main_scheme",
+      "face": "27119A.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "main_scheme",
+      "back_code": "27119b"
+    },
+    "27119b": {
+      "name": "Upper Manhattan",
+      "type": "encounter",
+      "face": "27119B.jpg",
+      "setCode": "venom_goblin",
+      "typeCode": "environment",
+      "back_code": "27119a"
+    }
+  },
+  "cardSets": {
+    "venom-goblin-encounter": [
+      {
+        "code": "27120"
+      },
+      {
+        "code": "27121",
+        "count": 2
+      },
+      {
+        "code": "27122",
+        "count": 2
+      },
+      {
+        "code": "27123",
+        "count": 4
+      },
+      {
+        "code": "27124"
+      },
+      {
+        "code": "27125"
+      },
+      {
+        "code": "27126",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-sinister-six",
+  "name": "Marvel Champions: Sinister Six",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "27094": {
+      "name": "Doctor Octopus",
+      "type": "villain",
+      "face": "27094.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "villain"
+    },
+    "27095": {
+      "name": "Electro",
+      "type": "villain",
+      "face": "27095.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "villain"
+    },
+    "27096": {
+      "name": "Hobgoblin",
+      "type": "villain",
+      "face": "27096.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "villain"
+    },
+    "27097": {
+      "name": "Kraven the Hunter",
+      "type": "villain",
+      "face": "27097.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "villain"
+    },
+    "27098": {
+      "name": "Scorpion",
+      "type": "villain",
+      "face": "27098.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "villain"
+    },
+    "27099": {
+      "name": "Vulture",
+      "type": "villain",
+      "face": "27099.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "villain"
+    },
+    "27103": {
+      "name": "Heightened Morale",
+      "type": "encounter",
+      "face": "27103.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "attachment"
+    },
+    "27104": {
+      "name": "Taunting Presence",
+      "type": "encounter",
+      "face": "27104.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "attachment"
+    },
+    "27105": {
+      "name": "Team Leader",
+      "type": "encounter",
+      "face": "27105.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "attachment"
+    },
+    "27106": {
+      "name": "Take One for the Team",
+      "type": "encounter",
+      "face": "27106.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "attachment"
+    },
+    "27107": {
+      "name": "Brute Force Barricade",
+      "type": "encounter",
+      "face": "27107.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "side_scheme"
+    },
+    "27108": {
+      "name": "Frequent Flyers",
+      "type": "encounter",
+      "face": "27108.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "treachery"
+    },
+    "27109": {
+      "name": "High Fashion",
+      "type": "encounter",
+      "face": "27109.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "treachery"
+    },
+    "27110": {
+      "name": "Robotic Enhancements",
+      "type": "encounter",
+      "face": "27110.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "treachery"
+    },
+    "27111": {
+      "name": "Partnership of Pain",
+      "type": "encounter",
+      "face": "27111.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "treachery"
+    },
+    "27112": {
+      "name": "Surprise!",
+      "type": "encounter",
+      "face": "27112.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "treachery"
+    },
+    "27100a": {
+      "name": "Sinister Synchonization",
+      "type": "main_scheme",
+      "face": "27100A.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "main_scheme",
+      "back_code": "27100b"
+    },
+    "27100b": {
+      "name": "Sinister Synchonization",
+      "type": "main_scheme",
+      "face": "27100B.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "main_scheme",
+      "back_code": "27100a"
+    },
+    "27101a": {
+      "name": "Sinister Beatdown",
+      "type": "main_scheme",
+      "face": "27101A.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "main_scheme",
+      "back_code": "27101b"
+    },
+    "27101b": {
+      "name": "Sinister Beatdown",
+      "type": "main_scheme",
+      "face": "27101B.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "main_scheme",
+      "back_code": "27101a"
+    },
+    "27102a": {
+      "name": "Light at the End",
+      "type": "encounter",
+      "face": "27102A.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "side_scheme",
+      "back_code": "27102b"
+    },
+    "27102b": {
+      "name": "Light at the End",
+      "type": "encounter",
+      "face": "27102B.jpg",
+      "setCode": "sinister_six",
+      "typeCode": "side_scheme",
+      "back_code": "27102a"
+    }
+  },
+  "cardSets": {
+    "sinister-six-encounter": [
+      {
+        "code": "27102a"
+      },
+      {
+        "code": "27103",
+        "count": 2
+      },
+      {
+        "code": "27104",
+        "count": 2
+      },
+      {
+        "code": "27105"
+      },
+      {
+        "code": "27106"
+      },
+      {
+        "code": "27107"
+      },
+      {
+        "code": "27108"
+      },
+      {
+        "code": "27109"
+      },
+      {
+        "code": "27110"
+      },
+      {
+        "code": "27111",
+        "count": 3
+      },
+      {
+        "code": "27112",
+        "count": 3
+      }
+    ]
+  }
+}

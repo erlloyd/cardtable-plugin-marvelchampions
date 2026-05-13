@@ -42,6 +42,11 @@
     "marvelchampions-hela.json",
     "marvelchampions-loki.json",
     "marvelchampions-the-hood.json",
+    "marvelchampions-sandman.json",
+    "marvelchampions-venom.json",
+    "marvelchampions-mysterio.json",
+    "marvelchampions-sinister-six.json",
+    "marvelchampions-venom-goblin.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -192,6 +197,31 @@
             "id": "marvelchampions-the-hood",
             "label": "The Hood - The Hood",
             "data": { "file": "marvelchampions-the-hood-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-sandman",
+            "label": "Sinister Motives - Sandman",
+            "data": { "file": "marvelchampions-sandman-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-venom",
+            "label": "Sinister Motives - Venom",
+            "data": { "file": "marvelchampions-venom-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-mysterio",
+            "label": "Sinister Motives - Mysterio",
+            "data": { "file": "marvelchampions-mysterio-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-sinister-six",
+            "label": "Sinister Motives - Sinister Six",
+            "data": { "file": "marvelchampions-sinister-six-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-venom-goblin",
+            "label": "Sinister Motives - Venom Goblin",
+            "data": { "file": "marvelchampions-venom-goblin-scenario.json" }
           }
         ]
       }

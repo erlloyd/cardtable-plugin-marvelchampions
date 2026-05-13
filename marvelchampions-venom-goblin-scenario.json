@@ -1,0 +1,64 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-venom-goblin",
+  "name": "Marvel Champions: Venom Goblin",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-venom-goblin",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "27113"
+            },
+            {
+              "code": "27114"
+            },
+            {
+              "code": "27115"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "27116a"
+            },
+            {
+              "code": "27117a"
+            },
+            {
+              "code": "27118a"
+            },
+            {
+              "code": "27119a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "venom-goblin-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

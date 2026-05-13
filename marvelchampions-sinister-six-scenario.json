@@ -1,0 +1,64 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-sinister-six",
+  "name": "Marvel Champions: Sinister Six",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-sinister-six",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "27094"
+            },
+            {
+              "code": "27095"
+            },
+            {
+              "code": "27096"
+            },
+            {
+              "code": "27097"
+            },
+            {
+              "code": "27098"
+            },
+            {
+              "code": "27099"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "27100a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "sinister-six-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}
