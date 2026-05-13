@@ -1,0 +1,177 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-loki",
+  "name": "Marvel Champions: Loki",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "21160": {
+      "name": "Loki",
+      "type": "villain",
+      "face": "21160.jpg",
+      "setCode": "loki",
+      "typeCode": "villain"
+    },
+    "21161": {
+      "name": "Loki",
+      "type": "villain",
+      "face": "21161.jpg",
+      "setCode": "loki",
+      "typeCode": "villain"
+    },
+    "21162": {
+      "name": "Loki",
+      "type": "villain",
+      "face": "21162.jpg",
+      "setCode": "loki",
+      "typeCode": "villain"
+    },
+    "21163": {
+      "name": "Loki",
+      "type": "villain",
+      "face": "21163.jpg",
+      "setCode": "loki",
+      "typeCode": "villain"
+    },
+    "21164": {
+      "name": "Loki",
+      "type": "villain",
+      "face": "21164.jpg",
+      "setCode": "loki",
+      "typeCode": "villain"
+    },
+    "21166": {
+      "name": "Casket of Ancient Winters",
+      "type": "encounter",
+      "face": "21166.jpg",
+      "setCode": "loki",
+      "typeCode": "side_scheme"
+    },
+    "21167": {
+      "name": "War in Asgard",
+      "type": "encounter",
+      "face": "21167.jpg",
+      "setCode": "loki",
+      "typeCode": "side_scheme"
+    },
+    "21168": {
+      "name": "Madness on Midgard",
+      "type": "encounter",
+      "face": "21168.jpg",
+      "setCode": "loki",
+      "typeCode": "side_scheme"
+    },
+    "21169": {
+      "name": "Open the Bifrost",
+      "type": "encounter",
+      "face": "21169.jpg",
+      "setCode": "loki",
+      "typeCode": "side_scheme"
+    },
+    "21170": {
+      "name": "Loki's Staff",
+      "type": "encounter",
+      "face": "21170.jpg",
+      "setCode": "loki",
+      "typeCode": "attachment"
+    },
+    "21171": {
+      "name": "Loki's Crown",
+      "type": "encounter",
+      "face": "21171.jpg",
+      "setCode": "loki",
+      "typeCode": "attachment"
+    },
+    "21172": {
+      "name": "Loki's Cape",
+      "type": "encounter",
+      "face": "21172.jpg",
+      "setCode": "loki",
+      "typeCode": "attachment"
+    },
+    "21173": {
+      "name": "Master of Illusions",
+      "type": "encounter",
+      "face": "21173.jpg",
+      "setCode": "loki",
+      "typeCode": "attachment"
+    },
+    "21174": {
+      "name": "Devious Sorcery",
+      "type": "encounter",
+      "face": "21174.jpg",
+      "setCode": "loki",
+      "typeCode": "treachery"
+    },
+    "21175": {
+      "name": "Infinite Mischief",
+      "type": "encounter",
+      "face": "21175.jpg",
+      "setCode": "loki",
+      "typeCode": "treachery"
+    },
+    "21176": {
+      "name": "The Trickster",
+      "type": "encounter",
+      "face": "21176.jpg",
+      "setCode": "loki",
+      "typeCode": "treachery"
+    },
+    "21165a": {
+      "name": "All Hail King Loki",
+      "type": "main_scheme",
+      "face": "21165A.jpg",
+      "setCode": "loki",
+      "typeCode": "main_scheme",
+      "back_code": "21165b"
+    },
+    "21165b": {
+      "name": "All Hail King Loki",
+      "type": "main_scheme",
+      "face": "21165B.jpg",
+      "setCode": "loki",
+      "typeCode": "main_scheme",
+      "back_code": "21165a"
+    }
+  },
+  "cardSets": {
+    "loki-encounter": [
+      {
+        "code": "21166"
+      },
+      {
+        "code": "21167"
+      },
+      {
+        "code": "21168"
+      },
+      {
+        "code": "21169"
+      },
+      {
+        "code": "21170"
+      },
+      {
+        "code": "21171"
+      },
+      {
+        "code": "21172"
+      },
+      {
+        "code": "21173"
+      },
+      {
+        "code": "21174",
+        "count": 2
+      },
+      {
+        "code": "21175",
+        "count": 2
+      },
+      {
+        "code": "21176",
+        "count": 3
+      }
+    ]
+  }
+}

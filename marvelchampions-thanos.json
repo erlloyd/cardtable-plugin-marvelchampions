@@ -1,0 +1,161 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-thanos",
+  "name": "Marvel Champions: Thanos",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "21111": {
+      "name": "Thanos",
+      "type": "villain",
+      "face": "21111.jpg",
+      "setCode": "thanos",
+      "typeCode": "villain"
+    },
+    "21112": {
+      "name": "Thanos",
+      "type": "villain",
+      "face": "21112.jpg",
+      "setCode": "thanos",
+      "typeCode": "villain"
+    },
+    "21113": {
+      "name": "Thanos",
+      "type": "villain",
+      "face": "21113.jpg",
+      "setCode": "thanos",
+      "typeCode": "villain"
+    },
+    "21116": {
+      "name": "Sanctuary",
+      "type": "encounter",
+      "face": "21116.jpg",
+      "setCode": "thanos",
+      "typeCode": "side_scheme"
+    },
+    "21117": {
+      "name": "Thanos's Armor",
+      "type": "encounter",
+      "face": "21117.jpg",
+      "setCode": "thanos",
+      "typeCode": "attachment"
+    },
+    "21118": {
+      "name": "Thanos's Helmet",
+      "type": "encounter",
+      "face": "21118.jpg",
+      "setCode": "thanos",
+      "typeCode": "attachment"
+    },
+    "21119": {
+      "name": "Master of the Stones",
+      "type": "encounter",
+      "face": "21119.jpg",
+      "setCode": "thanos",
+      "typeCode": "attachment"
+    },
+    "21120": {
+      "name": "Avatar of Death",
+      "type": "encounter",
+      "face": "21120.jpg",
+      "setCode": "thanos",
+      "typeCode": "treachery"
+    },
+    "21121": {
+      "name": "Deviant Syndrome",
+      "type": "encounter",
+      "face": "21121.jpg",
+      "setCode": "thanos",
+      "typeCode": "treachery"
+    },
+    "21122": {
+      "name": "\"I Am Inevitable\"",
+      "type": "encounter",
+      "face": "21122.jpg",
+      "setCode": "thanos",
+      "typeCode": "treachery"
+    },
+    "21123": {
+      "name": "The Mad Titan",
+      "type": "encounter",
+      "face": "21123.jpg",
+      "setCode": "thanos",
+      "typeCode": "treachery"
+    },
+    "21124": {
+      "name": "The Titan's Throne",
+      "type": "encounter",
+      "face": "21124.jpg",
+      "setCode": "thanos",
+      "typeCode": "side_scheme"
+    },
+    "21114a": {
+      "name": "The Infinity Stones",
+      "type": "main_scheme",
+      "face": "21114A.jpg",
+      "setCode": "thanos",
+      "typeCode": "main_scheme",
+      "back_code": "21114b"
+    },
+    "21114b": {
+      "name": "The Infinity Stones",
+      "type": "main_scheme",
+      "face": "21114B.jpg",
+      "setCode": "thanos",
+      "typeCode": "main_scheme",
+      "back_code": "21114a"
+    },
+    "21115a": {
+      "name": "Balance the Scales",
+      "type": "main_scheme",
+      "face": "21115A.jpg",
+      "setCode": "thanos",
+      "typeCode": "main_scheme",
+      "back_code": "21115b"
+    },
+    "21115b": {
+      "name": "Balance the Scales",
+      "type": "main_scheme",
+      "face": "21115B.jpg",
+      "setCode": "thanos",
+      "typeCode": "main_scheme",
+      "back_code": "21115a"
+    }
+  },
+  "cardSets": {
+    "thanos-encounter": [
+      {
+        "code": "21116"
+      },
+      {
+        "code": "21117"
+      },
+      {
+        "code": "21118"
+      },
+      {
+        "code": "21119",
+        "count": 2
+      },
+      {
+        "code": "21120",
+        "count": 2
+      },
+      {
+        "code": "21121",
+        "count": 2
+      },
+      {
+        "code": "21122",
+        "count": 2
+      },
+      {
+        "code": "21123",
+        "count": 2
+      },
+      {
+        "code": "21124"
+      }
+    ]
+  }
+}

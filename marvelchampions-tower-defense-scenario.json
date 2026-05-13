@@ -1,0 +1,67 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-tower-defense",
+  "name": "Marvel Champions: The Tower Defense",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-tower-defense",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "21092"
+            },
+            {
+              "code": "21095"
+            },
+            {
+              "code": "21093"
+            },
+            {
+              "code": "21096"
+            },
+            {
+              "code": "21094"
+            },
+            {
+              "code": "21097"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "21098a"
+            },
+            {
+              "code": "21099a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "tower-defense-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

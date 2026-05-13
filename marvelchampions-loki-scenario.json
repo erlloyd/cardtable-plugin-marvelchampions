@@ -1,0 +1,61 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-loki",
+  "name": "Marvel Champions: Loki",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-loki",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "21160"
+            },
+            {
+              "code": "21161"
+            },
+            {
+              "code": "21162"
+            },
+            {
+              "code": "21163"
+            },
+            {
+              "code": "21164"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "21165a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "loki-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

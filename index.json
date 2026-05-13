@@ -36,6 +36,11 @@
     "marvelchampions-collector2.json",
     "marvelchampions-nebula.json",
     "marvelchampions-ronan.json",
+    "marvelchampions-ebony-maw.json",
+    "marvelchampions-tower-defense.json",
+    "marvelchampions-thanos.json",
+    "marvelchampions-hela.json",
+    "marvelchampions-loki.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -156,6 +161,31 @@
             "id": "marvelchampions-ronan",
             "label": "Galaxy's Most Wanted - Ronan",
             "data": { "file": "marvelchampions-ronan-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-ebony-maw",
+            "label": "The Mad Titan's Shadow - Ebony Maw",
+            "data": { "file": "marvelchampions-ebony-maw-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-tower-defense",
+            "label": "The Mad Titan's Shadow - The Tower Defense",
+            "data": { "file": "marvelchampions-tower-defense-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-thanos",
+            "label": "The Mad Titan's Shadow - Thanos",
+            "data": { "file": "marvelchampions-thanos-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-hela",
+            "label": "The Mad Titan's Shadow - Hela",
+            "data": { "file": "marvelchampions-hela-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-loki",
+            "label": "The Mad Titan's Shadow - Loki",
+            "data": { "file": "marvelchampions-loki-scenario.json" }
           }
         ]
       }

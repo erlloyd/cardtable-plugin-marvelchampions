@@ -1,0 +1,203 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-hela",
+  "name": "Marvel Champions: Hela",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "21140": {
+      "name": "Gnipahellir",
+      "type": "encounter",
+      "face": "21140.jpg",
+      "setCode": "hela",
+      "typeCode": "side_scheme"
+    },
+    "21141": {
+      "name": "Hall of Nastrond",
+      "type": "encounter",
+      "face": "21141.jpg",
+      "setCode": "hela",
+      "typeCode": "side_scheme"
+    },
+    "21142": {
+      "name": "Gjallerbru",
+      "type": "encounter",
+      "face": "21142.jpg",
+      "setCode": "hela",
+      "typeCode": "side_scheme"
+    },
+    "21143": {
+      "name": "Garm",
+      "type": "encounter",
+      "face": "21143.jpg",
+      "setCode": "hela",
+      "typeCode": "minion"
+    },
+    "21144": {
+      "name": "Skurge",
+      "type": "encounter",
+      "face": "21144.jpg",
+      "setCode": "hela",
+      "typeCode": "minion"
+    },
+    "21145": {
+      "name": "Nidhogg",
+      "type": "encounter",
+      "face": "21145.jpg",
+      "setCode": "hela",
+      "typeCode": "minion"
+    },
+    "21146": {
+      "name": "Nightsword",
+      "type": "encounter",
+      "face": "21146.jpg",
+      "setCode": "hela",
+      "typeCode": "attachment"
+    },
+    "21147": {
+      "name": "Hela's Crown",
+      "type": "encounter",
+      "face": "21147.jpg",
+      "setCode": "hela",
+      "typeCode": "attachment"
+    },
+    "21148": {
+      "name": "Hela's Cloak",
+      "type": "encounter",
+      "face": "21148.jpg",
+      "setCode": "hela",
+      "typeCode": "attachment"
+    },
+    "21149": {
+      "name": "Hela's Domain",
+      "type": "encounter",
+      "face": "21149.jpg",
+      "setCode": "hela",
+      "typeCode": "treachery"
+    },
+    "21150": {
+      "name": "The Queen of Hel",
+      "type": "encounter",
+      "face": "21150.jpg",
+      "setCode": "hela",
+      "typeCode": "treachery"
+    },
+    "21151": {
+      "name": "The Wastes of Niffleheim",
+      "type": "encounter",
+      "face": "21151.jpg",
+      "setCode": "hela",
+      "typeCode": "treachery"
+    },
+    "21136a": {
+      "name": "Hela",
+      "type": "villain",
+      "face": "21136A.jpg",
+      "setCode": "hela",
+      "typeCode": "villain",
+      "back_code": "21136b"
+    },
+    "21136b": {
+      "name": "Hela",
+      "type": "villain",
+      "face": "21136B.jpg",
+      "setCode": "hela",
+      "typeCode": "villain",
+      "back_code": "21136a"
+    },
+    "21137a": {
+      "name": "Hela",
+      "type": "villain",
+      "face": "21137A.jpg",
+      "setCode": "hela",
+      "typeCode": "villain",
+      "back_code": "21137b"
+    },
+    "21137b": {
+      "name": "Hela",
+      "type": "villain",
+      "face": "21137B.jpg",
+      "setCode": "hela",
+      "typeCode": "villain",
+      "back_code": "21137a"
+    },
+    "21138a": {
+      "name": "Odin's Torment",
+      "type": "main_scheme",
+      "face": "21138A.jpg",
+      "setCode": "hela",
+      "typeCode": "main_scheme",
+      "back_code": "21138b"
+    },
+    "21138b": {
+      "name": "Odin's Torment",
+      "type": "main_scheme",
+      "face": "21138B.jpg",
+      "setCode": "hela",
+      "typeCode": "main_scheme",
+      "back_code": "21138a"
+    },
+    "21139a": {
+      "name": "Odin",
+      "type": "encounter",
+      "face": "21139A.jpg",
+      "setCode": "hela",
+      "typeCode": "ally",
+      "back_code": "21139b"
+    },
+    "21139b": {
+      "name": "Odin",
+      "type": "encounter",
+      "face": "21139B.jpg",
+      "setCode": "hela",
+      "typeCode": "ally",
+      "back_code": "21139a"
+    }
+  },
+  "cardSets": {
+    "hela-encounter": [
+      {
+        "code": "21139a"
+      },
+      {
+        "code": "21140"
+      },
+      {
+        "code": "21141"
+      },
+      {
+        "code": "21142"
+      },
+      {
+        "code": "21143"
+      },
+      {
+        "code": "21144"
+      },
+      {
+        "code": "21145"
+      },
+      {
+        "code": "21146"
+      },
+      {
+        "code": "21147"
+      },
+      {
+        "code": "21148"
+      },
+      {
+        "code": "21149",
+        "count": 2
+      },
+      {
+        "code": "21150",
+        "count": 2
+      },
+      {
+        "code": "21151",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-tower-defense",
+  "name": "Marvel Champions: The Tower Defense",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "21092": {
+      "name": "Proxima Midnight",
+      "type": "villain",
+      "face": "21092.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "villain"
+    },
+    "21093": {
+      "name": "Proxima Midnight",
+      "type": "villain",
+      "face": "21093.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "villain"
+    },
+    "21094": {
+      "name": "Proxima Midnight",
+      "type": "villain",
+      "face": "21094.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "villain"
+    },
+    "21095": {
+      "name": "Corvus Glaive",
+      "type": "villain",
+      "face": "21095.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "villain"
+    },
+    "21096": {
+      "name": "Corvus Glaive",
+      "type": "villain",
+      "face": "21096.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "villain"
+    },
+    "21097": {
+      "name": "Corvus Glaive",
+      "type": "villain",
+      "face": "21097.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "villain"
+    },
+    "21101": {
+      "name": "Focused Defense",
+      "type": "encounter",
+      "face": "21101.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "attachment"
+    },
+    "21102": {
+      "name": "Black Order Besieger",
+      "type": "encounter",
+      "face": "21102.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "minion"
+    },
+    "21103": {
+      "name": "Proxima's Spear",
+      "type": "encounter",
+      "face": "21103.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "attachment"
+    },
+    "21104": {
+      "name": "Corvus Glaive",
+      "type": "encounter",
+      "face": "21104.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "attachment"
+    },
+    "21105": {
+      "name": "Direct Assault",
+      "type": "encounter",
+      "face": "21105.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "attachment"
+    },
+    "21106": {
+      "name": "Proxima's Power",
+      "type": "encounter",
+      "face": "21106.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "treachery"
+    },
+    "21107": {
+      "name": "Corvus's Cunning",
+      "type": "encounter",
+      "face": "21107.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "treachery"
+    },
+    "21108": {
+      "name": "Bound by Blood",
+      "type": "encounter",
+      "face": "21108.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "treachery"
+    },
+    "21109": {
+      "name": "Rain Fire",
+      "type": "encounter",
+      "face": "21109.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "treachery"
+    },
+    "21110": {
+      "name": "City Under Attack",
+      "type": "encounter",
+      "face": "21110.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "side_scheme"
+    },
+    "21098a": {
+      "name": "Under Siege",
+      "type": "main_scheme",
+      "face": "21098A.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "main_scheme",
+      "back_code": "21098b"
+    },
+    "21098b": {
+      "name": "Under Siege",
+      "type": "main_scheme",
+      "face": "21098B.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "main_scheme",
+      "back_code": "21098a"
+    },
+    "21099a": {
+      "name": "The Armies of Thanos",
+      "type": "main_scheme",
+      "face": "21099A.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "main_scheme",
+      "back_code": "21099b"
+    },
+    "21099b": {
+      "name": "The Armies of Thanos",
+      "type": "main_scheme",
+      "face": "21099B.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "main_scheme",
+      "back_code": "21099a"
+    },
+    "21100a": {
+      "name": "Avengers Tower",
+      "type": "encounter",
+      "face": "21100A.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "environment",
+      "back_code": "21100b"
+    },
+    "21100b": {
+      "name": "Avengers Tower",
+      "type": "encounter",
+      "face": "21100B.jpg",
+      "setCode": "tower_defense",
+      "typeCode": "environment",
+      "back_code": "21100a"
+    }
+  },
+  "cardSets": {
+    "tower-defense-encounter": [
+      {
+        "code": "21100a"
+      },
+      {
+        "code": "21101"
+      },
+      {
+        "code": "21102",
+        "count": 4
+      },
+      {
+        "code": "21103"
+      },
+      {
+        "code": "21104"
+      },
+      {
+        "code": "21105",
+        "count": 2
+      },
+      {
+        "code": "21106",
+        "count": 2
+      },
+      {
+        "code": "21107",
+        "count": 2
+      },
+      {
+        "code": "21108"
+      },
+      {
+        "code": "21109",
+        "count": 2
+      },
+      {
+        "code": "21110",
+        "count": 2
+      }
+    ]
+  }
+}

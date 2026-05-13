@@ -1,0 +1,163 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-ebony-maw",
+  "name": "Marvel Champions: Ebony Maw",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "21071": {
+      "name": "Ebony Maw",
+      "type": "villain",
+      "face": "21071.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "villain"
+    },
+    "21072": {
+      "name": "Ebony Maw",
+      "type": "villain",
+      "face": "21072.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "villain"
+    },
+    "21073": {
+      "name": "Ebony Maw",
+      "type": "villain",
+      "face": "21073.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "villain"
+    },
+    "21076": {
+      "name": "Fireball",
+      "type": "encounter",
+      "face": "21076.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "environment"
+    },
+    "21077": {
+      "name": "Manipulation",
+      "type": "encounter",
+      "face": "21077.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "environment"
+    },
+    "21078": {
+      "name": "Pacification",
+      "type": "encounter",
+      "face": "21078.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "environment"
+    },
+    "21079": {
+      "name": "Rubblestorm",
+      "type": "encounter",
+      "face": "21079.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "environment"
+    },
+    "21080": {
+      "name": "Agent of Thanos",
+      "type": "encounter",
+      "face": "21080.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "treachery"
+    },
+    "21081": {
+      "name": "Channeling Trance",
+      "type": "encounter",
+      "face": "21081.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "treachery"
+    },
+    "21082": {
+      "name": "Abjuration",
+      "type": "encounter",
+      "face": "21082.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "attachment"
+    },
+    "21083": {
+      "name": "Restrained",
+      "type": "encounter",
+      "face": "21083.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "attachment"
+    },
+    "21084": {
+      "name": "Reactor Overload",
+      "type": "encounter",
+      "face": "21084.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "side_scheme"
+    },
+    "21074a": {
+      "name": "Attack on Knowhere",
+      "type": "main_scheme",
+      "face": "21074A.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "main_scheme",
+      "back_code": "21074b"
+    },
+    "21074b": {
+      "name": "Attack on Knowhere",
+      "type": "main_scheme",
+      "face": "21074B.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "main_scheme",
+      "back_code": "21074a"
+    },
+    "21075a": {
+      "name": "The Power Stone",
+      "type": "main_scheme",
+      "face": "21075A.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "main_scheme",
+      "back_code": "21075b"
+    },
+    "21075b": {
+      "name": "The Power Stone",
+      "type": "main_scheme",
+      "face": "21075B.jpg",
+      "setCode": "ebony_maw",
+      "typeCode": "main_scheme",
+      "back_code": "21075a"
+    }
+  },
+  "cardSets": {
+    "ebony-maw-encounter": [
+      {
+        "code": "21076",
+        "count": 2
+      },
+      {
+        "code": "21077",
+        "count": 2
+      },
+      {
+        "code": "21078",
+        "count": 2
+      },
+      {
+        "code": "21079",
+        "count": 2
+      },
+      {
+        "code": "21080",
+        "count": 2
+      },
+      {
+        "code": "21081",
+        "count": 3
+      },
+      {
+        "code": "21082"
+      },
+      {
+        "code": "21083"
+      },
+      {
+        "code": "21084",
+        "count": 2
+      }
+    ]
+  }
+}
