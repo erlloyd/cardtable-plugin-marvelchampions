@@ -1,0 +1,49 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-thunderbolts",
+  "name": "Marvel Champions: Thunderbolts",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-thunderbolts",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50129a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50130a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "thunderbolts-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-baron-zemo",
+  "name": "Marvel Champions: Baron Zemo",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "50170": {
+      "name": "Baron Zemo's Sword",
+      "type": "encounter",
+      "face": "50170.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "attachment"
+    },
+    "50171": {
+      "name": "Reluctant Foe",
+      "type": "encounter",
+      "face": "50171.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "attachment"
+    },
+    "50172": {
+      "name": "S.H.I.E.L.D. Agent",
+      "type": "encounter",
+      "face": "50172.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "minion"
+    },
+    "50173": {
+      "name": "Divided Loyalties",
+      "type": "encounter",
+      "face": "50173.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "side_scheme"
+    },
+    "50174": {
+      "name": "Undermine Support",
+      "type": "encounter",
+      "face": "50174.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "side_scheme"
+    },
+    "50175": {
+      "name": "Battle of Wits",
+      "type": "encounter",
+      "face": "50175.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "treachery"
+    },
+    "50176": {
+      "name": "Might Makes Right",
+      "type": "encounter",
+      "face": "50176.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "treachery"
+    },
+    "50177": {
+      "name": "The Ends Justify the Means",
+      "type": "encounter",
+      "face": "50177.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "treachery"
+    },
+    "50165a": {
+      "name": "Baron Zemo",
+      "type": "villain",
+      "face": "50165A.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "villain",
+      "back_code": "50165b"
+    },
+    "50165b": {
+      "name": "Baron Zemo",
+      "type": "villain",
+      "face": "50165B.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "villain",
+      "back_code": "50165a"
+    },
+    "50166a": {
+      "name": "Baron Zemo",
+      "type": "villain",
+      "face": "50166A.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "villain",
+      "back_code": "50166b"
+    },
+    "50166b": {
+      "name": "Baron Zemo",
+      "type": "villain",
+      "face": "50166B.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "villain",
+      "back_code": "50166a"
+    },
+    "50167a": {
+      "name": "Zemo's Manipulations",
+      "type": "main_scheme",
+      "face": "50167A.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "main_scheme",
+      "back_code": "50167b"
+    },
+    "50167b": {
+      "name": "Zemo's Manipulations",
+      "type": "main_scheme",
+      "face": "50167B.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "main_scheme",
+      "back_code": "50167a"
+    },
+    "50168a": {
+      "name": "The Accusation",
+      "type": "main_scheme",
+      "face": "50168A.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "main_scheme",
+      "back_code": "50168b"
+    },
+    "50168b": {
+      "name": "The Accusation",
+      "type": "main_scheme",
+      "face": "50168B.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "main_scheme",
+      "back_code": "50168a"
+    },
+    "50169a": {
+      "name": "Fighting Zemo",
+      "type": "main_scheme",
+      "face": "50169A.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "main_scheme",
+      "back_code": "50169b"
+    },
+    "50169b": {
+      "name": "Fighting Zemo",
+      "type": "main_scheme",
+      "face": "50169B.jpg",
+      "setCode": "baron_zemo",
+      "typeCode": "main_scheme",
+      "back_code": "50169a"
+    }
+  },
+  "cardSets": {
+    "baron-zemo-encounter": [
+      {
+        "code": "50170"
+      },
+      {
+        "code": "50171"
+      },
+      {
+        "code": "50172",
+        "count": 2
+      },
+      {
+        "code": "50173"
+      },
+      {
+        "code": "50174"
+      },
+      {
+        "code": "50175",
+        "count": 2
+      },
+      {
+        "code": "50176",
+        "count": 2
+      },
+      {
+        "code": "50177",
+        "count": 2
+      }
+    ]
+  }
+}

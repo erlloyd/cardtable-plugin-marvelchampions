@@ -1,0 +1,137 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-thunderbolts",
+  "name": "Marvel Champions: Thunderbolts",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "50132": {
+      "name": "Citizen V's Sword",
+      "type": "encounter",
+      "face": "50132.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "attachment"
+    },
+    "50133": {
+      "name": "Jolt",
+      "type": "encounter",
+      "face": "50133.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "minion"
+    },
+    "50134": {
+      "name": "Innocent Bystanders",
+      "type": "encounter",
+      "face": "50134.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "obligation"
+    },
+    "50135": {
+      "name": "The Coming Storm",
+      "type": "encounter",
+      "face": "50135.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "side_scheme"
+    },
+    "50136": {
+      "name": "Rumbling Thunder",
+      "type": "encounter",
+      "face": "50136.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "side_scheme"
+    },
+    "50137": {
+      "name": "Down but Not Out",
+      "type": "encounter",
+      "face": "50137.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "treachery"
+    },
+    "50138": {
+      "name": "Tap In",
+      "type": "encounter",
+      "face": "50138.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "treachery"
+    },
+    "50129a": {
+      "name": "Citizen V",
+      "type": "villain",
+      "face": "50129A.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "villain",
+      "back_code": "50129b"
+    },
+    "50129b": {
+      "name": "Citizen V",
+      "type": "villain",
+      "face": "50129B.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "villain",
+      "back_code": "50129a"
+    },
+    "50130a": {
+      "name": "Apprehending Rogue Agents",
+      "type": "main_scheme",
+      "face": "50130A.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "main_scheme",
+      "back_code": "50130b"
+    },
+    "50130b": {
+      "name": "Apprehending Rogue Agents",
+      "type": "main_scheme",
+      "face": "50130B.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "main_scheme",
+      "back_code": "50130a"
+    },
+    "50131a": {
+      "name": "Justice, Like Lightning",
+      "type": "encounter",
+      "face": "50131A.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "environment",
+      "back_code": "50131b"
+    },
+    "50131b": {
+      "name": "Thunderbolt Backup",
+      "type": "encounter",
+      "face": "50131B.jpg",
+      "setCode": "thunderbolts",
+      "typeCode": "environment",
+      "back_code": "50131a"
+    }
+  },
+  "cardSets": {
+    "thunderbolts-encounter": [
+      {
+        "code": "50131a"
+      },
+      {
+        "code": "50132"
+      },
+      {
+        "code": "50133"
+      },
+      {
+        "code": "50134",
+        "count": 3
+      },
+      {
+        "code": "50135"
+      },
+      {
+        "code": "50136"
+      },
+      {
+        "code": "50137",
+        "count": 2
+      },
+      {
+        "code": "50138",
+        "count": 2
+      }
+    ]
+  }
+}

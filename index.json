@@ -66,6 +66,11 @@
     "marvelchampions-en-sabah-nur.json",
     "marvelchampions-four-horsemen.json",
     "marvelchampions-unus.json",
+    "marvelchampions-baron-zemo.json",
+    "marvelchampions-batroc.json",
+    "marvelchampions-black-widow-villain.json",
+    "marvelchampions-modok.json",
+    "marvelchampions-thunderbolts.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -336,6 +341,31 @@
             "id": "marvelchampions-unus",
             "label": "Age of Apocalypse - Unus",
             "data": { "file": "marvelchampions-unus-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-baron-zemo",
+            "label": "Agents of S.H.I.E.L.D. - Baron Zemo",
+            "data": { "file": "marvelchampions-baron-zemo-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-batroc",
+            "label": "Agents of S.H.I.E.L.D. - Batroc",
+            "data": { "file": "marvelchampions-batroc-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-black-widow-villain",
+            "label": "Agents of S.H.I.E.L.D. - Black Widow",
+            "data": { "file": "marvelchampions-black-widow-villain-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-modok",
+            "label": "Agents of S.H.I.E.L.D. - M.O.D.O.K",
+            "data": { "file": "marvelchampions-modok-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-thunderbolts",
+            "label": "Agents of S.H.I.E.L.D. - Thunderbolts",
+            "data": { "file": "marvelchampions-thunderbolts-scenario.json" }
           }
         ]
       }

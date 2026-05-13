@@ -1,0 +1,49 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-batroc",
+  "name": "Marvel Champions: Batroc",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-batroc",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50086a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50087a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "batroc-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

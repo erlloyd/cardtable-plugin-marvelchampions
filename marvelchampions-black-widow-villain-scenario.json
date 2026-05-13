@@ -1,0 +1,55 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-black-widow-villain",
+  "name": "Marvel Champions: Black Widow",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-black-widow-villain",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50064"
+            },
+            {
+              "code": "50065"
+            },
+            {
+              "code": "50066"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50067a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "black-widow-villain-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

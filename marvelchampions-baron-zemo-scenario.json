@@ -1,0 +1,52 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-baron-zemo",
+  "name": "Marvel Champions: Baron Zemo",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-baron-zemo",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50165a"
+            },
+            {
+              "code": "50166a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "50167a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "baron-zemo-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-modok",
+  "name": "Marvel Champions: M.O.D.O.K",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "50109": {
+      "name": "Flying Upgrade",
+      "type": "encounter",
+      "face": "50109.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment"
+    },
+    "50110": {
+      "name": "Psionic Upgrade",
+      "type": "encounter",
+      "face": "50110.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment"
+    },
+    "50111": {
+      "name": "Sarah Garza Upgrade",
+      "type": "encounter",
+      "face": "50111.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment"
+    },
+    "50112": {
+      "name": "Strong Upgrade",
+      "type": "encounter",
+      "face": "50112.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment"
+    },
+    "50113": {
+      "name": "Adaptoid",
+      "type": "encounter",
+      "face": "50113.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "minion"
+    },
+    "50114": {
+      "name": "Automated Mobile Unit",
+      "type": "encounter",
+      "face": "50114.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "attachment"
+    },
+    "50115": {
+      "name": "Focusing Crystal",
+      "type": "encounter",
+      "face": "50115.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "attachment"
+    },
+    "50116": {
+      "name": "Nanobots",
+      "type": "encounter",
+      "face": "50116.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "attachment"
+    },
+    "50117": {
+      "name": "Psionic Force Field",
+      "type": "encounter",
+      "face": "50117.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "attachment"
+    },
+    "50118": {
+      "name": "Psionic Machetes",
+      "type": "encounter",
+      "face": "50118.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "attachment"
+    },
+    "50119": {
+      "name": "Reverse Engineering",
+      "type": "encounter",
+      "face": "50119.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "attachment"
+    },
+    "50120": {
+      "name": "A.I.M. Jailer",
+      "type": "encounter",
+      "face": "50120.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "minion"
+    },
+    "50121": {
+      "name": "Hostage Situation",
+      "type": "encounter",
+      "face": "50121.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "side_scheme"
+    },
+    "50122": {
+      "name": "Psionic Enhancement",
+      "type": "encounter",
+      "face": "50122.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "side_scheme"
+    },
+    "50123": {
+      "name": "\"It's Alive!\"",
+      "type": "encounter",
+      "face": "50123.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "treachery"
+    },
+    "50124": {
+      "name": "Psionic Blast",
+      "type": "encounter",
+      "face": "50124.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "treachery"
+    },
+    "50103a": {
+      "name": "M.O.D.O.K.",
+      "type": "villain",
+      "face": "50103A.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "villain",
+      "back_code": "50103b"
+    },
+    "50103b": {
+      "name": "M.O.D.O.K.",
+      "type": "villain",
+      "face": "50103B.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "villain",
+      "back_code": "50103a"
+    },
+    "50104a": {
+      "name": "Upgrading Adaptoids",
+      "type": "main_scheme",
+      "face": "50104A.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "main_scheme",
+      "back_code": "50104b"
+    },
+    "50104b": {
+      "name": "Upgrading Adaptoids",
+      "type": "main_scheme",
+      "face": "50104B.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "main_scheme",
+      "back_code": "50104a"
+    },
+    "50105a": {
+      "name": "Holding Cell",
+      "type": "encounter",
+      "face": "50105A.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment",
+      "back_code": "50105b"
+    },
+    "50105b": {
+      "name": "Flying Inhuman",
+      "type": "encounter",
+      "face": "50105B.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "ally",
+      "back_code": "50105a"
+    },
+    "50106a": {
+      "name": "Holding Cell",
+      "type": "encounter",
+      "face": "50106A.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment",
+      "back_code": "50106b"
+    },
+    "50106b": {
+      "name": "Psionic Inhuman",
+      "type": "encounter",
+      "face": "50106B.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "ally",
+      "back_code": "50106a"
+    },
+    "50107a": {
+      "name": "Holding Cell",
+      "type": "encounter",
+      "face": "50107A.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment",
+      "back_code": "50107b"
+    },
+    "50107b": {
+      "name": "Sarah Garza",
+      "type": "encounter",
+      "face": "50107B.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "ally",
+      "back_code": "50107a"
+    },
+    "50108a": {
+      "name": "Holding Cell",
+      "type": "encounter",
+      "face": "50108A.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "environment",
+      "back_code": "50108b"
+    },
+    "50108b": {
+      "name": "Strong Inhuman",
+      "type": "encounter",
+      "face": "50108B.jpg",
+      "setCode": "m.o.d.o.k.",
+      "typeCode": "ally",
+      "back_code": "50108a"
+    }
+  },
+  "cardSets": {
+    "modok-encounter": [
+      {
+        "code": "50105a"
+      },
+      {
+        "code": "50106a"
+      },
+      {
+        "code": "50107a"
+      },
+      {
+        "code": "50108a"
+      },
+      {
+        "code": "50109"
+      },
+      {
+        "code": "50110"
+      },
+      {
+        "code": "50111"
+      },
+      {
+        "code": "50112"
+      },
+      {
+        "code": "50113",
+        "count": 4
+      },
+      {
+        "code": "50114"
+      },
+      {
+        "code": "50115"
+      },
+      {
+        "code": "50116"
+      },
+      {
+        "code": "50117"
+      },
+      {
+        "code": "50118"
+      },
+      {
+        "code": "50119"
+      },
+      {
+        "code": "50120",
+        "count": 2
+      },
+      {
+        "code": "50121"
+      },
+      {
+        "code": "50122"
+      },
+      {
+        "code": "50123"
+      },
+      {
+        "code": "50124",
+        "count": 2
+      }
+    ]
+  }
+}

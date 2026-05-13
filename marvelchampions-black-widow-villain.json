@@ -1,0 +1,177 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-black-widow-villain",
+  "name": "Marvel Champions: Black Widow",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "50064": {
+      "name": "Black Widow",
+      "type": "villain",
+      "face": "50064.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "villain"
+    },
+    "50065": {
+      "name": "Black Widow",
+      "type": "villain",
+      "face": "50065.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "villain"
+    },
+    "50066": {
+      "name": "Black Widow",
+      "type": "villain",
+      "face": "50066.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "villain"
+    },
+    "50068": {
+      "name": "Black Widow's Gauntlet",
+      "type": "encounter",
+      "face": "50068.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "attachment"
+    },
+    "50069": {
+      "name": "Grappling Hook",
+      "type": "encounter",
+      "face": "50069.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "attachment"
+    },
+    "50070": {
+      "name": "Night Vision Goggles",
+      "type": "encounter",
+      "face": "50070.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "attachment"
+    },
+    "50071": {
+      "name": "Stun Net",
+      "type": "encounter",
+      "face": "50071.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "attachment"
+    },
+    "50072": {
+      "name": "A.I.M. Commando",
+      "type": "encounter",
+      "face": "50072.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "minion"
+    },
+    "50073": {
+      "name": "A.I.M. Grunt",
+      "type": "encounter",
+      "face": "50073.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "minion"
+    },
+    "50074": {
+      "name": "Automated Defenses",
+      "type": "encounter",
+      "face": "50074.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "side_scheme"
+    },
+    "50075": {
+      "name": "Destroy Evidence",
+      "type": "encounter",
+      "face": "50075.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "side_scheme"
+    },
+    "50076": {
+      "name": "Attacrobatics",
+      "type": "encounter",
+      "face": "50076.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "treachery"
+    },
+    "50077": {
+      "name": "Covert Ops",
+      "type": "encounter",
+      "face": "50077.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "treachery"
+    },
+    "50078": {
+      "name": "Dance of Death",
+      "type": "encounter",
+      "face": "50078.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "treachery"
+    },
+    "50079": {
+      "name": "Widow's Bite",
+      "type": "encounter",
+      "face": "50079.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "treachery"
+    },
+    "50067a": {
+      "name": "The Widow's Web",
+      "type": "main_scheme",
+      "face": "50067A.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "main_scheme",
+      "back_code": "50067b"
+    },
+    "50067b": {
+      "name": "The Widow's Web",
+      "type": "main_scheme",
+      "face": "50067B.jpg",
+      "setCode": "black_widow_villain",
+      "typeCode": "main_scheme",
+      "back_code": "50067a"
+    }
+  },
+  "cardSets": {
+    "black-widow-villain-encounter": [
+      {
+        "code": "50068",
+        "count": 2
+      },
+      {
+        "code": "50069"
+      },
+      {
+        "code": "50070"
+      },
+      {
+        "code": "50071"
+      },
+      {
+        "code": "50072",
+        "count": 2
+      },
+      {
+        "code": "50073",
+        "count": 2
+      },
+      {
+        "code": "50074"
+      },
+      {
+        "code": "50075"
+      },
+      {
+        "code": "50076",
+        "count": 2
+      },
+      {
+        "code": "50077",
+        "count": 2
+      },
+      {
+        "code": "50078",
+        "count": 2
+      },
+      {
+        "code": "50079",
+        "count": 2
+      }
+    ]
+  }
+}

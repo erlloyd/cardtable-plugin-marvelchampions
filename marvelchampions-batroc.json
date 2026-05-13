@@ -1,0 +1,171 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-batroc",
+  "name": "Marvel Champions: Batroc",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "50091": {
+      "name": "Rescued Captive",
+      "type": "encounter",
+      "face": "50091.jpg",
+      "setCode": "batroc",
+      "typeCode": "ally"
+    },
+    "50092": {
+      "name": "Heightened Reflexes",
+      "type": "encounter",
+      "face": "50092.jpg",
+      "setCode": "batroc",
+      "typeCode": "attachment"
+    },
+    "50093": {
+      "name": "Embassy Guard",
+      "type": "encounter",
+      "face": "50093.jpg",
+      "setCode": "batroc",
+      "typeCode": "minion"
+    },
+    "50094": {
+      "name": "Embassy Patrol",
+      "type": "encounter",
+      "face": "50094.jpg",
+      "setCode": "batroc",
+      "typeCode": "minion"
+    },
+    "50095": {
+      "name": "Commandeer Security Office",
+      "type": "encounter",
+      "face": "50095.jpg",
+      "setCode": "batroc",
+      "typeCode": "side_scheme"
+    },
+    "50096": {
+      "name": "Leaping Kick",
+      "type": "encounter",
+      "face": "50096.jpg",
+      "setCode": "batroc",
+      "typeCode": "treachery"
+    },
+    "50097": {
+      "name": "Security Cameras",
+      "type": "encounter",
+      "face": "50097.jpg",
+      "setCode": "batroc",
+      "typeCode": "treachery"
+    },
+    "50086a": {
+      "name": "Batroc",
+      "type": "villain",
+      "face": "50086A.jpg",
+      "setCode": "batroc",
+      "typeCode": "villain",
+      "back_code": "50086b"
+    },
+    "50086b": {
+      "name": "Batroc",
+      "type": "villain",
+      "face": "50086B.jpg",
+      "setCode": "batroc",
+      "typeCode": "villain",
+      "back_code": "50086a"
+    },
+    "50087a": {
+      "name": "Infiltrate A.I.M. Island Embassy",
+      "type": "main_scheme",
+      "face": "50087A.jpg",
+      "setCode": "batroc",
+      "typeCode": "main_scheme",
+      "back_code": "50087b"
+    },
+    "50087b": {
+      "name": "Infiltrate A.I.M. Island Embassy",
+      "type": "main_scheme",
+      "face": "50087B.jpg",
+      "setCode": "batroc",
+      "typeCode": "main_scheme",
+      "back_code": "50087a"
+    },
+    "50088a": {
+      "name": "Locate Missing Person",
+      "type": "main_scheme",
+      "face": "50088A.jpg",
+      "setCode": "batroc",
+      "typeCode": "main_scheme",
+      "back_code": "50088b"
+    },
+    "50088b": {
+      "name": "Locate Missing Person",
+      "type": "main_scheme",
+      "face": "50088B.jpg",
+      "setCode": "batroc",
+      "typeCode": "main_scheme",
+      "back_code": "50088a"
+    },
+    "50089a": {
+      "name": "Extract Captives",
+      "type": "main_scheme",
+      "face": "50089A.jpg",
+      "setCode": "batroc",
+      "typeCode": "main_scheme",
+      "back_code": "50089b"
+    },
+    "50089b": {
+      "name": "Extract Captives",
+      "type": "main_scheme",
+      "face": "50089B.jpg",
+      "setCode": "batroc",
+      "typeCode": "main_scheme",
+      "back_code": "50089a"
+    },
+    "50090a": {
+      "name": "Alert Level",
+      "type": "encounter",
+      "face": "50090A.jpg",
+      "setCode": "batroc",
+      "typeCode": "environment",
+      "back_code": "50090b"
+    },
+    "50090b": {
+      "name": "Alert Level",
+      "type": "encounter",
+      "face": "50090B.jpg",
+      "setCode": "batroc",
+      "typeCode": "environment",
+      "back_code": "50090a"
+    }
+  },
+  "cardSets": {
+    "batroc-encounter": [
+      {
+        "code": "50090a"
+      },
+      {
+        "code": "50091",
+        "count": 4
+      },
+      {
+        "code": "50092"
+      },
+      {
+        "code": "50093",
+        "count": 2
+      },
+      {
+        "code": "50094",
+        "count": 2
+      },
+      {
+        "code": "50095"
+      },
+      {
+        "code": "50096",
+        "count": 2
+      },
+      {
+        "code": "50097",
+        "count": 4
+      }
+    ]
+  }
+}
