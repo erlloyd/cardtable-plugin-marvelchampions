@@ -1,0 +1,43 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-sabretooth",
+  "name": "Marvel Champions: Sabretooth",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-sabretooth",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "32060"
+            },
+            {
+              "code": "32061"
+            },
+            {
+              "code": "32062"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "sabretooth-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

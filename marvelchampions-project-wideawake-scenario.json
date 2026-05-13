@@ -1,0 +1,43 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-project-wideawake",
+  "name": "Marvel Champions: Project Wideawake",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-project-wideawake",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "32084"
+            },
+            {
+              "code": "32085"
+            },
+            {
+              "code": "32086"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "project-wideawake-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

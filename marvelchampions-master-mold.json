@@ -1,0 +1,142 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-master-mold",
+  "name": "Marvel Champions: Master Mold",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "32109": {
+      "name": "Master Mold",
+      "type": "villain",
+      "face": "32109.jpg",
+      "setCode": "master_mold",
+      "typeCode": "villain"
+    },
+    "32110": {
+      "name": "Master Mold",
+      "type": "villain",
+      "face": "32110.jpg",
+      "setCode": "master_mold",
+      "typeCode": "villain"
+    },
+    "32111": {
+      "name": "Master Mold",
+      "type": "villain",
+      "face": "32111.jpg",
+      "setCode": "master_mold",
+      "typeCode": "villain"
+    },
+    "32114": {
+      "name": "Sentinel Mark VIII",
+      "type": "encounter",
+      "face": "32114.jpg",
+      "setCode": "master_mold",
+      "typeCode": "minion"
+    },
+    "32115": {
+      "name": "Unit Upgrade",
+      "type": "encounter",
+      "face": "32115.jpg",
+      "setCode": "master_mold",
+      "typeCode": "attachment"
+    },
+    "32116": {
+      "name": "Stun Beam",
+      "type": "encounter",
+      "face": "32116.jpg",
+      "setCode": "master_mold",
+      "typeCode": "attachment"
+    },
+    "32117": {
+      "name": "Master Mold's Children",
+      "type": "encounter",
+      "face": "32117.jpg",
+      "setCode": "master_mold",
+      "typeCode": "treachery"
+    },
+    "32118": {
+      "name": "Shields Up",
+      "type": "encounter",
+      "face": "32118.jpg",
+      "setCode": "master_mold",
+      "typeCode": "treachery"
+    },
+    "32119": {
+      "name": "Intruder Alert!",
+      "type": "encounter",
+      "face": "32119.jpg",
+      "setCode": "master_mold",
+      "typeCode": "side_scheme"
+    },
+    "32120": {
+      "name": "Insert Virus Program",
+      "type": "encounter",
+      "face": "32120.jpg",
+      "setCode": "master_mold",
+      "typeCode": "side_scheme"
+    },
+    "32112a": {
+      "name": "The Sentinel Factory",
+      "type": "main_scheme",
+      "face": "32112A.jpg",
+      "setCode": "master_mold",
+      "typeCode": "main_scheme",
+      "back_code": "32112b"
+    },
+    "32112b": {
+      "name": "The Sentinel Factory",
+      "type": "main_scheme",
+      "face": "32112B.jpg",
+      "setCode": "master_mold",
+      "typeCode": "main_scheme",
+      "back_code": "32112a"
+    },
+    "32113a": {
+      "name": "Master Mold's Agenda",
+      "type": "main_scheme",
+      "face": "32113A.jpg",
+      "setCode": "master_mold",
+      "typeCode": "main_scheme",
+      "back_code": "32113b"
+    },
+    "32113b": {
+      "name": "Master Mold's Agenda",
+      "type": "main_scheme",
+      "face": "32113B.jpg",
+      "setCode": "master_mold",
+      "typeCode": "main_scheme",
+      "back_code": "32113a"
+    }
+  },
+  "cardSets": {
+    "master-mold-encounter": [
+      {
+        "code": "32114",
+        "count": 2
+      },
+      {
+        "code": "32115",
+        "count": 2
+      },
+      {
+        "code": "32116",
+        "count": 2
+      },
+      {
+        "code": "32117",
+        "count": 2
+      },
+      {
+        "code": "32118",
+        "count": 2
+      },
+      {
+        "code": "32119"
+      },
+      {
+        "code": "32120",
+        "count": 2
+      }
+    ]
+  }
+}

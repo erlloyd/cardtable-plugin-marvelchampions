@@ -1,0 +1,256 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-magneto-villain",
+  "name": "Marvel Champions: Magneto",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "32138": {
+      "name": "Magneto",
+      "type": "villain",
+      "face": "32138.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "villain"
+    },
+    "32139": {
+      "name": "Magneto",
+      "type": "villain",
+      "face": "32139.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "villain"
+    },
+    "32140": {
+      "name": "Magneto",
+      "type": "villain",
+      "face": "32140.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "villain"
+    },
+    "32146": {
+      "name": "M-Type Sentinel",
+      "type": "encounter",
+      "face": "32146.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "minion"
+    },
+    "32147": {
+      "name": "Magneto's Helmet",
+      "type": "encounter",
+      "face": "32147.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "attachment"
+    },
+    "32148": {
+      "name": "Magneto's Armor",
+      "type": "encounter",
+      "face": "32148.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "attachment"
+    },
+    "32149": {
+      "name": "Magnetic Bubble",
+      "type": "encounter",
+      "face": "32149.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "attachment"
+    },
+    "32150": {
+      "name": "Wrapped in Metal",
+      "type": "encounter",
+      "face": "32150.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "attachment"
+    },
+    "32151": {
+      "name": "Master of Magnetism",
+      "type": "encounter",
+      "face": "32151.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "treachery"
+    },
+    "32152": {
+      "name": "Electric Shock",
+      "type": "encounter",
+      "face": "32152.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "treachery"
+    },
+    "32153": {
+      "name": "Electromagnetic Blast",
+      "type": "encounter",
+      "face": "32153.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "treachery"
+    },
+    "32154": {
+      "name": "Metal Shards",
+      "type": "encounter",
+      "face": "32154.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "treachery"
+    },
+    "32155": {
+      "name": "Magnetic Missile",
+      "type": "encounter",
+      "face": "32155.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "treachery"
+    },
+    "32156": {
+      "name": "Magnetic Mayhem",
+      "type": "encounter",
+      "face": "32156.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "side_scheme"
+    },
+    "32157": {
+      "name": "Magnetically Sealed",
+      "type": "encounter",
+      "face": "32157.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "side_scheme"
+    },
+    "32158": {
+      "name": "Seized!",
+      "type": "encounter",
+      "face": "32158.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "side_scheme"
+    },
+    "32141a": {
+      "name": "Asteroid M",
+      "type": "main_scheme",
+      "face": "32141A.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "main_scheme",
+      "back_code": "32141b"
+    },
+    "32141b": {
+      "name": "Asteroid M",
+      "type": "main_scheme",
+      "face": "32141B.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "main_scheme",
+      "back_code": "32141a"
+    },
+    "32142a": {
+      "name": "Factory Online",
+      "type": "main_scheme",
+      "face": "32142A.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "main_scheme",
+      "back_code": "32142b"
+    },
+    "32142b": {
+      "name": "Factory Online",
+      "type": "main_scheme",
+      "face": "32142B.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "main_scheme",
+      "back_code": "32142a"
+    },
+    "32143a": {
+      "name": "The Rule of Magnus",
+      "type": "main_scheme",
+      "face": "32143A.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "main_scheme",
+      "back_code": "32143b"
+    },
+    "32143b": {
+      "name": "The Rule of Magnus",
+      "type": "main_scheme",
+      "face": "32143B.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "main_scheme",
+      "back_code": "32143a"
+    },
+    "32144a": {
+      "name": "Boarding Party",
+      "type": "encounter",
+      "face": "32144A.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "side_scheme",
+      "back_code": "32144b"
+    },
+    "32144b": {
+      "name": "Sabotage Master Mold",
+      "type": "encounter",
+      "face": "32144B.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "side_scheme",
+      "back_code": "32144a"
+    },
+    "32145a": {
+      "name": "Orbital Decay",
+      "type": "encounter",
+      "face": "32145A.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "side_scheme",
+      "back_code": "32145b"
+    },
+    "32145b": {
+      "name": "Physical Strain",
+      "type": "encounter",
+      "face": "32145B.jpg",
+      "setCode": "magneto_villain",
+      "typeCode": "attachment",
+      "back_code": "32145a"
+    }
+  },
+  "cardSets": {
+    "magneto-villain-encounter": [
+      {
+        "code": "32144a"
+      },
+      {
+        "code": "32145a"
+      },
+      {
+        "code": "32146",
+        "count": 4
+      },
+      {
+        "code": "32147"
+      },
+      {
+        "code": "32148"
+      },
+      {
+        "code": "32149"
+      },
+      {
+        "code": "32150"
+      },
+      {
+        "code": "32151",
+        "count": 3
+      },
+      {
+        "code": "32152",
+        "count": 2
+      },
+      {
+        "code": "32153",
+        "count": 2
+      },
+      {
+        "code": "32154",
+        "count": 2
+      },
+      {
+        "code": "32155",
+        "count": 2
+      },
+      {
+        "code": "32156"
+      },
+      {
+        "code": "32157"
+      },
+      {
+        "code": "32158"
+      }
+    ]
+  }
+}

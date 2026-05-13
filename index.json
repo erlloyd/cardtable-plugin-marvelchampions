@@ -47,6 +47,11 @@
     "marvelchampions-mysterio.json",
     "marvelchampions-sinister-six.json",
     "marvelchampions-venom-goblin.json",
+    "marvelchampions-magneto-villain.json",
+    "marvelchampions-mansion-attack.json",
+    "marvelchampions-master-mold.json",
+    "marvelchampions-project-wideawake.json",
+    "marvelchampions-sabretooth.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -222,6 +227,31 @@
             "id": "marvelchampions-venom-goblin",
             "label": "Sinister Motives - Venom Goblin",
             "data": { "file": "marvelchampions-venom-goblin-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-magneto-villain",
+            "label": "Mutant Genesis - Magneto",
+            "data": { "file": "marvelchampions-magneto-villain-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-mansion-attack",
+            "label": "Mutant Genesis - Mansion Attack",
+            "data": { "file": "marvelchampions-mansion-attack-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-master-mold",
+            "label": "Mutant Genesis - Master Mold",
+            "data": { "file": "marvelchampions-master-mold-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-project-wideawake",
+            "label": "Mutant Genesis - Project Wideawake",
+            "data": { "file": "marvelchampions-project-wideawake-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-sabretooth",
+            "label": "Mutant Genesis - Sabretooth",
+            "data": { "file": "marvelchampions-sabretooth-scenario.json" }
           }
         ]
       }

@@ -1,0 +1,158 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-sabretooth",
+  "name": "Marvel Champions: Sabretooth",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "32060": {
+      "name": "Sabretooth",
+      "type": "villain",
+      "face": "32060.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "villain"
+    },
+    "32061": {
+      "name": "Sabretooth",
+      "type": "villain",
+      "face": "32061.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "villain"
+    },
+    "32062": {
+      "name": "Sabretooth",
+      "type": "villain",
+      "face": "32062.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "villain"
+    },
+    "32066": {
+      "name": "Robert Kelly",
+      "type": "encounter",
+      "face": "32066.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "ally"
+    },
+    "32067": {
+      "name": "Adamantium Claws",
+      "type": "encounter",
+      "face": "32067.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "attachment"
+    },
+    "32068": {
+      "name": "Animal Ferocity",
+      "type": "encounter",
+      "face": "32068.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "attachment"
+    },
+    "32069": {
+      "name": "Sabretooth Strikes",
+      "type": "encounter",
+      "face": "32069.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "treachery"
+    },
+    "32070": {
+      "name": "Unrelenting Savage",
+      "type": "encounter",
+      "face": "32070.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "treachery"
+    },
+    "32071": {
+      "name": "Medical Emergency",
+      "type": "encounter",
+      "face": "32071.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "side_scheme"
+    },
+    "32072": {
+      "name": "Feral Rage",
+      "type": "encounter",
+      "face": "32072.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "side_scheme"
+    },
+    "32063a": {
+      "name": "Stalked by Sabretooth",
+      "type": "main_scheme",
+      "face": "32063A.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "main_scheme",
+      "back_code": "32063b"
+    },
+    "32063b": {
+      "name": "Stalked by Sabretooth",
+      "type": "main_scheme",
+      "face": "32063B.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "main_scheme",
+      "back_code": "32063a"
+    },
+    "32064a": {
+      "name": "The Injured Senator",
+      "type": "main_scheme",
+      "face": "32064A.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "main_scheme",
+      "back_code": "32064b"
+    },
+    "32064b": {
+      "name": "The Injured Senator",
+      "type": "main_scheme",
+      "face": "32064B.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "main_scheme",
+      "back_code": "32064a"
+    },
+    "32065a": {
+      "name": "Find the Senator",
+      "type": "encounter",
+      "face": "32065A.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "side_scheme",
+      "back_code": "32065b"
+    },
+    "32065b": {
+      "name": "Protect the Senator",
+      "type": "encounter",
+      "face": "32065B.jpg",
+      "setCode": "sabretooth",
+      "typeCode": "environment",
+      "back_code": "32065a"
+    }
+  },
+  "cardSets": {
+    "sabretooth-encounter": [
+      {
+        "code": "32065a"
+      },
+      {
+        "code": "32066"
+      },
+      {
+        "code": "32067"
+      },
+      {
+        "code": "32068"
+      },
+      {
+        "code": "32069",
+        "count": 2
+      },
+      {
+        "code": "32070",
+        "count": 3
+      },
+      {
+        "code": "32071",
+        "count": 2
+      },
+      {
+        "code": "32072"
+      }
+    ]
+  }
+}

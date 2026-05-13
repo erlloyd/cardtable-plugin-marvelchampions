@@ -1,0 +1,244 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-mansion-attack",
+  "name": "Marvel Champions: Mansion Attack",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "32130": {
+      "name": "Save the School",
+      "type": "encounter",
+      "face": "32130.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "environment"
+    },
+    "32131": {
+      "name": "Brotherhood Beatdown",
+      "type": "encounter",
+      "face": "32131.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "treachery"
+    },
+    "32132": {
+      "name": "Ground Swell",
+      "type": "encounter",
+      "face": "32132.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "treachery"
+    },
+    "32133": {
+      "name": "Immovable",
+      "type": "encounter",
+      "face": "32133.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "treachery"
+    },
+    "32134": {
+      "name": "Pyromaniac",
+      "type": "encounter",
+      "face": "32134.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "treachery"
+    },
+    "32135": {
+      "name": "Hopping Mad",
+      "type": "encounter",
+      "face": "32135.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "treachery"
+    },
+    "32136": {
+      "name": "Protect the Students",
+      "type": "encounter",
+      "face": "32136.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "side_scheme"
+    },
+    "32137": {
+      "name": "Under Siege",
+      "type": "encounter",
+      "face": "32137.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "side_scheme"
+    },
+    "32121a": {
+      "name": "Avalanche",
+      "type": "villain",
+      "face": "32121A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32121b"
+    },
+    "32121b": {
+      "name": "Avalanche",
+      "type": "villain",
+      "face": "32121B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32121a"
+    },
+    "32122a": {
+      "name": "Blob",
+      "type": "villain",
+      "face": "32122A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32122b"
+    },
+    "32122b": {
+      "name": "Blob",
+      "type": "villain",
+      "face": "32122B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32122a"
+    },
+    "32123a": {
+      "name": "Pyro",
+      "type": "villain",
+      "face": "32123A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32123b"
+    },
+    "32123b": {
+      "name": "Pyro",
+      "type": "villain",
+      "face": "32123B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32123a"
+    },
+    "32124a": {
+      "name": "Toad",
+      "type": "villain",
+      "face": "32124A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32124b"
+    },
+    "32124b": {
+      "name": "Toad",
+      "type": "villain",
+      "face": "32124B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "villain",
+      "back_code": "32124a"
+    },
+    "32125a": {
+      "name": "The Brotherhood Strikes!",
+      "type": "main_scheme",
+      "face": "32125A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32125b"
+    },
+    "32125b": {
+      "name": "The Brotherhood Strikes!",
+      "type": "main_scheme",
+      "face": "32125B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32125a"
+    },
+    "32126a": {
+      "name": "The Atrium",
+      "type": "main_scheme",
+      "face": "32126A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32126b"
+    },
+    "32126b": {
+      "name": "The Atrium",
+      "type": "main_scheme",
+      "face": "32126B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32126a"
+    },
+    "32127a": {
+      "name": "The Cafeteria",
+      "type": "main_scheme",
+      "face": "32127A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32127b"
+    },
+    "32127b": {
+      "name": "The Cafeteria",
+      "type": "main_scheme",
+      "face": "32127B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32127a"
+    },
+    "32128a": {
+      "name": "The Basketball Court",
+      "type": "main_scheme",
+      "face": "32128A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32128b"
+    },
+    "32128b": {
+      "name": "The Basketball Court",
+      "type": "main_scheme",
+      "face": "32128B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32128a"
+    },
+    "32129a": {
+      "name": "The Courtyard",
+      "type": "main_scheme",
+      "face": "32129A.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32129b"
+    },
+    "32129b": {
+      "name": "The Courtyard",
+      "type": "main_scheme",
+      "face": "32129B.jpg",
+      "setCode": "mansion_attack",
+      "typeCode": "main_scheme",
+      "back_code": "32129a"
+    }
+  },
+  "cardSets": {
+    "mansion-attack-encounter": [
+      {
+        "code": "32130"
+      },
+      {
+        "code": "32131",
+        "count": 3
+      },
+      {
+        "code": "32132",
+        "count": 2
+      },
+      {
+        "code": "32133",
+        "count": 2
+      },
+      {
+        "code": "32134",
+        "count": 2
+      },
+      {
+        "code": "32135",
+        "count": 2
+      },
+      {
+        "code": "32136",
+        "count": 2
+      },
+      {
+        "code": "32137",
+        "count": 2
+      }
+    ]
+  }
+}

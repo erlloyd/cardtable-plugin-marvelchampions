@@ -1,0 +1,46 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-mansion-attack",
+  "name": "Marvel Champions: Mansion Attack",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-mansion-attack",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "32121a"
+            },
+            {
+              "code": "32122a"
+            },
+            {
+              "code": "32123a"
+            },
+            {
+              "code": "32124a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "mansion-attack-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

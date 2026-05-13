@@ -1,0 +1,194 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-project-wideawake",
+  "name": "Marvel Champions: Project Wideawake",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "32084": {
+      "name": "Sentinel",
+      "type": "villain",
+      "face": "32084.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "villain"
+    },
+    "32085": {
+      "name": "Sentinel",
+      "type": "villain",
+      "face": "32085.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "villain"
+    },
+    "32086": {
+      "name": "Sentinel",
+      "type": "villain",
+      "face": "32086.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "villain"
+    },
+    "32089": {
+      "name": "Rictor",
+      "type": "encounter",
+      "face": "32089.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "ally"
+    },
+    "32090": {
+      "name": "Boom Boom",
+      "type": "encounter",
+      "face": "32090.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "ally"
+    },
+    "32091": {
+      "name": "Cannonball",
+      "type": "encounter",
+      "face": "32091.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "ally"
+    },
+    "32092": {
+      "name": "Wolfsbane",
+      "type": "encounter",
+      "face": "32092.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "ally"
+    },
+    "32093": {
+      "name": "Sentinel Mark IV",
+      "type": "encounter",
+      "face": "32093.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "minion"
+    },
+    "32094": {
+      "name": "Gauntlet Beam",
+      "type": "encounter",
+      "face": "32094.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "attachment"
+    },
+    "32095": {
+      "name": "Learning A.I.",
+      "type": "encounter",
+      "face": "32095.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "attachment"
+    },
+    "32096": {
+      "name": "Adaptive Armor",
+      "type": "encounter",
+      "face": "32096.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "attachment"
+    },
+    "32097": {
+      "name": "Self-Repair",
+      "type": "encounter",
+      "face": "32097.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "treachery"
+    },
+    "32098": {
+      "name": "Mutant Detected",
+      "type": "encounter",
+      "face": "32098.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "treachery"
+    },
+    "32099": {
+      "name": "Warn the Others",
+      "type": "encounter",
+      "face": "32099.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "obligation"
+    },
+    "32100": {
+      "name": "Abduction Protocols",
+      "type": "encounter",
+      "face": "32100.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "side_scheme"
+    },
+    "32087a": {
+      "name": "Night of the Sentinels",
+      "type": "main_scheme",
+      "face": "32087A.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "main_scheme",
+      "back_code": "32087b"
+    },
+    "32087b": {
+      "name": "Night of the Sentinels",
+      "type": "main_scheme",
+      "face": "32087B.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "main_scheme",
+      "back_code": "32087a"
+    },
+    "32088a": {
+      "name": "Mutants at the Mall",
+      "type": "encounter",
+      "face": "32088A.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "side_scheme",
+      "back_code": "32088b"
+    },
+    "32088b": {
+      "name": "Jubilee",
+      "type": "encounter",
+      "face": "32088B.jpg",
+      "setCode": "project_wideawake",
+      "typeCode": "ally",
+      "back_code": "32088a"
+    }
+  },
+  "cardSets": {
+    "project-wideawake-encounter": [
+      {
+        "code": "32088a"
+      },
+      {
+        "code": "32089"
+      },
+      {
+        "code": "32090"
+      },
+      {
+        "code": "32091"
+      },
+      {
+        "code": "32092"
+      },
+      {
+        "code": "32093",
+        "count": 2
+      },
+      {
+        "code": "32094",
+        "count": 2
+      },
+      {
+        "code": "32095"
+      },
+      {
+        "code": "32096"
+      },
+      {
+        "code": "32097"
+      },
+      {
+        "code": "32098",
+        "count": 2
+      },
+      {
+        "code": "32099",
+        "count": 2
+      },
+      {
+        "code": "32100",
+        "count": 4
+      }
+    ]
+  }
+}
