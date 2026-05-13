@@ -3,5 +3,6 @@
   "backend": "dolt",
   "dolt_mode": "embedded",
   "dolt_database": "cardtable_plugin_marvelchampions",
-  "project_id": "5ff79c13-bd26-44e3-bbbb-46e433bdcb18"
+  "project_id": "5ff79c13-bd26-44e3-bbbb-46e433bdcb18",
+  "last_bd_version": "1.0.4"
 }
