@@ -1,0 +1,126 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-on-the-run",
+  "name": "Marvel Champions: On the Run",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "40106": {
+      "name": "Hidden in the Clutter",
+      "type": "encounter",
+      "face": "40106.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "attachment"
+    },
+    "40107": {
+      "name": "Favored Weapon",
+      "type": "encounter",
+      "face": "40107.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "attachment"
+    },
+    "40108": {
+      "name": "Bushwhack",
+      "type": "encounter",
+      "face": "40108.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "side_scheme"
+    },
+    "40109": {
+      "name": "Pure Force",
+      "type": "encounter",
+      "face": "40109.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "side_scheme"
+    },
+    "40110": {
+      "name": "Dizzying Deeds",
+      "type": "encounter",
+      "face": "40110.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "treachery"
+    },
+    "40111": {
+      "name": "Tag Team",
+      "type": "encounter",
+      "face": "40111.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "treachery"
+    },
+    "40103a": {
+      "name": "Gotta Get Away",
+      "type": "main_scheme",
+      "face": "40103A.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "main_scheme",
+      "back_code": "40103b"
+    },
+    "40103b": {
+      "name": "Gotta Get Away",
+      "type": "main_scheme",
+      "face": "40103B.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "main_scheme",
+      "back_code": "40103a"
+    },
+    "40104a": {
+      "name": "Escaping with Hope",
+      "type": "main_scheme",
+      "face": "40104A.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "main_scheme",
+      "back_code": "40104b"
+    },
+    "40104b": {
+      "name": "Escaping with Hope",
+      "type": "main_scheme",
+      "face": "40104B.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "main_scheme",
+      "back_code": "40104a"
+    },
+    "40105a": {
+      "name": "Hope's Captor",
+      "type": "encounter",
+      "face": "40105A.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "attachment",
+      "back_code": "40105b"
+    },
+    "40105b": {
+      "name": "Hope's Captor",
+      "type": "encounter",
+      "face": "40105B.jpg",
+      "setCode": "on_the_run",
+      "typeCode": "attachment",
+      "back_code": "40105a"
+    }
+  },
+  "cardSets": {
+    "on-the-run-encounter": [
+      {
+        "code": "40105a"
+      },
+      {
+        "code": "40106",
+        "count": 2
+      },
+      {
+        "code": "40107"
+      },
+      {
+        "code": "40108"
+      },
+      {
+        "code": "40109"
+      },
+      {
+        "code": "40110"
+      },
+      {
+        "code": "40111",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-stryfe",
+  "name": "Marvel Champions: Stryfe",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-stryfe",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40163"
+            },
+            {
+              "code": "40164"
+            },
+            {
+              "code": "40165"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40166a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "stryfe-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

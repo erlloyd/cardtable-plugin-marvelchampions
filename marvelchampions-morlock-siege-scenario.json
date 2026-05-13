@@ -1,0 +1,37 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-morlock-siege",
+  "name": "Marvel Champions: Morlock Siege",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-morlock-siege",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40077a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "morlock-siege-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

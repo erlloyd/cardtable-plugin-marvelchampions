@@ -1,0 +1,144 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-juggernaut",
+  "name": "Marvel Champions: Juggernaut",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "40118": {
+      "name": "Juggernaut",
+      "type": "villain",
+      "face": "40118.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "villain"
+    },
+    "40119": {
+      "name": "Juggernaut",
+      "type": "villain",
+      "face": "40119.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "villain"
+    },
+    "40120": {
+      "name": "Juggernaut",
+      "type": "villain",
+      "face": "40120.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "villain"
+    },
+    "40123": {
+      "name": "Head of Steam",
+      "type": "encounter",
+      "face": "40123.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "attachment"
+    },
+    "40124": {
+      "name": "Building Momentum",
+      "type": "encounter",
+      "face": "40124.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "side_scheme"
+    },
+    "40125": {
+      "name": "Breakthrough",
+      "type": "encounter",
+      "face": "40125.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "treachery"
+    },
+    "40126": {
+      "name": "Flatten",
+      "type": "encounter",
+      "face": "40126.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "treachery"
+    },
+    "40127": {
+      "name": "Ground Pound",
+      "type": "encounter",
+      "face": "40127.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "treachery"
+    },
+    "40128": {
+      "name": "Trample",
+      "type": "encounter",
+      "face": "40128.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "treachery"
+    },
+    "40129": {
+      "name": "Cyttorak's Exemplar",
+      "type": "encounter",
+      "face": "40129.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "treachery"
+    },
+    "40121a": {
+      "name": "The Unstoppable Juggernaut",
+      "type": "main_scheme",
+      "face": "40121A.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "main_scheme",
+      "back_code": "40121b"
+    },
+    "40121b": {
+      "name": "The Unstoppable Juggernaut",
+      "type": "main_scheme",
+      "face": "40121B.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "main_scheme",
+      "back_code": "40121a"
+    },
+    "40122a": {
+      "name": "Juggernaut's Helmet",
+      "type": "encounter",
+      "face": "40122A.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "attachment",
+      "back_code": "40122b"
+    },
+    "40122b": {
+      "name": "Juggernaut Exposed",
+      "type": "encounter",
+      "face": "40122B.jpg",
+      "setCode": "juggernaut",
+      "typeCode": "attachment",
+      "back_code": "40122a"
+    }
+  },
+  "cardSets": {
+    "juggernaut-encounter": [
+      {
+        "code": "40122a"
+      },
+      {
+        "code": "40123"
+      },
+      {
+        "code": "40124"
+      },
+      {
+        "code": "40125",
+        "count": 2
+      },
+      {
+        "code": "40126",
+        "count": 2
+      },
+      {
+        "code": "40127",
+        "count": 2
+      },
+      {
+        "code": "40128",
+        "count": 2
+      },
+      {
+        "code": "40129",
+        "count": 3
+      }
+    ]
+  }
+}

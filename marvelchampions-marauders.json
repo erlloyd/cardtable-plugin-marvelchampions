@@ -1,0 +1,124 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-marauders",
+  "name": "Marvel Champions: Marauders",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "40070a": {
+      "name": "Arclight",
+      "type": "villain",
+      "face": "40070A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40070b"
+    },
+    "40070b": {
+      "name": "Arclight",
+      "type": "villain",
+      "face": "40070B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40070a"
+    },
+    "40071a": {
+      "name": "Blockbuster",
+      "type": "villain",
+      "face": "40071A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40071b"
+    },
+    "40071b": {
+      "name": "Blockbuster",
+      "type": "villain",
+      "face": "40071B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40071a"
+    },
+    "40072a": {
+      "name": "Chimera",
+      "type": "villain",
+      "face": "40072A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40072b"
+    },
+    "40072b": {
+      "name": "Chimera",
+      "type": "villain",
+      "face": "40072B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40072a"
+    },
+    "40073a": {
+      "name": "Greycrow",
+      "type": "villain",
+      "face": "40073A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40073b"
+    },
+    "40073b": {
+      "name": "Greycrow",
+      "type": "villain",
+      "face": "40073B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40073a"
+    },
+    "40074a": {
+      "name": "Harpoon",
+      "type": "villain",
+      "face": "40074A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40074b"
+    },
+    "40074b": {
+      "name": "Harpoon",
+      "type": "villain",
+      "face": "40074B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40074a"
+    },
+    "40075a": {
+      "name": "Riptide",
+      "type": "villain",
+      "face": "40075A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40075b"
+    },
+    "40075b": {
+      "name": "Riptide",
+      "type": "villain",
+      "face": "40075B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40075a"
+    },
+    "40076a": {
+      "name": "Vertigo",
+      "type": "villain",
+      "face": "40076A.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40076b"
+    },
+    "40076b": {
+      "name": "Vertigo",
+      "type": "villain",
+      "face": "40076B.jpg",
+      "setCode": "marauders",
+      "typeCode": "villain",
+      "back_code": "40076a"
+    }
+  },
+  "cardSets": {
+    "marauders-encounter": []
+  }
+}

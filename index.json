@@ -52,6 +52,12 @@
     "marvelchampions-master-mold.json",
     "marvelchampions-project-wideawake.json",
     "marvelchampions-sabretooth.json",
+    "marvelchampions-juggernaut.json",
+    "marvelchampions-marauders.json",
+    "marvelchampions-mister-sinister.json",
+    "marvelchampions-morlock-siege.json",
+    "marvelchampions-on-the-run.json",
+    "marvelchampions-stryfe.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -252,6 +258,36 @@
             "id": "marvelchampions-sabretooth",
             "label": "Mutant Genesis - Sabretooth",
             "data": { "file": "marvelchampions-sabretooth-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-juggernaut",
+            "label": "NeXt Evolution - Juggernaut",
+            "data": { "file": "marvelchampions-juggernaut-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-marauders",
+            "label": "NeXt Evolution - Marauders",
+            "data": { "file": "marvelchampions-marauders-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-mister-sinister",
+            "label": "NeXt Evolution - Mister Sinister",
+            "data": { "file": "marvelchampions-mister-sinister-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-morlock-siege",
+            "label": "NeXt Evolution - Morlock Siege",
+            "data": { "file": "marvelchampions-morlock-siege-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-on-the-run",
+            "label": "NeXt Evolution - On the Run",
+            "data": { "file": "marvelchampions-on-the-run-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-stryfe",
+            "label": "NeXt Evolution - Stryfe",
+            "data": { "file": "marvelchampions-stryfe-scenario.json" }
           }
         ]
       }

@@ -1,0 +1,55 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-juggernaut",
+  "name": "Marvel Champions: Juggernaut",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-juggernaut",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40118"
+            },
+            {
+              "code": "40119"
+            },
+            {
+              "code": "40120"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40121a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "juggernaut-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

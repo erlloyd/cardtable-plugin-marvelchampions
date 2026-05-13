@@ -1,0 +1,167 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-morlock-siege",
+  "name": "Marvel Champions: Morlock Siege",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "40079": {
+      "name": "Morlock",
+      "type": "encounter",
+      "face": "40079.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "ally"
+    },
+    "40080": {
+      "name": "Hide!",
+      "type": "encounter",
+      "face": "40080.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "treachery"
+    },
+    "40082": {
+      "name": "Bolstered by Wrath",
+      "type": "encounter",
+      "face": "40082.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "attachment"
+    },
+    "40083": {
+      "name": "Pushed to the Limit",
+      "type": "encounter",
+      "face": "40083.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "attachment"
+    },
+    "40084": {
+      "name": "By Any Means",
+      "type": "encounter",
+      "face": "40084.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "side_scheme"
+    },
+    "40085": {
+      "name": "In the Midst of Chaos",
+      "type": "encounter",
+      "face": "40085.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "side_scheme"
+    },
+    "40086": {
+      "name": "Maraudin' Ain't Easy",
+      "type": "encounter",
+      "face": "40086.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "side_scheme"
+    },
+    "40087": {
+      "name": "Territorial Control",
+      "type": "encounter",
+      "face": "40087.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "side_scheme"
+    },
+    "40088": {
+      "name": "Back in Action",
+      "type": "encounter",
+      "face": "40088.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "treachery"
+    },
+    "40089": {
+      "name": "Seek the Weak",
+      "type": "encounter",
+      "face": "40089.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "treachery"
+    },
+    "40077a": {
+      "name": "Knock, Knock",
+      "type": "main_scheme",
+      "face": "40077A.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "main_scheme",
+      "back_code": "40077b"
+    },
+    "40078a": {
+      "name": "Mutant Massacre",
+      "type": "main_scheme",
+      "face": "40078A.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "main_scheme",
+      "back_code": "40078b"
+    },
+    "40077b": {
+      "name": "Knock, Knock",
+      "type": "main_scheme",
+      "face": "40077B.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "main_scheme",
+      "back_code": "40077a"
+    },
+    "40078b": {
+      "name": "Mutant Massacre",
+      "type": "main_scheme",
+      "face": "40078B.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "main_scheme",
+      "back_code": "40078a"
+    },
+    "40081a": {
+      "name": "Routed",
+      "type": "encounter",
+      "face": "40081A.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "environment",
+      "back_code": "40081b"
+    },
+    "40081b": {
+      "name": "Routed",
+      "type": "encounter",
+      "face": "40081B.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "environment",
+      "back_code": "40081a"
+    }
+  },
+  "cardSets": {
+    "morlock-siege-encounter": [
+      {
+        "code": "40079",
+        "count": 4
+      },
+      {
+        "code": "40080"
+      },
+      {
+        "code": "40081a"
+      },
+      {
+        "code": "40082"
+      },
+      {
+        "code": "40083"
+      },
+      {
+        "code": "40084"
+      },
+      {
+        "code": "40085"
+      },
+      {
+        "code": "40086"
+      },
+      {
+        "code": "40087"
+      },
+      {
+        "code": "40088",
+        "count": 2
+      },
+      {
+        "code": "40089",
+        "count": 3
+      }
+    ]
+  }
+}

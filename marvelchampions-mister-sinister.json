@@ -1,0 +1,186 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-mister-sinister",
+  "name": "Marvel Champions: Mister Sinister",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "40136": {
+      "name": "Mister Sinister",
+      "type": "villain",
+      "face": "40136.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "villain"
+    },
+    "40137": {
+      "name": "Mister Sinister",
+      "type": "villain",
+      "face": "40137.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "villain"
+    },
+    "40138": {
+      "name": "Mister Sinister",
+      "type": "villain",
+      "face": "40138.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "villain"
+    },
+    "40144": {
+      "name": "Sinister Disguise",
+      "type": "encounter",
+      "face": "40144.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "attachment"
+    },
+    "40145": {
+      "name": "Sinister Soldier",
+      "type": "encounter",
+      "face": "40145.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "minion"
+    },
+    "40146": {
+      "name": "Teleported Away",
+      "type": "encounter",
+      "face": "40146.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "side_scheme"
+    },
+    "40147": {
+      "name": "Genetic Mastery",
+      "type": "encounter",
+      "face": "40147.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "treachery"
+    },
+    "40148": {
+      "name": "Molecular Control",
+      "type": "encounter",
+      "face": "40148.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "treachery"
+    },
+    "40149": {
+      "name": "Sinister Schemes",
+      "type": "encounter",
+      "face": "40149.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "treachery"
+    },
+    "40150": {
+      "name": "Sinister Strike",
+      "type": "encounter",
+      "face": "40150.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "treachery"
+    },
+    "40139a": {
+      "name": "Sinister Intent",
+      "type": "main_scheme",
+      "face": "40139A.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40139b"
+    },
+    "40139b": {
+      "name": "Sinister Intent",
+      "type": "main_scheme",
+      "face": "40139B.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40139a"
+    },
+    "40140a": {
+      "name": "Taking Off",
+      "type": "main_scheme",
+      "face": "40140A.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40140b"
+    },
+    "40140b": {
+      "name": "Taking Off",
+      "type": "main_scheme",
+      "face": "40140B.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40140a"
+    },
+    "40141a": {
+      "name": "Bulking Up",
+      "type": "main_scheme",
+      "face": "40141A.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40141b"
+    },
+    "40141b": {
+      "name": "Bulking Up",
+      "type": "main_scheme",
+      "face": "40141B.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40141a"
+    },
+    "40142a": {
+      "name": "Focusing In",
+      "type": "main_scheme",
+      "face": "40142A.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40142b"
+    },
+    "40142b": {
+      "name": "Focusing In",
+      "type": "main_scheme",
+      "face": "40142B.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40142a"
+    },
+    "40143a": {
+      "name": "Sinister Ends",
+      "type": "main_scheme",
+      "face": "40143A.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40143b"
+    },
+    "40143b": {
+      "name": "Sinister Ends",
+      "type": "main_scheme",
+      "face": "40143B.jpg",
+      "setCode": "mister_sinister",
+      "typeCode": "main_scheme",
+      "back_code": "40143a"
+    }
+  },
+  "cardSets": {
+    "mister-sinister-encounter": [
+      {
+        "code": "40144"
+      },
+      {
+        "code": "40145",
+        "count": 2
+      },
+      {
+        "code": "40146"
+      },
+      {
+        "code": "40147",
+        "count": 2
+      },
+      {
+        "code": "40148"
+      },
+      {
+        "code": "40149"
+      },
+      {
+        "code": "40150"
+      }
+    ]
+  }
+}

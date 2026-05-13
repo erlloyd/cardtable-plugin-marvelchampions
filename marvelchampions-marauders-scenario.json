@@ -1,0 +1,55 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-marauders",
+  "name": "Marvel Champions: Marauders",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-marauders",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40070a"
+            },
+            {
+              "code": "40071a"
+            },
+            {
+              "code": "40072a"
+            },
+            {
+              "code": "40073a"
+            },
+            {
+              "code": "40074a"
+            },
+            {
+              "code": "40075a"
+            },
+            {
+              "code": "40076a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "marauders-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-on-the-run",
+  "name": "Marvel Champions: On the Run",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-on-the-run",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "40103a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "on-the-run-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

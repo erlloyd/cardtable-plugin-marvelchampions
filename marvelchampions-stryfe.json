@@ -1,0 +1,198 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-stryfe",
+  "name": "Marvel Champions: Stryfe",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "40163": {
+      "name": "Stryfe",
+      "type": "villain",
+      "face": "40163.jpg",
+      "setCode": "stryfe",
+      "typeCode": "villain"
+    },
+    "40164": {
+      "name": "Stryfe",
+      "type": "villain",
+      "face": "40164.jpg",
+      "setCode": "stryfe",
+      "typeCode": "villain"
+    },
+    "40165": {
+      "name": "Stryfe",
+      "type": "villain",
+      "face": "40165.jpg",
+      "setCode": "stryfe",
+      "typeCode": "villain"
+    },
+    "40169": {
+      "name": "Mental Transferal",
+      "type": "encounter",
+      "face": "40169.jpg",
+      "setCode": "stryfe",
+      "typeCode": "attachment"
+    },
+    "40170": {
+      "name": "Mind Alteration",
+      "type": "encounter",
+      "face": "40170.jpg",
+      "setCode": "stryfe",
+      "typeCode": "attachment"
+    },
+    "40171": {
+      "name": "Mind Trap",
+      "type": "encounter",
+      "face": "40171.jpg",
+      "setCode": "stryfe",
+      "typeCode": "attachment"
+    },
+    "40172": {
+      "name": "Psionic Amnesia",
+      "type": "encounter",
+      "face": "40172.jpg",
+      "setCode": "stryfe",
+      "typeCode": "attachment"
+    },
+    "40173": {
+      "name": "Psychic Inertia",
+      "type": "encounter",
+      "face": "40173.jpg",
+      "setCode": "stryfe",
+      "typeCode": "attachment"
+    },
+    "40174": {
+      "name": "Zero",
+      "type": "encounter",
+      "face": "40174.jpg",
+      "setCode": "stryfe",
+      "typeCode": "minion"
+    },
+    "40175": {
+      "name": "Cerebral Erasure",
+      "type": "encounter",
+      "face": "40175.jpg",
+      "setCode": "stryfe",
+      "typeCode": "side_scheme"
+    },
+    "40176": {
+      "name": "Telepathic Camouflage",
+      "type": "encounter",
+      "face": "40176.jpg",
+      "setCode": "stryfe",
+      "typeCode": "side_scheme"
+    },
+    "40177": {
+      "name": "Psionic Surge",
+      "type": "encounter",
+      "face": "40177.jpg",
+      "setCode": "stryfe",
+      "typeCode": "treachery"
+    },
+    "40178": {
+      "name": "Psychic Override",
+      "type": "encounter",
+      "face": "40178.jpg",
+      "setCode": "stryfe",
+      "typeCode": "treachery"
+    },
+    "40179": {
+      "name": "Telekinetic Wave",
+      "type": "encounter",
+      "face": "40179.jpg",
+      "setCode": "stryfe",
+      "typeCode": "treachery"
+    },
+    "40166a": {
+      "name": "Uncontrollable Power",
+      "type": "main_scheme",
+      "face": "40166A.jpg",
+      "setCode": "stryfe",
+      "typeCode": "main_scheme",
+      "back_code": "40166b"
+    },
+    "40166b": {
+      "name": "Uncontrollable Power",
+      "type": "main_scheme",
+      "face": "40166B.jpg",
+      "setCode": "stryfe",
+      "typeCode": "main_scheme",
+      "back_code": "40166a"
+    },
+    "40167a": {
+      "name": "Left to Your Fate",
+      "type": "main_scheme",
+      "face": "40167A.jpg",
+      "setCode": "stryfe",
+      "typeCode": "main_scheme",
+      "back_code": "40167b"
+    },
+    "40167b": {
+      "name": "Left to Your Fate",
+      "type": "main_scheme",
+      "face": "40167B.jpg",
+      "setCode": "stryfe",
+      "typeCode": "main_scheme",
+      "back_code": "40167a"
+    },
+    "40168a": {
+      "name": "Stryfe's Grasp",
+      "type": "encounter",
+      "face": "40168A.jpg",
+      "setCode": "stryfe",
+      "typeCode": "side_scheme",
+      "back_code": "40168b"
+    },
+    "40168b": {
+      "name": "Living Bomb",
+      "type": "encounter",
+      "face": "40168B.jpg",
+      "setCode": "stryfe",
+      "typeCode": "side_scheme",
+      "back_code": "40168a"
+    }
+  },
+  "cardSets": {
+    "stryfe-encounter": [
+      {
+        "code": "40168a"
+      },
+      {
+        "code": "40169"
+      },
+      {
+        "code": "40170"
+      },
+      {
+        "code": "40171"
+      },
+      {
+        "code": "40172"
+      },
+      {
+        "code": "40173",
+        "count": 2
+      },
+      {
+        "code": "40174"
+      },
+      {
+        "code": "40175"
+      },
+      {
+        "code": "40176"
+      },
+      {
+        "code": "40177"
+      },
+      {
+        "code": "40178",
+        "count": 2
+      },
+      {
+        "code": "40179",
+        "count": 3
+      }
+    ]
+  }
+}
