@@ -32,6 +32,18 @@
         "row": 0
       },
       {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "32125a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
         "label": "Encounter Deck",
         "faceUp": false,
         "deck": {

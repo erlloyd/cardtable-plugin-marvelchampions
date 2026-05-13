@@ -203,7 +203,14 @@ function buildMainSchemeStack(sourceCards) {
       pairedPartners.add(c.back_link);
     }
   }
-  const schemes = sourceCards.filter(c => c.type_code === "main_scheme" && (c.stage ?? 0) === 1);
+  // Stage 1 main schemes. Stage may be numeric (1) or string ("1A"/"1B"); accept any
+  // value whose canonical form starts with "1".
+  const schemes = sourceCards.filter(c => {
+    if (c.type_code !== "main_scheme") return false;
+    const stage = c.stage;
+    if (stage === undefined || stage === null) return false;
+    return String(stage).startsWith("1");
+  });
   const cards = [];
   const seen = new Set();
   for (const s of schemes) {
