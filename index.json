@@ -25,6 +25,11 @@
     "marvelchampions-wrecker.json",
     "marvelchampions-thunderball.json",
     "marvelchampions-bulldozer.json",
+    "marvelchampions-crossbones.json",
+    "marvelchampions-absorbing-man.json",
+    "marvelchampions-taskmaster.json",
+    "marvelchampions-zola.json",
+    "marvelchampions-red-skull.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -90,6 +95,31 @@
             "id": "marvelchampions-bulldozer",
             "label": "The Wrecking Crew - Bulldozer",
             "data": { "file": "marvelchampions-bulldozer-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-crossbones",
+            "label": "The Rise of Red Skull - Crossbones",
+            "data": { "file": "marvelchampions-crossbones-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-absorbing-man",
+            "label": "The Rise of Red Skull - Absorbing Man",
+            "data": { "file": "marvelchampions-absorbing-man-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-taskmaster",
+            "label": "The Rise of Red Skull - Taskmaster",
+            "data": { "file": "marvelchampions-taskmaster-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-zola",
+            "label": "The Rise of Red Skull - Zola",
+            "data": { "file": "marvelchampions-zola-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-red-skull",
+            "label": "The Rise of Red Skull - Red Skull",
+            "data": { "file": "marvelchampions-red-skull-scenario.json" }
           }
         ]
       }

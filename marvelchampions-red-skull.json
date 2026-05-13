@@ -1,0 +1,223 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-red-skull",
+  "name": "Marvel Champions: Red Skull",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "04125": {
+      "name": "Red Skull",
+      "type": "villain",
+      "face": "04125.jpg",
+      "setCode": "red_skull",
+      "typeCode": "villain"
+    },
+    "04126": {
+      "name": "Red Skull",
+      "type": "villain",
+      "face": "04126.jpg",
+      "setCode": "red_skull",
+      "typeCode": "villain"
+    },
+    "04127": {
+      "name": "Red Skull",
+      "type": "villain",
+      "face": "04127.jpg",
+      "setCode": "red_skull",
+      "typeCode": "villain"
+    },
+    "04128a": {
+      "name": "The Rise of the Red Skull",
+      "type": "main_scheme",
+      "face": "04128A.jpg",
+      "setCode": "red_skull",
+      "typeCode": "main_scheme",
+      "back_code": "04128b"
+    },
+    "04128b": {
+      "name": "The Rise of the Red Skull",
+      "type": "main_scheme",
+      "face": "04128B.jpg",
+      "setCode": "red_skull",
+      "typeCode": "main_scheme",
+      "back_code": "04128a"
+    },
+    "04129a": {
+      "name": "New World Hydra",
+      "type": "main_scheme",
+      "face": "04129A.jpg",
+      "setCode": "red_skull",
+      "typeCode": "main_scheme",
+      "back_code": "04129b"
+    },
+    "04129b": {
+      "name": "New World Hydra",
+      "type": "main_scheme",
+      "face": "04129B.jpg",
+      "setCode": "red_skull",
+      "typeCode": "main_scheme",
+      "back_code": "04129a"
+    },
+    "04130": {
+      "name": "The Sleeper",
+      "type": "encounter",
+      "face": "04130.jpg",
+      "setCode": "red_skull",
+      "typeCode": "minion"
+    },
+    "04131": {
+      "name": "Hydra Exo-Soldier",
+      "type": "encounter",
+      "face": "04131.jpg",
+      "setCode": "red_skull",
+      "typeCode": "minion"
+    },
+    "04132": {
+      "name": "Red Skull's Luger",
+      "type": "encounter",
+      "face": "04132.jpg",
+      "setCode": "red_skull",
+      "typeCode": "attachment"
+    },
+    "04133": {
+      "name": "Red Skull's Right Hook",
+      "type": "encounter",
+      "face": "04133.jpg",
+      "setCode": "red_skull",
+      "typeCode": "attachment"
+    },
+    "04134": {
+      "name": "Master Strategist",
+      "type": "encounter",
+      "face": "04134.jpg",
+      "setCode": "red_skull",
+      "typeCode": "attachment"
+    },
+    "04135": {
+      "name": "Twisted Reality",
+      "type": "encounter",
+      "face": "04135.jpg",
+      "setCode": "red_skull",
+      "typeCode": "attachment"
+    },
+    "04136": {
+      "name": "Bitter Rival",
+      "type": "encounter",
+      "face": "04136.jpg",
+      "setCode": "red_skull",
+      "typeCode": "treachery"
+    },
+    "04137": {
+      "name": "Spreading Lies",
+      "type": "encounter",
+      "face": "04137.jpg",
+      "setCode": "red_skull",
+      "typeCode": "treachery"
+    },
+    "04138": {
+      "name": "Infinite Power",
+      "type": "encounter",
+      "face": "04138.jpg",
+      "setCode": "red_skull",
+      "typeCode": "treachery"
+    },
+    "04139": {
+      "name": "The Red House",
+      "type": "encounter",
+      "face": "04139.jpg",
+      "setCode": "red_skull",
+      "typeCode": "side_scheme"
+    },
+    "04140": {
+      "name": "The Sleeper Awakened",
+      "type": "encounter",
+      "face": "04140.jpg",
+      "setCode": "red_skull",
+      "typeCode": "side_scheme"
+    },
+    "04141": {
+      "name": "Prison Camps",
+      "type": "encounter",
+      "face": "04141.jpg",
+      "setCode": "red_skull",
+      "typeCode": "side_scheme"
+    },
+    "04142": {
+      "name": "Censor the Past",
+      "type": "encounter",
+      "face": "04142.jpg",
+      "setCode": "red_skull",
+      "typeCode": "side_scheme"
+    },
+    "04143": {
+      "name": "Hydra Reinforcements",
+      "type": "encounter",
+      "face": "04143.jpg",
+      "setCode": "red_skull",
+      "typeCode": "side_scheme"
+    },
+    "04144": {
+      "name": "Mass Chaos",
+      "type": "encounter",
+      "face": "04144.jpg",
+      "setCode": "red_skull",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "red-skull-encounter": [
+      {
+        "code": "04130"
+      },
+      {
+        "code": "04131",
+        "count": 3
+      },
+      {
+        "code": "04132"
+      },
+      {
+        "code": "04133",
+        "count": 2
+      },
+      {
+        "code": "04134",
+        "count": 2
+      },
+      {
+        "code": "04135",
+        "count": 2
+      },
+      {
+        "code": "04136",
+        "count": 2
+      },
+      {
+        "code": "04137",
+        "count": 2
+      },
+      {
+        "code": "04138",
+        "count": 2
+      },
+      {
+        "code": "04139"
+      },
+      {
+        "code": "04140"
+      },
+      {
+        "code": "04141"
+      },
+      {
+        "code": "04142"
+      },
+      {
+        "code": "04143"
+      },
+      {
+        "code": "04144"
+      }
+    ]
+  }
+}

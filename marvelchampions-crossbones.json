@@ -1,0 +1,167 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-crossbones",
+  "name": "Marvel Champions: Crossbones",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "04058": {
+      "name": "Crossbones",
+      "type": "villain",
+      "face": "04058.jpg",
+      "setCode": "crossbones",
+      "typeCode": "villain"
+    },
+    "04059": {
+      "name": "Crossbones",
+      "type": "villain",
+      "face": "04059.jpg",
+      "setCode": "crossbones",
+      "typeCode": "villain"
+    },
+    "04060": {
+      "name": "Crossbones",
+      "type": "villain",
+      "face": "04060.jpg",
+      "setCode": "crossbones",
+      "typeCode": "villain"
+    },
+    "04061a": {
+      "name": "Attack on Mount Athena",
+      "type": "main_scheme",
+      "face": "04061A.jpg",
+      "setCode": "crossbones",
+      "typeCode": "main_scheme",
+      "back_code": "04061b"
+    },
+    "04061b": {
+      "name": "Attack on Mount Athena",
+      "type": "main_scheme",
+      "face": "04061B.jpg",
+      "setCode": "crossbones",
+      "typeCode": "main_scheme",
+      "back_code": "04061a"
+    },
+    "04062a": {
+      "name": "The Infinity Stone",
+      "type": "main_scheme",
+      "face": "04062A.jpg",
+      "setCode": "crossbones",
+      "typeCode": "main_scheme",
+      "back_code": "04062b"
+    },
+    "04062b": {
+      "name": "The Infinity Stone",
+      "type": "main_scheme",
+      "face": "04062B.jpg",
+      "setCode": "crossbones",
+      "typeCode": "main_scheme",
+      "back_code": "04062a"
+    },
+    "04063a": {
+      "name": "The Getaway",
+      "type": "main_scheme",
+      "face": "04063A.jpg",
+      "setCode": "crossbones",
+      "typeCode": "main_scheme",
+      "back_code": "04063b"
+    },
+    "04063b": {
+      "name": "The Getaway",
+      "type": "main_scheme",
+      "face": "04063B.jpg",
+      "setCode": "crossbones",
+      "typeCode": "main_scheme",
+      "back_code": "04063a"
+    },
+    "04064": {
+      "name": "Crossbones' Machine Gun",
+      "type": "encounter",
+      "face": "04064.jpg",
+      "setCode": "crossbones",
+      "typeCode": "attachment"
+    },
+    "04065": {
+      "name": "Crossbones' Armor",
+      "type": "encounter",
+      "face": "04065.jpg",
+      "setCode": "crossbones",
+      "typeCode": "attachment"
+    },
+    "04066": {
+      "name": "Hydra Bomber",
+      "type": "encounter",
+      "face": "04066.jpg",
+      "setCode": "crossbones",
+      "typeCode": "minion"
+    },
+    "04067": {
+      "name": "Full Auto",
+      "type": "encounter",
+      "face": "04067.jpg",
+      "setCode": "crossbones",
+      "typeCode": "treachery"
+    },
+    "04068": {
+      "name": "Hard as Nails",
+      "type": "encounter",
+      "face": "04068.jpg",
+      "setCode": "crossbones",
+      "typeCode": "treachery"
+    },
+    "04069": {
+      "name": "Raid the Armory",
+      "type": "encounter",
+      "face": "04069.jpg",
+      "setCode": "crossbones",
+      "typeCode": "treachery"
+    },
+    "04070": {
+      "name": "Crossbones' Assault",
+      "type": "encounter",
+      "face": "04070.jpg",
+      "setCode": "crossbones",
+      "typeCode": "side_scheme"
+    },
+    "04071": {
+      "name": "Cornered Staff",
+      "type": "encounter",
+      "face": "04071.jpg",
+      "setCode": "crossbones",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "crossbones-encounter": [
+      {
+        "code": "04064"
+      },
+      {
+        "code": "04065"
+      },
+      {
+        "code": "04066",
+        "count": 2
+      },
+      {
+        "code": "04067",
+        "count": 2
+      },
+      {
+        "code": "04068",
+        "count": 2
+      },
+      {
+        "code": "04069",
+        "count": 2
+      },
+      {
+        "code": "04070",
+        "count": 2
+      },
+      {
+        "code": "04071"
+      }
+    ]
+  }
+}

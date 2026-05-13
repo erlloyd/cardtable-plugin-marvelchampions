@@ -1,0 +1,175 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-taskmaster",
+  "name": "Marvel Champions: Taskmaster",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "04093": {
+      "name": "Taskmaster",
+      "type": "villain",
+      "face": "04093.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "villain"
+    },
+    "04094": {
+      "name": "Taskmaster",
+      "type": "villain",
+      "face": "04094.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "villain"
+    },
+    "04095": {
+      "name": "Taskmaster",
+      "type": "villain",
+      "face": "04095.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "villain"
+    },
+    "04096a": {
+      "name": "Hunting Down Heroes",
+      "type": "main_scheme",
+      "face": "04096A.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "main_scheme",
+      "back_code": "04096b"
+    },
+    "04096b": {
+      "name": "Hunting Down Heroes",
+      "type": "main_scheme",
+      "face": "04096B.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "main_scheme",
+      "back_code": "04096a"
+    },
+    "04097": {
+      "name": "Moon Knight",
+      "type": "encounter",
+      "face": "04097.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "ally"
+    },
+    "04098": {
+      "name": "Shang-Chi",
+      "type": "encounter",
+      "face": "04098.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "ally"
+    },
+    "04099": {
+      "name": "White Tiger",
+      "type": "encounter",
+      "face": "04099.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "ally"
+    },
+    "04100": {
+      "name": "Elektra",
+      "type": "encounter",
+      "face": "04100.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "ally"
+    },
+    "04101": {
+      "name": "Hydra Hunter",
+      "type": "encounter",
+      "face": "04101.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "minion"
+    },
+    "04102": {
+      "name": "Taskmaster's Sword",
+      "type": "encounter",
+      "face": "04102.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "attachment"
+    },
+    "04103": {
+      "name": "Taskmaster's Shield",
+      "type": "encounter",
+      "face": "04103.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "attachment"
+    },
+    "04104": {
+      "name": "Photographic Reflexes",
+      "type": "encounter",
+      "face": "04104.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "attachment"
+    },
+    "04105": {
+      "name": "Mimicry",
+      "type": "encounter",
+      "face": "04105.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "treachery"
+    },
+    "04106": {
+      "name": "Hunted by Hydra",
+      "type": "encounter",
+      "face": "04106.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "treachery"
+    },
+    "04107": {
+      "name": "Captured by Hydra",
+      "type": "encounter",
+      "face": "04107.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "side_scheme"
+    },
+    "04108": {
+      "name": "Taskmaster's Training Camp",
+      "type": "encounter",
+      "face": "04108.jpg",
+      "setCode": "taskmaster",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "taskmaster-encounter": [
+      {
+        "code": "04097"
+      },
+      {
+        "code": "04098"
+      },
+      {
+        "code": "04099"
+      },
+      {
+        "code": "04100"
+      },
+      {
+        "code": "04101",
+        "count": 2
+      },
+      {
+        "code": "04102"
+      },
+      {
+        "code": "04103"
+      },
+      {
+        "code": "04104",
+        "count": 2
+      },
+      {
+        "code": "04105",
+        "count": 2
+      },
+      {
+        "code": "04106",
+        "count": 2
+      },
+      {
+        "code": "04107",
+        "count": 4
+      },
+      {
+        "code": "04108"
+      }
+    ]
+  }
+}

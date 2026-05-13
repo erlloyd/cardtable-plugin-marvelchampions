@@ -1,0 +1,185 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-zola",
+  "name": "Marvel Champions: Zola",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "04109": {
+      "name": "Zola",
+      "type": "villain",
+      "face": "04109.jpg",
+      "setCode": "zola",
+      "typeCode": "villain"
+    },
+    "04110": {
+      "name": "Zola",
+      "type": "villain",
+      "face": "04110.jpg",
+      "setCode": "zola",
+      "typeCode": "villain"
+    },
+    "04111": {
+      "name": "Zola",
+      "type": "villain",
+      "face": "04111.jpg",
+      "setCode": "zola",
+      "typeCode": "villain"
+    },
+    "04112a": {
+      "name": "The Island of Dr. Zola",
+      "type": "main_scheme",
+      "face": "04112A.jpg",
+      "setCode": "zola",
+      "typeCode": "main_scheme",
+      "back_code": "04112b"
+    },
+    "04112b": {
+      "name": "The Island of Dr. Zola",
+      "type": "main_scheme",
+      "face": "04112B.jpg",
+      "setCode": "zola",
+      "typeCode": "main_scheme",
+      "back_code": "04112a"
+    },
+    "04113a": {
+      "name": "The Mad Doctor",
+      "type": "main_scheme",
+      "face": "04113A.jpg",
+      "setCode": "zola",
+      "typeCode": "main_scheme",
+      "back_code": "04113b"
+    },
+    "04113b": {
+      "name": "The Mad Doctor",
+      "type": "main_scheme",
+      "face": "04113B.jpg",
+      "setCode": "zola",
+      "typeCode": "main_scheme",
+      "back_code": "04113a"
+    },
+    "04114": {
+      "name": "Ultimate Bio-Servant",
+      "type": "encounter",
+      "face": "04114.jpg",
+      "setCode": "zola",
+      "typeCode": "minion"
+    },
+    "04115": {
+      "name": "Zola's Mutate",
+      "type": "encounter",
+      "face": "04115.jpg",
+      "setCode": "zola",
+      "typeCode": "minion"
+    },
+    "04116": {
+      "name": "Berserk Mutate",
+      "type": "encounter",
+      "face": "04116.jpg",
+      "setCode": "zola",
+      "typeCode": "minion"
+    },
+    "04117": {
+      "name": "Defensive Programming",
+      "type": "encounter",
+      "face": "04117.jpg",
+      "setCode": "zola",
+      "typeCode": "attachment"
+    },
+    "04118": {
+      "name": "Pain Inhibitors",
+      "type": "encounter",
+      "face": "04118.jpg",
+      "setCode": "zola",
+      "typeCode": "attachment"
+    },
+    "04119": {
+      "name": "Neurological Implants",
+      "type": "encounter",
+      "face": "04119.jpg",
+      "setCode": "zola",
+      "typeCode": "attachment"
+    },
+    "04120": {
+      "name": "Mind Ray",
+      "type": "encounter",
+      "face": "04120.jpg",
+      "setCode": "zola",
+      "typeCode": "treachery"
+    },
+    "04121": {
+      "name": "Technological Enhancements",
+      "type": "encounter",
+      "face": "04121.jpg",
+      "setCode": "zola",
+      "typeCode": "treachery"
+    },
+    "04122": {
+      "name": "Hydra Prison",
+      "type": "encounter",
+      "face": "04122.jpg",
+      "setCode": "zola",
+      "typeCode": "side_scheme"
+    },
+    "04123": {
+      "name": "Test Subjects",
+      "type": "encounter",
+      "face": "04123.jpg",
+      "setCode": "zola",
+      "typeCode": "side_scheme"
+    },
+    "04124": {
+      "name": "Zola's Experiments",
+      "type": "encounter",
+      "face": "04124.jpg",
+      "setCode": "zola",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "zola-encounter": [
+      {
+        "code": "04114",
+        "count": 4
+      },
+      {
+        "code": "04115",
+        "count": 3
+      },
+      {
+        "code": "04116",
+        "count": 3
+      },
+      {
+        "code": "04117",
+        "count": 3
+      },
+      {
+        "code": "04118",
+        "count": 2
+      },
+      {
+        "code": "04119",
+        "count": 2
+      },
+      {
+        "code": "04120",
+        "count": 3
+      },
+      {
+        "code": "04121",
+        "count": 2
+      },
+      {
+        "code": "04122"
+      },
+      {
+        "code": "04123",
+        "count": 2
+      },
+      {
+        "code": "04124"
+      }
+    ]
+  }
+}

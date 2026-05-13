@@ -1,0 +1,187 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-absorbing-man",
+  "name": "Marvel Champions: Absorbing Man",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "04076": {
+      "name": "Absorbing Man",
+      "type": "villain",
+      "face": "04076.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "villain"
+    },
+    "04077": {
+      "name": "Absorbing Man",
+      "type": "villain",
+      "face": "04077.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "villain"
+    },
+    "04078": {
+      "name": "Absorbing Man",
+      "type": "villain",
+      "face": "04078.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "villain"
+    },
+    "04079a": {
+      "name": "None Shall Pass",
+      "type": "main_scheme",
+      "face": "04079A.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "main_scheme",
+      "back_code": "04079b"
+    },
+    "04079b": {
+      "name": "None Shall Pass",
+      "type": "main_scheme",
+      "face": "04079B.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "main_scheme",
+      "back_code": "04079a"
+    },
+    "04080": {
+      "name": "Dense Forest",
+      "type": "encounter",
+      "face": "04080.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "environment"
+    },
+    "04081": {
+      "name": "Snowy Hillside",
+      "type": "encounter",
+      "face": "04081.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "environment"
+    },
+    "04082": {
+      "name": "Rocky Outcrop",
+      "type": "encounter",
+      "face": "04082.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "environment"
+    },
+    "04083": {
+      "name": "Abandoned Facility",
+      "type": "encounter",
+      "face": "04083.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "environment"
+    },
+    "04084": {
+      "name": "Ball and Chain",
+      "type": "encounter",
+      "face": "04084.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "attachment"
+    },
+    "04085": {
+      "name": "Stall Tactics",
+      "type": "encounter",
+      "face": "04085.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "treachery"
+    },
+    "04086": {
+      "name": "Swinging Stone",
+      "type": "encounter",
+      "face": "04086.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "treachery"
+    },
+    "04087": {
+      "name": "Steel Kick",
+      "type": "encounter",
+      "face": "04087.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "treachery"
+    },
+    "04088": {
+      "name": "Piercing Thorns",
+      "type": "encounter",
+      "face": "04088.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "treachery"
+    },
+    "04089": {
+      "name": "Omni-Morph Duplication",
+      "type": "encounter",
+      "face": "04089.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "treachery"
+    },
+    "04090": {
+      "name": "Icy Grip",
+      "type": "encounter",
+      "face": "04090.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "treachery"
+    },
+    "04091": {
+      "name": "Avalanche!",
+      "type": "encounter",
+      "face": "04091.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "side_scheme"
+    },
+    "04092": {
+      "name": "Super Absorbing Power",
+      "type": "encounter",
+      "face": "04092.jpg",
+      "setCode": "absorbing_man",
+      "typeCode": "side_scheme"
+    }
+  },
+  "cardSets": {
+    "absorbing-man-encounter": [
+      {
+        "code": "04080"
+      },
+      {
+        "code": "04081"
+      },
+      {
+        "code": "04082"
+      },
+      {
+        "code": "04083"
+      },
+      {
+        "code": "04084"
+      },
+      {
+        "code": "04085",
+        "count": 2
+      },
+      {
+        "code": "04086",
+        "count": 2
+      },
+      {
+        "code": "04087",
+        "count": 2
+      },
+      {
+        "code": "04088",
+        "count": 2
+      },
+      {
+        "code": "04089",
+        "count": 3
+      },
+      {
+        "code": "04090",
+        "count": 2
+      },
+      {
+        "code": "04091",
+        "count": 2
+      },
+      {
+        "code": "04092"
+      }
+    ]
+  }
+}
