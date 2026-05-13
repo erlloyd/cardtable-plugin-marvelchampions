@@ -90,292 +90,292 @@
         "kind": "static",
         "items": [
           {
-            "id": "marvelchampions-rhino",
+            "typeId": "marvelchampions-rhino",
             "label": "Core Set - Rhino",
             "data": { "file": "marvelchampions-rhino-scenario.json" }
           },
           {
-            "id": "marvelchampions-klaw",
+            "typeId": "marvelchampions-klaw",
             "label": "Core Set - Klaw",
             "data": { "file": "marvelchampions-klaw-scenario.json" }
           },
           {
-            "id": "marvelchampions-ultron",
+            "typeId": "marvelchampions-ultron",
             "label": "Core Set - Ultron",
             "data": { "file": "marvelchampions-ultron-scenario.json" }
           },
           {
-            "id": "marvelchampions-risky-business",
+            "typeId": "marvelchampions-risky-business",
             "label": "The Green Goblin - Risky Business",
             "data": { "file": "marvelchampions-risky-business-scenario.json" }
           },
           {
-            "id": "marvelchampions-mutagen-formula",
+            "typeId": "marvelchampions-mutagen-formula",
             "label": "The Green Goblin - Mutagen Formula",
             "data": { "file": "marvelchampions-mutagen-formula-scenario.json" }
           },
           {
-            "id": "marvelchampions-wrecking-crew",
+            "typeId": "marvelchampions-wrecking-crew",
             "label": "The Wrecking Crew - Wrecking Crew",
             "data": { "file": "marvelchampions-wrecking-crew-scenario.json" }
           },
           {
-            "id": "marvelchampions-piledriver",
+            "typeId": "marvelchampions-piledriver",
             "label": "The Wrecking Crew - Piledriver",
             "data": { "file": "marvelchampions-piledriver-scenario.json" }
           },
           {
-            "id": "marvelchampions-wrecker",
+            "typeId": "marvelchampions-wrecker",
             "label": "The Wrecking Crew - Wrecker",
             "data": { "file": "marvelchampions-wrecker-scenario.json" }
           },
           {
-            "id": "marvelchampions-thunderball",
+            "typeId": "marvelchampions-thunderball",
             "label": "The Wrecking Crew - Thunderball",
             "data": { "file": "marvelchampions-thunderball-scenario.json" }
           },
           {
-            "id": "marvelchampions-bulldozer",
+            "typeId": "marvelchampions-bulldozer",
             "label": "The Wrecking Crew - Bulldozer",
             "data": { "file": "marvelchampions-bulldozer-scenario.json" }
           },
           {
-            "id": "marvelchampions-crossbones",
+            "typeId": "marvelchampions-crossbones",
             "label": "The Rise of Red Skull - Crossbones",
             "data": { "file": "marvelchampions-crossbones-scenario.json" }
           },
           {
-            "id": "marvelchampions-absorbing-man",
+            "typeId": "marvelchampions-absorbing-man",
             "label": "The Rise of Red Skull - Absorbing Man",
             "data": { "file": "marvelchampions-absorbing-man-scenario.json" }
           },
           {
-            "id": "marvelchampions-taskmaster",
+            "typeId": "marvelchampions-taskmaster",
             "label": "The Rise of Red Skull - Taskmaster",
             "data": { "file": "marvelchampions-taskmaster-scenario.json" }
           },
           {
-            "id": "marvelchampions-zola",
+            "typeId": "marvelchampions-zola",
             "label": "The Rise of Red Skull - Zola",
             "data": { "file": "marvelchampions-zola-scenario.json" }
           },
           {
-            "id": "marvelchampions-red-skull",
+            "typeId": "marvelchampions-red-skull",
             "label": "The Rise of Red Skull - Red Skull",
             "data": { "file": "marvelchampions-red-skull-scenario.json" }
           },
           {
-            "id": "marvelchampions-kang",
+            "typeId": "marvelchampions-kang",
             "label": "The Once and Future Kang - Kang",
             "data": { "file": "marvelchampions-kang-scenario.json" }
           },
           {
-            "id": "marvelchampions-brotherhood-of-badoon",
+            "typeId": "marvelchampions-brotherhood-of-badoon",
             "label": "Galaxy's Most Wanted - Brotherhood Of Badoon",
             "data": { "file": "marvelchampions-brotherhood-of-badoon-scenario.json" }
           },
           {
-            "id": "marvelchampions-collector1",
+            "typeId": "marvelchampions-collector1",
             "label": "Galaxy's Most Wanted - Collector 1",
             "data": { "file": "marvelchampions-collector1-scenario.json" }
           },
           {
-            "id": "marvelchampions-collector2",
+            "typeId": "marvelchampions-collector2",
             "label": "Galaxy's Most Wanted - Collector 2",
             "data": { "file": "marvelchampions-collector2-scenario.json" }
           },
           {
-            "id": "marvelchampions-nebula",
+            "typeId": "marvelchampions-nebula",
             "label": "Galaxy's Most Wanted - Nebula",
             "data": { "file": "marvelchampions-nebula-scenario.json" }
           },
           {
-            "id": "marvelchampions-ronan",
+            "typeId": "marvelchampions-ronan",
             "label": "Galaxy's Most Wanted - Ronan",
             "data": { "file": "marvelchampions-ronan-scenario.json" }
           },
           {
-            "id": "marvelchampions-ebony-maw",
+            "typeId": "marvelchampions-ebony-maw",
             "label": "The Mad Titan's Shadow - Ebony Maw",
             "data": { "file": "marvelchampions-ebony-maw-scenario.json" }
           },
           {
-            "id": "marvelchampions-tower-defense",
+            "typeId": "marvelchampions-tower-defense",
             "label": "The Mad Titan's Shadow - The Tower Defense",
             "data": { "file": "marvelchampions-tower-defense-scenario.json" }
           },
           {
-            "id": "marvelchampions-thanos",
+            "typeId": "marvelchampions-thanos",
             "label": "The Mad Titan's Shadow - Thanos",
             "data": { "file": "marvelchampions-thanos-scenario.json" }
           },
           {
-            "id": "marvelchampions-hela",
+            "typeId": "marvelchampions-hela",
             "label": "The Mad Titan's Shadow - Hela",
             "data": { "file": "marvelchampions-hela-scenario.json" }
           },
           {
-            "id": "marvelchampions-loki",
+            "typeId": "marvelchampions-loki",
             "label": "The Mad Titan's Shadow - Loki",
             "data": { "file": "marvelchampions-loki-scenario.json" }
           },
           {
-            "id": "marvelchampions-the-hood",
+            "typeId": "marvelchampions-the-hood",
             "label": "The Hood - The Hood",
             "data": { "file": "marvelchampions-the-hood-scenario.json" }
           },
           {
-            "id": "marvelchampions-sandman",
+            "typeId": "marvelchampions-sandman",
             "label": "Sinister Motives - Sandman",
             "data": { "file": "marvelchampions-sandman-scenario.json" }
           },
           {
-            "id": "marvelchampions-venom",
+            "typeId": "marvelchampions-venom",
             "label": "Sinister Motives - Venom",
             "data": { "file": "marvelchampions-venom-scenario.json" }
           },
           {
-            "id": "marvelchampions-mysterio",
+            "typeId": "marvelchampions-mysterio",
             "label": "Sinister Motives - Mysterio",
             "data": { "file": "marvelchampions-mysterio-scenario.json" }
           },
           {
-            "id": "marvelchampions-sinister-six",
+            "typeId": "marvelchampions-sinister-six",
             "label": "Sinister Motives - Sinister Six",
             "data": { "file": "marvelchampions-sinister-six-scenario.json" }
           },
           {
-            "id": "marvelchampions-venom-goblin",
+            "typeId": "marvelchampions-venom-goblin",
             "label": "Sinister Motives - Venom Goblin",
             "data": { "file": "marvelchampions-venom-goblin-scenario.json" }
           },
           {
-            "id": "marvelchampions-magneto-villain",
+            "typeId": "marvelchampions-magneto-villain",
             "label": "Mutant Genesis - Magneto",
             "data": { "file": "marvelchampions-magneto-villain-scenario.json" }
           },
           {
-            "id": "marvelchampions-mansion-attack",
+            "typeId": "marvelchampions-mansion-attack",
             "label": "Mutant Genesis - Mansion Attack",
             "data": { "file": "marvelchampions-mansion-attack-scenario.json" }
           },
           {
-            "id": "marvelchampions-master-mold",
+            "typeId": "marvelchampions-master-mold",
             "label": "Mutant Genesis - Master Mold",
             "data": { "file": "marvelchampions-master-mold-scenario.json" }
           },
           {
-            "id": "marvelchampions-project-wideawake",
+            "typeId": "marvelchampions-project-wideawake",
             "label": "Mutant Genesis - Project Wideawake",
             "data": { "file": "marvelchampions-project-wideawake-scenario.json" }
           },
           {
-            "id": "marvelchampions-sabretooth",
+            "typeId": "marvelchampions-sabretooth",
             "label": "Mutant Genesis - Sabretooth",
             "data": { "file": "marvelchampions-sabretooth-scenario.json" }
           },
           {
-            "id": "marvelchampions-juggernaut",
+            "typeId": "marvelchampions-juggernaut",
             "label": "NeXt Evolution - Juggernaut",
             "data": { "file": "marvelchampions-juggernaut-scenario.json" }
           },
           {
-            "id": "marvelchampions-marauders",
+            "typeId": "marvelchampions-marauders",
             "label": "NeXt Evolution - Marauders",
             "data": { "file": "marvelchampions-marauders-scenario.json" }
           },
           {
-            "id": "marvelchampions-mister-sinister",
+            "typeId": "marvelchampions-mister-sinister",
             "label": "NeXt Evolution - Mister Sinister",
             "data": { "file": "marvelchampions-mister-sinister-scenario.json" }
           },
           {
-            "id": "marvelchampions-morlock-siege",
+            "typeId": "marvelchampions-morlock-siege",
             "label": "NeXt Evolution - Morlock Siege",
             "data": { "file": "marvelchampions-morlock-siege-scenario.json" }
           },
           {
-            "id": "marvelchampions-on-the-run",
+            "typeId": "marvelchampions-on-the-run",
             "label": "NeXt Evolution - On the Run",
             "data": { "file": "marvelchampions-on-the-run-scenario.json" }
           },
           {
-            "id": "marvelchampions-stryfe",
+            "typeId": "marvelchampions-stryfe",
             "label": "NeXt Evolution - Stryfe",
             "data": { "file": "marvelchampions-stryfe-scenario.json" }
           },
           {
-            "id": "marvelchampions-magog",
+            "typeId": "marvelchampions-magog",
             "label": "Mojo Mania - Magog",
             "data": { "file": "marvelchampions-magog-scenario.json" }
           },
           {
-            "id": "marvelchampions-mojo",
+            "typeId": "marvelchampions-mojo",
             "label": "Mojo Mania - Mojo",
             "data": { "file": "marvelchampions-mojo-scenario.json" }
           },
           {
-            "id": "marvelchampions-spiral",
+            "typeId": "marvelchampions-spiral",
             "label": "Mojo Mania - Spiral",
             "data": { "file": "marvelchampions-spiral-scenario.json" }
           },
           {
-            "id": "marvelchampions-apocalypse",
+            "typeId": "marvelchampions-apocalypse",
             "label": "Age of Apocalypse - Apocalypse",
             "data": { "file": "marvelchampions-apocalypse-scenario.json" }
           },
           {
-            "id": "marvelchampions-dark-beast",
+            "typeId": "marvelchampions-dark-beast",
             "label": "Age of Apocalypse - Dark Beast",
             "data": { "file": "marvelchampions-dark-beast-scenario.json" }
           },
           {
-            "id": "marvelchampions-en-sabah-nur",
+            "typeId": "marvelchampions-en-sabah-nur",
             "label": "Age of Apocalypse - En Sabah Nur",
             "data": { "file": "marvelchampions-en-sabah-nur-scenario.json" }
           },
           {
-            "id": "marvelchampions-four-horsemen",
+            "typeId": "marvelchampions-four-horsemen",
             "label": "Age of Apocalypse - Four Horsemen",
             "data": { "file": "marvelchampions-four-horsemen-scenario.json" }
           },
           {
-            "id": "marvelchampions-unus",
+            "typeId": "marvelchampions-unus",
             "label": "Age of Apocalypse - Unus",
             "data": { "file": "marvelchampions-unus-scenario.json" }
           },
           {
-            "id": "marvelchampions-baron-zemo",
+            "typeId": "marvelchampions-baron-zemo",
             "label": "Agents of S.H.I.E.L.D. - Baron Zemo",
             "data": { "file": "marvelchampions-baron-zemo-scenario.json" }
           },
           {
-            "id": "marvelchampions-batroc",
+            "typeId": "marvelchampions-batroc",
             "label": "Agents of S.H.I.E.L.D. - Batroc",
             "data": { "file": "marvelchampions-batroc-scenario.json" }
           },
           {
-            "id": "marvelchampions-black-widow-villain",
+            "typeId": "marvelchampions-black-widow-villain",
             "label": "Agents of S.H.I.E.L.D. - Black Widow",
             "data": { "file": "marvelchampions-black-widow-villain-scenario.json" }
           },
           {
-            "id": "marvelchampions-modok",
+            "typeId": "marvelchampions-modok",
             "label": "Agents of S.H.I.E.L.D. - M.O.D.O.K",
             "data": { "file": "marvelchampions-modok-scenario.json" }
           },
           {
-            "id": "marvelchampions-thunderbolts",
+            "typeId": "marvelchampions-thunderbolts",
             "label": "Agents of S.H.I.E.L.D. - Thunderbolts",
             "data": { "file": "marvelchampions-thunderbolts-scenario.json" }
           },
           {
-            "id": "marvelchampions-enchantress-villain",
+            "typeId": "marvelchampions-enchantress-villain",
             "label": "Trickster Takeover - Enchantress",
             "data": { "file": "marvelchampions-enchantress-villain-scenario.json" }
           },
           {
-            "id": "marvelchampions-god-of-lies",
+            "typeId": "marvelchampions-god-of-lies",
             "label": "Trickster Takeover - God of Lies",
             "data": { "file": "marvelchampions-god-of-lies-scenario.json" }
           }
@@ -390,52 +390,52 @@
         "kind": "static",
         "items": [
           {
-            "id": "bomb-scare",
+            "typeId": "bomb-scare",
             "label": "Bomb Scare",
             "data": { "pack": "marvelchampions-bomb-scare", "cardSet": "bomb-scare" }
           },
           {
-            "id": "masters-of-evil",
+            "typeId": "masters-of-evil",
             "label": "Masters of Evil",
             "data": { "pack": "marvelchampions-masters-of-evil", "cardSet": "masters-of-evil" }
           },
           {
-            "id": "under-attack",
+            "typeId": "under-attack",
             "label": "Under Attack",
             "data": { "pack": "marvelchampions-under-attack", "cardSet": "under-attack" }
           },
           {
-            "id": "legions-of-hydra",
+            "typeId": "legions-of-hydra",
             "label": "Legions of Hydra",
             "data": { "pack": "marvelchampions-legions-of-hydra", "cardSet": "legions-of-hydra" }
           },
           {
-            "id": "doomsday-chair",
+            "typeId": "doomsday-chair",
             "label": "Doomsday Chair",
             "data": { "pack": "marvelchampions-doomsday-chair", "cardSet": "doomsday-chair" }
           },
           {
-            "id": "standard-encounter",
+            "typeId": "standard-encounter",
             "label": "Standard Encounter",
             "data": { "pack": "marvelchampions-standard-encounter", "cardSet": "standard-encounter" }
           },
           {
-            "id": "expert-encounter",
+            "typeId": "expert-encounter",
             "label": "Expert Encounter",
             "data": { "pack": "marvelchampions-expert-encounter", "cardSet": "expert-encounter" }
           },
           {
-            "id": "rhino-encounter",
+            "typeId": "rhino-encounter",
             "label": "Rhino Encounter",
             "data": { "pack": "marvelchampions-rhino", "cardSet": "rhino-encounter" }
           },
           {
-            "id": "klaw-encounter",
+            "typeId": "klaw-encounter",
             "label": "Klaw Encounter",
             "data": { "pack": "marvelchampions-klaw", "cardSet": "klaw-encounter" }
           },
           {
-            "id": "ultron-encounter",
+            "typeId": "ultron-encounter",
             "label": "Ultron Encounter",
             "data": { "pack": "marvelchampions-ultron", "cardSet": "ultron-encounter" }
           }

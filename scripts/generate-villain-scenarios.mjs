@@ -330,7 +330,7 @@ function main() {
   console.log("\n--- index.json loadable items snippet ---");
   for (const r of results) {
     console.log(JSON.stringify({
-      id: `marvelchampions-${r.slug}`,
+      typeId: `marvelchampions-${r.slug}`,
       label: `${r.packName} - ${r.setName}`,
       data: { file: `marvelchampions-${r.slug}-scenario.json` },
     }));
