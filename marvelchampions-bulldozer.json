@@ -1,0 +1,151 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-bulldozer",
+  "name": "Marvel Champions: Bulldozer",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "07046": {
+      "name": "Bulldozer",
+      "type": "villain",
+      "face": "07046.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "villain"
+    },
+    "07047": {
+      "name": "Bulldozer",
+      "type": "villain",
+      "face": "07047.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "villain"
+    },
+    "07048": {
+      "name": "Clear the Road",
+      "type": "encounter",
+      "face": "07048.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "side_scheme"
+    },
+    "07049": {
+      "name": "Bulldozer's Helmet",
+      "type": "encounter",
+      "face": "07049.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "attachment"
+    },
+    "07050": {
+      "name": "Held Hostage",
+      "type": "encounter",
+      "face": "07050.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "attachment"
+    },
+    "07051": {
+      "name": "Ramming Speed",
+      "type": "encounter",
+      "face": "07051.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "attachment"
+    },
+    "07052": {
+      "name": "Corrupt Prison Guard",
+      "type": "encounter",
+      "face": "07052.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "minion"
+    },
+    "07053": {
+      "name": "Escaped Convict",
+      "type": "encounter",
+      "face": "07053.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "minion"
+    },
+    "07054": {
+      "name": "Buddy System",
+      "type": "encounter",
+      "face": "07054.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "treachery"
+    },
+    "07055": {
+      "name": "Bull Rush",
+      "type": "encounter",
+      "face": "07055.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "treachery"
+    },
+    "07056": {
+      "name": "Chaos In the Prison",
+      "type": "encounter",
+      "face": "07056.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "treachery"
+    },
+    "07057": {
+      "name": "Get Wrecked!",
+      "type": "encounter",
+      "face": "07057.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "treachery"
+    },
+    "07058": {
+      "name": "Headbutt",
+      "type": "encounter",
+      "face": "07058.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "treachery"
+    },
+    "07059": {
+      "name": "Leading the Charge",
+      "type": "encounter",
+      "face": "07059.jpg",
+      "setCode": "bulldozer",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "bulldozer-encounter": [
+      {
+        "code": "07048"
+      },
+      {
+        "code": "07049"
+      },
+      {
+        "code": "07050"
+      },
+      {
+        "code": "07051",
+        "count": 2
+      },
+      {
+        "code": "07052"
+      },
+      {
+        "code": "07053"
+      },
+      {
+        "code": "07054"
+      },
+      {
+        "code": "07055",
+        "count": 2
+      },
+      {
+        "code": "07056"
+      },
+      {
+        "code": "07057"
+      },
+      {
+        "code": "07058",
+        "count": 2
+      },
+      {
+        "code": "07059",
+        "count": 2
+      }
+    ]
+  }
+}

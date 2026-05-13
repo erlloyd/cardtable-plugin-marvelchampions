@@ -1,0 +1,159 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-thunderball",
+  "name": "Marvel Champions: Thunderball",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "07017": {
+      "name": "Thunderball",
+      "type": "villain",
+      "face": "07017.jpg",
+      "setCode": "thunderball",
+      "typeCode": "villain"
+    },
+    "07018": {
+      "name": "Thunderball",
+      "type": "villain",
+      "face": "07018.jpg",
+      "setCode": "thunderball",
+      "typeCode": "villain"
+    },
+    "07019": {
+      "name": "Thunderstruck",
+      "type": "encounter",
+      "face": "07019.jpg",
+      "setCode": "thunderball",
+      "typeCode": "side_scheme"
+    },
+    "07020": {
+      "name": "Ball and Chain",
+      "type": "encounter",
+      "face": "07020.jpg",
+      "setCode": "thunderball",
+      "typeCode": "attachment"
+    },
+    "07021": {
+      "name": "Held Hostage",
+      "type": "encounter",
+      "face": "07021.jpg",
+      "setCode": "thunderball",
+      "typeCode": "attachment"
+    },
+    "07022": {
+      "name": "Radioactive Buildup",
+      "type": "encounter",
+      "face": "07022.jpg",
+      "setCode": "thunderball",
+      "typeCode": "attachment"
+    },
+    "07023": {
+      "name": "Corrupt Prison Guard",
+      "type": "encounter",
+      "face": "07023.jpg",
+      "setCode": "thunderball",
+      "typeCode": "minion"
+    },
+    "07024": {
+      "name": "Escaped Convict",
+      "type": "encounter",
+      "face": "07024.jpg",
+      "setCode": "thunderball",
+      "typeCode": "minion"
+    },
+    "07025": {
+      "name": "Buddy System",
+      "type": "encounter",
+      "face": "07025.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    },
+    "07026": {
+      "name": "Chaos In the Prison",
+      "type": "encounter",
+      "face": "07026.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    },
+    "07027": {
+      "name": "Energy Projectiles",
+      "type": "encounter",
+      "face": "07027.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    },
+    "07028": {
+      "name": "Get Wrecked!",
+      "type": "encounter",
+      "face": "07028.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    },
+    "07029": {
+      "name": "I've Been Waiting For This!",
+      "type": "encounter",
+      "face": "07029.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    },
+    "07030": {
+      "name": "Lightning Blast",
+      "type": "encounter",
+      "face": "07030.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    },
+    "07031": {
+      "name": "Tactical Prowess",
+      "type": "encounter",
+      "face": "07031.jpg",
+      "setCode": "thunderball",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "thunderball-encounter": [
+      {
+        "code": "07019"
+      },
+      {
+        "code": "07020"
+      },
+      {
+        "code": "07021"
+      },
+      {
+        "code": "07022"
+      },
+      {
+        "code": "07023"
+      },
+      {
+        "code": "07024"
+      },
+      {
+        "code": "07025"
+      },
+      {
+        "code": "07026"
+      },
+      {
+        "code": "07027"
+      },
+      {
+        "code": "07028"
+      },
+      {
+        "code": "07029"
+      },
+      {
+        "code": "07030",
+        "count": 2
+      },
+      {
+        "code": "07031",
+        "count": 2
+      }
+    ]
+  }
+}

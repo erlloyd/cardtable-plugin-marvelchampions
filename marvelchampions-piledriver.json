@@ -1,0 +1,151 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-piledriver",
+  "name": "Marvel Champions: Piledriver",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "07032": {
+      "name": "Piledriver",
+      "type": "villain",
+      "face": "07032.jpg",
+      "setCode": "piledriver",
+      "typeCode": "villain"
+    },
+    "07033": {
+      "name": "Piledriver",
+      "type": "villain",
+      "face": "07033.jpg",
+      "setCode": "piledriver",
+      "typeCode": "villain"
+    },
+    "07034": {
+      "name": "Pile It On!",
+      "type": "encounter",
+      "face": "07034.jpg",
+      "setCode": "piledriver",
+      "typeCode": "side_scheme"
+    },
+    "07035": {
+      "name": "Distracting Taunts",
+      "type": "encounter",
+      "face": "07035.jpg",
+      "setCode": "piledriver",
+      "typeCode": "attachment"
+    },
+    "07036": {
+      "name": "Held Hostage",
+      "type": "encounter",
+      "face": "07036.jpg",
+      "setCode": "piledriver",
+      "typeCode": "attachment"
+    },
+    "07037": {
+      "name": "Corrupt Prison Guard",
+      "type": "encounter",
+      "face": "07037.jpg",
+      "setCode": "piledriver",
+      "typeCode": "minion"
+    },
+    "07038": {
+      "name": "Escaped Convict",
+      "type": "encounter",
+      "face": "07038.jpg",
+      "setCode": "piledriver",
+      "typeCode": "minion"
+    },
+    "07039": {
+      "name": "Buddy System",
+      "type": "encounter",
+      "face": "07039.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    },
+    "07040": {
+      "name": "Get Wrecked!",
+      "type": "encounter",
+      "face": "07040.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    },
+    "07041": {
+      "name": "I've Been Waiting For This!",
+      "type": "encounter",
+      "face": "07041.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    },
+    "07042": {
+      "name": "Oversized Hands",
+      "type": "encounter",
+      "face": "07042.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    },
+    "07043": {
+      "name": "Escape Plan",
+      "type": "encounter",
+      "face": "07043.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    },
+    "07044": {
+      "name": "Pummel",
+      "type": "encounter",
+      "face": "07044.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    },
+    "07045": {
+      "name": "Uncanny Resilience",
+      "type": "encounter",
+      "face": "07045.jpg",
+      "setCode": "piledriver",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "piledriver-encounter": [
+      {
+        "code": "07034"
+      },
+      {
+        "code": "07035",
+        "count": 2
+      },
+      {
+        "code": "07036"
+      },
+      {
+        "code": "07037"
+      },
+      {
+        "code": "07038"
+      },
+      {
+        "code": "07039"
+      },
+      {
+        "code": "07040"
+      },
+      {
+        "code": "07041"
+      },
+      {
+        "code": "07042",
+        "count": 2
+      },
+      {
+        "code": "07043",
+        "count": 2
+      },
+      {
+        "code": "07044",
+        "count": 2
+      },
+      {
+        "code": "07045"
+      }
+    ]
+  }
+}

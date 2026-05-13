@@ -1,0 +1,53 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-piledriver",
+  "name": "Marvel Champions: Piledriver",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-wrecking-crew",
+    "marvelchampions-piledriver",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "07032"
+            },
+            {
+              "code": "07033"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "07001a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "piledriver-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

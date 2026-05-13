@@ -1,0 +1,55 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-wrecking-crew",
+  "name": "Marvel Champions: Wrecking Crew",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-wrecking-crew",
+    "marvelchampions-wrecker",
+    "marvelchampions-piledriver",
+    "marvelchampions-thunderball",
+    "marvelchampions-bulldozer",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villains",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            { "code": "07002" },
+            { "code": "07032" },
+            { "code": "07017" },
+            { "code": "07046" }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            { "code": "07001a" }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "wrecker-encounter",
+            "piledriver-encounter",
+            "thunderball-encounter",
+            "bulldozer-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

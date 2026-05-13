@@ -1,0 +1,160 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-wrecker",
+  "name": "Marvel Champions: Wrecker",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "07002": {
+      "name": "Wrecker",
+      "type": "villain",
+      "face": "07002.jpg",
+      "setCode": "wrecker",
+      "typeCode": "villain"
+    },
+    "07003": {
+      "name": "Wrecker",
+      "type": "villain",
+      "face": "07003.jpg",
+      "setCode": "wrecker",
+      "typeCode": "villain"
+    },
+    "07004": {
+      "name": "Day of Reckoning",
+      "type": "encounter",
+      "face": "07004.jpg",
+      "setCode": "wrecker",
+      "typeCode": "side_scheme"
+    },
+    "07005": {
+      "name": "Held Hostage",
+      "type": "encounter",
+      "face": "07005.jpg",
+      "setCode": "wrecker",
+      "typeCode": "attachment"
+    },
+    "07006": {
+      "name": "Magic Crowbar",
+      "type": "encounter",
+      "face": "07006.jpg",
+      "setCode": "wrecker",
+      "typeCode": "attachment"
+    },
+    "07007": {
+      "name": "Wrecker's Command",
+      "type": "encounter",
+      "face": "07007.jpg",
+      "setCode": "wrecker",
+      "typeCode": "attachment"
+    },
+    "07008": {
+      "name": "Corrupt Prison Guard",
+      "type": "encounter",
+      "face": "07008.jpg",
+      "setCode": "wrecker",
+      "typeCode": "minion"
+    },
+    "07009": {
+      "name": "Escaped Convict",
+      "type": "encounter",
+      "face": "07009.jpg",
+      "setCode": "wrecker",
+      "typeCode": "minion"
+    },
+    "07010": {
+      "name": "Buddy System",
+      "type": "encounter",
+      "face": "07010.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    },
+    "07011": {
+      "name": "Chaos In the Prison",
+      "type": "encounter",
+      "face": "07011.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    },
+    "07012": {
+      "name": "Crowbar Toss",
+      "type": "encounter",
+      "face": "07012.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    },
+    "07013": {
+      "name": "Get Wrecked!",
+      "type": "encounter",
+      "face": "07013.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    },
+    "07014": {
+      "name": "I've Been Waiting For This!",
+      "type": "encounter",
+      "face": "07014.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    },
+    "07015": {
+      "name": "Mystical Link",
+      "type": "encounter",
+      "face": "07015.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    },
+    "07016": {
+      "name": "You're Dead Meat!",
+      "type": "encounter",
+      "face": "07016.jpg",
+      "setCode": "wrecker",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "wrecker-encounter": [
+      {
+        "code": "07004"
+      },
+      {
+        "code": "07005"
+      },
+      {
+        "code": "07006"
+      },
+      {
+        "code": "07007"
+      },
+      {
+        "code": "07008"
+      },
+      {
+        "code": "07009"
+      },
+      {
+        "code": "07010"
+      },
+      {
+        "code": "07011"
+      },
+      {
+        "code": "07012",
+        "count": 2
+      },
+      {
+        "code": "07013"
+      },
+      {
+        "code": "07014"
+      },
+      {
+        "code": "07015",
+        "count": 2
+      },
+      {
+        "code": "07016",
+        "count": 2
+      }
+    ]
+  }
+}

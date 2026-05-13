@@ -1,0 +1,25 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-wrecking-crew",
+  "name": "Marvel Champions: Wrecking Crew",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "07001a": {
+      "name": "Breakout",
+      "type": "main_scheme",
+      "face": "07001A.jpg",
+      "setCode": "wrecking_crew",
+      "typeCode": "main_scheme",
+      "back_code": "07001b"
+    },
+    "07001b": {
+      "name": "Breakout",
+      "type": "main_scheme",
+      "face": "07001B.jpg",
+      "setCode": "wrecking_crew",
+      "typeCode": "main_scheme",
+      "back_code": "07001a"
+    }
+  }
+}

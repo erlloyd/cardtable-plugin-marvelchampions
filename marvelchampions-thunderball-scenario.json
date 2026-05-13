@@ -1,0 +1,53 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-thunderball",
+  "name": "Marvel Champions: Thunderball",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-wrecking-crew",
+    "marvelchampions-thunderball",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "07017"
+            },
+            {
+              "code": "07018"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "07001a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "thunderball-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

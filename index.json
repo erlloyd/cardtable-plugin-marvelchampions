@@ -20,6 +20,11 @@
     "marvelchampions-ultron.json",
     "marvelchampions-risky-business.json",
     "marvelchampions-mutagen-formula.json",
+    "marvelchampions-wrecking-crew.json",
+    "marvelchampions-piledriver.json",
+    "marvelchampions-wrecker.json",
+    "marvelchampions-thunderball.json",
+    "marvelchampions-bulldozer.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -60,6 +65,31 @@
             "id": "marvelchampions-mutagen-formula",
             "label": "The Green Goblin - Mutagen Formula",
             "data": { "file": "marvelchampions-mutagen-formula-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-wrecking-crew",
+            "label": "The Wrecking Crew - Wrecking Crew",
+            "data": { "file": "marvelchampions-wrecking-crew-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-piledriver",
+            "label": "The Wrecking Crew - Piledriver",
+            "data": { "file": "marvelchampions-piledriver-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-wrecker",
+            "label": "The Wrecking Crew - Wrecker",
+            "data": { "file": "marvelchampions-wrecker-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-thunderball",
+            "label": "The Wrecking Crew - Thunderball",
+            "data": { "file": "marvelchampions-thunderball-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-bulldozer",
+            "label": "The Wrecking Crew - Bulldozer",
+            "data": { "file": "marvelchampions-bulldozer-scenario.json" }
           }
         ]
       }

@@ -1,0 +1,53 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-bulldozer",
+  "name": "Marvel Champions: Bulldozer",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-wrecking-crew",
+    "marvelchampions-bulldozer",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "07046"
+            },
+            {
+              "code": "07047"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "07001a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "bulldozer-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}
