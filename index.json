@@ -58,6 +58,9 @@
     "marvelchampions-morlock-siege.json",
     "marvelchampions-on-the-run.json",
     "marvelchampions-stryfe.json",
+    "marvelchampions-magog.json",
+    "marvelchampions-mojo.json",
+    "marvelchampions-spiral.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -288,6 +291,21 @@
             "id": "marvelchampions-stryfe",
             "label": "NeXt Evolution - Stryfe",
             "data": { "file": "marvelchampions-stryfe-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-magog",
+            "label": "Mojo Mania - Magog",
+            "data": { "file": "marvelchampions-magog-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-mojo",
+            "label": "Mojo Mania - Mojo",
+            "data": { "file": "marvelchampions-mojo-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-spiral",
+            "label": "Mojo Mania - Spiral",
+            "data": { "file": "marvelchampions-spiral-scenario.json" }
           }
         ]
       }

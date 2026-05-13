@@ -1,0 +1,139 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-spiral",
+  "name": "Marvel Champions: Spiral",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "39016": {
+      "name": "The Search for Spiral",
+      "type": "encounter",
+      "face": "39016.jpg",
+      "setCode": "spiral",
+      "typeCode": "side_scheme"
+    },
+    "39017": {
+      "name": "Cornered!",
+      "type": "encounter",
+      "face": "39017.jpg",
+      "setCode": "spiral",
+      "typeCode": "treachery"
+    },
+    "39018": {
+      "name": "Spiral's Swords",
+      "type": "encounter",
+      "face": "39018.jpg",
+      "setCode": "spiral",
+      "typeCode": "attachment"
+    },
+    "39019": {
+      "name": "Erratic Teleportation",
+      "type": "encounter",
+      "face": "39019.jpg",
+      "setCode": "spiral",
+      "typeCode": "treachery"
+    },
+    "39020": {
+      "name": "The Show Must Go On",
+      "type": "encounter",
+      "face": "39020.jpg",
+      "setCode": "spiral",
+      "typeCode": "treachery"
+    },
+    "39021": {
+      "name": "Well-Armed",
+      "type": "encounter",
+      "face": "39021.jpg",
+      "setCode": "spiral",
+      "typeCode": "treachery"
+    },
+    "39012a": {
+      "name": "Spiral",
+      "type": "villain",
+      "face": "39012A.jpg",
+      "setCode": "spiral",
+      "typeCode": "villain",
+      "back_code": "39012b"
+    },
+    "39012b": {
+      "name": "Spiral",
+      "type": "villain",
+      "face": "39012B.jpg",
+      "setCode": "spiral",
+      "typeCode": "villain",
+      "back_code": "39012a"
+    },
+    "39013a": {
+      "name": "Spiral",
+      "type": "villain",
+      "face": "39013A.jpg",
+      "setCode": "spiral",
+      "typeCode": "villain",
+      "back_code": "39013b"
+    },
+    "39013b": {
+      "name": "Spiral",
+      "type": "villain",
+      "face": "39013B.jpg",
+      "setCode": "spiral",
+      "typeCode": "villain",
+      "back_code": "39013a"
+    },
+    "39014a": {
+      "name": "Spiral",
+      "type": "villain",
+      "face": "39014A.jpg",
+      "setCode": "spiral",
+      "typeCode": "villain",
+      "back_code": "39014b"
+    },
+    "39014b": {
+      "name": "Spiral",
+      "type": "villain",
+      "face": "39014B.jpg",
+      "setCode": "spiral",
+      "typeCode": "villain",
+      "back_code": "39014a"
+    },
+    "39015a": {
+      "name": "Across the Mojoverse",
+      "type": "main_scheme",
+      "face": "39015A.jpg",
+      "setCode": "spiral",
+      "typeCode": "main_scheme",
+      "back_code": "39015b"
+    },
+    "39015b": {
+      "name": "Across the Mojoverse",
+      "type": "main_scheme",
+      "face": "39015B.jpg",
+      "setCode": "spiral",
+      "typeCode": "main_scheme",
+      "back_code": "39015a"
+    }
+  },
+  "cardSets": {
+    "spiral-encounter": [
+      {
+        "code": "39016"
+      },
+      {
+        "code": "39017"
+      },
+      {
+        "code": "39018",
+        "count": 2
+      },
+      {
+        "code": "39019",
+        "count": 2
+      },
+      {
+        "code": "39020"
+      },
+      {
+        "code": "39021"
+      }
+    ]
+  }
+}

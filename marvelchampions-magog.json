@@ -1,0 +1,154 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-magog",
+  "name": "Marvel Champions: Magog",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "39005": {
+      "name": "Jolt of Adrenaline",
+      "type": "encounter",
+      "face": "39005.jpg",
+      "setCode": "magog",
+      "typeCode": "attachment"
+    },
+    "39006": {
+      "name": "Surge of Aggression",
+      "type": "encounter",
+      "face": "39006.jpg",
+      "setCode": "magog",
+      "typeCode": "attachment"
+    },
+    "39007": {
+      "name": "Surprise Contender",
+      "type": "encounter",
+      "face": "39007.jpg",
+      "setCode": "magog",
+      "typeCode": "minion"
+    },
+    "39008": {
+      "name": "Pump Up the Crowd",
+      "type": "encounter",
+      "face": "39008.jpg",
+      "setCode": "magog",
+      "typeCode": "side_scheme"
+    },
+    "39009": {
+      "name": "Break a Leg",
+      "type": "encounter",
+      "face": "39009.jpg",
+      "setCode": "magog",
+      "typeCode": "treachery"
+    },
+    "39010": {
+      "name": "Defend the Title",
+      "type": "encounter",
+      "face": "39010.jpg",
+      "setCode": "magog",
+      "typeCode": "treachery"
+    },
+    "39011": {
+      "name": "Stage Fright",
+      "type": "encounter",
+      "face": "39011.jpg",
+      "setCode": "magog",
+      "typeCode": "treachery"
+    },
+    "39001a": {
+      "name": "MaGog",
+      "type": "villain",
+      "face": "39001A.jpg",
+      "setCode": "magog",
+      "typeCode": "villain",
+      "back_code": "39001b"
+    },
+    "39001b": {
+      "name": "MaGog",
+      "type": "villain",
+      "face": "39001B.jpg",
+      "setCode": "magog",
+      "typeCode": "villain",
+      "back_code": "39001a"
+    },
+    "39002a": {
+      "name": "Melee in the Mojo-seum",
+      "type": "main_scheme",
+      "face": "39002A.jpg",
+      "setCode": "magog",
+      "typeCode": "main_scheme",
+      "back_code": "39002b"
+    },
+    "39002b": {
+      "name": "Melee in the Mojo-seum",
+      "type": "main_scheme",
+      "face": "39002B.jpg",
+      "setCode": "magog",
+      "typeCode": "main_scheme",
+      "back_code": "39002a"
+    },
+    "39003a": {
+      "name": "The Champion",
+      "type": "encounter",
+      "face": "39003A.jpg",
+      "setCode": "magog",
+      "typeCode": "environment",
+      "back_code": "39003b"
+    },
+    "39003b": {
+      "name": "The Champion",
+      "type": "encounter",
+      "face": "39003B.jpg",
+      "setCode": "magog",
+      "typeCode": "environment",
+      "back_code": "39003a"
+    },
+    "39004a": {
+      "name": "The Challengers",
+      "type": "encounter",
+      "face": "39004A.jpg",
+      "setCode": "magog",
+      "typeCode": "environment",
+      "back_code": "39004b"
+    },
+    "39004b": {
+      "name": "The Challengers",
+      "type": "encounter",
+      "face": "39004B.jpg",
+      "setCode": "magog",
+      "typeCode": "environment",
+      "back_code": "39004a"
+    }
+  },
+  "cardSets": {
+    "magog-encounter": [
+      {
+        "code": "39003a"
+      },
+      {
+        "code": "39004a"
+      },
+      {
+        "code": "39005"
+      },
+      {
+        "code": "39006"
+      },
+      {
+        "code": "39007"
+      },
+      {
+        "code": "39008"
+      },
+      {
+        "code": "39009"
+      },
+      {
+        "code": "39010",
+        "count": 2
+      },
+      {
+        "code": "39011"
+      }
+    ]
+  }
+}

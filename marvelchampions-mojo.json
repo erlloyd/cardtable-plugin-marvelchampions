@@ -1,0 +1,152 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-mojo",
+  "name": "Marvel Champions: Mojo",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "39022": {
+      "name": "Mojo",
+      "type": "villain",
+      "face": "39022.jpg",
+      "setCode": "mojo",
+      "typeCode": "villain"
+    },
+    "39023": {
+      "name": "Mojo",
+      "type": "villain",
+      "face": "39023.jpg",
+      "setCode": "mojo",
+      "typeCode": "villain"
+    },
+    "39024": {
+      "name": "Mojo",
+      "type": "villain",
+      "face": "39024.jpg",
+      "setCode": "mojo",
+      "typeCode": "villain"
+    },
+    "39027": {
+      "name": "Major Domo",
+      "type": "encounter",
+      "face": "39027.jpg",
+      "setCode": "mojo",
+      "typeCode": "attachment"
+    },
+    "39028": {
+      "name": "Stinger Tail",
+      "type": "encounter",
+      "face": "39028.jpg",
+      "setCode": "mojo",
+      "typeCode": "attachment"
+    },
+    "39029": {
+      "name": "Supporting Actor",
+      "type": "encounter",
+      "face": "39029.jpg",
+      "setCode": "mojo",
+      "typeCode": "minion"
+    },
+    "39030": {
+      "name": "Paparazzi",
+      "type": "encounter",
+      "face": "39030.jpg",
+      "setCode": "mojo",
+      "typeCode": "obligation"
+    },
+    "39031": {
+      "name": "Undercover Mojo",
+      "type": "encounter",
+      "face": "39031.jpg",
+      "setCode": "mojo",
+      "typeCode": "side_scheme"
+    },
+    "39032": {
+      "name": "Curtain Call",
+      "type": "encounter",
+      "face": "39032.jpg",
+      "setCode": "mojo",
+      "typeCode": "treachery"
+    },
+    "39033": {
+      "name": "Director's Directions",
+      "type": "encounter",
+      "face": "39033.jpg",
+      "setCode": "mojo",
+      "typeCode": "treachery"
+    },
+    "39034": {
+      "name": "Top Billing",
+      "type": "encounter",
+      "face": "39034.jpg",
+      "setCode": "mojo",
+      "typeCode": "treachery"
+    },
+    "39025a": {
+      "name": "MojoMania",
+      "type": "main_scheme",
+      "face": "39025A.jpg",
+      "setCode": "mojo",
+      "typeCode": "main_scheme",
+      "back_code": "39025b"
+    },
+    "39025b": {
+      "name": "MojoMania",
+      "type": "main_scheme",
+      "face": "39025B.jpg",
+      "setCode": "mojo",
+      "typeCode": "main_scheme",
+      "back_code": "39025a"
+    },
+    "39026a": {
+      "name": "Wheel of Genres",
+      "type": "encounter",
+      "face": "39026A.jpg",
+      "setCode": "mojo",
+      "typeCode": "environment",
+      "back_code": "39026b"
+    },
+    "39026b": {
+      "name": "Wheel of Genres",
+      "type": "encounter",
+      "face": "39026B.jpg",
+      "setCode": "mojo",
+      "typeCode": "environment",
+      "back_code": "39026a"
+    }
+  },
+  "cardSets": {
+    "mojo-encounter": [
+      {
+        "code": "39026a"
+      },
+      {
+        "code": "39027"
+      },
+      {
+        "code": "39028"
+      },
+      {
+        "code": "39029",
+        "count": 2
+      },
+      {
+        "code": "39030"
+      },
+      {
+        "code": "39031"
+      },
+      {
+        "code": "39032",
+        "count": 2
+      },
+      {
+        "code": "39033",
+        "count": 2
+      },
+      {
+        "code": "39034"
+      }
+    ]
+  }
+}
