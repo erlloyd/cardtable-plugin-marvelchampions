@@ -1,0 +1,58 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-four-horsemen",
+  "name": "Marvel Champions: Four Horsemen",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-four-horsemen",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "45081a"
+            },
+            {
+              "code": "45082a"
+            },
+            {
+              "code": "45083a"
+            },
+            {
+              "code": "45084a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "45085a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "four-horsemen-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-four-horsemen",
+  "name": "Marvel Champions: Four Horsemen",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "45086": {
+      "name": "The Ravages of War",
+      "type": "encounter",
+      "face": "45086.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "side_scheme"
+    },
+    "45087": {
+      "name": "A Time of Famine",
+      "type": "encounter",
+      "face": "45087.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "side_scheme"
+    },
+    "45088": {
+      "name": "Plague and Pestilence",
+      "type": "encounter",
+      "face": "45088.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "side_scheme"
+    },
+    "45089": {
+      "name": "The Specter of Death",
+      "type": "encounter",
+      "face": "45089.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "side_scheme"
+    },
+    "45090": {
+      "name": "Golden Horse",
+      "type": "encounter",
+      "face": "45090.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "attachment"
+    },
+    "45091": {
+      "name": "Metal Wings",
+      "type": "encounter",
+      "face": "45091.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "attachment"
+    },
+    "45092": {
+      "name": "Horseman of War",
+      "type": "encounter",
+      "face": "45092.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "treachery"
+    },
+    "45093": {
+      "name": "Horseman of Famine",
+      "type": "encounter",
+      "face": "45093.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "treachery"
+    },
+    "45094": {
+      "name": "Horseman of Pestilence",
+      "type": "encounter",
+      "face": "45094.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "treachery"
+    },
+    "45095": {
+      "name": "Horseman of Death",
+      "type": "encounter",
+      "face": "45095.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "treachery"
+    },
+    "45096": {
+      "name": "Rough Riders",
+      "type": "encounter",
+      "face": "45096.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "treachery"
+    },
+    "45081a": {
+      "name": "War",
+      "type": "villain",
+      "face": "45081A.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45081b"
+    },
+    "45081b": {
+      "name": "War",
+      "type": "villain",
+      "face": "45081B.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45081a"
+    },
+    "45082a": {
+      "name": "Famine",
+      "type": "villain",
+      "face": "45082A.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45082b"
+    },
+    "45082b": {
+      "name": "Famine",
+      "type": "villain",
+      "face": "45082B.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45082a"
+    },
+    "45083a": {
+      "name": "Pestilence",
+      "type": "villain",
+      "face": "45083A.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45083b"
+    },
+    "45083b": {
+      "name": "Pestilence",
+      "type": "villain",
+      "face": "45083B.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45083a"
+    },
+    "45084a": {
+      "name": "Death",
+      "type": "villain",
+      "face": "45084A.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45084b"
+    },
+    "45084b": {
+      "name": "Death",
+      "type": "villain",
+      "face": "45084B.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "villain",
+      "back_code": "45084a"
+    },
+    "45085a": {
+      "name": "The Horsemen of Apocalypse",
+      "type": "main_scheme",
+      "face": "45085A.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "main_scheme",
+      "back_code": "45085b"
+    },
+    "45085b": {
+      "name": "The Horsemen of Apocalypse",
+      "type": "main_scheme",
+      "face": "45085B.jpg",
+      "setCode": "four_horsemen",
+      "typeCode": "main_scheme",
+      "back_code": "45085a"
+    }
+  },
+  "cardSets": {
+    "four-horsemen-encounter": [
+      {
+        "code": "45086"
+      },
+      {
+        "code": "45087"
+      },
+      {
+        "code": "45088"
+      },
+      {
+        "code": "45089"
+      },
+      {
+        "code": "45090",
+        "count": 3
+      },
+      {
+        "code": "45091"
+      },
+      {
+        "code": "45092"
+      },
+      {
+        "code": "45093"
+      },
+      {
+        "code": "45094"
+      },
+      {
+        "code": "45095"
+      },
+      {
+        "code": "45096",
+        "count": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-en-sabah-nur",
+  "name": "Marvel Champions: En Sabah Nur",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "45149": {
+      "name": "Staggering Strength",
+      "type": "encounter",
+      "face": "45149.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "attachment"
+    },
+    "45150": {
+      "name": "Biomorphic Blast",
+      "type": "encounter",
+      "face": "45150.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "treachery"
+    },
+    "45151": {
+      "name": "Technological Interface",
+      "type": "encounter",
+      "face": "45151.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "treachery"
+    },
+    "45152": {
+      "name": "Giant-Sized Despot",
+      "type": "encounter",
+      "face": "45152.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "treachery"
+    },
+    "45153": {
+      "name": "Source of Power",
+      "type": "encounter",
+      "face": "45153.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "side_scheme"
+    },
+    "45154": {
+      "name": "Plugged In",
+      "type": "encounter",
+      "face": "45154.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "side_scheme"
+    },
+    "45155": {
+      "name": "Giant Growth",
+      "type": "encounter",
+      "face": "45155.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "side_scheme"
+    },
+    "45147a": {
+      "name": "En Sabah Nur's Pyramid",
+      "type": "main_scheme",
+      "face": "45147A.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "main_scheme",
+      "back_code": "45147b"
+    },
+    "45147b": {
+      "name": "En Sabah Nur's Pyramid",
+      "type": "main_scheme",
+      "face": "45147B.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "main_scheme",
+      "back_code": "45147a"
+    },
+    "45148a": {
+      "name": "The Rise of Apocalypse",
+      "type": "main_scheme",
+      "face": "45148A.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "main_scheme",
+      "back_code": "45148b"
+    },
+    "45148b": {
+      "name": "The Rise of Apocalypse",
+      "type": "main_scheme",
+      "face": "45148B.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "main_scheme",
+      "back_code": "45148a"
+    },
+    "45184a": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45184A.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain",
+      "back_code": "45184b"
+    },
+    "45184b": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45184B.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain",
+      "back_code": "45184a"
+    },
+    "45184c": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45184C.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain"
+    },
+    "45185a": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45185A.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain",
+      "back_code": "45185b"
+    },
+    "45185b": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45185B.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain",
+      "back_code": "45185a"
+    },
+    "45185c": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45185C.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain"
+    },
+    "45186a": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45186A.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain",
+      "back_code": "45186b"
+    },
+    "45186b": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45186B.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain",
+      "back_code": "45186a"
+    },
+    "45186c": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45186C.jpg",
+      "setCode": "en_sabah_nur",
+      "typeCode": "villain"
+    }
+  },
+  "cardSets": {
+    "en-sabah-nur-encounter": [
+      {
+        "code": "45149",
+        "count": 2
+      },
+      {
+        "code": "45150",
+        "count": 2
+      },
+      {
+        "code": "45151",
+        "count": 2
+      },
+      {
+        "code": "45152",
+        "count": 2
+      },
+      {
+        "code": "45153"
+      },
+      {
+        "code": "45154"
+      },
+      {
+        "code": "45155"
+      }
+    ]
+  }
+}

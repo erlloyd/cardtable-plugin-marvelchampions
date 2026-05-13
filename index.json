@@ -61,6 +61,11 @@
     "marvelchampions-magog.json",
     "marvelchampions-mojo.json",
     "marvelchampions-spiral.json",
+    "marvelchampions-apocalypse.json",
+    "marvelchampions-dark-beast.json",
+    "marvelchampions-en-sabah-nur.json",
+    "marvelchampions-four-horsemen.json",
+    "marvelchampions-unus.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -306,6 +311,31 @@
             "id": "marvelchampions-spiral",
             "label": "Mojo Mania - Spiral",
             "data": { "file": "marvelchampions-spiral-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-apocalypse",
+            "label": "Age of Apocalypse - Apocalypse",
+            "data": { "file": "marvelchampions-apocalypse-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-dark-beast",
+            "label": "Age of Apocalypse - Dark Beast",
+            "data": { "file": "marvelchampions-dark-beast-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-en-sabah-nur",
+            "label": "Age of Apocalypse - En Sabah Nur",
+            "data": { "file": "marvelchampions-en-sabah-nur-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-four-horsemen",
+            "label": "Age of Apocalypse - Four Horsemen",
+            "data": { "file": "marvelchampions-four-horsemen-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-unus",
+            "label": "Age of Apocalypse - Unus",
+            "data": { "file": "marvelchampions-unus-scenario.json" }
           }
         ]
       }

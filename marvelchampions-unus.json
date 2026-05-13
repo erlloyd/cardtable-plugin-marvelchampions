@@ -1,0 +1,114 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-unus",
+  "name": "Marvel Champions: Unus",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "45059": {
+      "name": "Unus",
+      "type": "villain",
+      "face": "45059.jpg",
+      "setCode": "unus",
+      "typeCode": "villain"
+    },
+    "45060": {
+      "name": "Unus",
+      "type": "villain",
+      "face": "45060.jpg",
+      "setCode": "unus",
+      "typeCode": "villain"
+    },
+    "45061": {
+      "name": "Unus",
+      "type": "villain",
+      "face": "45061.jpg",
+      "setCode": "unus",
+      "typeCode": "villain"
+    },
+    "45063": {
+      "name": "Prelate Sidearm",
+      "type": "encounter",
+      "face": "45063.jpg",
+      "setCode": "unus",
+      "typeCode": "attachment"
+    },
+    "45064": {
+      "name": "Prelate Armor",
+      "type": "encounter",
+      "face": "45064.jpg",
+      "setCode": "unus",
+      "typeCode": "attachment"
+    },
+    "45065": {
+      "name": "Infinite Hunter",
+      "type": "encounter",
+      "face": "45065.jpg",
+      "setCode": "unus",
+      "typeCode": "minion"
+    },
+    "45066": {
+      "name": "Genetic Experiments",
+      "type": "encounter",
+      "face": "45066.jpg",
+      "setCode": "unus",
+      "typeCode": "attachment"
+    },
+    "45067": {
+      "name": "Infinite Prelate",
+      "type": "encounter",
+      "face": "45067.jpg",
+      "setCode": "unus",
+      "typeCode": "treachery"
+    },
+    "45068": {
+      "name": "Endless Ranks",
+      "type": "encounter",
+      "face": "45068.jpg",
+      "setCode": "unus",
+      "typeCode": "side_scheme"
+    },
+    "45062a": {
+      "name": "Hunting Gene Traitors",
+      "type": "main_scheme",
+      "face": "45062A.jpg",
+      "setCode": "unus",
+      "typeCode": "main_scheme",
+      "back_code": "45062b"
+    },
+    "45062b": {
+      "name": "Hunting Gene Traitors",
+      "type": "main_scheme",
+      "face": "45062B.jpg",
+      "setCode": "unus",
+      "typeCode": "main_scheme",
+      "back_code": "45062a"
+    }
+  },
+  "cardSets": {
+    "unus-encounter": [
+      {
+        "code": "45063"
+      },
+      {
+        "code": "45064"
+      },
+      {
+        "code": "45065",
+        "count": 2
+      },
+      {
+        "code": "45066",
+        "count": 2
+      },
+      {
+        "code": "45067",
+        "count": 2
+      },
+      {
+        "code": "45068",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-apocalypse",
+  "name": "Marvel Champions: Apocalypse",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-apocalypse",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "45101a"
+            },
+            {
+              "code": "45102a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "45103a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "apocalypse-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

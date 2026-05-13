@@ -1,0 +1,64 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-en-sabah-nur",
+  "name": "Marvel Champions: En Sabah Nur",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-en-sabah-nur",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "45184a"
+            },
+            {
+              "code": "45184c"
+            },
+            {
+              "code": "45185a"
+            },
+            {
+              "code": "45185c"
+            },
+            {
+              "code": "45186a"
+            },
+            {
+              "code": "45186c"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "45147a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "en-sabah-nur-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

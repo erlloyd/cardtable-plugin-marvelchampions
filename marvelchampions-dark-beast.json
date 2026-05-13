@@ -1,0 +1,103 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-dark-beast",
+  "name": "Marvel Champions: Dark Beast",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "45118": {
+      "name": "Dark Beast",
+      "type": "villain",
+      "face": "45118.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "villain"
+    },
+    "45119": {
+      "name": "Dark Beast",
+      "type": "villain",
+      "face": "45119.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "villain"
+    },
+    "45120": {
+      "name": "Dark Beast",
+      "type": "villain",
+      "face": "45120.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "villain"
+    },
+    "45122": {
+      "name": "High-Tech Goggles",
+      "type": "encounter",
+      "face": "45122.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "attachment"
+    },
+    "45123": {
+      "name": "Genetic Enhancement",
+      "type": "encounter",
+      "face": "45123.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "attachment"
+    },
+    "45124": {
+      "name": "Cruel Experiment",
+      "type": "encounter",
+      "face": "45124.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "attachment"
+    },
+    "45125": {
+      "name": "Evil Genius",
+      "type": "encounter",
+      "face": "45125.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "treachery"
+    },
+    "45126": {
+      "name": "Time-Travel Shenanigans",
+      "type": "encounter",
+      "face": "45126.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "side_scheme"
+    },
+    "45121a": {
+      "name": "Dark Beast's Bogus Journey",
+      "type": "main_scheme",
+      "face": "45121A.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "main_scheme",
+      "back_code": "45121b"
+    },
+    "45121b": {
+      "name": "Dark Beast's Bogus Journey",
+      "type": "main_scheme",
+      "face": "45121B.jpg",
+      "setCode": "dark_beast",
+      "typeCode": "main_scheme",
+      "back_code": "45121a"
+    }
+  },
+  "cardSets": {
+    "dark-beast-encounter": [
+      {
+        "code": "45122"
+      },
+      {
+        "code": "45123"
+      },
+      {
+        "code": "45124",
+        "count": 2
+      },
+      {
+        "code": "45125",
+        "count": 3
+      },
+      {
+        "code": "45126",
+        "count": 2
+      }
+    ]
+  }
+}

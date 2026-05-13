@@ -1,0 +1,162 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-apocalypse",
+  "name": "Marvel Champions: Apocalypse",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "45106": {
+      "name": "Cyberpathy",
+      "type": "encounter",
+      "face": "45106.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "attachment"
+    },
+    "45107": {
+      "name": "Biomorphing",
+      "type": "encounter",
+      "face": "45107.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "attachment"
+    },
+    "45108": {
+      "name": "Molecular Control",
+      "type": "encounter",
+      "face": "45108.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "attachment"
+    },
+    "45109": {
+      "name": "The Fittest",
+      "type": "encounter",
+      "face": "45109.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "attachment"
+    },
+    "45110": {
+      "name": "Wolf Among Sheep",
+      "type": "encounter",
+      "face": "45110.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "treachery"
+    },
+    "45111": {
+      "name": "The Apocalypse Solution",
+      "type": "encounter",
+      "face": "45111.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "side_scheme"
+    },
+    "45101a": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45101A.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "villain",
+      "back_code": "45101b"
+    },
+    "45101b": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45101B.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "villain",
+      "back_code": "45101a"
+    },
+    "45102a": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45102A.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "villain",
+      "back_code": "45102b"
+    },
+    "45102b": {
+      "name": "Apocalypse",
+      "type": "villain",
+      "face": "45102B.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "villain",
+      "back_code": "45102a"
+    },
+    "45103a": {
+      "name": "The Age of Apocalypse",
+      "type": "main_scheme",
+      "face": "45103A.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "main_scheme",
+      "back_code": "45103b"
+    },
+    "45103b": {
+      "name": "The Age of Apocalypse",
+      "type": "main_scheme",
+      "face": "45103B.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "main_scheme",
+      "back_code": "45103a"
+    },
+    "45104a": {
+      "name": "Heart of the Empire",
+      "type": "encounter",
+      "face": "45104A.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "side_scheme",
+      "back_code": "45104b"
+    },
+    "45104b": {
+      "name": "The Towering Citadel",
+      "type": "encounter",
+      "face": "45104B.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "side_scheme",
+      "back_code": "45104a"
+    },
+    "45105a": {
+      "name": "The Tyrant's Throne",
+      "type": "encounter",
+      "face": "45105A.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "side_scheme",
+      "back_code": "45105b"
+    },
+    "45105b": {
+      "name": "No Longer Worthy",
+      "type": "encounter",
+      "face": "45105B.jpg",
+      "setCode": "apocalypse",
+      "typeCode": "attachment",
+      "back_code": "45105a"
+    }
+  },
+  "cardSets": {
+    "apocalypse-encounter": [
+      {
+        "code": "45104a"
+      },
+      {
+        "code": "45105a"
+      },
+      {
+        "code": "45106"
+      },
+      {
+        "code": "45107"
+      },
+      {
+        "code": "45108"
+      },
+      {
+        "code": "45109",
+        "count": 2
+      },
+      {
+        "code": "45110",
+        "count": 3
+      },
+      {
+        "code": "45111",
+        "count": 2
+      }
+    ]
+  }
+}
