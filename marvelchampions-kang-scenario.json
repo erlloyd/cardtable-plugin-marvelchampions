@@ -1,0 +1,64 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-kang",
+  "name": "Marvel Champions: Kang",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-kang",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "11001"
+            },
+            {
+              "code": "11002"
+            },
+            {
+              "code": "11003"
+            },
+            {
+              "code": "11004"
+            },
+            {
+              "code": "11005"
+            },
+            {
+              "code": "11006"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "11007a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "kang-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

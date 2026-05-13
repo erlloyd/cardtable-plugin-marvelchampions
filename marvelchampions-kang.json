@@ -1,0 +1,338 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-kang",
+  "name": "Marvel Champions: Kang",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "11001": {
+      "name": "Kang (The Conqueror)",
+      "type": "villain",
+      "face": "11001.jpg",
+      "setCode": "kang",
+      "typeCode": "villain"
+    },
+    "11002": {
+      "name": "Kang (Immortus)",
+      "type": "villain",
+      "face": "11002.jpg",
+      "setCode": "kang",
+      "typeCode": "villain"
+    },
+    "11003": {
+      "name": "Kang (Iron Lad)",
+      "type": "villain",
+      "face": "11003.jpg",
+      "setCode": "kang",
+      "typeCode": "villain"
+    },
+    "11004": {
+      "name": "Kang (Rama-Tut)",
+      "type": "villain",
+      "face": "11004.jpg",
+      "setCode": "kang",
+      "typeCode": "villain"
+    },
+    "11005": {
+      "name": "Kang (Scarlet Centurion)",
+      "type": "villain",
+      "face": "11005.jpg",
+      "setCode": "kang",
+      "typeCode": "villain"
+    },
+    "11006": {
+      "name": "Kang (The Conqueror)",
+      "type": "villain",
+      "face": "11006.jpg",
+      "setCode": "kang",
+      "typeCode": "villain"
+    },
+    "11014": {
+      "name": "Temporal Shield",
+      "type": "encounter",
+      "face": "11014.jpg",
+      "setCode": "kang",
+      "typeCode": "attachment"
+    },
+    "11015": {
+      "name": "Future Weapon",
+      "type": "encounter",
+      "face": "11015.jpg",
+      "setCode": "kang",
+      "typeCode": "attachment"
+    },
+    "11016": {
+      "name": "Frozen in Time",
+      "type": "encounter",
+      "face": "11016.jpg",
+      "setCode": "kang",
+      "typeCode": "attachment"
+    },
+    "11017": {
+      "name": "Macrobots",
+      "type": "encounter",
+      "face": "11017.jpg",
+      "setCode": "kang",
+      "typeCode": "minion"
+    },
+    "11018": {
+      "name": "Weakened",
+      "type": "encounter",
+      "face": "11018.jpg",
+      "setCode": "kang",
+      "typeCode": "obligation"
+    },
+    "11019": {
+      "name": "Stolen Memories",
+      "type": "encounter",
+      "face": "11019.jpg",
+      "setCode": "kang",
+      "typeCode": "obligation"
+    },
+    "11020": {
+      "name": "Depowered",
+      "type": "encounter",
+      "face": "11020.jpg",
+      "setCode": "kang",
+      "typeCode": "obligation"
+    },
+    "11021": {
+      "name": "Time-Travel Hijinks",
+      "type": "encounter",
+      "face": "11021.jpg",
+      "setCode": "kang",
+      "typeCode": "obligation"
+    },
+    "11022": {
+      "name": "Corrupted Timestream",
+      "type": "encounter",
+      "face": "11022.jpg",
+      "setCode": "kang",
+      "typeCode": "side_scheme"
+    },
+    "11023": {
+      "name": "Kang's Dominion",
+      "type": "encounter",
+      "face": "11023.jpg",
+      "setCode": "kang",
+      "typeCode": "side_scheme"
+    },
+    "11024": {
+      "name": "Pinned Down",
+      "type": "encounter",
+      "face": "11024.jpg",
+      "setCode": "kang",
+      "typeCode": "side_scheme"
+    },
+    "11025": {
+      "name": "Rampage",
+      "type": "encounter",
+      "face": "11025.jpg",
+      "setCode": "kang",
+      "typeCode": "side_scheme"
+    },
+    "11026": {
+      "name": "Energy Blast",
+      "type": "encounter",
+      "face": "11026.jpg",
+      "setCode": "kang",
+      "typeCode": "treachery"
+    },
+    "11027": {
+      "name": "Manipulated Timestream",
+      "type": "encounter",
+      "face": "11027.jpg",
+      "setCode": "kang",
+      "typeCode": "treachery"
+    },
+    "11028": {
+      "name": "Time-Travel Tactics",
+      "type": "encounter",
+      "face": "11028.jpg",
+      "setCode": "kang",
+      "typeCode": "treachery"
+    },
+    "11029": {
+      "name": "Past Machinations",
+      "type": "encounter",
+      "face": "11029.jpg",
+      "setCode": "kang",
+      "typeCode": "treachery"
+    },
+    "11007a": {
+      "name": "Kang's Arrival",
+      "type": "main_scheme",
+      "face": "11007A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11007b"
+    },
+    "11007b": {
+      "name": "Kang's Arrival",
+      "type": "main_scheme",
+      "face": "11007B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11007a"
+    },
+    "11008a": {
+      "name": "The Master of Time",
+      "type": "main_scheme",
+      "face": "11008A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11008b"
+    },
+    "11008b": {
+      "name": "The Master of Time",
+      "type": "main_scheme",
+      "face": "11008B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11008a"
+    },
+    "11009a": {
+      "name": "The Chronopolis",
+      "type": "main_scheme",
+      "face": "11009A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11009b"
+    },
+    "11009b": {
+      "name": "The Chronopolis",
+      "type": "main_scheme",
+      "face": "11009B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11009a"
+    },
+    "11010a": {
+      "name": "Inexorable Fate",
+      "type": "main_scheme",
+      "face": "11010A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11010b"
+    },
+    "11010b": {
+      "name": "Inexorable Fate",
+      "type": "main_scheme",
+      "face": "11010B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11010a"
+    },
+    "11011a": {
+      "name": "The Realm of Rama-Tut",
+      "type": "main_scheme",
+      "face": "11011A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11011b"
+    },
+    "11011b": {
+      "name": "The Realm of Rama-Tut",
+      "type": "main_scheme",
+      "face": "11011B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11011a"
+    },
+    "11012a": {
+      "name": "The Present Future War",
+      "type": "main_scheme",
+      "face": "11012A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11012b"
+    },
+    "11012b": {
+      "name": "The Present Future War",
+      "type": "main_scheme",
+      "face": "11012B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11012a"
+    },
+    "11013a": {
+      "name": "Kang's Wrath",
+      "type": "main_scheme",
+      "face": "11013A.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11013b"
+    },
+    "11013b": {
+      "name": "Kang's Wrath",
+      "type": "main_scheme",
+      "face": "11013B.jpg",
+      "setCode": "kang",
+      "typeCode": "main_scheme",
+      "back_code": "11013a"
+    }
+  },
+  "cardSets": {
+    "kang-encounter": [
+      {
+        "code": "11014",
+        "count": 2
+      },
+      {
+        "code": "11015",
+        "count": 2
+      },
+      {
+        "code": "11016"
+      },
+      {
+        "code": "11017",
+        "count": 3
+      },
+      {
+        "code": "11018",
+        "count": 2
+      },
+      {
+        "code": "11019",
+        "count": 2
+      },
+      {
+        "code": "11020",
+        "count": 2
+      },
+      {
+        "code": "11021",
+        "count": 2
+      },
+      {
+        "code": "11022"
+      },
+      {
+        "code": "11023",
+        "count": 4
+      },
+      {
+        "code": "11024"
+      },
+      {
+        "code": "11025",
+        "count": 2
+      },
+      {
+        "code": "11026",
+        "count": 2
+      },
+      {
+        "code": "11027"
+      },
+      {
+        "code": "11028",
+        "count": 2
+      },
+      {
+        "code": "11029"
+      }
+    ]
+  }
+}

@@ -30,6 +30,7 @@
     "marvelchampions-taskmaster.json",
     "marvelchampions-zola.json",
     "marvelchampions-red-skull.json",
+    "marvelchampions-kang.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -120,6 +121,11 @@
             "id": "marvelchampions-red-skull",
             "label": "The Rise of Red Skull - Red Skull",
             "data": { "file": "marvelchampions-red-skull-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-kang",
+            "label": "The Once and Future Kang - Kang",
+            "data": { "file": "marvelchampions-kang-scenario.json" }
           }
         ]
       }
