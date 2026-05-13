@@ -29,24 +29,24 @@
   "loadables": [
     {
       "type": "scenario",
-      "label": "Scenario",
+      "label": "Villain",
       "mode": "replace",
       "source": {
         "kind": "static",
         "items": [
           {
             "id": "marvelchampions-rhino",
-            "label": "The Rise of Red Skull: Rhino",
+            "label": "Core Set - Rhino",
             "data": { "file": "marvelchampions-rhino-scenario.json" }
           },
           {
             "id": "marvelchampions-klaw",
-            "label": "Marvel Champions: Klaw",
+            "label": "Core Set - Klaw",
             "data": { "file": "marvelchampions-klaw-scenario.json" }
           },
           {
             "id": "marvelchampions-ultron",
-            "label": "Marvel Champions: Ultron",
+            "label": "Core Set - Ultron",
             "data": { "file": "marvelchampions-ultron-scenario.json" }
           }
         ]
