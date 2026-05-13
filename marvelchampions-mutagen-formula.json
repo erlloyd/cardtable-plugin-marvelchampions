@@ -1,0 +1,212 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-mutagen-formula",
+  "name": "Marvel Champions: Mutagen Formula",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "02014": {
+      "name": "Green Goblin",
+      "type": "villain",
+      "face": "02014.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "villain"
+    },
+    "02015": {
+      "name": "Green Goblin",
+      "type": "villain",
+      "face": "02015.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "villain"
+    },
+    "02016": {
+      "name": "Green Goblin",
+      "type": "villain",
+      "face": "02016.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "villain"
+    },
+    "02017a": {
+      "name": "Unleashing the Mutagen",
+      "type": "main_scheme",
+      "face": "02017A.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "main_scheme",
+      "back_code": "02017b"
+    },
+    "02017b": {
+      "name": "Unleashing the Mutagen",
+      "type": "main_scheme",
+      "face": "02017B.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "main_scheme",
+      "back_code": "02017a"
+    },
+    "02018a": {
+      "name": "Mutagen Cloud",
+      "type": "main_scheme",
+      "face": "02018A.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "main_scheme",
+      "back_code": "02018b"
+    },
+    "02018b": {
+      "name": "Mutagen Cloud",
+      "type": "main_scheme",
+      "face": "02018B.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "main_scheme",
+      "back_code": "02018a"
+    },
+    "02019": {
+      "name": "Goblin Glider",
+      "type": "encounter",
+      "face": "02019.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "attachment"
+    },
+    "02020": {
+      "name": "Hysteria",
+      "type": "encounter",
+      "face": "02020.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "attachment"
+    },
+    "02021": {
+      "name": "Pumpkin Bombs",
+      "type": "encounter",
+      "face": "02021.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "attachment"
+    },
+    "02022": {
+      "name": "Goblin Knight",
+      "type": "encounter",
+      "face": "02022.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "minion"
+    },
+    "02023": {
+      "name": "Goblin Soldier",
+      "type": "encounter",
+      "face": "02023.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "minion"
+    },
+    "02024": {
+      "name": "Goblin Thrall",
+      "type": "encounter",
+      "face": "02024.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "minion"
+    },
+    "02025": {
+      "name": "Monster",
+      "type": "encounter",
+      "face": "02025.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "minion"
+    },
+    "02026": {
+      "name": "Goblin Reinforcements",
+      "type": "encounter",
+      "face": "02026.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "side_scheme"
+    },
+    "02027": {
+      "name": "Goblin Nation",
+      "type": "encounter",
+      "face": "02027.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "side_scheme"
+    },
+    "02028": {
+      "name": "Overrun",
+      "type": "encounter",
+      "face": "02028.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "side_scheme"
+    },
+    "02029": {
+      "name": "Death from Above",
+      "type": "encounter",
+      "face": "02029.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "treachery"
+    },
+    "02030": {
+      "name": "I See You",
+      "type": "encounter",
+      "face": "02030.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "treachery"
+    },
+    "02031": {
+      "name": "Overconfidence",
+      "type": "encounter",
+      "face": "02031.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "treachery"
+    },
+    "02032": {
+      "name": "Wicked Ambitions",
+      "type": "encounter",
+      "face": "02032.jpg",
+      "setCode": "mutagen_formula",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "mutagen-formula-encounter": [
+      {
+        "code": "02019"
+      },
+      {
+        "code": "02020"
+      },
+      {
+        "code": "02021"
+      },
+      {
+        "code": "02022"
+      },
+      {
+        "code": "02023",
+        "count": 4
+      },
+      {
+        "code": "02024",
+        "count": 6
+      },
+      {
+        "code": "02025"
+      },
+      {
+        "code": "02026",
+        "count": 2
+      },
+      {
+        "code": "02027"
+      },
+      {
+        "code": "02028",
+        "count": 2
+      },
+      {
+        "code": "02029",
+        "count": 2
+      },
+      {
+        "code": "02030"
+      },
+      {
+        "code": "02031"
+      },
+      {
+        "code": "02032",
+        "count": 2
+      }
+    ]
+  }
+}

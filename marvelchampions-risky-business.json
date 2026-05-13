@@ -1,0 +1,188 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-risky-business",
+  "name": "Marvel Champions: Risky Business",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "02001a": {
+      "name": "Norman Osborn",
+      "type": "villain",
+      "face": "02001A.jpg",
+      "setCode": "risky_business",
+      "typeCode": "villain",
+      "back_code": "02001b"
+    },
+    "02001b": {
+      "name": "Green Goblin",
+      "type": "villain",
+      "face": "02001B.jpg",
+      "setCode": "risky_business",
+      "typeCode": "villain",
+      "back_code": "02001a"
+    },
+    "02002a": {
+      "name": "Norman Osborn",
+      "type": "villain",
+      "face": "02002A.jpg",
+      "setCode": "risky_business",
+      "typeCode": "villain",
+      "back_code": "02002b"
+    },
+    "02002b": {
+      "name": "Green Goblin",
+      "type": "villain",
+      "face": "02002B.jpg",
+      "setCode": "risky_business",
+      "typeCode": "villain",
+      "back_code": "02002a"
+    },
+    "02003a": {
+      "name": "Norman Osborn",
+      "type": "villain",
+      "face": "02003A.jpg",
+      "setCode": "risky_business",
+      "typeCode": "villain",
+      "back_code": "02003b"
+    },
+    "02003b": {
+      "name": "Green Goblin",
+      "type": "villain",
+      "face": "02003B.jpg",
+      "setCode": "risky_business",
+      "typeCode": "villain",
+      "back_code": "02003a"
+    },
+    "02004a": {
+      "name": "Hostile Takeover",
+      "type": "main_scheme",
+      "face": "02004A.jpg",
+      "setCode": "risky_business",
+      "typeCode": "main_scheme",
+      "back_code": "02004b"
+    },
+    "02004b": {
+      "name": "Hostile Takeover",
+      "type": "main_scheme",
+      "face": "02004B.jpg",
+      "setCode": "risky_business",
+      "typeCode": "main_scheme",
+      "back_code": "02004a"
+    },
+    "02005a": {
+      "name": "Corporate Acquisition",
+      "type": "main_scheme",
+      "face": "02005A.jpg",
+      "setCode": "risky_business",
+      "typeCode": "main_scheme",
+      "back_code": "02005b"
+    },
+    "02005b": {
+      "name": "Corporate Acquisition",
+      "type": "main_scheme",
+      "face": "02005B.jpg",
+      "setCode": "risky_business",
+      "typeCode": "main_scheme",
+      "back_code": "02005a"
+    },
+    "02006a": {
+      "name": "Criminal Enterprise",
+      "type": "encounter",
+      "face": "02006A.jpg",
+      "setCode": "risky_business",
+      "typeCode": "environment",
+      "back_code": "02006b"
+    },
+    "02006b": {
+      "name": "State of Madness",
+      "type": "encounter",
+      "face": "02006B.jpg",
+      "setCode": "risky_business",
+      "typeCode": "environment",
+      "back_code": "02006a"
+    },
+    "02007": {
+      "name": "Hired Gun",
+      "type": "encounter",
+      "face": "02007.jpg",
+      "setCode": "risky_business",
+      "typeCode": "minion"
+    },
+    "02008": {
+      "name": "Private Security Specialist",
+      "type": "encounter",
+      "face": "02008.jpg",
+      "setCode": "risky_business",
+      "typeCode": "minion"
+    },
+    "02009": {
+      "name": "Collapsing Bridge",
+      "type": "encounter",
+      "face": "02009.jpg",
+      "setCode": "risky_business",
+      "typeCode": "side_scheme"
+    },
+    "02010": {
+      "name": "Oscorp Manufacturing",
+      "type": "encounter",
+      "face": "02010.jpg",
+      "setCode": "risky_business",
+      "typeCode": "side_scheme"
+    },
+    "02011": {
+      "name": "Payoff",
+      "type": "encounter",
+      "face": "02011.jpg",
+      "setCode": "risky_business",
+      "typeCode": "side_scheme"
+    },
+    "02012": {
+      "name": "All in a Day's Work",
+      "type": "encounter",
+      "face": "02012.jpg",
+      "setCode": "risky_business",
+      "typeCode": "treachery"
+    },
+    "02013": {
+      "name": "Mad Genius",
+      "type": "encounter",
+      "face": "02013.jpg",
+      "setCode": "risky_business",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "risky-business-encounter": [
+      {
+        "code": "02006a"
+      },
+      {
+        "code": "02007",
+        "count": 3
+      },
+      {
+        "code": "02008",
+        "count": 4
+      },
+      {
+        "code": "02009"
+      },
+      {
+        "code": "02010",
+        "count": 2
+      },
+      {
+        "code": "02011",
+        "count": 2
+      },
+      {
+        "code": "02012",
+        "count": 4
+      },
+      {
+        "code": "02013",
+        "count": 2
+      }
+    ]
+  }
+}

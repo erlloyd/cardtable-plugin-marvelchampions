@@ -18,6 +18,8 @@
     "marvelchampions-rhino.json",
     "marvelchampions-klaw.json",
     "marvelchampions-ultron.json",
+    "marvelchampions-risky-business.json",
+    "marvelchampions-mutagen-formula.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -48,6 +50,16 @@
             "id": "marvelchampions-ultron",
             "label": "Core Set - Ultron",
             "data": { "file": "marvelchampions-ultron-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-risky-business",
+            "label": "The Green Goblin - Risky Business",
+            "data": { "file": "marvelchampions-risky-business-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-mutagen-formula",
+            "label": "The Green Goblin - Mutagen Formula",
+            "data": { "file": "marvelchampions-mutagen-formula-scenario.json" }
           }
         ]
       }
