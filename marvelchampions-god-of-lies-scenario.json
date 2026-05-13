@@ -1,0 +1,61 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-god-of-lies",
+  "name": "Marvel Champions: God of Lies",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-god-of-lies",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "55027a"
+            },
+            {
+              "code": "55029a"
+            },
+            {
+              "code": "55030a"
+            },
+            {
+              "code": "55031a"
+            },
+            {
+              "code": "55032a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "55033a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "god-of-lies-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

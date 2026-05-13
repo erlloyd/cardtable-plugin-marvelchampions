@@ -1,0 +1,396 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-enchantress-villain",
+  "name": "Marvel Champions: Enchantress",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "55001": {
+      "name": "Enchantress",
+      "type": "villain",
+      "face": "55001.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "villain"
+    },
+    "55002": {
+      "name": "Enchantress",
+      "type": "villain",
+      "face": "55002.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "villain"
+    },
+    "55003": {
+      "name": "Enchantress",
+      "type": "villain",
+      "face": "55003.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "villain"
+    },
+    "55006": {
+      "name": "Future of Despair",
+      "type": "encounter",
+      "face": "55006.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "side_scheme"
+    },
+    "55012": {
+      "name": "Alluring Call",
+      "type": "encounter",
+      "face": "55012.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment"
+    },
+    "55013": {
+      "name": "Kiss of Temptation",
+      "type": "encounter",
+      "face": "55013.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment"
+    },
+    "55014": {
+      "name": "Love Concoction",
+      "type": "encounter",
+      "face": "55014.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment"
+    },
+    "55015": {
+      "name": "Seduced",
+      "type": "encounter",
+      "face": "55015.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment"
+    },
+    "55016": {
+      "name": "Crown of the Enchantress",
+      "type": "encounter",
+      "face": "55016.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment"
+    },
+    "55017": {
+      "name": "Enthralled Lackey",
+      "type": "encounter",
+      "face": "55017.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "minion"
+    },
+    "55018": {
+      "name": "Enthralled Brute",
+      "type": "encounter",
+      "face": "55018.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "minion"
+    },
+    "55019": {
+      "name": "Sindr",
+      "type": "encounter",
+      "face": "55019.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "minion"
+    },
+    "55020": {
+      "name": "Ulik",
+      "type": "encounter",
+      "face": "55020.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "minion"
+    },
+    "55021": {
+      "name": "Law of Attraction",
+      "type": "encounter",
+      "face": "55021.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "side_scheme"
+    },
+    "55022": {
+      "name": "Spellbound",
+      "type": "encounter",
+      "face": "55022.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "side_scheme"
+    },
+    "55023": {
+      "name": "\"Do My Bidding\"",
+      "type": "encounter",
+      "face": "55023.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "treachery"
+    },
+    "55024": {
+      "name": "Magical Restraints",
+      "type": "encounter",
+      "face": "55024.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "treachery"
+    },
+    "55025": {
+      "name": "Spell Blast",
+      "type": "encounter",
+      "face": "55025.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "treachery"
+    },
+    "55026": {
+      "name": "Spell Shards",
+      "type": "encounter",
+      "face": "55026.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "treachery"
+    },
+    "55004a": {
+      "name": "Prime Real Estate",
+      "type": "main_scheme",
+      "face": "55004A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "main_scheme",
+      "back_code": "55004b"
+    },
+    "55004b": {
+      "name": "Prime Real Estate",
+      "type": "main_scheme",
+      "face": "55004B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "main_scheme",
+      "back_code": "55004a"
+    },
+    "55005a": {
+      "name": "Sovereign Sorceress",
+      "type": "main_scheme",
+      "face": "55005A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "main_scheme",
+      "back_code": "55005b"
+    },
+    "55005b": {
+      "name": "Sovereign Sorceress",
+      "type": "main_scheme",
+      "face": "55005B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "main_scheme",
+      "back_code": "55005a"
+    },
+    "55007a": {
+      "name": "Hypnotic Gaze",
+      "type": "encounter",
+      "face": "55007A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55007b"
+    },
+    "55007b": {
+      "name": "Trance of Envy",
+      "type": "encounter",
+      "face": "55007B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55007a"
+    },
+    "55008a": {
+      "name": "Hypnotic Gaze",
+      "type": "encounter",
+      "face": "55008A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55008b"
+    },
+    "55008b": {
+      "name": "Trance of Greed",
+      "type": "encounter",
+      "face": "55008B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55008a"
+    },
+    "55009a": {
+      "name": "Hypnotic Gaze",
+      "type": "encounter",
+      "face": "55009A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55009b"
+    },
+    "55009b": {
+      "name": "Trance of Pride",
+      "type": "encounter",
+      "face": "55009B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55009a"
+    },
+    "55010a": {
+      "name": "Hypnotic Gaze",
+      "type": "encounter",
+      "face": "55010A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55010b"
+    },
+    "55010b": {
+      "name": "Trance of Sloth",
+      "type": "encounter",
+      "face": "55010B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55010a"
+    },
+    "55011a": {
+      "name": "Hypnotic Gaze",
+      "type": "encounter",
+      "face": "55011A.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55011b"
+    },
+    "55011b": {
+      "name": "Trance of Wrath",
+      "type": "encounter",
+      "face": "55011B.jpg",
+      "setCode": "enchantress_villain",
+      "typeCode": "attachment",
+      "back_code": "55011a"
+    }
+  },
+  "cardSets": {
+    "enchantress-villain-encounter": [
+      {
+        "code": "55006"
+      },
+      {
+        "code": "55007a"
+      },
+      {
+        "code": "55008a"
+      },
+      {
+        "code": "55009a"
+      },
+      {
+        "code": "55010a"
+      },
+      {
+        "code": "55011a"
+      },
+      {
+        "code": "55012"
+      },
+      {
+        "code": "55013"
+      },
+      {
+        "code": "55014"
+      },
+      {
+        "code": "55015"
+      },
+      {
+        "code": "55016"
+      },
+      {
+        "code": "55017",
+        "count": 2
+      },
+      {
+        "code": "55018",
+        "count": 2
+      },
+      {
+        "code": "55019"
+      },
+      {
+        "code": "55020"
+      },
+      {
+        "code": "55021",
+        "count": 2
+      },
+      {
+        "code": "55022",
+        "count": 2
+      },
+      {
+        "code": "55023"
+      },
+      {
+        "code": "55024",
+        "count": 2
+      },
+      {
+        "code": "55025",
+        "count": 2
+      },
+      {
+        "code": "55026"
+      },
+      {
+        "code": "55006"
+      },
+      {
+        "code": "55007a"
+      },
+      {
+        "code": "55008a"
+      },
+      {
+        "code": "55009a"
+      },
+      {
+        "code": "55010a"
+      },
+      {
+        "code": "55011a"
+      },
+      {
+        "code": "55012"
+      },
+      {
+        "code": "55013"
+      },
+      {
+        "code": "55014"
+      },
+      {
+        "code": "55015"
+      },
+      {
+        "code": "55016"
+      },
+      {
+        "code": "55017",
+        "count": 2
+      },
+      {
+        "code": "55018",
+        "count": 2
+      },
+      {
+        "code": "55019"
+      },
+      {
+        "code": "55020"
+      },
+      {
+        "code": "55021",
+        "count": 2
+      },
+      {
+        "code": "55022",
+        "count": 2
+      },
+      {
+        "code": "55023"
+      },
+      {
+        "code": "55024",
+        "count": 2
+      },
+      {
+        "code": "55025",
+        "count": 2
+      },
+      {
+        "code": "55026"
+      }
+    ]
+  }
+}

@@ -71,6 +71,8 @@
     "marvelchampions-black-widow-villain.json",
     "marvelchampions-modok.json",
     "marvelchampions-thunderbolts.json",
+    "marvelchampions-enchantress-villain.json",
+    "marvelchampions-god-of-lies.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -366,6 +368,16 @@
             "id": "marvelchampions-thunderbolts",
             "label": "Agents of S.H.I.E.L.D. - Thunderbolts",
             "data": { "file": "marvelchampions-thunderbolts-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-enchantress-villain",
+            "label": "Trickster Takeover - Enchantress",
+            "data": { "file": "marvelchampions-enchantress-villain-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-god-of-lies",
+            "label": "Trickster Takeover - God of Lies",
+            "data": { "file": "marvelchampions-god-of-lies-scenario.json" }
           }
         ]
       }

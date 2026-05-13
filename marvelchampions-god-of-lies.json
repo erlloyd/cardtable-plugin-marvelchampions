@@ -1,0 +1,428 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-god-of-lies",
+  "name": "Marvel Champions: God of Lies",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "55035": {
+      "name": "Wrapped in Chains",
+      "type": "encounter",
+      "face": "55035.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "attachment"
+    },
+    "55036": {
+      "name": "Dark Scepter",
+      "type": "encounter",
+      "face": "55036.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "attachment"
+    },
+    "55037": {
+      "name": "Draugr Buddy",
+      "type": "encounter",
+      "face": "55037.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55038": {
+      "name": "Grendell",
+      "type": "encounter",
+      "face": "55038.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55039": {
+      "name": "Malekith",
+      "type": "encounter",
+      "face": "55039.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55040": {
+      "name": "Minotaur",
+      "type": "encounter",
+      "face": "55040.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55041": {
+      "name": "The Mangog",
+      "type": "encounter",
+      "face": "55041.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55042": {
+      "name": "Fenris Wolf",
+      "type": "encounter",
+      "face": "55042.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55043": {
+      "name": "Hraesvelgr",
+      "type": "encounter",
+      "face": "55043.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55044": {
+      "name": "Laufey",
+      "type": "encounter",
+      "face": "55044.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "minion"
+    },
+    "55045": {
+      "name": "Aura of Stasis",
+      "type": "encounter",
+      "face": "55045.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "side_scheme"
+    },
+    "55046": {
+      "name": "Door Between Worlds",
+      "type": "encounter",
+      "face": "55046.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "side_scheme"
+    },
+    "55047": {
+      "name": "Lofty Goals",
+      "type": "encounter",
+      "face": "55047.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "side_scheme"
+    },
+    "55048": {
+      "name": "New Jotunheim",
+      "type": "encounter",
+      "face": "55048.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "side_scheme"
+    },
+    "55049": {
+      "name": "Dark Arts",
+      "type": "encounter",
+      "face": "55049.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "treachery"
+    },
+    "55050": {
+      "name": "Dirty Trick",
+      "type": "encounter",
+      "face": "55050.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "treachery"
+    },
+    "55051": {
+      "name": "Stories and Lies",
+      "type": "encounter",
+      "face": "55051.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "treachery"
+    },
+    "55052": {
+      "name": "Domineering Force",
+      "type": "encounter",
+      "face": "55052.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "environment"
+    },
+    "55053": {
+      "name": "Feigned Retreat",
+      "type": "encounter",
+      "face": "55053.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "environment"
+    },
+    "55054": {
+      "name": "Mounting Resistance",
+      "type": "encounter",
+      "face": "55054.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "environment"
+    },
+    "55055": {
+      "name": "Unified Front",
+      "type": "encounter",
+      "face": "55055.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "environment"
+    },
+    "55027a": {
+      "name": "Loki, God of Lies",
+      "type": "villain",
+      "face": "55027A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55027b"
+    },
+    "55027b": {
+      "name": "Loki, God of Lies",
+      "type": "villain",
+      "face": "55027B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55027a"
+    },
+    "55028a": {
+      "name": "Worlds Collide",
+      "type": "main_scheme",
+      "face": "55028A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "main_scheme",
+      "back_code": "55028b"
+    },
+    "55028b": {
+      "name": "Worlds Collide",
+      "type": "main_scheme",
+      "face": "55028B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "main_scheme",
+      "back_code": "55028a"
+    },
+    "55029a": {
+      "name": "Loki the Rascal",
+      "type": "villain",
+      "face": "55029A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55029b"
+    },
+    "55029b": {
+      "name": "Fading Figment",
+      "type": "villain",
+      "face": "55029B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55029a"
+    },
+    "55030a": {
+      "name": "Loki the Miscreant",
+      "type": "villain",
+      "face": "55030A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55030b"
+    },
+    "55030b": {
+      "name": "Fading Figment",
+      "type": "villain",
+      "face": "55030B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55030a"
+    },
+    "55031a": {
+      "name": "Loki the Knave",
+      "type": "villain",
+      "face": "55031A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55031b"
+    },
+    "55031b": {
+      "name": "Fading Figment",
+      "type": "villain",
+      "face": "55031B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55031a"
+    },
+    "55032a": {
+      "name": "Loki the Wretch",
+      "type": "villain",
+      "face": "55032A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55032b"
+    },
+    "55032b": {
+      "name": "Fading Figment",
+      "type": "villain",
+      "face": "55032B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "villain",
+      "back_code": "55032a"
+    },
+    "55033a": {
+      "name": "Mischief and Mayhem",
+      "type": "main_scheme",
+      "face": "55033A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "main_scheme",
+      "back_code": "55033b"
+    },
+    "55033b": {
+      "name": "Mischief and Mayhem",
+      "type": "main_scheme",
+      "face": "55033B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "main_scheme",
+      "back_code": "55033a"
+    },
+    "55034a": {
+      "name": "Intense Focus",
+      "type": "encounter",
+      "face": "55034A.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "attachment",
+      "back_code": "55034b"
+    },
+    "55034b": {
+      "name": "Total Focus",
+      "type": "encounter",
+      "face": "55034B.jpg",
+      "setCode": "god_of_lies",
+      "typeCode": "attachment",
+      "back_code": "55034a"
+    }
+  },
+  "cardSets": {
+    "god-of-lies-encounter": [
+      {
+        "code": "55034a"
+      },
+      {
+        "code": "55035"
+      },
+      {
+        "code": "55036"
+      },
+      {
+        "code": "55037",
+        "count": 2
+      },
+      {
+        "code": "55038"
+      },
+      {
+        "code": "55039"
+      },
+      {
+        "code": "55040"
+      },
+      {
+        "code": "55041"
+      },
+      {
+        "code": "55042"
+      },
+      {
+        "code": "55043"
+      },
+      {
+        "code": "55044"
+      },
+      {
+        "code": "55045"
+      },
+      {
+        "code": "55046"
+      },
+      {
+        "code": "55047",
+        "count": 2
+      },
+      {
+        "code": "55048"
+      },
+      {
+        "code": "55049",
+        "count": 2
+      },
+      {
+        "code": "55050"
+      },
+      {
+        "code": "55051",
+        "count": 3
+      },
+      {
+        "code": "55052"
+      },
+      {
+        "code": "55053"
+      },
+      {
+        "code": "55054"
+      },
+      {
+        "code": "55055"
+      },
+      {
+        "code": "55034a"
+      },
+      {
+        "code": "55035"
+      },
+      {
+        "code": "55036"
+      },
+      {
+        "code": "55037",
+        "count": 2
+      },
+      {
+        "code": "55038"
+      },
+      {
+        "code": "55039"
+      },
+      {
+        "code": "55040"
+      },
+      {
+        "code": "55041"
+      },
+      {
+        "code": "55042"
+      },
+      {
+        "code": "55043"
+      },
+      {
+        "code": "55044"
+      },
+      {
+        "code": "55045"
+      },
+      {
+        "code": "55046"
+      },
+      {
+        "code": "55047",
+        "count": 2
+      },
+      {
+        "code": "55048"
+      },
+      {
+        "code": "55049",
+        "count": 2
+      },
+      {
+        "code": "55050"
+      },
+      {
+        "code": "55051",
+        "count": 3
+      },
+      {
+        "code": "55052"
+      },
+      {
+        "code": "55053"
+      },
+      {
+        "code": "55054"
+      },
+      {
+        "code": "55055"
+      }
+    ]
+  }
+}
