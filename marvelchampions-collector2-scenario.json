@@ -1,0 +1,52 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-collector2",
+  "name": "Marvel Champions: Collector 2",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-collector2",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "16080a"
+            },
+            {
+              "code": "16081a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "16082a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "collector2-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

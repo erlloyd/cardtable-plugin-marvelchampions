@@ -31,6 +31,11 @@
     "marvelchampions-zola.json",
     "marvelchampions-red-skull.json",
     "marvelchampions-kang.json",
+    "marvelchampions-brotherhood-of-badoon.json",
+    "marvelchampions-collector1.json",
+    "marvelchampions-collector2.json",
+    "marvelchampions-nebula.json",
+    "marvelchampions-ronan.json",
     "marvelchampions-bomb-scare.json",
     "marvelchampions-masters-of-evil.json",
     "marvelchampions-under-attack.json",
@@ -126,6 +131,31 @@
             "id": "marvelchampions-kang",
             "label": "The Once and Future Kang - Kang",
             "data": { "file": "marvelchampions-kang-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-brotherhood-of-badoon",
+            "label": "Galaxy's Most Wanted - Brotherhood Of Badoon",
+            "data": { "file": "marvelchampions-brotherhood-of-badoon-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-collector1",
+            "label": "Galaxy's Most Wanted - Collector 1",
+            "data": { "file": "marvelchampions-collector1-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-collector2",
+            "label": "Galaxy's Most Wanted - Collector 2",
+            "data": { "file": "marvelchampions-collector2-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-nebula",
+            "label": "Galaxy's Most Wanted - Nebula",
+            "data": { "file": "marvelchampions-nebula-scenario.json" }
+          },
+          {
+            "id": "marvelchampions-ronan",
+            "label": "Galaxy's Most Wanted - Ronan",
+            "data": { "file": "marvelchampions-ronan-scenario.json" }
           }
         ]
       }

@@ -1,0 +1,137 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-brotherhood-of-badoon",
+  "name": "Marvel Champions: Brotherhood Of Badoon",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "16058": {
+      "name": "Drang",
+      "type": "villain",
+      "face": "16058.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "villain"
+    },
+    "16059": {
+      "name": "Drang",
+      "type": "villain",
+      "face": "16059.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "villain"
+    },
+    "16060": {
+      "name": "Drang",
+      "type": "villain",
+      "face": "16060.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "villain"
+    },
+    "16063": {
+      "name": "Badoon Ship",
+      "type": "encounter",
+      "face": "16063.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "environment"
+    },
+    "16064": {
+      "name": "Drang's Spear",
+      "type": "encounter",
+      "face": "16064.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "attachment"
+    },
+    "16065": {
+      "name": "Badoon Engineer",
+      "type": "encounter",
+      "face": "16065.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "minion"
+    },
+    "16066": {
+      "name": "Blockade",
+      "type": "encounter",
+      "face": "16066.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "side_scheme"
+    },
+    "16067": {
+      "name": "Bombardment",
+      "type": "encounter",
+      "face": "16067.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "side_scheme"
+    },
+    "16068": {
+      "name": "Oppressive Armada",
+      "type": "encounter",
+      "face": "16068.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "side_scheme"
+    },
+    "16069": {
+      "name": "Spatial Positioning",
+      "type": "encounter",
+      "face": "16069.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "side_scheme"
+    },
+    "16061a": {
+      "name": "Terrestrial Invasion",
+      "type": "main_scheme",
+      "face": "16061A.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "main_scheme",
+      "back_code": "16061b"
+    },
+    "16061b": {
+      "name": "Terrestrial Invasion",
+      "type": "main_scheme",
+      "face": "16061B.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "main_scheme",
+      "back_code": "16061a"
+    },
+    "16062a": {
+      "name": "Protect the Planet",
+      "type": "main_scheme",
+      "face": "16062A.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "main_scheme",
+      "back_code": "16062b"
+    },
+    "16062b": {
+      "name": "Protect the Planet",
+      "type": "main_scheme",
+      "face": "16062B.jpg",
+      "setCode": "brotherhood_of_badoon",
+      "typeCode": "main_scheme",
+      "back_code": "16062a"
+    }
+  },
+  "cardSets": {
+    "brotherhood-of-badoon-encounter": [
+      {
+        "code": "16063"
+      },
+      {
+        "code": "16064"
+      },
+      {
+        "code": "16065",
+        "count": 2
+      },
+      {
+        "code": "16066"
+      },
+      {
+        "code": "16067"
+      },
+      {
+        "code": "16068"
+      },
+      {
+        "code": "16069"
+      }
+    ]
+  }
+}

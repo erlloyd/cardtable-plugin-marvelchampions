@@ -1,0 +1,113 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-collector1",
+  "name": "Marvel Champions: Collector 1",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "16070": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16070.jpg",
+      "setCode": "collector1",
+      "typeCode": "villain"
+    },
+    "16071": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16071.jpg",
+      "setCode": "collector1",
+      "typeCode": "villain"
+    },
+    "16072": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16072.jpg",
+      "setCode": "collector1",
+      "typeCode": "villain"
+    },
+    "16074": {
+      "name": "Biogram Image",
+      "type": "encounter",
+      "face": "16074.jpg",
+      "setCode": "collector1",
+      "typeCode": "attachment"
+    },
+    "16075": {
+      "name": "Monarch Starstalker",
+      "type": "encounter",
+      "face": "16075.jpg",
+      "setCode": "collector1",
+      "typeCode": "minion"
+    },
+    "16076": {
+      "name": "Inconspicuous Box",
+      "type": "encounter",
+      "face": "16076.jpg",
+      "setCode": "collector1",
+      "typeCode": "treachery"
+    },
+    "16077": {
+      "name": "View the Cosmos",
+      "type": "encounter",
+      "face": "16077.jpg",
+      "setCode": "collector1",
+      "typeCode": "treachery"
+    },
+    "16078": {
+      "name": "Stay Awhile",
+      "type": "encounter",
+      "face": "16078.jpg",
+      "setCode": "collector1",
+      "typeCode": "treachery"
+    },
+    "16079": {
+      "name": "Caught Off Guard",
+      "type": "encounter",
+      "face": "16079.jpg",
+      "setCode": "collector1",
+      "typeCode": "treachery"
+    },
+    "16073a": {
+      "name": "The Grand Collection",
+      "type": "main_scheme",
+      "face": "16073A.jpg",
+      "setCode": "collector1",
+      "typeCode": "main_scheme",
+      "back_code": "16073b"
+    },
+    "16073b": {
+      "name": "The Grand Collection",
+      "type": "main_scheme",
+      "face": "16073B.jpg",
+      "setCode": "collector1",
+      "typeCode": "main_scheme",
+      "back_code": "16073a"
+    }
+  },
+  "cardSets": {
+    "collector1-encounter": [
+      {
+        "code": "16074"
+      },
+      {
+        "code": "16075"
+      },
+      {
+        "code": "16076",
+        "count": 2
+      },
+      {
+        "code": "16077",
+        "count": 2
+      },
+      {
+        "code": "16078",
+        "count": 2
+      },
+      {
+        "code": "16079"
+      }
+    ]
+  }
+}

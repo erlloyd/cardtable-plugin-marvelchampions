@@ -1,0 +1,161 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-ronan",
+  "name": "Marvel Champions: Ronan",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "16103": {
+      "name": "Ronan the Accuser",
+      "type": "villain",
+      "face": "16103.jpg",
+      "setCode": "ronan",
+      "typeCode": "villain"
+    },
+    "16104": {
+      "name": "Ronan the Accuser",
+      "type": "villain",
+      "face": "16104.jpg",
+      "setCode": "ronan",
+      "typeCode": "villain"
+    },
+    "16105": {
+      "name": "Ronan the Accuser",
+      "type": "villain",
+      "face": "16105.jpg",
+      "setCode": "ronan",
+      "typeCode": "villain"
+    },
+    "16108": {
+      "name": "Kree Command Ship",
+      "type": "encounter",
+      "face": "16108.jpg",
+      "setCode": "ronan",
+      "typeCode": "environment"
+    },
+    "16109": {
+      "name": "Universal Weapon",
+      "type": "encounter",
+      "face": "16109.jpg",
+      "setCode": "ronan",
+      "typeCode": "attachment"
+    },
+    "16110": {
+      "name": "Fanaticism",
+      "type": "encounter",
+      "face": "16110.jpg",
+      "setCode": "ronan",
+      "typeCode": "attachment"
+    },
+    "16111": {
+      "name": "Cut the Power",
+      "type": "encounter",
+      "face": "16111.jpg",
+      "setCode": "ronan",
+      "typeCode": "side_scheme"
+    },
+    "16112": {
+      "name": "Pincer Maneuver",
+      "type": "encounter",
+      "face": "16112.jpg",
+      "setCode": "ronan",
+      "typeCode": "side_scheme"
+    },
+    "16113": {
+      "name": "Superior Tactics",
+      "type": "encounter",
+      "face": "16113.jpg",
+      "setCode": "ronan",
+      "typeCode": "side_scheme"
+    },
+    "16114": {
+      "name": "Single-Minded Fury",
+      "type": "encounter",
+      "face": "16114.jpg",
+      "setCode": "ronan",
+      "typeCode": "treachery"
+    },
+    "16115": {
+      "name": "Kree Physiology",
+      "type": "encounter",
+      "face": "16115.jpg",
+      "setCode": "ronan",
+      "typeCode": "treachery"
+    },
+    "16116": {
+      "name": "\"You Stand Accused!\"",
+      "type": "encounter",
+      "face": "16116.jpg",
+      "setCode": "ronan",
+      "typeCode": "treachery"
+    },
+    "16106a": {
+      "name": "Interception Imminent",
+      "type": "main_scheme",
+      "face": "16106A.jpg",
+      "setCode": "ronan",
+      "typeCode": "main_scheme",
+      "back_code": "16106b"
+    },
+    "16106b": {
+      "name": "Interception Imminent",
+      "type": "main_scheme",
+      "face": "16106B.jpg",
+      "setCode": "ronan",
+      "typeCode": "main_scheme",
+      "back_code": "16106a"
+    },
+    "16107a": {
+      "name": "\"Take What Is Mine\"",
+      "type": "main_scheme",
+      "face": "16107A.jpg",
+      "setCode": "ronan",
+      "typeCode": "main_scheme",
+      "back_code": "16107b"
+    },
+    "16107b": {
+      "name": "\"Take What Is Mine\"",
+      "type": "main_scheme",
+      "face": "16107B.jpg",
+      "setCode": "ronan",
+      "typeCode": "main_scheme",
+      "back_code": "16107a"
+    }
+  },
+  "cardSets": {
+    "ronan-encounter": [
+      {
+        "code": "16108"
+      },
+      {
+        "code": "16109"
+      },
+      {
+        "code": "16110",
+        "count": 2
+      },
+      {
+        "code": "16111"
+      },
+      {
+        "code": "16112",
+        "count": 2
+      },
+      {
+        "code": "16113"
+      },
+      {
+        "code": "16114",
+        "count": 2
+      },
+      {
+        "code": "16115",
+        "count": 2
+      },
+      {
+        "code": "16116",
+        "count": 3
+      }
+    ]
+  }
+}

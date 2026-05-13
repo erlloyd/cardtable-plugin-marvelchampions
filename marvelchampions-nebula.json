@@ -1,0 +1,173 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-nebula",
+  "name": "Marvel Champions: Nebula",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "16088": {
+      "name": "Nebula",
+      "type": "villain",
+      "face": "16088.jpg",
+      "setCode": "nebula",
+      "typeCode": "villain"
+    },
+    "16089": {
+      "name": "Nebula",
+      "type": "villain",
+      "face": "16089.jpg",
+      "setCode": "nebula",
+      "typeCode": "villain"
+    },
+    "16090": {
+      "name": "Nebula",
+      "type": "villain",
+      "face": "16090.jpg",
+      "setCode": "nebula",
+      "typeCode": "villain"
+    },
+    "16093": {
+      "name": "Nebula's Ship",
+      "type": "encounter",
+      "face": "16093.jpg",
+      "setCode": "nebula",
+      "typeCode": "environment"
+    },
+    "16094": {
+      "name": "Cutthroat Ambition",
+      "type": "encounter",
+      "face": "16094.jpg",
+      "setCode": "nebula",
+      "typeCode": "attachment"
+    },
+    "16095": {
+      "name": "Evasive Maneuvering",
+      "type": "encounter",
+      "face": "16095.jpg",
+      "setCode": "nebula",
+      "typeCode": "attachment"
+    },
+    "16096": {
+      "name": "Unyielding Persistence",
+      "type": "encounter",
+      "face": "16096.jpg",
+      "setCode": "nebula",
+      "typeCode": "attachment"
+    },
+    "16097": {
+      "name": "Weapon Mastery",
+      "type": "encounter",
+      "face": "16097.jpg",
+      "setCode": "nebula",
+      "typeCode": "attachment"
+    },
+    "16098": {
+      "name": "Wide Stance",
+      "type": "encounter",
+      "face": "16098.jpg",
+      "setCode": "nebula",
+      "typeCode": "attachment"
+    },
+    "16099": {
+      "name": "Lethal Intent",
+      "type": "encounter",
+      "face": "16099.jpg",
+      "setCode": "nebula",
+      "typeCode": "side_scheme"
+    },
+    "16100": {
+      "name": "Barrel Roll",
+      "type": "encounter",
+      "face": "16100.jpg",
+      "setCode": "nebula",
+      "typeCode": "treachery"
+    },
+    "16101": {
+      "name": "Combat Ready",
+      "type": "encounter",
+      "face": "16101.jpg",
+      "setCode": "nebula",
+      "typeCode": "treachery"
+    },
+    "16102": {
+      "name": "Ruthless",
+      "type": "encounter",
+      "face": "16102.jpg",
+      "setCode": "nebula",
+      "typeCode": "treachery"
+    },
+    "16091a": {
+      "name": "The Art of Evasion",
+      "type": "main_scheme",
+      "face": "16091A.jpg",
+      "setCode": "nebula",
+      "typeCode": "main_scheme",
+      "back_code": "16091b"
+    },
+    "16091b": {
+      "name": "The Art of Evasion",
+      "type": "main_scheme",
+      "face": "16091B.jpg",
+      "setCode": "nebula",
+      "typeCode": "main_scheme",
+      "back_code": "16091a"
+    },
+    "16092a": {
+      "name": "Warp Drive Initiated",
+      "type": "main_scheme",
+      "face": "16092A.jpg",
+      "setCode": "nebula",
+      "typeCode": "main_scheme",
+      "back_code": "16092b"
+    },
+    "16092b": {
+      "name": "Warp Drive Initiated",
+      "type": "main_scheme",
+      "face": "16092B.jpg",
+      "setCode": "nebula",
+      "typeCode": "main_scheme",
+      "back_code": "16092a"
+    }
+  },
+  "cardSets": {
+    "nebula-encounter": [
+      {
+        "code": "16093"
+      },
+      {
+        "code": "16094",
+        "count": 2
+      },
+      {
+        "code": "16095"
+      },
+      {
+        "code": "16096"
+      },
+      {
+        "code": "16097",
+        "count": 2
+      },
+      {
+        "code": "16098",
+        "count": 2
+      },
+      {
+        "code": "16099",
+        "count": 2
+      },
+      {
+        "code": "16100",
+        "count": 2
+      },
+      {
+        "code": "16101",
+        "count": 2
+      },
+      {
+        "code": "16102",
+        "count": 2
+      }
+    ]
+  }
+}

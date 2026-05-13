@@ -1,0 +1,134 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-collector2",
+  "name": "Marvel Champions: Collector 2",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "16086": {
+      "name": "\"I Have You Now!\"",
+      "type": "encounter",
+      "face": "16086.jpg",
+      "setCode": "collector2",
+      "typeCode": "treachery"
+    },
+    "16087": {
+      "name": "Impossible Geometry",
+      "type": "encounter",
+      "face": "16087.jpg",
+      "setCode": "collector2",
+      "typeCode": "treachery"
+    },
+    "16080a": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16080A.jpg",
+      "setCode": "collector2",
+      "typeCode": "villain",
+      "back_code": "16080b"
+    },
+    "16080b": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16080B.jpg",
+      "setCode": "collector2",
+      "typeCode": "villain",
+      "back_code": "16080a"
+    },
+    "16081a": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16081A.jpg",
+      "setCode": "collector2",
+      "typeCode": "villain",
+      "back_code": "16081b"
+    },
+    "16081b": {
+      "name": "Collector",
+      "type": "villain",
+      "face": "16081B.jpg",
+      "setCode": "collector2",
+      "typeCode": "villain",
+      "back_code": "16081a"
+    },
+    "16082a": {
+      "name": "The Missing Milano",
+      "type": "main_scheme",
+      "face": "16082A.jpg",
+      "setCode": "collector2",
+      "typeCode": "main_scheme",
+      "back_code": "16082b"
+    },
+    "16082b": {
+      "name": "The Missing Milano",
+      "type": "main_scheme",
+      "face": "16082B.jpg",
+      "setCode": "collector2",
+      "typeCode": "main_scheme",
+      "back_code": "16082a"
+    },
+    "16083a": {
+      "name": "Lost in the Museum",
+      "type": "main_scheme",
+      "face": "16083A.jpg",
+      "setCode": "collector2",
+      "typeCode": "main_scheme",
+      "back_code": "16083b"
+    },
+    "16083b": {
+      "name": "Lost in the Museum",
+      "type": "main_scheme",
+      "face": "16083B.jpg",
+      "setCode": "collector2",
+      "typeCode": "main_scheme",
+      "back_code": "16083a"
+    },
+    "16084a": {
+      "name": "The Great Escape",
+      "type": "main_scheme",
+      "face": "16084A.jpg",
+      "setCode": "collector2",
+      "typeCode": "main_scheme",
+      "back_code": "16084b"
+    },
+    "16084b": {
+      "name": "The Great Escape",
+      "type": "main_scheme",
+      "face": "16084B.jpg",
+      "setCode": "collector2",
+      "typeCode": "main_scheme",
+      "back_code": "16084a"
+    },
+    "16085a": {
+      "name": "Library Labyrinth",
+      "type": "encounter",
+      "face": "16085A.jpg",
+      "setCode": "collector2",
+      "typeCode": "environment",
+      "back_code": "16085b"
+    },
+    "16085b": {
+      "name": "Museum Ship",
+      "type": "encounter",
+      "face": "16085B.jpg",
+      "setCode": "collector2",
+      "typeCode": "environment",
+      "back_code": "16085a"
+    }
+  },
+  "cardSets": {
+    "collector2-encounter": [
+      {
+        "code": "16085a"
+      },
+      {
+        "code": "16086",
+        "count": 3
+      },
+      {
+        "code": "16087",
+        "count": 3
+      }
+    ]
+  }
+}
