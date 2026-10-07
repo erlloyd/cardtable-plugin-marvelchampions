@@ -1,46 +1,64 @@
 #!/usr/bin/env node
-// Generate asset packs and scenario files for villain sets from marvelsdb-json-data.
-// Usage: node scripts/generate-villain-scenarios.mjs <set_code> [<set_code>...]
-//   or: node scripts/generate-villain-scenarios.mjs --all
-// Outputs marvelchampions-<slug>.json (asset pack) and marvelchampions-<slug>-scenario.json.
-// Skips writing if file already exists; pass --force to overwrite.
+// Refresh the plugin from marvelsdb-json-data: villain asset packs, missing scenario files,
+// missing index.json entries, name/count sync of the other asset packs, then validation.
+// Usage: node scripts/update-plugin.mjs [--source <dir>]
+// Without --source, shallow-clones https://github.com/zzorba/marvelsdb-json-data into a temp dir.
+// Source corrections live in scripts/source-overrides.json.
 
-import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
-import { resolve, dirname } from "node:path";
+import { readFileSync, readdirSync, writeFileSync, existsSync, mkdtempSync, rmSync } from "node:fs";
+import { resolve, dirname, join } from "node:path";
+import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
+import { execFileSync, spawnSync } from "node:child_process";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
-const sourceRoot = "/Users/erlloyd/Code/marvelsdb-json-data";
-
-const args = process.argv.slice(2);
-const force = args.includes("--force");
-const all = args.includes("--all");
-const targets = args.filter((a) => !a.startsWith("--"));
+const SOURCE_REPO = "https://github.com/zzorba/marvelsdb-json-data";
 
 function readJson(p) { return JSON.parse(readFileSync(p, "utf8")); }
 function writeJson(p, data) { writeFileSync(p, JSON.stringify(data, null, 2) + "\n"); }
 
-// Load all sets and packs metadata
-const sets = readJson(resolve(sourceRoot, "sets.json"));
-const packs = readJson(resolve(sourceRoot, "packs.json"));
+const overrides = readJson(resolve(__dirname, "source-overrides.json"));
 
-// Build flat card index keyed by code, from all encounter packs
-const cardsByCode = {};
-const cardsBySet = {};
-for (const f of readdirSync(resolve(sourceRoot, "pack")).filter(n => n.endsWith("_encounter.json") || n === "core_encounter.json")) {
-  const cards = readJson(resolve(sourceRoot, "pack", f));
-  for (const c of cards) {
-    cardsByCode[c.code] = c;
-    if (c.set_code) {
-      cardsBySet[c.set_code] ??= [];
-      cardsBySet[c.set_code].push(c);
+// Populated by loadSource().
+let sets, packs;
+let cardsByCode = {};
+let cardsBySet = {};
+
+function loadSource(sourceRoot) {
+  sets = readJson(resolve(sourceRoot, "sets.json"));
+  packs = readJson(resolve(sourceRoot, "packs.json"));
+  cardsByCode = {};
+  cardsBySet = {};
+  const seenIn = {};
+  const dupes = [];
+  for (const f of readdirSync(resolve(sourceRoot, "pack")).filter(n => n.endsWith("_encounter.json"))) {
+    for (const c of readJson(resolve(sourceRoot, "pack", f))) {
+      if (seenIn[c.code]) dupes.push(`${c.code} (${seenIn[c.code]}, ${f})`);
+      seenIn[c.code] = f;
+      cardsByCode[c.code] = c;
+      if (c.set_code) {
+        cardsBySet[c.set_code] ??= [];
+        cardsBySet[c.set_code].push(c);
+      }
+    }
+  }
+  if (dupes.length > 0) {
+    throw new Error(`Duplicate card codes in source (fix upstream):\n  ${dupes.join("\n  ")}`);
+  }
+  for (const [code, fields] of Object.entries(overrides.cards)) {
+    const card = cardsByCode[code];
+    if (!card) throw new Error(`source-overrides.json: no source card with code ${code}`);
+    for (const [field, value] of Object.entries(fields)) {
+      if (value === null) delete card[field];
+      else card[field] = value;
     }
   }
 }
 
 function setCodeToSlug(setCode) {
-  return setCode.replace(/_/g, "-");
+  const slug = setCode.replace(/\./g, "").replace(/_/g, "-");
+  return overrides.slugs[setCode] ?? slug;
 }
 
 function findPackCodeForSet(setCode) {
@@ -299,46 +317,133 @@ function generateForSet(setCode) {
   };
 }
 
-function main() {
-  let setCodes;
-  if (all) {
-    setCodes = sets.filter(s => s.card_set_type_code === "villain").map(s => s.code);
-  } else if (targets.length > 0) {
-    setCodes = targets;
-  } else {
-    console.error("Usage: node scripts/generate-villain-scenarios.mjs <set_code>...  or --all");
-    process.exit(1);
-  }
-
-  const results = [];
-  for (const sc of setCodes) {
-    const r = generateForSet(sc);
-    if (!r) continue;
-    results.push(r);
-    let wrote = 0;
-    if (force || !existsSync(r.assetPath)) {
-      writeJson(r.assetPath, r.assetPack);
-      wrote++;
+// Sync names and counts of the hand-assembled asset packs (core, heroes, modular sets) from source.
+function syncOtherPacks(generatedFiles) {
+  const files = readdirSync(repoRoot).filter(
+    n => /^marvelchampions-.*\.json$/.test(n) && !n.endsWith("-scenario.json") && !generatedFiles.has(n),
+  );
+  for (const f of files) {
+    const path = resolve(repoRoot, f);
+    const pack = readJson(path);
+    let changed = false;
+    const sourceFor = (code) => cardsByCode[code] ?? cardsByCode[code.replace(/[a-z]$/, "")];
+    for (const [code, card] of Object.entries(pack.cards ?? {})) {
+      const src = sourceFor(code);
+      if (src && card.name !== src.name) {
+        card.name = src.name;
+        changed = true;
+      }
     }
-    if (force || !existsSync(r.scenarioPath)) {
-      writeJson(r.scenarioPath, r.scenario);
-      wrote++;
+    for (const entries of Object.values(pack.cardSets ?? {})) {
+      for (const entry of entries) {
+        const src = sourceFor(entry.code);
+        if (!src) continue;
+        const qty = src.quantity ?? 1;
+        if (qty > 1 && entry.count !== qty) {
+          entry.count = qty;
+          changed = true;
+        } else if (qty === 1 && "count" in entry) {
+          delete entry.count;
+          changed = true;
+        }
+      }
     }
-    console.log(`${r.setCode} (${r.packName} - ${r.setName}): wrote ${wrote} file(s)`);
-  }
-  // Emit a manifest snippet for index.json
-  console.log("\n--- index.json loadable items snippet ---");
-  for (const r of results) {
-    console.log(JSON.stringify({
-      typeId: `marvelchampions-${r.slug}`,
-      label: `${r.packName} - ${r.setName}`,
-      data: { file: `marvelchampions-${r.slug}-scenario.json` },
-    }));
-  }
-  console.log("\n--- assets[] snippet ---");
-  for (const r of results) {
-    console.log(`"marvelchampions-${r.slug}.json",`);
+    if (changed) {
+      writeJson(path, pack);
+      console.log(`synced ${f}`);
+    }
   }
 }
 
-main();
+// Append missing assets[] filenames and Villain loadable items; never touch existing entries.
+function updateIndex(villainSets) {
+  const indexPath = resolve(repoRoot, "index.json");
+  const index = readJson(indexPath);
+  const villainItems = index.loadables.find(l => l.label === "Villain").source.items;
+  const sourceTypeIds = new Set(villainSets.map(r => `marvelchampions-${r.slug}`));
+  const orphans = villainItems.filter(i => !sourceTypeIds.has(i.typeId)).map(i => i.typeId);
+  if (orphans.length > 0) {
+    throw new Error(`Villain items with no source villain set (add a slugs entry in source-overrides.json?): ${orphans.join(", ")}`);
+  }
+  let changed = false;
+  for (const r of villainSets) {
+    const typeId = `marvelchampions-${r.slug}`;
+    const assetFile = `${typeId}.json`;
+    if (!index.assets.includes(assetFile)) {
+      index.assets.push(assetFile);
+      changed = true;
+    }
+    if (!villainItems.some(i => i.typeId === typeId)) {
+      villainItems.push({
+        typeId,
+        label: `${r.packName} - ${r.setName}`,
+        data: { file: `${typeId}-scenario.json` },
+      });
+      changed = true;
+      console.log(`index.json: added ${typeId}`);
+    }
+  }
+  if (!changed) return;
+  // Keep the hand-written style of one-line "data" objects.
+  const text = JSON.stringify(index, null, 2).replace(
+    /("data": )\{\n([^{}]*?)\n\s*\}/g,
+    (_, key, body) => `${key}{ ${body.split("\n").map(l => l.trim()).join(" ")} }`,
+  );
+  writeFileSync(indexPath, text + "\n");
+}
+
+function update(sourceRoot) {
+  loadSource(sourceRoot);
+
+  const villainSets = [];
+  for (const s of sets.filter(s => s.card_set_type_code === "villain")) {
+    const r = generateForSet(s.code);
+    if (r) villainSets.push(r);
+  }
+
+  updateIndex(villainSets);
+
+  const generatedFiles = new Set();
+  for (const r of villainSets) {
+    writeJson(r.assetPath, r.assetPack);
+    generatedFiles.add(`marvelchampions-${r.slug}.json`);
+    if (!existsSync(r.scenarioPath)) {
+      writeJson(r.scenarioPath, r.scenario);
+      console.log(`created marvelchampions-${r.slug}-scenario.json`);
+    }
+  }
+  syncOtherPacks(generatedFiles);
+}
+
+function main() {
+  const args = process.argv.slice(2);
+  const sourceIdx = args.indexOf("--source");
+  let sourceRoot = sourceIdx >= 0 ? resolve(args[sourceIdx + 1] ?? "") : null;
+  if (sourceIdx >= 0 && !args[sourceIdx + 1]) throw new Error("--source needs a directory");
+
+  const cloneDir = sourceRoot ? null : mkdtempSync(join(tmpdir(), "marvelsdb-json-data-"));
+  try {
+    if (cloneDir) {
+      execFileSync("git", ["clone", "--depth", "1", SOURCE_REPO, cloneDir], { stdio: "inherit" });
+      sourceRoot = cloneDir;
+    }
+    let sha = "unknown";
+    try {
+      sha = execFileSync("git", ["-C", sourceRoot, "rev-parse", "HEAD"], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim();
+    } catch {}
+    console.log(`SOURCE_SHA=${sha}`);
+    update(sourceRoot);
+  } finally {
+    if (cloneDir) rmSync(cloneDir, { recursive: true, force: true });
+  }
+
+  const validation = spawnSync(process.execPath, [resolve(__dirname, "validate-plugin.mjs")], { stdio: "inherit" });
+  process.exit(validation.status ?? 1);
+}
+
+try {
+  main();
+} catch (err) {
+  console.error(err.message);
+  process.exit(1);
+}
