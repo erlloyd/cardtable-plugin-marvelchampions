@@ -1,0 +1,36 @@
+{
+  "slugs": {
+    "infiltrate_the_museum": "collector1",
+    "escape_the_museum": "collector2"
+  },
+  "cards": {
+    "45104a": { "back_link": "45104b" },
+    "45179b": { "back_link": "45179a" },
+    "45180b": { "back_link": "45180a" },
+    "45181b": { "back_link": "45181a" },
+    "45182b": { "back_link": "45182a" },
+    "45183b": { "back_link": "45183a" },
+    "21141": {
+      "name": "Gjallerbru",
+      "base_threat": 3,
+      "boost": 3,
+      "octgn_id": "e6f40a9e-3a80-4b28-bfaf-c8fc3c6be072",
+      "position": 142,
+      "set_position": 7,
+      "scheme_amplify": 1,
+      "scheme_hazard": null,
+      "text": "Hinder 1[per_hero]. Victory 3.\n<b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card."
+    },
+    "21142": {
+      "name": "Hall of Nastrond",
+      "base_threat": 4,
+      "boost": 4,
+      "octgn_id": "b13e6ed2-cf77-49bc-a2f0-19c438476512",
+      "position": 141,
+      "set_position": 6,
+      "scheme_amplify": null,
+      "scheme_hazard": 1,
+      "text": "Hinder 1[per_hero]. Victory 4.\n<b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card."
+    }
+  }
+}
