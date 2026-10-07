@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { resolve, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -48,10 +48,15 @@ function validateAssetPack(pack, ctx) {
   }
 
   for (const [setName, entries] of Object.entries(pack.cardSets ?? {})) {
+    const seen = new Set();
     for (const entry of entries) {
       if (!localCards.has(entry.code)) {
         errors.push(`cardSet '${setName}': references unknown card '${entry.code}'`);
       }
+      if (seen.has(entry.code)) {
+        errors.push(`cardSet '${setName}': card '${entry.code}' listed more than once (use count)`);
+      }
+      seen.add(entry.code);
     }
   }
 
@@ -108,6 +113,49 @@ function validateScenario(scenario, scenarioPath, allPacks) {
   return { errors, warnings };
 }
 
+function validateIndex(index, allPacks) {
+  const errors = [];
+
+  const assets = index.assets ?? [];
+  for (const asset of assets) {
+    if (!existsSync(resolve(repoRoot, asset))) errors.push(`assets: '${asset}' does not exist`);
+  }
+  const listed = new Set(assets);
+  for (const { file } of allPacks) {
+    if (!listed.has(basename(file))) errors.push(`assets: '${basename(file)}' exists but is not listed`);
+  }
+
+  const packsById = new Map(allPacks.map((p) => [p.pack.id, p.pack]));
+
+  for (const loadable of index.loadables ?? []) {
+    const where = `loadable '${loadable.label ?? loadable.type}'`;
+    if (loadable.source?.kind !== "static") continue;
+    const seenTypeIds = new Set();
+    for (const item of loadable.source.items ?? []) {
+      if (seenTypeIds.has(item.typeId)) errors.push(`${where}: duplicate typeId '${item.typeId}'`);
+      seenTypeIds.add(item.typeId);
+
+      if (loadable.type === "scenario") {
+        const path = resolve(repoRoot, item.data?.file ?? "");
+        if (!item.data?.file || !existsSync(path)) {
+          errors.push(`${where}: '${item.typeId}' file '${item.data?.file}' does not exist`);
+        } else if (!readJson(path).schema?.startsWith("ct-scenario@")) {
+          errors.push(`${where}: '${item.typeId}' file '${item.data.file}' is not a ct-scenario@ file`);
+        }
+      } else if (loadable.type === "encounter-set") {
+        const pack = packsById.get(item.data?.pack);
+        if (!pack) {
+          errors.push(`${where}: '${item.typeId}' pack '${item.data?.pack}' is not an existing asset pack`);
+        } else if (!pack.cardSets?.[item.data.cardSet]) {
+          errors.push(`${where}: '${item.typeId}' cardSet '${item.data.cardSet}' not found in pack '${pack.id}'`);
+        }
+      }
+    }
+  }
+
+  return { errors, warnings: [] };
+}
+
 function discoverFiles(targets) {
   if (targets.length > 0) return targets.map((t) => resolve(t));
   return readdirSync(repoRoot)
@@ -142,6 +190,11 @@ function main() {
   for (const { file, scenario } of scenarios) {
     const { errors, warnings } = validateScenario(scenario, file, assetPacks);
     results.push({ file: basename(file), kind: "scenario", id: scenario.id, errors, warnings });
+  }
+
+  if (targets.length === 0) {
+    const { errors, warnings } = validateIndex(readJson(resolve(repoRoot, "index.json")), assetPacks);
+    results.push({ file: "index.json", kind: "index", id: "index", errors, warnings });
   }
 
   const totalErrors = results.reduce((n, r) => n + r.errors.length, 0);
