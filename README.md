@@ -1,6 +1,6 @@
 # Marvel Champions Plugin
 
-CardTable2 plugin for the Marvel Champions Core Set. Three playable scenarios (Rhino, Klaw, Ultron) and modular asset packs covering all Core Box content.
+CardTable2 plugin for Marvel Champions. Core Set content (heroes, aspects, modulars, Rhino/Klaw/Ultron) is hand-built; villain scenarios for every other released set are generated from upstream card data and kept current automatically (see "How the plugin is updated").
 
 ## Layout
 
@@ -136,14 +136,48 @@ Asset packs declare `baseUrl` for relative image paths. Currently all packs use:
 
 Supports absolute URLs, root-relative URLs, and baseUrl-relative paths.
 
-## Validation
+## How the plugin is updated
 
-Run after writing or modifying any asset pack or scenario file:
+Nothing to do for a routine update.
+
+1. Every Monday (or Actions > "Update card data" > Run workflow), `.github/workflows/update-data.yml` runs `node scripts/update-plugin.mjs`. It fetches the latest [zzorba/marvelsdb-json-data](https://github.com/zzorba/marvelsdb-json-data) and rebuilds.
+2. The script rewrites every villain asset pack from source, and creates a scenario file and `index.json` entries only for villain sets that are new. Existing scenario files and `index.json` entries are never overwritten, so hand edits and saved-table `typeId`s stay stable. It also syncs card names and counts into the hand-built Core packs, then runs the validator.
+3. If nothing changed, nothing happens. If something changed and validation passes, a commit `data: marvelsdb-json-data @ <sha>` is pushed to `main`.
+4. If the run fails, nothing is pushed and GitHub emails the repo owner with its default failure notification. The log says why. Usually upstream renamed a set (add a `slugs` entry) or the validator failed. A scheduled-workflow keepalive stops GitHub from disabling the schedule after 60 days of repo inactivity.
+
+### Publishing
+
+A push to `main` is publishing. cardtable2 loads this repo from `raw.githubusercontent.com/erlloyd/cardtable-plugin-marvelchampions/main/` (listed in cardtable2 `app/public/pluginsIndex.json`) with no version pinning, so changes are live within minutes. To undo a bad update: `git revert <commit>` and push.
+
+### Overrides for bad upstream data
+
+Card data comes from upstream, not from a fork. Fixes for upstream mistakes live in `scripts/source-overrides.json`, applied to the source records before anything is generated:
+
+- `cards`: keyed by card code, fields to patch. A `null` value deletes the field. Currently six aoa `back_link` fixes and the Hela 21141/21142 name swap.
+- `slugs`: maps an upstream set code to a file/`typeId` slug where the default (`.` removed, `_` to `-`) is wrong. Currently the two museum sets (`collector1`, `collector2`).
+
+To add one, add the entry and run the script locally. Fix it upstream too if you can, then delete the override.
+
+### Running locally
 
 ```bash
-node scripts/validate-plugin.mjs                          # validate everything in repo root
-node scripts/validate-plugin.mjs marvelchampions-foo.json # validate a single file
+node scripts/update-plugin.mjs                    # clone upstream, regenerate, validate
+node scripts/update-plugin.mjs --source <dir>     # use a local marvelsdb-json-data checkout instead
+node scripts/validate-plugin.mjs                  # validate only (takes no file arguments)
 ```
+
+### Card images
+
+Images are not stored here. cardtable2 serves them through its `/api/card-image/` proxy from Cerebro, keyed by card code.
+
+### Still manual
+
+- New villain scenarios get a default layout. Unusual ones (multiple villains, shared schemes, extra modulars) need a hand-built layout; once edited, the update never touches it.
+- Heroes, aspects, and modular sets beyond Core are not generated.
+
+## Validation
+
+`node scripts/validate-plugin.mjs` validates every file in the repo root. It runs automatically in each update, and run it yourself after any hand edit.
 
 Checks:
 - Required top-level fields (`schema`, `id`, `name`, `version`)
@@ -152,12 +186,13 @@ Checks:
 - Every cardSet entry references a card defined in the same pack
 - Every scenario `packs` reference resolves to an asset pack file
 - Every card and cardSet referenced in scenario stacks resolves across the listed packs
+- `index.json` entries resolve to existing files and contain no duplicates
 
 Exit 0 = clean, exit 1 = errors.
 
 ## Data sources
 
-Card metadata is derived from the read-only [marvelsdb-json-data](https://github.com/Hawkesy/marvelsdb-json-data) repository (canonical source). Plugin packs store image-only metadata (`type`, `face`, `setCode`, `typeCode`, optional `back_code`) — names, stats, and rules text are not duplicated in the plugin.
+Card metadata is derived from [zzorba/marvelsdb-json-data](https://github.com/zzorba/marvelsdb-json-data), plus the corrections in `scripts/source-overrides.json`. Plugin packs store image-only metadata (`type`, `face`, `setCode`, `typeCode`, optional `back_code`); stats and rules text are not duplicated in the plugin. Names and counts are kept in sync by the update script.
 
 ## Issue tracking
 
