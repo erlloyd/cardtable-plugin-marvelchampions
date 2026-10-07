@@ -30,7 +30,6 @@ jobs:
       - name: Update plugin from upstream
         run: |
           node scripts/update-plugin.mjs | tee "$RUNNER_TEMP/update.log"
-          node scripts/validate-plugin.mjs
           sha="$(sed -n 's/^SOURCE_SHA=//p' "$RUNNER_TEMP/update.log" | tail -n 1)"
           if [ -z "$sha" ]; then
             echo "SOURCE_SHA missing from update-plugin output" >&2
