@@ -13,14 +13,14 @@
       "typeCode": "side_scheme"
     },
     "21141": {
-      "name": "Hall of Nastrond",
+      "name": "Gjallerbru",
       "type": "encounter",
       "face": "21141.jpg",
       "setCode": "hela",
       "typeCode": "side_scheme"
     },
     "21142": {
-      "name": "Gjallerbru",
+      "name": "Hall of Nastrond",
       "type": "encounter",
       "face": "21142.jpg",
       "setCode": "hela",

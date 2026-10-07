@@ -1,7 +1,7 @@
 {
   "schema": "ct-assets@1",
   "id": "marvelchampions-collector2",
-  "name": "Marvel Champions: Collector 2",
+  "name": "Marvel Champions: Escape the Museum",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
@@ -9,21 +9,21 @@
       "name": "\"I Have You Now!\"",
       "type": "encounter",
       "face": "16086.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "treachery"
     },
     "16087": {
       "name": "Impossible Geometry",
       "type": "encounter",
       "face": "16087.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "treachery"
     },
     "16080a": {
       "name": "Collector",
       "type": "villain",
       "face": "16080A.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "villain",
       "back_code": "16080b"
     },
@@ -31,7 +31,7 @@
       "name": "Collector",
       "type": "villain",
       "face": "16080B.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "villain",
       "back_code": "16080a"
     },
@@ -39,7 +39,7 @@
       "name": "Collector",
       "type": "villain",
       "face": "16081A.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "villain",
       "back_code": "16081b"
     },
@@ -47,7 +47,7 @@
       "name": "Collector",
       "type": "villain",
       "face": "16081B.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "villain",
       "back_code": "16081a"
     },
@@ -55,7 +55,7 @@
       "name": "The Missing Milano",
       "type": "main_scheme",
       "face": "16082A.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "main_scheme",
       "back_code": "16082b"
     },
@@ -63,7 +63,7 @@
       "name": "The Missing Milano",
       "type": "main_scheme",
       "face": "16082B.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "main_scheme",
       "back_code": "16082a"
     },
@@ -71,7 +71,7 @@
       "name": "Lost in the Museum",
       "type": "main_scheme",
       "face": "16083A.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "main_scheme",
       "back_code": "16083b"
     },
@@ -79,7 +79,7 @@
       "name": "Lost in the Museum",
       "type": "main_scheme",
       "face": "16083B.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "main_scheme",
       "back_code": "16083a"
     },
@@ -87,7 +87,7 @@
       "name": "The Great Escape",
       "type": "main_scheme",
       "face": "16084A.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "main_scheme",
       "back_code": "16084b"
     },
@@ -95,7 +95,7 @@
       "name": "The Great Escape",
       "type": "main_scheme",
       "face": "16084B.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "main_scheme",
       "back_code": "16084a"
     },
@@ -103,7 +103,7 @@
       "name": "Library Labyrinth",
       "type": "encounter",
       "face": "16085A.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "environment",
       "back_code": "16085b"
     },
@@ -111,7 +111,7 @@
       "name": "Museum Ship",
       "type": "encounter",
       "face": "16085B.jpg",
-      "setCode": "collector2",
+      "setCode": "escape_the_museum",
       "typeCode": "environment",
       "back_code": "16085a"
     }

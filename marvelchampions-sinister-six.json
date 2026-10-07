@@ -1,7 +1,7 @@
 {
   "schema": "ct-assets@1",
   "id": "marvelchampions-sinister-six",
-  "name": "Marvel Champions: Sinister Six",
+  "name": "Marvel Champions: The Sinister Six",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
@@ -118,7 +118,7 @@
       "typeCode": "treachery"
     },
     "27100a": {
-      "name": "Sinister Synchonization",
+      "name": "Sinister Synchronization",
       "type": "main_scheme",
       "face": "27100A.jpg",
       "setCode": "sinister_six",
@@ -126,7 +126,7 @@
       "back_code": "27100b"
     },
     "27100b": {
-      "name": "Sinister Synchonization",
+      "name": "Sinister Synchronization",
       "type": "main_scheme",
       "face": "27100B.jpg",
       "setCode": "sinister_six",

@@ -26,14 +26,6 @@
       "setCode": "klaw",
       "typeCode": "villain"
     },
-    "01116b": {
-      "name": "Underground Distribution",
-      "type": "main_scheme",
-      "face": "01116B.jpg",
-      "setCode": "klaw",
-      "typeCode": "main_scheme",
-      "back_code": "01116a"
-    },
     "01116a": {
       "name": "Underground Distribution",
       "type": "main_scheme",
@@ -42,13 +34,13 @@
       "typeCode": "main_scheme",
       "back_code": "01116b"
     },
-    "01117b": {
-      "name": "Secret Rendezvous",
+    "01116b": {
+      "name": "Underground Distribution",
       "type": "main_scheme",
-      "face": "01117B.jpg",
+      "face": "01116B.jpg",
       "setCode": "klaw",
       "typeCode": "main_scheme",
-      "back_code": "01117a"
+      "back_code": "01116a"
     },
     "01117a": {
       "name": "Secret Rendezvous",
@@ -57,6 +49,14 @@
       "setCode": "klaw",
       "typeCode": "main_scheme",
       "back_code": "01117b"
+    },
+    "01117b": {
+      "name": "Secret Rendezvous",
+      "type": "main_scheme",
+      "face": "01117B.jpg",
+      "setCode": "klaw",
+      "typeCode": "main_scheme",
+      "back_code": "01117a"
     },
     "01118": {
       "name": "Sonic Converter",

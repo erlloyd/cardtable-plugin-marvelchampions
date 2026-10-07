@@ -1,7 +1,7 @@
 {
   "schema": "ct-assets@1",
   "id": "marvelchampions-tower-defense",
-  "name": "Marvel Champions: The Tower Defense",
+  "name": "Marvel Champions: Tower Defense",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {
@@ -69,7 +69,7 @@
       "typeCode": "attachment"
     },
     "21104": {
-      "name": "Corvus Glaive",
+      "name": "Corvus's Glaive",
       "type": "encounter",
       "face": "21104.jpg",
       "setCode": "tower_defense",

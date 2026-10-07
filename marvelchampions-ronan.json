@@ -1,7 +1,7 @@
 {
   "schema": "ct-assets@1",
   "id": "marvelchampions-ronan",
-  "name": "Marvel Champions: Ronan",
+  "name": "Marvel Champions: Ronan the Accuser",
   "version": "1.0.0",
   "baseUrl": "/api/card-image/cerebro-cards/official/",
   "cards": {

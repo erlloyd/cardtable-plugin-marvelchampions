@@ -27,7 +27,7 @@
       "typeCode": "villain"
     },
     "04128a": {
-      "name": "The Rise of the Red Skull",
+      "name": "The Rise of Red Skull",
       "type": "main_scheme",
       "face": "04128A.jpg",
       "setCode": "red_skull",
@@ -35,7 +35,7 @@
       "back_code": "04128b"
     },
     "04128b": {
-      "name": "The Rise of the Red Skull",
+      "name": "The Rise of Red Skull",
       "type": "main_scheme",
       "face": "04128B.jpg",
       "setCode": "red_skull",

@@ -44,10 +44,12 @@
   "cardSets": {
     "standard-encounter": [
       {
-        "code": "01186"
+        "code": "01186",
+        "count": 2
       },
       {
-        "code": "01187"
+        "code": "01187",
+        "count": 2
       },
       {
         "code": "01188"

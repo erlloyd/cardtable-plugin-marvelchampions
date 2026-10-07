@@ -83,14 +83,6 @@
       "typeCode": "main_scheme",
       "back_code": "40077b"
     },
-    "40078a": {
-      "name": "Mutant Massacre",
-      "type": "main_scheme",
-      "face": "40078A.jpg",
-      "setCode": "morlock_siege",
-      "typeCode": "main_scheme",
-      "back_code": "40078b"
-    },
     "40077b": {
       "name": "Knock, Knock",
       "type": "main_scheme",
@@ -98,6 +90,14 @@
       "setCode": "morlock_siege",
       "typeCode": "main_scheme",
       "back_code": "40077a"
+    },
+    "40078a": {
+      "name": "Mutant Massacre",
+      "type": "main_scheme",
+      "face": "40078A.jpg",
+      "setCode": "morlock_siege",
+      "typeCode": "main_scheme",
+      "back_code": "40078b"
     },
     "40078b": {
       "name": "Mutant Massacre",

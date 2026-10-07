@@ -26,14 +26,6 @@
       "setCode": "ultron",
       "typeCode": "villain"
     },
-    "01137b": {
-      "name": "The Crimson Cowl",
-      "type": "main_scheme",
-      "face": "01137B.jpg",
-      "setCode": "ultron",
-      "typeCode": "main_scheme",
-      "back_code": "01137a"
-    },
     "01137a": {
       "name": "The Crimson Cowl",
       "type": "main_scheme",
@@ -42,13 +34,13 @@
       "typeCode": "main_scheme",
       "back_code": "01137b"
     },
-    "01138b": {
-      "name": "Assault on NORAD",
+    "01137b": {
+      "name": "The Crimson Cowl",
       "type": "main_scheme",
-      "face": "01138B.jpg",
+      "face": "01137B.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
-      "back_code": "01138a"
+      "back_code": "01137a"
     },
     "01138a": {
       "name": "Assault on NORAD",
@@ -58,13 +50,13 @@
       "typeCode": "main_scheme",
       "back_code": "01138b"
     },
-    "01139b": {
-      "name": "Countdown to Oblivion",
+    "01138b": {
+      "name": "Assault on NORAD",
       "type": "main_scheme",
-      "face": "01139B.jpg",
+      "face": "01138B.jpg",
       "setCode": "ultron",
       "typeCode": "main_scheme",
-      "back_code": "01139a"
+      "back_code": "01138a"
     },
     "01139a": {
       "name": "Countdown to Oblivion",
@@ -73,6 +65,14 @@
       "setCode": "ultron",
       "typeCode": "main_scheme",
       "back_code": "01139b"
+    },
+    "01139b": {
+      "name": "Countdown to Oblivion",
+      "type": "main_scheme",
+      "face": "01139B.jpg",
+      "setCode": "ultron",
+      "typeCode": "main_scheme",
+      "back_code": "01139a"
     },
     "01140": {
       "name": "Ultron Drones",
