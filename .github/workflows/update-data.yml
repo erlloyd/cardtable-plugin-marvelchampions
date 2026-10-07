@@ -1,0 +1,63 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: '17 6 * * 1' # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Update plugin from upstream
+        run: |
+          node scripts/update-plugin.mjs | tee "$RUNNER_TEMP/update.log"
+          node scripts/validate-plugin.mjs
+          sha="$(sed -n 's/^SOURCE_SHA=//p' "$RUNNER_TEMP/update.log" | tail -n 1)"
+          if [ -z "$sha" ]; then
+            echo "SOURCE_SHA missing from update-plugin output" >&2
+            exit 1
+          fi
+          echo "SOURCE_SHA=$sha" >> "$GITHUB_ENV"
+
+      # Keepalive. GitHub docs (events-that-trigger-workflows, "schedule"):
+      # "In a public repository, scheduled workflows are automatically disabled
+      # when no repository activity has occurred in 60 days." The docs do not
+      # define "repository activity" or say the enable API resets the timer, so
+      # when no data changed we push an empty commit once main is >50 days old.
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "data: marvelsdb-json-data @ $SOURCE_SHA"
+          else
+            age_days=$(( ($(date +%s) - $(git log -1 --format=%ct)) / 86400 ))
+            echo "No data change; last commit is ${age_days} days old"
+            if [ "$age_days" -lt 50 ]; then
+              echo "Keepalive not needed"
+              exit 0
+            fi
+            git commit --allow-empty -m "chore: keepalive (no data change since upstream @ $SOURCE_SHA)"
+          fi
+          git push origin HEAD:main
