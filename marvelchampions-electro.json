@@ -1,0 +1,108 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-electro",
+  "name": "Marvel Champions: Electro",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "60076": {
+      "name": "Electro",
+      "type": "villain",
+      "face": "60076.jpg",
+      "setCode": "electro",
+      "typeCode": "villain"
+    },
+    "60077": {
+      "name": "Electro",
+      "type": "villain",
+      "face": "60077.jpg",
+      "setCode": "electro",
+      "typeCode": "villain"
+    },
+    "60078": {
+      "name": "Electro",
+      "type": "villain",
+      "face": "60078.jpg",
+      "setCode": "electro",
+      "typeCode": "villain"
+    },
+    "60079": {
+      "name": "Electric Charge",
+      "type": "encounter",
+      "face": "60079.jpg",
+      "setCode": "electro",
+      "typeCode": "attachment"
+    },
+    "60080": {
+      "name": "Drained of Power",
+      "type": "encounter",
+      "face": "60080.jpg",
+      "setCode": "electro",
+      "typeCode": "attachment"
+    },
+    "60081": {
+      "name": "Whiplash",
+      "type": "encounter",
+      "face": "60081.jpg",
+      "setCode": "electro",
+      "typeCode": "minion"
+    },
+    "60082": {
+      "name": "Charging Up",
+      "type": "encounter",
+      "face": "60082.jpg",
+      "setCode": "electro",
+      "typeCode": "side_scheme"
+    },
+    "60083": {
+      "name": "Chain Lightning",
+      "type": "encounter",
+      "face": "60083.jpg",
+      "setCode": "electro",
+      "typeCode": "treachery"
+    },
+    "60084": {
+      "name": "Energy Overload",
+      "type": "encounter",
+      "face": "60084.jpg",
+      "setCode": "electro",
+      "typeCode": "treachery"
+    },
+    "60085": {
+      "name": "Shocking Revelation",
+      "type": "encounter",
+      "face": "60085.jpg",
+      "setCode": "electro",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "electro-encounter": [
+      {
+        "code": "60079"
+      },
+      {
+        "code": "60080"
+      },
+      {
+        "code": "60081"
+      },
+      {
+        "code": "60082",
+        "count": 2
+      },
+      {
+        "code": "60083",
+        "count": 2
+      },
+      {
+        "code": "60084",
+        "count": 2
+      },
+      {
+        "code": "60085",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-kingpin",
+  "name": "Marvel Champions: Kingpin",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "60164": {
+      "name": "Bear Hug",
+      "type": "encounter",
+      "face": "60164.jpg",
+      "setCode": "kingpin",
+      "typeCode": "attachment"
+    },
+    "60165": {
+      "name": "James Wesley",
+      "type": "encounter",
+      "face": "60165.jpg",
+      "setCode": "kingpin",
+      "typeCode": "attachment"
+    },
+    "60166": {
+      "name": "Kingpin's Cane",
+      "type": "encounter",
+      "face": "60166.jpg",
+      "setCode": "kingpin",
+      "typeCode": "attachment"
+    },
+    "60167": {
+      "name": "Mountain of Muscle",
+      "type": "encounter",
+      "face": "60167.jpg",
+      "setCode": "kingpin",
+      "typeCode": "attachment"
+    },
+    "60168": {
+      "name": "Vanessa Fisk",
+      "type": "encounter",
+      "face": "60168.jpg",
+      "setCode": "kingpin",
+      "typeCode": "attachment"
+    },
+    "60169": {
+      "name": "Black Cat",
+      "type": "encounter",
+      "face": "60169.jpg",
+      "setCode": "kingpin",
+      "typeCode": "minion"
+    },
+    "60170": {
+      "name": "Diamondback",
+      "type": "encounter",
+      "face": "60170.jpg",
+      "setCode": "kingpin",
+      "typeCode": "minion"
+    },
+    "60171": {
+      "name": "Spot",
+      "type": "encounter",
+      "face": "60171.jpg",
+      "setCode": "kingpin",
+      "typeCode": "minion"
+    },
+    "60172": {
+      "name": "Stilt-Man",
+      "type": "encounter",
+      "face": "60172.jpg",
+      "setCode": "kingpin",
+      "typeCode": "minion"
+    },
+    "60173": {
+      "name": "Kingpin's Influence",
+      "type": "encounter",
+      "face": "60173.jpg",
+      "setCode": "kingpin",
+      "typeCode": "side_scheme"
+    },
+    "60174": {
+      "name": "Organized Crime",
+      "type": "encounter",
+      "face": "60174.jpg",
+      "setCode": "kingpin",
+      "typeCode": "side_scheme"
+    },
+    "60175": {
+      "name": "Bag of Tricks",
+      "type": "encounter",
+      "face": "60175.jpg",
+      "setCode": "kingpin",
+      "typeCode": "treachery"
+    },
+    "60176": {
+      "name": "Unrelenting Hate",
+      "type": "encounter",
+      "face": "60176.jpg",
+      "setCode": "kingpin",
+      "typeCode": "treachery"
+    },
+    "60159a": {
+      "name": "Kingpin",
+      "type": "villain",
+      "face": "60159A.jpg",
+      "setCode": "kingpin",
+      "typeCode": "villain",
+      "back_code": "60159b"
+    },
+    "60159b": {
+      "name": "Kingpin",
+      "type": "villain",
+      "face": "60159B.jpg",
+      "setCode": "kingpin",
+      "typeCode": "villain",
+      "back_code": "60159a"
+    },
+    "60160a": {
+      "name": "Kingpin",
+      "type": "villain",
+      "face": "60160A.jpg",
+      "setCode": "kingpin",
+      "typeCode": "villain",
+      "back_code": "60160b"
+    },
+    "60160b": {
+      "name": "Kingpin",
+      "type": "villain",
+      "face": "60160B.jpg",
+      "setCode": "kingpin",
+      "typeCode": "villain",
+      "back_code": "60160a"
+    },
+    "60161a": {
+      "name": "The King's Gambit",
+      "type": "main_scheme",
+      "face": "60161A.jpg",
+      "setCode": "kingpin",
+      "typeCode": "main_scheme",
+      "back_code": "60161b"
+    },
+    "60161b": {
+      "name": "The King's Gambit",
+      "type": "main_scheme",
+      "face": "60161B.jpg",
+      "setCode": "kingpin",
+      "typeCode": "main_scheme",
+      "back_code": "60161a"
+    },
+    "60162a": {
+      "name": "Endgame",
+      "type": "main_scheme",
+      "face": "60162A.jpg",
+      "setCode": "kingpin",
+      "typeCode": "main_scheme",
+      "back_code": "60162b"
+    },
+    "60162b": {
+      "name": "Endgame",
+      "type": "main_scheme",
+      "face": "60162B.jpg",
+      "setCode": "kingpin",
+      "typeCode": "main_scheme",
+      "back_code": "60162a"
+    },
+    "60163a": {
+      "name": "Public Support",
+      "type": "encounter",
+      "face": "60163A.jpg",
+      "setCode": "kingpin",
+      "typeCode": "environment",
+      "back_code": "60163b"
+    },
+    "60163b": {
+      "name": "Public Support",
+      "type": "encounter",
+      "face": "60163B.jpg",
+      "setCode": "kingpin",
+      "typeCode": "environment",
+      "back_code": "60163a"
+    }
+  },
+  "cardSets": {
+    "kingpin-encounter": [
+      {
+        "code": "60163a"
+      },
+      {
+        "code": "60164"
+      },
+      {
+        "code": "60165"
+      },
+      {
+        "code": "60166"
+      },
+      {
+        "code": "60167"
+      },
+      {
+        "code": "60168"
+      },
+      {
+        "code": "60169"
+      },
+      {
+        "code": "60170"
+      },
+      {
+        "code": "60171"
+      },
+      {
+        "code": "60172"
+      },
+      {
+        "code": "60173"
+      },
+      {
+        "code": "60174"
+      },
+      {
+        "code": "60175",
+        "count": 3
+      },
+      {
+        "code": "60176",
+        "count": 3
+      }
+    ]
+  }
+}

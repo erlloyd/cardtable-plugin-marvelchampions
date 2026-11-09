@@ -1,0 +1,147 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-typhoid-mary",
+  "name": "Marvel Champions: Typhoid Mary",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "60112": {
+      "name": "Disturbed Psyche",
+      "type": "encounter",
+      "face": "60112.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "environment"
+    },
+    "60114": {
+      "name": "Telekinesis",
+      "type": "encounter",
+      "face": "60114.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "attachment"
+    },
+    "60115": {
+      "name": "Psionic Slash",
+      "type": "encounter",
+      "face": "60115.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "treachery"
+    },
+    "60116": {
+      "name": "Psi Nova",
+      "type": "encounter",
+      "face": "60116.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "treachery"
+    },
+    "60117": {
+      "name": "Assembled Armor",
+      "type": "encounter",
+      "face": "60117.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "attachment"
+    },
+    "60118": {
+      "name": "Hail of Blades",
+      "type": "encounter",
+      "face": "60118.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "treachery"
+    },
+    "60119": {
+      "name": "Scavenged Bulwark",
+      "type": "encounter",
+      "face": "60119.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "treachery"
+    },
+    "60120": {
+      "name": "Hand Lookout",
+      "type": "encounter",
+      "face": "60120.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "minion"
+    },
+    "60110a": {
+      "name": "Typhoid Mary",
+      "type": "villain",
+      "face": "60110A.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "villain",
+      "back_code": "60110b"
+    },
+    "60110b": {
+      "name": "Bloody Mary",
+      "type": "villain",
+      "face": "60110B.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "villain",
+      "back_code": "60110a"
+    },
+    "60111a": {
+      "name": "Typhoid Mary",
+      "type": "villain",
+      "face": "60111A.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "villain",
+      "back_code": "60111b"
+    },
+    "60111b": {
+      "name": "Bloody Mary",
+      "type": "villain",
+      "face": "60111B.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "villain",
+      "back_code": "60111a"
+    },
+    "60113a": {
+      "name": "Establish Trust",
+      "type": "encounter",
+      "face": "60113A.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "side_scheme",
+      "back_code": "60113b"
+    },
+    "60113b": {
+      "name": "Mary Walker",
+      "type": "encounter",
+      "face": "60113B.jpg",
+      "setCode": "typhoid_mary",
+      "typeCode": "attachment",
+      "back_code": "60113a"
+    }
+  },
+  "cardSets": {
+    "typhoid-mary-encounter": [
+      {
+        "code": "60112"
+      },
+      {
+        "code": "60113a"
+      },
+      {
+        "code": "60114"
+      },
+      {
+        "code": "60115",
+        "count": 2
+      },
+      {
+        "code": "60116"
+      },
+      {
+        "code": "60117"
+      },
+      {
+        "code": "60118",
+        "count": 2
+      },
+      {
+        "code": "60119"
+      },
+      {
+        "code": "60120",
+        "count": 3
+      }
+    ]
+  }
+}

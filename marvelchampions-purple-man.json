@@ -1,0 +1,136 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-purple-man",
+  "name": "Marvel Champions: Purple Man",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "60097": {
+      "name": "Purple Man",
+      "type": "villain",
+      "face": "60097.jpg",
+      "setCode": "purple_man",
+      "typeCode": "villain"
+    },
+    "60098": {
+      "name": "Purple Man",
+      "type": "villain",
+      "face": "60098.jpg",
+      "setCode": "purple_man",
+      "typeCode": "villain"
+    },
+    "60099": {
+      "name": "Purple Man",
+      "type": "villain",
+      "face": "60099.jpg",
+      "setCode": "purple_man",
+      "typeCode": "villain"
+    },
+    "60100": {
+      "name": "Converted",
+      "type": "encounter",
+      "face": "60100.jpg",
+      "setCode": "purple_man",
+      "typeCode": "attachment"
+    },
+    "60101": {
+      "name": "Firefighter",
+      "type": "encounter",
+      "face": "60101.jpg",
+      "setCode": "purple_man",
+      "typeCode": "minion"
+    },
+    "60102": {
+      "name": "Judge",
+      "type": "encounter",
+      "face": "60102.jpg",
+      "setCode": "purple_man",
+      "typeCode": "minion"
+    },
+    "60103": {
+      "name": "Security Guard",
+      "type": "encounter",
+      "face": "60103.jpg",
+      "setCode": "purple_man",
+      "typeCode": "minion"
+    },
+    "60104": {
+      "name": "Skater Punk",
+      "type": "encounter",
+      "face": "60104.jpg",
+      "setCode": "purple_man",
+      "typeCode": "minion"
+    },
+    "60105": {
+      "name": "\"Fight.\"",
+      "type": "encounter",
+      "face": "60105.jpg",
+      "setCode": "purple_man",
+      "typeCode": "obligation"
+    },
+    "60106": {
+      "name": "\"Protect.\"",
+      "type": "encounter",
+      "face": "60106.jpg",
+      "setCode": "purple_man",
+      "typeCode": "obligation"
+    },
+    "60107": {
+      "name": "\"Serve.\"",
+      "type": "encounter",
+      "face": "60107.jpg",
+      "setCode": "purple_man",
+      "typeCode": "obligation"
+    },
+    "60108": {
+      "name": "Power of Suggestion",
+      "type": "encounter",
+      "face": "60108.jpg",
+      "setCode": "purple_man",
+      "typeCode": "side_scheme"
+    },
+    "60109": {
+      "name": "Sway the Masses",
+      "type": "encounter",
+      "face": "60109.jpg",
+      "setCode": "purple_man",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "purple-man-encounter": [
+      {
+        "code": "60100"
+      },
+      {
+        "code": "60101",
+        "count": 2
+      },
+      {
+        "code": "60102"
+      },
+      {
+        "code": "60103"
+      },
+      {
+        "code": "60104"
+      },
+      {
+        "code": "60105"
+      },
+      {
+        "code": "60106"
+      },
+      {
+        "code": "60107"
+      },
+      {
+        "code": "60108"
+      },
+      {
+        "code": "60109",
+        "count": 2
+      }
+    ]
+  }
+}

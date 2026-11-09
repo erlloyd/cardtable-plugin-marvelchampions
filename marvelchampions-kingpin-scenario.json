@@ -1,0 +1,52 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-kingpin",
+  "name": "Marvel Champions: Kingpin",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-kingpin",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60159a"
+            },
+            {
+              "code": "60160a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Main Scheme",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60161a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "kingpin-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

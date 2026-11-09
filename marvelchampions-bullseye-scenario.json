@@ -1,0 +1,43 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-bullseye",
+  "name": "Marvel Champions: Bullseye",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-bullseye",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60065"
+            },
+            {
+              "code": "60066"
+            },
+            {
+              "code": "60067"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "bullseye-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

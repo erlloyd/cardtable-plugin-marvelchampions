@@ -79,7 +79,13 @@
     "marvelchampions-legions-of-hydra.json",
     "marvelchampions-doomsday-chair.json",
     "marvelchampions-standard-encounter.json",
-    "marvelchampions-expert-encounter.json"
+    "marvelchampions-expert-encounter.json",
+    "marvelchampions-bullseye.json",
+    "marvelchampions-electro.json",
+    "marvelchampions-hammerhead.json",
+    "marvelchampions-purple-man.json",
+    "marvelchampions-typhoid-mary.json",
+    "marvelchampions-kingpin.json"
   ],
   "loadables": [
     {
@@ -378,6 +384,36 @@
             "typeId": "marvelchampions-god-of-lies",
             "label": "Trickster Takeover - God of Lies",
             "data": { "file": "marvelchampions-god-of-lies-scenario.json" }
+          },
+          {
+            "typeId": "marvelchampions-bullseye",
+            "label": "Fear No Evil - Bullseye",
+            "data": { "file": "marvelchampions-bullseye-scenario.json" }
+          },
+          {
+            "typeId": "marvelchampions-electro",
+            "label": "Fear No Evil - Electro",
+            "data": { "file": "marvelchampions-electro-scenario.json" }
+          },
+          {
+            "typeId": "marvelchampions-hammerhead",
+            "label": "Fear No Evil - Hammerhead",
+            "data": { "file": "marvelchampions-hammerhead-scenario.json" }
+          },
+          {
+            "typeId": "marvelchampions-purple-man",
+            "label": "Fear No Evil - Purple Man",
+            "data": { "file": "marvelchampions-purple-man-scenario.json" }
+          },
+          {
+            "typeId": "marvelchampions-typhoid-mary",
+            "label": "Fear No Evil - Typhoid Mary",
+            "data": { "file": "marvelchampions-typhoid-mary-scenario.json" }
+          },
+          {
+            "typeId": "marvelchampions-kingpin",
+            "label": "Fear No Evil - Kingpin",
+            "data": { "file": "marvelchampions-kingpin-scenario.json" }
           }
         ]
       }

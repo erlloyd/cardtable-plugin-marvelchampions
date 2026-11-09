@@ -1,0 +1,117 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-hammerhead",
+  "name": "Marvel Champions: Hammerhead",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "60086": {
+      "name": "Hammerhead",
+      "type": "villain",
+      "face": "60086.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "villain"
+    },
+    "60087": {
+      "name": "Hammerhead",
+      "type": "villain",
+      "face": "60087.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "villain"
+    },
+    "60088": {
+      "name": "Hammerhead",
+      "type": "villain",
+      "face": "60088.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "villain"
+    },
+    "60089": {
+      "name": "Energy Gatling Gun",
+      "type": "encounter",
+      "face": "60089.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "attachment"
+    },
+    "60090": {
+      "name": "Hardheaded",
+      "type": "encounter",
+      "face": "60090.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "attachment"
+    },
+    "60091": {
+      "name": "Chameleon",
+      "type": "encounter",
+      "face": "60091.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "minion"
+    },
+    "60092": {
+      "name": "Maggia Enforcers",
+      "type": "encounter",
+      "face": "60092.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "minion"
+    },
+    "60093": {
+      "name": "Maggia Underboss",
+      "type": "encounter",
+      "face": "60093.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "minion"
+    },
+    "60094": {
+      "name": "Consolidate Power",
+      "type": "encounter",
+      "face": "60094.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "side_scheme"
+    },
+    "60095": {
+      "name": "Power Struggle",
+      "type": "encounter",
+      "face": "60095.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "side_scheme"
+    },
+    "60096": {
+      "name": "\"Head First!\"",
+      "type": "encounter",
+      "face": "60096.jpg",
+      "setCode": "hammerhead",
+      "typeCode": "treachery"
+    }
+  },
+  "cardSets": {
+    "hammerhead-encounter": [
+      {
+        "code": "60089"
+      },
+      {
+        "code": "60090"
+      },
+      {
+        "code": "60091"
+      },
+      {
+        "code": "60092",
+        "count": 2
+      },
+      {
+        "code": "60093",
+        "count": 2
+      },
+      {
+        "code": "60094"
+      },
+      {
+        "code": "60095"
+      },
+      {
+        "code": "60096",
+        "count": 2
+      }
+    ]
+  }
+}

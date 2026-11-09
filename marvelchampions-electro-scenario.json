@@ -1,0 +1,43 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-electro",
+  "name": "Marvel Champions: Electro",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-electro",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60076"
+            },
+            {
+              "code": "60077"
+            },
+            {
+              "code": "60078"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "electro-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

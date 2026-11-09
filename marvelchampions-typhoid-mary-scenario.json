@@ -1,0 +1,40 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-typhoid-mary",
+  "name": "Marvel Champions: Typhoid Mary",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-typhoid-mary",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60110a"
+            },
+            {
+              "code": "60111a"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "typhoid-mary-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-purple-man",
+  "name": "Marvel Champions: Purple Man",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-purple-man",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60097"
+            },
+            {
+              "code": "60098"
+            },
+            {
+              "code": "60099"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "purple-man-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "ct-scenario@2",
+  "id": "marvelchampions-hammerhead",
+  "name": "Marvel Champions: Hammerhead",
+  "version": "1.0.0",
+  "packs": [
+    "marvelchampions-base",
+    "marvelchampions-hammerhead",
+    "marvelchampions-standard-encounter"
+  ],
+  "componentSet": {
+    "stacks": [
+      {
+        "label": "Villain",
+        "faceUp": true,
+        "deck": {
+          "cards": [
+            {
+              "code": "60086"
+            },
+            {
+              "code": "60087"
+            },
+            {
+              "code": "60088"
+            }
+          ]
+        },
+        "row": 0
+      },
+      {
+        "label": "Encounter Deck",
+        "faceUp": false,
+        "deck": {
+          "cardSets": [
+            "hammerhead-encounter"
+          ]
+        },
+        "row": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "ct-assets@1",
+  "id": "marvelchampions-bullseye",
+  "name": "Marvel Champions: Bullseye",
+  "version": "1.0.0",
+  "baseUrl": "/api/card-image/cerebro-cards/official/",
+  "cards": {
+    "60065": {
+      "name": "Bullseye",
+      "type": "villain",
+      "face": "60065.jpg",
+      "setCode": "bullseye",
+      "typeCode": "villain"
+    },
+    "60066": {
+      "name": "Bullseye",
+      "type": "villain",
+      "face": "60066.jpg",
+      "setCode": "bullseye",
+      "typeCode": "villain"
+    },
+    "60067": {
+      "name": "Bullseye",
+      "type": "villain",
+      "face": "60067.jpg",
+      "setCode": "bullseye",
+      "typeCode": "villain"
+    },
+    "60069": {
+      "name": "Raise the Stakes",
+      "type": "encounter",
+      "face": "60069.jpg",
+      "setCode": "bullseye",
+      "typeCode": "attachment"
+    },
+    "60070": {
+      "name": "Deadly Sai",
+      "type": "encounter",
+      "face": "60070.jpg",
+      "setCode": "bullseye",
+      "typeCode": "attachment"
+    },
+    "60071": {
+      "name": "Incessant Pursuit",
+      "type": "encounter",
+      "face": "60071.jpg",
+      "setCode": "bullseye",
+      "typeCode": "attachment"
+    },
+    "60072": {
+      "name": "Lady Bullseye",
+      "type": "encounter",
+      "face": "60072.jpg",
+      "setCode": "bullseye",
+      "typeCode": "minion"
+    },
+    "60073": {
+      "name": "Deranged Bloodlust",
+      "type": "encounter",
+      "face": "60073.jpg",
+      "setCode": "bullseye",
+      "typeCode": "side_scheme"
+    },
+    "60074": {
+      "name": "Everything is a Weapon",
+      "type": "encounter",
+      "face": "60074.jpg",
+      "setCode": "bullseye",
+      "typeCode": "treachery"
+    },
+    "60075": {
+      "name": "Unerring Desire",
+      "type": "encounter",
+      "face": "60075.jpg",
+      "setCode": "bullseye",
+      "typeCode": "treachery"
+    },
+    "60068a": {
+      "name": "Adamantium-Laced Spine",
+      "type": "encounter",
+      "face": "60068A.jpg",
+      "setCode": "bullseye",
+      "typeCode": "attachment",
+      "back_code": "60068b"
+    },
+    "60068b": {
+      "name": "Damaged Spine",
+      "type": "encounter",
+      "face": "60068B.jpg",
+      "setCode": "bullseye",
+      "typeCode": "attachment",
+      "back_code": "60068a"
+    }
+  },
+  "cardSets": {
+    "bullseye-encounter": [
+      {
+        "code": "60068a"
+      },
+      {
+        "code": "60069"
+      },
+      {
+        "code": "60070"
+      },
+      {
+        "code": "60071",
+        "count": 3
+      },
+      {
+        "code": "60072"
+      },
+      {
+        "code": "60073"
+      },
+      {
+        "code": "60074"
+      },
+      {
+        "code": "60075",
+        "count": 2
+      }
+    ]
+  }
+}
